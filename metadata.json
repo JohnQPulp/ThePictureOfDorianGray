@@ -1,0 +1,16 @@
+{
+  "title": "The Picture of Dorian Gray",
+  "shortTitle": "The Picture of Dorian Gray",
+  "author": "Oscar Wilde",
+  "year": 1890,
+  "source": "https://standardebooks.org/ebooks/oscar-wilde/the-picture-of-dorian-gray",
+  "words": 79057,
+  "pulpDate": null,
+  "repo": "https://github.com/JohnQPulp/ThePictureOfDorianGray",
+  "links": {
+    "Goodreads": "https://www.goodreads.com/book/show/489732.The_Picture_of_Dorian_Gray",
+    "Wikipedia": "https://en.wikipedia.org/wiki/The_Picture_of_Dorian_Gray"
+  },
+  "blurb": "foo",
+  "blurb2": "bar"
+}
