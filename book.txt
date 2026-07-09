@@ -1192,10 +1192,7 @@ The scene was the hall of Capulet’s house, and Romeo in his pilgrim’s dress 
 
 Yet she was curiously listless. She showed no sign of joy when her eyes rested on Romeo. The few words she had to speak﻿—
 
-> Good pilgrim, you do wrong your hand too much,  
-> Which mannerly devotion shows in this;  
-> For saints have hands that pilgrims’ hands do touch,  
-> And palm to palm is holy palmers’ kiss﻿—
+Good pilgrim, you do wrong your hand too much,<br>Which mannerly devotion shows in this;<br>For saints have hands that pilgrims’ hands do touch,<br>And palm to palm is holy palmers’ kiss﻿—
 
 with the brief dialogue that follows, were spoken in a thoroughly artificial manner. The voice was exquisite, but from the point of view of tone it was absolutely false. It was wrong in colour. It took away all the life from the verse. It made the passion unreal.
 
@@ -1205,19 +1202,11 @@ Yet they felt that the true test of any Juliet is the balcony scene of the secon
 
 She looked charming as she came out in the moonlight. That could not be denied. But the staginess of her acting was unbearable, and grew worse as she went on. Her gestures became absurdly artificial. She overemphasized everything that she had to say. The beautiful passage﻿—
 
-> Thou knowest the mask of night is on my face,  
-> Else would a maiden blush bepaint my cheek  
-> For that which thou hast heard me speak tonight﻿—
+Thou knowest the mask of night is on my face,<br>Else would a maiden blush bepaint my cheek<br>For that which thou hast heard me speak tonight﻿—
 
 was declaimed with the painful precision of a schoolgirl who has been taught to recite by some second-rate professor of elocution. When she leaned over the balcony and came to those wonderful lines﻿—
 
-> Although I joy in thee,  
-> I have no joy of this contract tonight:  
-> It is too rash, too unadvised, too sudden;  
-> Too like the lightning, which doth cease to be  
-> Ere one can say, “It lightens.” Sweet, goodnight!  
-> This bud of love by summer’s ripening breath  
-> May prove a beauteous flower when next we meet﻿—
+Although I joy in thee,<br>I have no joy of this contract tonight:<br>It is too rash, too unadvised, too sudden;<br>Too like the lightning, which doth cease to be<br>Ere one can say, “It lightens.” Sweet, goodnight!<br>This bud of love by summer’s ripening breath<br>May prove a beauteous flower when next we meet﻿—
 
 she spoke the words as though they conveyed no meaning to her. It was not nervousness. Indeed, so far from being nervous, she was absolutely self-contained. It was simply bad art. She was a complete failure.
 
@@ -1671,7 +1660,7 @@ On reaching the library, he found that it was just after five o’clock and that
 
 He sighed, and having poured himself out some tea, opened Lord Henry’s note. It was simply to say that he sent him round the evening paper, and a book that might interest him, and that he would be at the club at eight-fifteen. He opened *The St. James’s* languidly, and looked through it. A red pencil-mark on the fifth page caught his eye. It drew attention to the following paragraph:
 
-> **Inquest on an Actress**.﻿—An inquest was held this morning at the Bell Tavern, Hoxton Road, by Mr. Danby, the District Coroner, on the body of Sibyl Vane, a young actress recently engaged at the Royal Theatre, Holborn. A verdict of death by misadventure was returned. Considerable sympathy was expressed for the mother of the deceased, who was greatly affected during the giving of her own evidence, and that of Dr. Birrell, who had made the postmortem examination of the deceased.
+**Inquest on an Actress**.﻿—An inquest was held this morning at the Bell Tavern, Hoxton Road, by Mr. Danby, the District Coroner, on the body of Sibyl Vane, a young actress recently engaged at the Royal Theatre, Holborn. A verdict of death by misadventure was returned. Considerable sympathy was expressed for the mother of the deceased, who was greatly affected during the giving of her own evidence, and that of Dr. Birrell, who had made the postmortem examination of the deceased.
 
 He frowned, and tearing the paper in two, went across the room and flung the pieces away. How ugly it all was! And how horribly real ugliness made things! He felt a little annoyed with Lord Henry for having sent him the report. And it was certainly stupid of him to have marked it with red pencil. Victor might have read it. The man knew more than enough English for that.
 
@@ -1981,25 +1970,15 @@ As soon as he was alone, he lit a cigarette and began sketching upon a piece of 
 
 When he had stretched himself on the sofa, he looked at the title-page of the book. It was Gautier’s *Emaux et Camees*, Charpentier’s Japanese-paper edition, with the Jacquemart etching. The binding was of citron-green leather, with a design of gilt trelliswork and dotted pomegranates. It had been given to him by Adrian Singleton. As he turned over the pages, his eye fell on the poem about the hand of Lacenaire, the cold yellow hand “*du supplice encore mal lavée*,” with its downy red hairs and its “*doigts de faune*.” He glanced at his own white taper fingers, shuddering slightly in spite of himself, and passed on, till he came to those lovely stanzas upon Venice:
 
-> Sur une gamme chromatique,  
-> Le sein de perles ruisselant,  
-> La Vénus de l’Adriatique  
-> Sort de l’eau son corps rose et blanc.
->
-> Les dômes, sur l’azur des ondes  
-> Suivant la phrase au pur contour,  
-> S’enflent comme des gorges rondes  
-> Que soulève un soupir d’amour.
->
-> L’esquif aborde et me dépose,  
-> Jetant son amarre au pilier,  
-> Devant une façade rose,  
-> Sur le marbre d’un escalier.
+Sur une gamme chromatique,<br>Le sein de perles ruisselant,<br>La Vénus de l’Adriatique<br>Sort de l’eau son corps rose et blanc.
+
+Les dômes, sur l’azur des ondes<br>Suivant la phrase au pur contour,<br>S’enflent comme des gorges rondes<br>Que soulève un soupir d’amour.
+
+L’esquif aborde et me dépose,<br>Jetant son amarre au pilier,<br>Devant une façade rose,<br>Sur le marbre d’un escalier.
 
 How exquisite they were! As one read them, one seemed to be floating down the green waterways of the pink and pearl city, seated in a black gondola with silver prow and trailing curtains. The mere lines looked to him like those straight lines of turquoise-blue that follow one as one pushes out to the Lido. The sudden flashes of colour reminded him of the gleam of the opal-and-iris-throated birds that flutter round the tall honeycombed Campanile, or stalk, with such stately grace, through the dim, dust-stained arcades. Leaning back with half-closed eyes, he kept saying over and over to himself:
 
-> “Devant une façade rose,  
-> Sur le marbre d’un escalier.”
+“Devant une façade rose,<br>Sur le marbre d’un escalier.”
 
 The whole of Venice was in those two lines. He remembered the autumn that he had passed there, and a wonderful love that had stirred him to mad delightful follies. There was romance in every place. But Venice, like Oxford, had kept the background for romance, and, to the true romantic, background was everything, or almost everything. Basil had been with him part of the time, and had gone wild over Tintoret. Poor Basil! What a horrible way for a man to die!
 
@@ -2955,8 +2934,7 @@ Dorian heaved a sigh, and Lord Henry strolled across the room and began to strok
 
 “I forget,” said Dorian. “I suppose I did. But I never really liked it. I am sorry I sat for it. The memory of the thing is hateful to me. Why do you talk of it? It used to remind me of those curious lines in some play﻿—Hamlet, I think﻿—how do they run?﻿—
 
-> “Like the painting of a sorrow,  
-> A face without a heart.
+“Like the painting of a sorrow,<br>A face without a heart.
 
 “Yes: that is what it was like.”
 
