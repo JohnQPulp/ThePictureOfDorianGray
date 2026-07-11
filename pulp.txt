@@ -2,7 +2,7 @@ The Picture of Dorian Gray<br>Oscar Fingal O’Fflahertie Wills Wilde<e>TODO: pr
 b=title;t=author
 
 ## I
-r=title
+r=studio-window
 
 The studio was filled with the rich odour of roses, and when the light summer wind stirred amidst the trees of the garden, there came through the open door the heavy scent of the lilac, or the more delicate perfume of the pink-flowering thorn.
 b=studio-window
@@ -659,7 +659,7 @@ As they entered they saw Dorian Gray. He was seated at the piano, with his back 
 n:dorian=Dorian Gray;s=none;e:dorian=neutral;b=studio-window
 
 “You must lend me these, Basil,” he cried. “I want to learn them. They are perfectly charming.”
-s=dorian;e:dorian=excited
+s=dorian;e:dorian=happy
 
 “That entirely depends on how you sit today, Dorian.”
 s=basil;e:basil=neutral
@@ -686,33 +686,24 @@ s=henry
 s=dorian;e:dorian=sadsmile
 
 “I promised to go to a club in Whitechapel with her last Tuesday, and I really forgot all about it.”
-s=dorian;e:dorian=nervous
+s=dorian
 
 “We were to have played a duet together﻿—three duets, I believe. I don’t know what she will say to me. I am far too frightened to call.”
-s=dorian
+s=dorian;e:dorian=unhappy
 
 “Oh, I will make your peace with my aunt. She is quite devoted to you.”
 s=henry;e:henry=smirking
 
-“And I don’t think it really matters about your not being there. The audience probably thought it was a duet.”
+“And I don’t think it really matters about your not being there. The audience probably thought it was a duet. When Aunt Agatha sits down to the piano, she makes quite enough noise for two people.”
 s=henry
 
-“When Aunt Agatha sits down to the piano, she makes quite enough noise for two people.”
-s=henry;e:henry=happy
-
 “That is very horrid to her, and not very nice to me,” answered Dorian, laughing.
-s=dorian;e:dorian=happy
+s=dorian;e:dorian=happy;i=2
 
-Lord Henry looked at him.
+Lord Henry looked at him. Yes, he was certainly wonderfully handsome, with his finely curved scarlet lips, his frank blue eyes, his crisp gold hair.
 s=none;e:henry=curious
 
-Yes, he was certainly wonderfully handsome, with his finely curved scarlet lips, his frank blue eyes, his crisp gold hair.
-e:henry=contemplative
-
-There was something in his face that made one trust him at once.
-
-
-All the candour of youth was there, as well as all youth’s passionate purity.
+There was something in his face that made one trust him at once. All the candour of youth was there, as well as all youth’s passionate purity.
 
 
 One felt that he had kept himself unspotted from the world. No wonder Basil Hallward worshipped him.
@@ -724,10 +715,10 @@ s=henry;e:henry=smirking
 And Lord Henry flung himself down on the divan and opened his cigarette-case.
 s=none;e:henry=neutral
 
-The painter had been busy mixing his colours and getting his brushes ready.
+The painter had been busy mixing his colours and getting his brushes ready. He was looking worried, and when he heard Lord Henry’s last remark, he glanced at him, hesitated for a moment, and then said,
 e:basil=neutral
 
-He was looking worried, and when he heard Lord Henry’s last remark, he glanced at him, hesitated for a moment, and then said, “Harry, I want to finish this picture today. Would you think it awfully rude of me if I asked you to go away?”
+“Harry, I want to finish this picture today. Would you think it awfully rude of me if I asked you to go away?”
 s=basil;e:basil=wary
 
 Lord Henry smiled and looked at Dorian Gray.
@@ -736,20 +727,17 @@ s=none;e:henry=happy
 “Am I to go, Mr. Gray?” he asked.
 s=henry
 
-“Oh, please don’t, Lord Henry. I see that Basil is in one of his sulky moods, and I can’t bear him when he sulks.”
-s=dorian;e:dorian=annoyed;e:basil=scowling
-
-“Besides, I want you to tell me why I should not go in for philanthropy.”
-s=dorian
+“Oh, please don’t, Lord Henry. I see that Basil is in one of his sulky moods, and I can’t bear him when he sulks. Besides, I want you to tell me why I should not go in for philanthropy.”
+s=dorian;e:dorian=contemplative
 
 “I don’t know that I shall tell you that, Mr. Gray. It is so tedious a subject that one would have to talk seriously about it.”
 s=henry;e:henry=smirking
 
 “But I certainly shall not run away, now that you have asked me to stop. You don’t really mind, Basil, do you? You have often told me that you liked your sitters to have someone to chat to.”
-s=henry
+s=henry;e:henry=curiouslook
 
 Hallward bit his lip.
-s=none;e:basil=annoyed
+s=none;e:basil=lipbite
 
 “If Dorian wishes it, of course you must stay. Dorian’s whims are laws to everybody, except himself.”
 s=basil
@@ -760,20 +748,20 @@ s=none;e:henry=smirking
 “You are very pressing, Basil, but I am afraid I must go. I have promised to meet a man at the Orleans.”
 s=henry
 
-“Goodbye, Mr. Gray. Come and see me some afternoon in Curzon Street. I am nearly always at home at five o’clock.”
+“Goodbye, Mr. Gray. Come and see me some afternoon in Curzon Street. I am nearly always at home at five o’clock. Write to me when you are coming. I should be sorry to miss you.”
 s=henry
 
-“Write to me when you are coming. I should be sorry to miss you.”
-s=henry
+“Basil,” cried Dorian Gray, “if Lord Henry Wotton goes, I shall go, too. You never open your lips while you are painting, and it is horribly dull standing on a platform and trying to look pleasant.”
+s=dorian;e:dorian=upset
 
-“Basil,” cried Dorian Gray, “if Lord Henry Wotton goes, I shall go, too. You never open your lips while you are painting, and it is horribly dull standing on a platform and trying to look pleasant. Ask him to stay. I insist upon it.”
-s=dorian;e:dorian=annoyed
+“Ask him to stay. I insist upon it.”
+e:dorian=unhappy;i=2
 
 “Stay, Harry, to oblige Dorian, and to oblige me,” said Hallward, gazing intently at his picture.
-s=basil;e:basil=weary
+s=basil;e:basil=suspicious
 
 “It is quite true, I never talk when I am working, and never listen either, and it must be dreadfully tedious for my unfortunate sitters. I beg you to stay.”
-s=basil
+s=basil;e:basil=contemplative
 
 “But what about my man at the Orleans?”
 s=henry;e:henry=curious
@@ -782,7 +770,7 @@ The painter laughed.
 s=none;e:basil=happy
 
 “I don’t think there will be any difficulty about that. Sit down again, Harry.”
-s=basil;e:basil=neutral
+s=basil;e:basil=smirking
 
 “And now, Dorian, get up on the platform, and don’t move about too much, or pay any attention to what Lord Henry says. He has a very bad influence over all his friends, with the single exception of myself.”
 s=basil;e:basil=smirking
@@ -793,7 +781,10 @@ s=none;e:dorian=scowling
 He was so unlike Basil. They made a delightful contrast. And he had such a beautiful voice.
 e:dorian=curious
 
-After a few moments he said to him, “Have you really a very bad influence, Lord Henry? As bad as Basil says?”
+After a few moments he said to him,
+
+
+“Have you really a very bad influence, Lord Henry? As bad as Basil says?”
 s=dorian
 
 “There is no such thing as a good influence, Mr. Gray. All influence is immoral﻿—immoral from the scientific point of view.”
@@ -809,24 +800,30 @@ s=henry;e:henry=serious
 s=henry
 
 “The aim of life is self-development. To realize one’s nature perfectly﻿—that is what each of us is here for.”
-s=henry
+s=henry;e:henry=thinking
 
 “People are afraid of themselves, nowadays. They have forgotten the highest of all duties, the duty that one owes to one’s self.”
 s=henry
 
-“Of course, they are charitable. They feed the hungry and clothe the beggar. But their own souls starve, and are naked.”
+“Of course, they are charitable. They feed the hungry and clothe the beggar. But their own souls starve, and are naked. Courage has gone out of our race. Perhaps we never really had it.”
 s=henry;e:henry=contemplative
-
-“Courage has gone out of our race. Perhaps we never really had it.”
-s=henry
 
 “The terror of society, which is the basis of morals, the terror of God, which is the secret of religion﻿—these are the two things that govern us. And yet﻿—”
 s=henry
 
-“Just turn your head a little more to the right, Dorian, like a good boy,” said the painter, deep in his work and conscious only that a look had come into the lad’s face that he had never seen there before.
-s=basil;e:basil=serious
+“Just turn your head a little more to the right, Dorian, like a good boy,” said the painter,
+s=basil;e:basil=serious;m=allowbreak
 
-“And yet,” continued Lord Henry, in his low, musical voice, and with that graceful wave of the hand that was always so characteristic of him, and that he had even in his Eton days, “I believe that if one man were to live out his life fully and completely, were to give form to every feeling, expression to every thought, reality to every dream﻿—I believe that the world would gain such a fresh impulse of joy that we would forget all the maladies of medievalism, and return to the Hellenic ideal﻿—to something finer, richer than the Hellenic ideal, it may be.”
+deep in his work and conscious only that a look had come into the lad’s face that he had never seen there before.
+m=;s=
+
+“And yet,” continued Lord Henry,
+s=henry;e:henry=curious;m=allowbreak
+
+in his low, musical voice, and with that graceful wave of the hand that was always so characteristic of him, and that he had even in his Eton days,
+m=;s=
+
+“I believe that if one man were to live out his life fully and completely, were to give form to every feeling, expression to every thought, reality to every dream﻿—I believe that the world would gain such a fresh impulse of joy that we would forget all the maladies of medievalism, and return to the Hellenic ideal﻿—to something finer, richer than the Hellenic ideal, it may be.”
 s=henry;e:henry=contemplative
 
 “But the bravest man amongst us is afraid of himself. The mutilation of the savage has its tragic survival in the self-denial that mars our lives. We are punished for our refusals.”
@@ -841,11 +838,8 @@ s=henry;e:henry=smirking
 “Resist it, and your soul grows sick with longing for the things it has forbidden to itself, with desire for what its monstrous laws have made monstrous and unlawful.”
 s=henry
 
-“It has been said that the great events of the world take place in the brain.”
+“It has been said that the great events of the world take place in the brain. It is in the brain, and the brain only, that the great sins of the world take place also.”
 s=henry;e:henry=thinking
-
-“It is in the brain, and the brain only, that the great sins of the world take place also.”
-s=henry
 
 “You, Mr. Gray, you yourself, with your rose-red youth and your rose-white boyhood, you have had passions that have made you afraid, thoughts that have filled you with terror, daydreams and sleeping dreams whose mere memory might stain your cheek with shame﻿—”
 s=henry;e:henry=serious
@@ -853,11 +847,8 @@ s=henry;e:henry=serious
 “Stop!” faltered Dorian Gray, “stop! you bewilder me. I don’t know what to say.”
 s=dorian;e:dorian=fearful
 
-“There is some answer to you, but I cannot find it. Don’t speak. Let me think.”
+“There is some answer to you, but I cannot find it. Don’t speak. Let me think. Or, rather, let me try not to think.”
 s=dorian;e:dorian=confused
-
-“Or, rather, let me try not to think.”
-s=dorian
 
 For nearly ten minutes he stood there, motionless, with parted lips and eyes strangely bright.
 s=none;e:dorian=contemplative
@@ -868,35 +859,20 @@ e:dorian=thinking
 The few words that Basil’s friend had said to him﻿—words spoken by chance, no doubt, and with wilful paradox in them﻿—had touched some secret chord that had never been touched before, but that he felt was now vibrating and throbbing to curious pulses.
 e:dorian=nervous
 
-Music had stirred him like that. Music had troubled him many times.
+Music had stirred him like that. Music had troubled him many times. But music was not articulate. It was not a new world, but rather another chaos, that it created in us.
 e:dorian=thinking
 
-But music was not articulate. It was not a new world, but rather another chaos, that it created in us.
-e:dorian=contemplative
-
-Words! Mere words! How terrible they were! How clear, and vivid, and cruel! One could not escape from them.
+Words! Mere words! How terrible they were! How clear, and vivid, and cruel! One could not escape from them. And yet what a subtle magic there was in them!
 e:dorian=fearful
 
-And yet what a subtle magic there was in them! They seemed to be able to give a plastic form to formless things, and to have a music of their own as sweet as that of viol or of lute.
+They seemed to be able to give a plastic form to formless things, and to have a music of their own as sweet as that of viol or of lute. Mere words! Was there anything so real as words?
 e:dorian=curious
 
-Mere words! Was there anything so real as words?
-
-
-Yes; there had been things in his boyhood that he had not understood. He understood them now.
+Yes; there had been things in his boyhood that he had not understood. He understood them now. Life suddenly became fiery-coloured to him. It seemed to him that he had been walking in fire. Why had he not known it?
 e:dorian=surprised
 
-Life suddenly became fiery-coloured to him. It seemed to him that he had been walking in fire.
-e:dorian=excited
-
-Why had he not known it?
-e:dorian=thinking
-
-With his subtle smile, Lord Henry watched him.
+With his subtle smile, Lord Henry watched him. He knew the precise psychological moment when to say nothing. He felt intensely interested.
 s=none;e:henry=smirking
-
-He knew the precise psychological moment when to say nothing. He felt intensely interested.
-e:henry=curious
 
 He was amazed at the sudden impression that his words had produced, and, remembering a book that he had read when he was sixteen, a book which had revealed to him much that he had not known before, he wondered whether Dorian Gray was passing through a similar experience.
 e:henry=thinking
@@ -904,11 +880,8 @@ e:henry=thinking
 He had merely shot an arrow into the air. Had it hit the mark? How fascinating the lad was!
 e:henry=contemplative
 
-Hallward painted away with that marvellous bold touch of his, that had the true refinement and perfect delicacy that in art, at any rate comes only from strength.
+Hallward painted away with that marvellous bold touch of his, that had the true refinement and perfect delicacy that in art, at any rate comes only from strength. He was unconscious of the silence.
 e:basil=serious
-
-He was unconscious of the silence.
-
 
 “Basil, I am tired of standing,” cried Dorian Gray suddenly.
 s=dorian;e:dorian=weary
@@ -917,13 +890,13 @@ s=dorian;e:dorian=weary
 s=dorian
 
 “My dear fellow, I am so sorry. When I am painting, I can’t think of anything else. But you never sat better. You were perfectly still.”
-s=basil;e:basil=surprised
+s=basil;e:basil=contemplative
 
 “And I have caught the effect I wanted﻿—the half-parted lips and the bright look in the eyes. I don’t know what Harry has been saying to you, but he has certainly made you have the most wonderful expression.”
 s=basil;e:basil=happy
 
 “I suppose he has been paying you compliments. You mustn’t believe a word that he says.”
-s=basil;e:basil=smirking
+s=basil
 
 “He has certainly not been paying me compliments. Perhaps that is the reason that I don’t believe anything he has told me.”
 s=dorian;e:dorian=wary
@@ -934,17 +907,17 @@ s=henry;e:henry=smirking
 “I will go out to the garden with you. It is horribly hot in the studio. Basil, let us have something iced to drink, something with strawberries in it.”
 s=henry;e:henry=neutral
 
-“Certainly, Harry. Just touch the bell, and when Parker comes I will tell him what you want.”
+“Certainly, Harry. Just touch the bell, and when Parker comes I will tell him what you want. I have got to work up this background, so I will join you later on.”
 s=basil;e:basil=neutral
 
-“I have got to work up this background, so I will join you later on. Don’t keep Dorian too long. I have never been in better form for painting than I am today. This is going to be my masterpiece. It is my masterpiece as it stands.”
-s=basil;e:basil=excited
+“Don’t keep Dorian too long. I have never been in better form for painting than I am today. This is going to be my masterpiece. It is my masterpiece as it stands.”
+s=basil;e:basil=happy
 
 Lord Henry went out to the garden and found Dorian Gray burying his face in the great cool lilac-blossoms, feverishly drinking in their perfume as if it had been wine.
-s=none;e:henry=neutral;e:dorian=contemplative
+s=none;e:henry=neutral;e:dorian=contemplative;b=studio-garden
 
 He came close to him and put his hand upon his shoulder.
-e:henry=smirking
+e:henry=smirkinglook
 
 “You are quite right to do that,” he murmured. “Nothing can cure the soul but the senses, just as nothing can cure the senses but the soul.”
 s=henry
@@ -952,14 +925,14 @@ s=henry
 The lad started and drew back. He was bareheaded, and the leaves had tossed his rebellious curls and tangled all their gilded threads.
 s=none;e:dorian=surprised
 
-There was a look of fear in his eyes, such as people have when they are suddenly awakened.
+There was a look of fear in his eyes, such as people have when they are suddenly awakened. His finely chiselled nostrils quivered, and some hidden nerve shook the scarlet of his lips and left them trembling.
 e:dorian=fearful
 
-His finely chiselled nostrils quivered, and some hidden nerve shook the scarlet of his lips and left them trembling.
+“Yes,” continued Lord Henry, “that is one of the great secrets of life﻿—to cure the soul by means of the senses, and the senses by means of the soul.”
+s=henry;e:henry=thinking
 
-
-“Yes,” continued Lord Henry, “that is one of the great secrets of life﻿—to cure the soul by means of the senses, and the senses by means of the soul. You are a wonderful creation. You know more than you think you know, just as you know less than you want to know.”
-s=henry;e:henry=serious
+“You are a wonderful creation. You know more than you think you know, just as you know less than you want to know.”
+e:henry=smirking
 
 Dorian Gray frowned and turned his head away. He could not help liking the tall, graceful young man who was standing by him.
 s=none;e:dorian=confused
@@ -967,29 +940,17 @@ s=none;e:dorian=confused
 His romantic, olive-coloured face and worn expression interested him. There was something in his low languid voice that was absolutely fascinating.
 e:dorian=curious
 
-His cool, white, flowerlike hands, even, had a curious charm.
+His cool, white, flowerlike hands, even, had a curious charm. They moved, as he spoke, like music, and seemed to have a language of their own.
 
 
-They moved, as he spoke, like music, and seemed to have a language of their own.
-
-
-But he felt afraid of him, and ashamed of being afraid.
+But he felt afraid of him, and ashamed of being afraid. Why had it been left for a stranger to reveal him to himself?
 e:dorian=wary
 
-Why had it been left for a stranger to reveal him to himself?
-e:dorian=thinking
-
-He had known Basil Hallward for months, but the friendship between them had never altered him.
+He had known Basil Hallward for months, but the friendship between them had never altered him. Suddenly there had come someone across his life who seemed to have disclosed to him life’s mystery.
 e:dorian=contemplative
 
-Suddenly there had come someone across his life who seemed to have disclosed to him life’s mystery.
-
-
-And, yet, what was there to be afraid of? He was not a schoolboy or a girl.
+And, yet, what was there to be afraid of? He was not a schoolboy or a girl. It was absurd to be frightened.
 e:dorian=neutral
-
-It was absurd to be frightened.
-e:dorian=smirking
 
 “Let us go and sit in the shade,” said Lord Henry.
 s=henry;e:henry=neutral
@@ -1001,13 +962,13 @@ s=henry;e:henry=smirking
 s=dorian;e:dorian=happy
 
 “It should matter everything to you, Mr. Gray.”
-s=henry;e:henry=serious
+s=henry;e:henry=curious
 
 “Why?”
 s=dorian;e:dorian=curious
 
 “Because you have the most marvellous youth, and youth is the one thing worth having.”
-s=henry;e:henry=serious
+s=henry;e:henry=thinking
 
 “I don’t feel that, Lord Henry.”
 s=dorian;e:dorian=confused
@@ -1022,73 +983,52 @@ s=henry;e:henry=smirking
 s=henry;e:henry=contemplative
 
 “It cannot be questioned. It has its divine right of sovereignty. It makes princes of those who have it. You smile? Ah! when you have lost it you won’t smile.…”
-s=henry
+s=henry;e:henry=smirking
 
 “People say sometimes that beauty is only superficial. That may be so, but at least it is not so superficial as thought is. To me, beauty is the wonder of wonders.”
-s=henry;e:henry=serious
+s=henry;e:henry=curious
 
 “It is only shallow people who do not judge by appearances. The true mystery of the world is the visible, not the invisible.…”
 s=henry
 
-“Yes, Mr. Gray, the gods have been good to you. But what the gods give they quickly take away.”
-s=henry
-
-“You have only a few years in which to live really, perfectly, and fully.”
-s=henry
+“Yes, Mr. Gray, the gods have been good to you. But what the gods give they quickly take away. You have only a few years in which to live really, perfectly, and fully.”
+s=henry;e:henry=smirking
 
 “When your youth goes, your beauty will go with it, and then you will suddenly discover that there are no triumphs left for you, or have to content yourself with those mean triumphs that the memory of your past will make more bitter than defeats.”
 s=henry
 
-“Every month as it wanes brings you nearer to something dreadful.”
-s=henry
-
-“Time is jealous of you, and wars against your lilies and your roses.”
-s=henry
-
-“You will become sallow, and hollow-cheeked, and dull-eyed. You will suffer horribly.… Ah! realize your youth while you have it.”
-s=henry
-
-“Don’t squander the gold of your days, listening to the tedious, trying to improve the hopeless failure, or giving away your life to the ignorant, the common, and the vulgar.”
-s=henry;e:henry=excited
-
-“These are the sickly aims, the false ideals, of our age. Live! Live the wonderful life that is in you!”
-s=henry
-
-“Let nothing be lost upon you. Be always searching for new sensations.”
-s=henry
-
-“Be afraid of nothing.… A new Hedonism﻿—that is what our century wants. You might be its visible symbol.”
-s=henry;e:henry=smirking
-
-“With your personality there is nothing you could not do.”
-s=henry
-
-“The world belongs to you for a season.… The moment I met you I saw that you were quite unconscious of what you really are, of what you really might be.”
-s=henry;e:henry=serious
-
-“There was so much in you that charmed me that I felt I must tell you something about yourself.”
-s=henry
-
-“I thought how tragic it would be if you were wasted.”
-s=henry
-
-“For there is such a little time that your youth will last﻿—such a little time.”
+“Every month as it wanes brings you nearer to something dreadful. Time is jealous of you, and wars against your lilies and your roses.”
 s=henry;e:henry=contemplative
 
-“The common hill-flowers wither, but they blossom again. The laburnum will be as yellow next June as it is now.”
+“You will become sallow, and hollow-cheeked, and dull-eyed. You will suffer horribly.… Ah! realize your youth while you have it.”
+s=henry;e:henry=serious;i=2
+
+“Don’t squander the gold of your days, listening to the tedious, trying to improve the hopeless failure, or giving away your life to the ignorant, the common, and the vulgar.”
+s=henry;i=3
+
+“These are the sickly aims, the false ideals, of our age. Live! Live the wonderful life that is in you! Let nothing be lost upon you. Be always searching for new sensations.”
+s=henry;i=
+
+“Be afraid of nothing.… A new Hedonism﻿—that is what our century wants. You might be its visible symbol. With your personality there is nothing you could not do.”
+s=henry;e:henry=smirking
+
+“The world belongs to you for a season.… The moment I met you I saw that you were quite unconscious of what you really are, of what you really might be.”
+s=henry;e:henry=
+
+“There was so much in you that charmed me that I felt I must tell you something about yourself. I thought how tragic it would be if you were wasted. For there is such a little time that your youth will last﻿—such a little time.”
+s=henry;e:henry=contemplative
+
+“The common hill-flowers wither, but they blossom again. The laburnum will be as yellow next June as it is now. In a month there will be purple stars on the clematis, and year after year the green night of its leaves will hold its purple stars.”
 s=henry
 
-“In a month there will be purple stars on the clematis, and year after year the green night of its leaves will hold its purple stars.”
+“But we never get back our youth. The pulse of joy that beats in us at twenty becomes sluggish. Our limbs fail, our senses rot.”
+s=henry;e:henry=serious
+
+“We degenerate into hideous puppets, haunted by the memory of the passions of which we were too much afraid, and the exquisite temptations that we had not the courage to yield to.”
 s=henry
-
-“But we never get back our youth. The pulse of joy that beats in us at twenty becomes sluggish.”
-s=henry;e:henry=unhappy
-
-“Our limbs fail, our senses rot. We degenerate into hideous puppets, haunted by the memory of the passions of which we were too much afraid, and the exquisite temptations that we had not the courage to yield to.”
-s=henry;e:henry=weary
 
 “Youth! Youth! There is absolutely nothing in the world but youth!”
-s=henry;e:henry=excited
+s=henry;e:henry=;i=3
 
 Dorian Gray listened, open-eyed and wondering.
 s=none;e:dorian=surprised
@@ -1102,41 +1042,41 @@ e:dorian=contemplative
 After a time the bee flew away. He saw it creeping into the stained trumpet of a Tyrian convolvulus. The flower seemed to quiver, and then swayed gently to and fro.
 
 
-Suddenly the painter appeared at the door of the studio and made staccato signs for them to come in. They turned to each other and smiled.
+Suddenly the painter appeared at the door of the studio and made staccato signs for them to come in.
 e:dorian=happy;e:henry=happy
 
+They turned to each other and smiled.
+
+
 “I am waiting,” he cried. “Do come in. The light is quite perfect, and you can bring your drinks.”
-s=basil;e:basil=excited
+s=basil;e:basil=happy
 
 They rose up and sauntered down the walk together. Two green-and-white butterflies fluttered past them, and in the pear-tree at the corner of the garden a thrush began to sing.
 s=none;e:henry=neutral
 
 “You are glad you have met me, Mr. Gray,” said Lord Henry, looking at him.
-s=henry;e:henry=smirking
+s=henry;e:henry=smirkinglook
 
 “Yes, I am glad now.”
-s=dorian;e:dorian=happy
+s=dorian;e:dorian=curious
 
 “I wonder shall I always be glad?”
 s=dorian;e:dorian=wary
 
-“Always! That is a dreadful word.”
-s=henry;e:henry=scowling
-
-“It makes me shudder when I hear it. Women are so fond of using it.”
+“Always! That is a dreadful word. It makes me shudder when I hear it. Women are so fond of using it. They spoil every romance by trying to make it last forever. It is a meaningless word, too.”
 s=henry;e:henry=annoyed
-
-“They spoil every romance by trying to make it last forever. It is a meaningless word, too.”
-s=henry
 
 “The only difference between a caprice and a lifelong passion is that the caprice lasts a little longer.”
 s=henry;e:henry=smirking
 
 As they entered the studio, Dorian Gray put his hand upon Lord Henry’s arm.
-s=none;e:dorian=nervous
+s=none;e:dorian=nervous;b=studio-window
 
-“In that case, let our friendship be a caprice,” he murmured, flushing at his own boldness, then stepped up on the platform and resumed his pose.
-s=dorian;e:dorian=sadsmile
+“In that case, let our friendship be a caprice,” he murmured, flushing at his own boldness,
+s=dorian;e:dorian=contemplative;m=allowbreak
+
+then stepped up on the platform and resumed his pose.
+m=;s=
 
 Lord Henry flung himself into a large wicker armchair and watched him.
 s=none;e:henry=smirking
@@ -1150,20 +1090,20 @@ In the slanting beams that streamed through the open doorway the dust danced and
 After about a quarter of an hour Hallward stopped painting, looked for a long time at Dorian Gray, and then for a long time at the picture, biting the end of one of his huge brushes and frowning.
 e:basil=thinking
 
-“It is quite finished,” he cried at last, and stooping down he wrote his name in long vermilion letters on the left-hand corner of the canvas.
-s=basil;e:basil=excited
+“It is quite finished,” he cried at last,
+s=basil;e:basil=excited;m=allowbreak
+
+and stooping down he wrote his name in long vermilion letters on the left-hand corner of the canvas.
+m=;s=
 
 Lord Henry came over and examined the picture.
-s=none;e:henry=curious
+s=none;e:henry=curious;b=picture-studio-finished
 
 It was certainly a wonderful work of art, and a wonderful likeness as well.
 
 
-“My dear fellow, I congratulate you most warmly,” he said.
+“My dear fellow, I congratulate you most warmly,” he said. “It is the finest portrait of modern times. Mr. Gray, come over and look at yourself.”
 s=henry;e:henry=happy
-
-“It is the finest portrait of modern times. Mr. Gray, come over and look at yourself.”
-s=henry
 
 The lad started, as if awakened from some dream.
 s=none;e:dorian=surprised
@@ -1171,20 +1111,23 @@ s=none;e:dorian=surprised
 “Is it really finished?” he murmured, stepping down from the platform.
 s=dorian;e:dorian=nervous
 
-“Quite finished,” said the painter. “And you have sat splendidly today. I am awfully obliged to you.”
+“Quite finished,” said the painter.
 s=basil;e:basil=happy
 
-“That is entirely due to me,” broke in Lord Henry. “Isn’t it, Mr. Gray?”
+“And you have sat splendidly today. I am awfully obliged to you.”
+
+
+“That is entirely due to me,” broke in Lord Henry.
 s=henry;e:henry=smirking
+
+“Isn’t it, Mr. Gray?”
+
 
 Dorian made no answer, but passed listlessly in front of his picture and turned towards it.
 s=none;e:dorian=neutral
 
-When he saw it he drew back, and his cheeks flushed for a moment with pleasure.
+When he saw it he drew back, and his cheeks flushed for a moment with pleasure. A look of joy came into his eyes, as if he had recognized himself for the first time.
 e:dorian=surprised
-
-A look of joy came into his eyes, as if he had recognized himself for the first time.
-e:dorian=happy
 
 He stood there motionless and in wonder, dimly conscious that Hallward was speaking to him, but not catching the meaning of his words.
 
@@ -1192,11 +1135,8 @@ He stood there motionless and in wonder, dimly conscious that Hallward was speak
 The sense of his own beauty came on him like a revelation. He had never felt it before.
 e:dorian=surprised
 
-Basil Hallward’s compliments had seemed to him to be merely the charming exaggeration of friendship.
+Basil Hallward’s compliments had seemed to him to be merely the charming exaggeration of friendship. He had listened to them, laughed at them, forgotten them. They had not influenced his nature.
 e:dorian=thinking
-
-He had listened to them, laughed at them, forgotten them. They had not influenced his nature.
-
 
 Then had come Lord Henry Wotton with his strange panegyric on youth, his terrible warning of its brevity.
 
@@ -1207,38 +1147,35 @@ e:dorian=fearful
 Yes, there would be a day when his face would be wrinkled and wizen, his eyes dim and colourless, the grace of his figure broken and deformed.
 e:dorian=unhappy
 
-The scarlet would pass away from his lips and the gold steal from his hair.
+The scarlet would pass away from his lips and the gold steal from his hair. The life that was to make his soul would mar his body. He would become dreadful, hideous, and uncouth.
 e:dorian=sadsmile
-
-The life that was to make his soul would mar his body. He would become dreadful, hideous, and uncouth.
-e:dorian=upset
 
 As he thought of it, a sharp pang of pain struck through him like a knife and made each delicate fibre of his nature quiver.
 e:dorian=nervous
 
-His eyes deepened into amethyst, and across them came a mist of tears.
+His eyes deepened into amethyst, and across them came a mist of tears. He felt as if a hand of ice had been laid upon his heart.
 e:dorian=sadsmile
-
-He felt as if a hand of ice had been laid upon his heart.
-e:dorian=fearful
 
 “Don’t you like it?” cried Hallward at last, stung a little by the lad’s silence, not understanding what it meant.
 s=basil;e:basil=confused
 
-“Of course he likes it,” said Lord Henry. “Who wouldn’t like it? It is one of the greatest things in modern art. I will give you anything you like to ask for it. I must have it.”
-s=henry;e:henry=happy
+“Of course he likes it,” said Lord Henry.
+s=henry;e:henry=
+
+“Who wouldn’t like it? It is one of the greatest things in modern art. I will give you anything you like to ask for it. I must have it.”
+
 
 “It is not my property, Harry.”
-s=basil;e:basil=neutral
+s=basil;e:basil=serious
 
 “Whose property is it?”
-s=henry;e:henry=curious
+s=henry;e:henry=curiouslook
 
 “Dorian’s, of course,” answered the painter.
-s=basil;e:basil=smirking
+s=basil;e:basil=contemplative
 
 “He is a very lucky fellow.”
-s=henry;e:henry=happy
+s=henry;e:henry=smirking
 
 “How sad it is!” murmured Dorian Gray with his eyes still fixed upon his own portrait.
 s=dorian;e:dorian=unhappy
@@ -1247,25 +1184,25 @@ s=dorian;e:dorian=unhappy
 s=dorian;e:dorian=upset
 
 “If it were only the other way! If it were I who was to be always young, and the picture that was to grow old!”
-s=dorian;e:dorian=angry
+
 
 “For that﻿—for that﻿—I would give everything! Yes, there is nothing in the whole world I would not give! I would give my soul for that!”
-s=dorian;e:dorian=excited
+s=dorian;e:dorian=serious
 
 “You would hardly care for such an arrangement, Basil,” cried Lord Henry, laughing.
 s=henry;e:henry=happy
 
 “It would be rather hard lines on your work.”
-s=henry
+s=henry;e:henry=smirking
 
 “I should object very strongly, Harry,” said Hallward.
 s=basil;e:basil=serious
 
 Dorian Gray turned and looked at him.
-s=none;e:dorian=angry
+s=none;e:dorian=serious
 
 “I believe you would, Basil. You like your art better than your friends. I am no more to you than a green bronze figure. Hardly as much, I dare say.”
-s=dorian
+s=dorian;i=2
 
 The painter stared in amazement. It was so unlike Dorian to speak like that. What had happened?
 s=none;e:basil=surprised
@@ -1274,10 +1211,13 @@ He seemed quite angry. His face was flushed and his cheeks burning.
 e:dorian=angry
 
 “Yes,” he continued, “I am less to you than your ivory Hermes or your silver Faun. You will like them always. How long will you like me? Till I have my first wrinkle, I suppose.”
-s=dorian
+s=dorian;e:dorian=annoyed
 
-“I know, now, that when one loses one’s good looks, whatever they may be, one loses everything. Your picture has taught me that. Lord Henry Wotton is perfectly right. Youth is the only thing worth having. When I find that I am growing old, I shall kill myself.”
-s=dorian;e:dorian=upset
+“I know, now, that when one loses one’s good looks, whatever they may be, one loses everything. Your picture has taught me that. Lord Henry Wotton is perfectly right. Youth is the only thing worth having.”
+s=dorian;e:dorian=
+
+“When I find that I am growing old, I shall kill myself.”
+e:dorian=serious
 
 Hallward turned pale and caught his hand.
 s=none;e:basil=fearful
@@ -1285,41 +1225,44 @@ s=none;e:basil=fearful
 “Dorian! Dorian!” he cried, “don’t talk like that. I have never had such a friend as you, and I shall never have such another. You are not jealous of material things, are you?﻿—you who are finer than any of them!”
 s=basil
 
-“I am jealous of everything whose beauty does not die. I am jealous of the portrait you have painted of me.”
-s=dorian;e:dorian=angry
+“I am jealous of everything whose beauty does not die. I am jealous of the portrait you have painted of me. Why should it keep what I must lose? Every moment that passes takes something from me and gives something to it.”
+s=dorian;e:dorian=serious;i=2
 
-“Why should it keep what I must lose? Every moment that passes takes something from me and gives something to it. Oh, if it were only the other way! If the picture could change, and I could be always what I am now!”
+“Oh, if it were only the other way! If the picture could change, and I could be always what I am now! Why did you paint it? It will mock me some day﻿—mock me horribly!”
 s=dorian;e:dorian=upset
 
-“Why did you paint it? It will mock me some day﻿—mock me horribly!”
-s=dorian;e:dorian=fearful
-
-The hot tears welled into his eyes; he tore his hand away and, flinging himself on the divan, he buried his face in the cushions, as though he was praying.
+The hot tears welled into his eyes;
 s=none;e:dorian=upset
 
+he tore his hand away and, flinging himself on the divan, he buried his face in the cushions, as though he was praying.
+b=studio-window
+
 “This is your doing, Harry,” said the painter bitterly.
-s=basil;e:basil=angry
+s=basil;e:basil=scowling
 
 Lord Henry shrugged his shoulders.
 s=none;e:henry=neutral
 
 “It is the real Dorian Gray﻿—that is all.”
-s=henry;e:henry=smirking
+s=henry;e:henry=
 
 “It is not.”
-s=basil;e:basil=angry
+s=basil;e:basil=serious
 
 “If it is not, what have I to do with it?”
 s=henry;e:henry=smirking
 
 “You should have gone away when I asked you,” he muttered.
-s=basil;e:basil=angry
+s=basil;e:basil=annoyed
 
 “I stayed when you asked me,” was Lord Henry’s answer.
-s=henry;e:henry=neutral
+s=henry;e:henry=neutral;i=2
 
-“Harry, I can’t quarrel with my two best friends at once, but between you both you have made me hate the finest piece of work I have ever done, and I will destroy it. What is it but canvas and colour? I will not let it come across our three lives and mar them.”
-s=basil;e:basil=upset
+“Harry, I can’t quarrel with my two best friends at once, but between you both you have made me hate the finest piece of work I have ever done, and I will destroy it.”
+s=basil;e:basil=unhappy
+
+“What is it but canvas and colour? I will not let it come across our three lives and mar them.”
+
 
 Dorian Gray lifted his golden head from the pillow, and with pallid face and tear-stained eyes, looked at him as he walked over to the deal painting-table that was set beneath the high curtained window.
 s=none;e:dorian=sadsmile
@@ -1327,11 +1270,8 @@ s=none;e:dorian=sadsmile
 What was he doing there? His fingers were straying about among the litter of tin tubes and dry brushes, seeking for something.
 e:dorian=confused;e:basil=angry
 
-Yes, it was for the long palette-knife, with its thin blade of lithe steel. He had found it at last.
+Yes, it was for the long palette-knife, with its thin blade of lithe steel. He had found it at last. He was going to rip up the canvas.
 e:basil=serious
-
-He was going to rip up the canvas.
-e:dorian=surprised
 
 With a stifled sob the lad leaped from the couch, and, rushing over to Hallward, tore the knife out of his hand, and flung it to the end of the studio.
 e:dorian=angry
@@ -1339,35 +1279,41 @@ e:dorian=angry
 “Don’t, Basil, don’t!” he cried. “It would be murder!”
 s=dorian;e:dorian=fearful
 
-“I am glad you appreciate my work at last, Dorian,” said the painter coldly when he had recovered from his surprise. “I never thought you would.”
-s=basil;e:basil=serious
+“I am glad you appreciate my work at last, Dorian,” said the painter coldly when he had recovered from his surprise.
+s=basil;e:basil=contemplative
+
+“I never thought you would.”
+
 
 “Appreciate it? I am in love with it, Basil. It is part of myself. I feel that.”
 s=dorian;e:dorian=sadsmile
 
 “Well, as soon as you are dry, you shall be varnished, and framed, and sent home. Then you can do what you like with yourself.”
-s=basil;e:basil=weary
+s=basil;e:basil=unhappy
 
 And he walked across the room and rang the bell for tea.
 s=none;e:basil=neutral
 
 “You will have tea, of course, Dorian? And so will you, Harry? Or do you object to such simple pleasures?”
-s=basil;e:basil=neutral
+s=basil;e:basil=annoyed
 
-“I adore simple pleasures,” said Lord Henry. “They are the last refuge of the complex. But I don’t like scenes, except on the stage. What absurd fellows you are, both of you!”
-s=henry;e:henry=smirking
+“I adore simple pleasures,” said Lord Henry. “They are the last refuge of the complex.”
+s=henry;e:henry=curious
+
+“But I don’t like scenes, except on the stage. What absurd fellows you are, both of you!”
+e:henry=smirking
 
 “I wonder who it was defined man as a rational animal. It was the most premature definition ever given. Man is many things, but he is not rational.”
-s=henry;e:henry=thinking
+
 
 “I am glad he is not, after all﻿—though I wish you chaps would not squabble over the picture. You had much better let me have it, Basil. This silly boy doesn’t really want it, and I really do.”
 s=henry;e:henry=happy
 
 “If you let anyone have it but me, Basil, I shall never forgive you!” cried Dorian Gray; “and I don’t allow people to call me a silly boy.”
-s=dorian;e:dorian=angry
+s=dorian;e:dorian=serious
 
 “You know the picture is yours, Dorian. I gave it to you before it existed.”
-s=basil;e:basil=neutral
+s=basil;e:basil=contemplative
 
 “And you know you have been a little silly, Mr. Gray, and that you don’t really object to being reminded that you are extremely young.”
 s=henry;e:henry=smirking
@@ -1376,40 +1322,40 @@ s=henry;e:henry=smirking
 s=dorian;e:dorian=serious
 
 “Ah! this morning! You have lived since then.”
-s=henry;e:henry=smirking
+s=henry;e:henry=smirking;i=2
 
 There came a knock at the door, and the butler entered with a laden tea-tray and set it down upon a small Japanese table.
 s=none;e:basil=neutral;e:henry=neutral;e:dorian=neutral
 
-There was a rattle of cups and saucers and the hissing of a fluted Georgian urn. Two globe-shaped china dishes were brought in by a page.
-
-
-Dorian Gray went over and poured out the tea.
+There was a rattle of cups and saucers and the hissing of a fluted Georgian urn. Two globe-shaped china dishes were brought in by a page. Dorian Gray went over and poured out the tea.
 
 
 The two men sauntered languidly to the table and examined what was under the covers.
 
 
-“Let us go to the theatre tonight,” said Lord Henry.
-s=henry;e:henry=happy
+“Let us go to the theatre tonight,” said Lord Henry. “There is sure to be something on, somewhere.”
+s=henry;e:henry=thinking
 
-“There is sure to be something on, somewhere. I have promised to dine at White’s, but it is only with an old friend, so I can send him a wire to say that I am ill, or that I am prevented from coming in consequence of a subsequent engagement.”
+“I have promised to dine at White’s, but it is only with an old friend, so I can send him a wire to say that I am ill, or that I am prevented from coming in consequence of a subsequent engagement.”
 s=henry;e:henry=smirking
 
 “I think that would be a rather nice excuse: it would have all the surprise of candour.”
 s=henry
 
 “It is such a bore putting on one’s dress-clothes,” muttered Hallward. “And, when one has them on, they are so horrid.”
-s=basil;e:basil=annoyed
+s=basil;e:basil=contemplative
 
-“Yes,” answered Lord Henry dreamily, “the costume of the nineteenth century is detestable. It is so sombre, so depressing.”
-s=henry;e:henry=weary
+“Yes,” answered Lord Henry dreamily,
+s=henry;e:henry=bored
+
+“the costume of the nineteenth century is detestable. It is so sombre, so depressing.”
+
 
 “Sin is the only real colour-element left in modern life.”
 s=henry;e:henry=smirking
 
 “You really must not say things like that before Dorian, Harry.”
-s=basil;e:basil=scowling
+s=basil;e:basil=serious
 
 “Before which Dorian? The one who is pouring out tea for us, or the one in the picture?”
 s=henry;e:henry=curious
@@ -1418,7 +1364,7 @@ s=henry;e:henry=curious
 s=basil;e:basil=annoyed
 
 “I should like to come to the theatre with you, Lord Henry,” said the lad.
-s=dorian;e:dorian=excited
+s=dorian;e:dorian=thinking
 
 “Then you shall come; and you will come, too, Basil, won’t you?”
 s=henry;e:henry=happy
@@ -1436,10 +1382,13 @@ The painter bit his lip and walked over, cup in hand, to the picture.
 s=none;e:basil=unhappy
 
 “I shall stay with the real Dorian,” he said, sadly.
-s=basil;e:basil=sadsmile
+s=basil;e:basil=unhappy
 
-“Is it the real Dorian?” cried the original of the portrait, strolling across to him. “Am I really like that?”
-s=dorian;e:dorian=curious
+“Is it the real Dorian?” cried the original of the portrait, strolling across to him.
+s=dorian;e:dorian=contemplative
+
+“Am I really like that?”
+e:dorian=curious
 
 “Yes; you are just like that.”
 s=basil;e:basil=neutral
@@ -1453,10 +1402,7 @@ s=basil;e:basil=sadsmile
 “What a fuss people make about fidelity!” exclaimed Lord Henry.
 s=henry;e:henry=smirking
 
-“Why, even in love it is purely a question for physiology. It has nothing to do with our own will.”
-s=henry;e:henry=thinking
-
-“Young men want to be faithful, and are not; old men want to be faithless, and cannot: that is all one can say.”
+“Why, even in love it is purely a question for physiology. It has nothing to do with our own will. Young men want to be faithful, and are not; old men want to be faithless, and cannot: that is all one can say.”
 s=henry
 
 “Don’t go to the theatre tonight, Dorian,” said Hallward. “Stop and dine with me.”
@@ -1466,13 +1412,13 @@ s=basil;e:basil=wary
 s=dorian;e:dorian=neutral
 
 “Why?”
-s=basil;e:basil=sadsmile
+s=basil;e:basil=unhappy
 
 “Because I have promised Lord Henry Wotton to go with him.”
-s=dorian;e:dorian=neutral
+s=dorian;e:dorian=neutral;i=2
 
 “He won’t like you the better for keeping your promises. He always breaks his own. I beg you not to go.”
-s=basil;e:basil=nervous
+s=basil;e:basil=unhappy;i=2
 
 Dorian Gray laughed and shook his head.
 s=none;e:dorian=happy
@@ -1486,11 +1432,14 @@ s=none;e:dorian=nervous;e:henry=smirking
 “I must go, Basil,” he answered.
 s=dorian;e:dorian=serious
 
-“Very well,” said Hallward, and he went over and laid down his cup on the tray.
-s=basil;e:basil=unhappy
+“Very well,” said Hallward,
+s=basil;e:basil=unhappy;m=allowbreak
+
+and he went over and laid down his cup on the tray.
+m=;s=
 
 “It is rather late, and, as you have to dress, you had better lose no time. Goodbye, Harry. Goodbye, Dorian. Come and see me soon. Come tomorrow.”
-s=basil;e:basil=sadsmile
+s=basil;e:basil=contemplative
 
 “Certainly.”
 s=dorian;e:dorian=happy
@@ -1499,7 +1448,7 @@ s=dorian;e:dorian=happy
 s=basil;e:basil=wary
 
 “No, of course not,” cried Dorian.
-s=dorian;e:dorian=happy
+s=dorian;e:dorian=happy;i=2
 
 “And… Harry!”
 s=basil;e:basil=serious
@@ -1508,19 +1457,24 @@ s=basil;e:basil=serious
 s=henry;e:henry=curious
 
 “Remember what I asked you, when we were in the garden this morning.”
-s=basil;e:basil=serious
+s=basil;e:basil=thinking
 
 “I have forgotten it.”
 s=henry;e:henry=smirking
 
 “I trust you.”
-s=basil;e:basil=sadsmile
+s=basil;e:basil=thinking;i=2
 
 “I wish I could trust myself,” said Lord Henry, laughing.
-s=henry;e:henry=happy
+s=henry;i=2
 
-“Come, Mr. Gray, my hansom is outside, and I can drop you at your own place. Goodbye, Basil. It has been a most interesting afternoon.”
-s=henry;e:henry=smirking
+“Come, Mr. Gray, my hansom is outside, and I can drop you at your own place.”
+s=henry;e:henry=curious
+
+“Goodbye, Basil. It has been a most interesting afternoon.”
+e:henry=curiouslook
 
 As the door closed behind them, the painter flung himself down on a sofa, and a look of pain came into his face.
-s=none;e:basil=upset
+s=none;e:basil=upset;f:b:studio-window=blur(3px)
+
+
