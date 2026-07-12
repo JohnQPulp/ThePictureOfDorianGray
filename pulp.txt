@@ -2114,7 +2114,7 @@ e:henry=happy
 r=title
 
 One afternoon, a month later, Dorian Gray was reclining in a luxurious armchair, in the little library of Lord Henry’s house in Mayfair.
-e:dorian=neutral
+e:dorian=neutral;b=henry-library
 
 It was, in its way, a very charming room, with its high panelled wainscoting of olive-stained oak, its cream-coloured frieze and ceiling of raised plasterwork, and its brickdust felt carpet strewn with silk, long-fringed Persian rugs.
 
@@ -2141,7 +2141,7 @@ At last he heard a step outside, and the door opened.
 s=dorian
 
 “I am afraid it is not Harry, Mr. Gray,” answered a shrill voice.
-n:ladyhenry=Lady Henry;s=ladyhenry;e:ladyhenry=neutral
+n:ladyhenry=?;;e:ladyhenry=neutral;m=dialogue
 
 He glanced quickly round and rose to his feet.
 s=none;e:dorian=surprised
@@ -2150,13 +2150,13 @@ s=none;e:dorian=surprised
 s=dorian;e:dorian=nervous
 
 “You thought it was my husband. It is only his wife. You must let me introduce myself. I know you quite well by your photographs. I think my husband has got seventeen of them.”
-s=ladyhenry;e:ladyhenry=smirking
+s=ladyhenry;e:ladyhenry=suspicious;x:ladyhenry=hat
 
 “Not seventeen, Lady Henry?”
-s=dorian;e:dorian=confused
+s=dorian;e:dorian=confused;n:ladyhenry=Lady Henry Wotton
 
 “Well, eighteen, then. And I saw you with him the other night at the opera.”
-s=ladyhenry;e:ladyhenry=happy
+s=ladyhenry;e:ladyhenry=curiousnervous
 
 She laughed nervously as she spoke, and watched him with her vague forget-me-not eyes.
 s=none;e:ladyhenry=nervous
@@ -2164,83 +2164,89 @@ s=none;e:ladyhenry=nervous
 She was a curious woman, whose dresses always looked as if they had been designed in a rage and put on in a tempest.
 
 
-She was usually in love with somebody, and, as her passion was never returned, she had kept all her illusions.
-
-
-She tried to look picturesque, but only succeeded in being untidy.
+She was usually in love with somebody, and, as her passion was never returned, she had kept all her illusions. She tried to look picturesque, but only succeeded in being untidy.
 
 
 Her name was Victoria, and she had a perfect mania for going to church.
-
+n:ladyhenry=Victoria, Lady Henry Wotton
 
 “That was at *Lohengrin*, Lady Henry, I think?”
-s=dorian;e:dorian=neutral
+s=dorian;e:dorian=contemplative
 
-“Yes; it was at dear *Lohengrin*. I like Wagner’s music better than anybody’s. It is so loud that one can talk the whole time without other people hearing what one says. That is a great advantage, don’t you think so, Mr. Gray?”
-s=ladyhenry;e:ladyhenry=happy
+“Yes; it was at dear *Lohengrin*. I like Wagner’s music better than anybody’s. It is so loud that one can talk the whole time without other people hearing what one says.”
+s=ladyhenry;e:ladyhenry=thinking
+
+“That is a great advantage, don’t you think so, Mr. Gray?”
+e:ladyhenry=curious
 
 The same nervous staccato laugh broke from her thin lips, and her fingers began to play with a long tortoiseshell paper-knife.
 s=none;e:ladyhenry=nervous
 
-Dorian smiled and shook his head: “I am afraid I don’t think so, Lady Henry. I never talk during music—at least, during good music. If one hears bad music, it is one’s duty to drown it in conversation.”
-s=dorian;e:dorian=smirking
+Dorian smiled and shook his head:
+
+
+“I am afraid I don’t think so, Lady Henry. I never talk during music—at least, during good music. If one hears bad music, it is one’s duty to drown it in conversation.”
+s=dorian;e:dorian=happy
 
 “Ah! that is one of Harry’s views, isn’t it, Mr. Gray? I always hear Harry’s views from his friends. It is the only way I get to know of them.”
-s=ladyhenry;e:ladyhenry=happy
+s=ladyhenry;e:ladyhenry=smirking
 
 “But you must not think I don’t like good music. I adore it, but I am afraid of it. It makes me too romantic.”
 e:ladyhenry=thinking
 
 “I have simply worshipped pianists—two at a time, sometimes, Harry tells me. I don’t know what it is about them.”
-e:ladyhenry=confused
+e:ladyhenry=contemplative
 
-“Perhaps it is that they are foreigners. They all are, ain’t they? Even those that are born in England become foreigners after a time, don’t they? It is so clever of them, and such a compliment to art.”
-e:ladyhenry=excited
+“Perhaps it is that they are foreigners. They all are, ain’t they? Even those that are born in England become foreigners after a time, don’t they?”
 
-“Makes it quite cosmopolitan, doesn’t it? You have never been to any of my parties, have you, Mr. Gray? You must come.”
-e:ladyhenry=happy
+
+“It is so clever of them, and such a compliment to art. Makes it quite cosmopolitan, doesn’t it? You have never been to any of my parties, have you, Mr. Gray? You must come.”
+e:ladyhenry=
 
 “I can’t afford orchids, but I spare no expense in foreigners. They make one’s rooms look so picturesque.”
 
 
 “But here is Harry! Harry, I came in to look for you, to ask you something—I forget what it was—and I found Mr. Gray here.”
-e:ladyhenry=surprised
+e:ladyhenry=surprisedlook
 
 “We have had such a pleasant chat about music. We have quite the same ideas. No; I think our ideas are quite different. But he has been most pleasant. I am so glad I’ve seen him.”
-e:ladyhenry=happy
+e:ladyhenry=contemplativelook
 
 “I am charmed, my love, quite charmed,” said Lord Henry, elevating his dark, crescent-shaped eyebrows and looking at them both with an amused smile.
-s=henry;e:henry=smirking
+s=henry;e:henry=smirking;
 
 “So sorry I am late, Dorian. I went to look after a piece of old brocade in Wardour Street and had to bargain for hours for it. Nowadays people know the price of everything and the value of nothing.”
-e:henry=contemplative
+e:henry=;s=henry
 
 “I am afraid I must be going,” exclaimed Lady Henry, breaking an awkward silence with her silly sudden laugh.
-s=ladyhenry;e:ladyhenry=nervous
+s=ladyhenry;e:ladyhenry=nervoussmile
 
 “I have promised to drive with the duchess. Goodbye, Mr. Gray. Goodbye, Harry. You are dining out, I suppose? So am I. Perhaps I shall see you at Lady Thornbury’s.”
-e:ladyhenry=happy
+e:ladyhenry=contemplative
 
-“I dare say, my dear,” said Lord Henry, shutting the door behind her as, looking like a bird of paradise that had been out all night in the rain, she flitted out of the room, leaving a faint odour of frangipanni.
-s=henry;e:henry=neutral
+“I dare say, my dear,” said Lord Henry,
+s=henry;e:henry=curiouslook;m=allowbreak
+
+shutting the door behind her as, looking like a bird of paradise that had been out all night in the rain, she flitted out of the room, leaving a faint odour of frangipanni.
+m=;s=
 
 Then he lit a cigarette and flung himself down on the sofa.
-s=none;e:henry=weary
+s=none;e:henry=weary;x:henry=cig
 
 “Never marry a woman with straw-coloured hair, Dorian,” he said after a few puffs.
 s=henry;e:henry=contemplative
 
 “Why, Harry?”
-s=dorian;e:dorian=curious
+s=dorian;e:dorian=wary
 
 “Because they are so sentimental.”
 s=henry;e:henry=smirking
 
 “But I like sentimental people.”
-s=dorian;e:dorian=neutral
+s=dorian;e:dorian=contemplative
 
 “Never marry at all, Dorian. Men marry because they are tired; women, because they are curious: both are disappointed.”
-s=henry;e:henry=contemplative
+s=henry;e:henry=
 
 “I don’t think I am likely to marry, Harry. I am too much in love. That is one of your aphorisms. I am putting it into practice, as I do everything that you say.”
 s=dorian;e:dorian=happy
@@ -2249,13 +2255,13 @@ s=dorian;e:dorian=happy
 s=henry;e:henry=curious
 
 “With an actress,” said Dorian Gray, blushing.
-s=dorian;e:dorian=nervous
+s=dorian;e:dorian=embarrassed
 
 Lord Henry shrugged his shoulders.
 s=none;e:henry=bored
 
 “That is a rather commonplace debut.”
-s=henry;e:henry=smirking
+s=henry;e:henry=smirkingshrug
 
 “You would not say so if you saw her, Harry.”
 s=dorian;e:dorian=serious
@@ -2264,28 +2270,37 @@ s=dorian;e:dorian=serious
 s=henry;e:henry=curious
 
 “Her name is Sibyl Vane.”
-s=dorian;e:dorian=happy
+s=dorian;e:dorian=
 
 “Never heard of her.”
 s=henry;e:henry=neutral
 
 “No one has. People will some day, however. She is a genius.”
-s=dorian;e:dorian=excited
+s=dorian;e:dorian=happy
 
-“My dear boy, no woman is a genius. Women are a decorative sex. They never have anything to say, but they say it charmingly. Women represent the triumph of matter over mind, just as men represent the triumph of mind over morals.”
-s=henry;e:henry=contemplative
+“My dear boy, no woman is a genius. Women are a decorative sex. They never have anything to say, but they say it charmingly.”
+s=henry;e:henry=smirking
+
+“Women represent the triumph of matter over mind, just as men represent the triumph of mind over morals.”
+
 
 “Harry, how can you?”
 s=dorian;e:dorian=scowling
 
-“My dear Dorian, it is quite true. I am analysing women at present, so I ought to know. The subject is not so abstruse as I thought it was. I find that, ultimately, there are only two kinds of women, the plain and the coloured. The plain women are very useful. If you want to gain a reputation for respectability, you have merely to take them down to supper.”
+“My dear Dorian, it is quite true. I am analysing women at present, so I ought to know. The subject is not so abstruse as I thought it was.”
 s=henry;e:henry=smirking
 
-“The other women are very charming. They commit one mistake, however. They paint in order to try and look young. Our grandmothers painted in order to try and talk brilliantly. Rouge and esprit used to go together. That is all over now. As long as a woman can look ten years younger than her own daughter, she is perfectly satisfied.”
+“I find that, ultimately, there are only two kinds of women, the plain and the coloured. The plain women are very useful. If you want to gain a reputation for respectability, you have merely to take them down to supper.”
+
+
+“The other women are very charming. They commit one mistake, however. They paint in order to try and look young.”
 e:henry=thinking
 
+“Our grandmothers painted in order to try and talk brilliantly. Rouge and esprit used to go together. That is all over now. As long as a woman can look ten years younger than her own daughter, she is perfectly satisfied.”
+
+
 “As for conversation, there are only five women in London worth talking to, and two of these can’t be admitted into decent society. However, tell me about your genius. How long have you known her?”
-e:henry=curious
+e:henry=curiouslook
 
 “Ah! Harry, your views terrify me.”
 s=dorian;e:dorian=wary
@@ -2299,38 +2314,56 @@ s=dorian;e:dorian=neutral
 “And where did you come across her?”
 s=henry;e:henry=curious
 
-“I will tell you, Harry, but you mustn’t be unsympathetic about it. After all, it never would have happened if I had not met you. You filled me with a wild desire to know everything about life.”
-s=dorian;e:dorian=nervous
+“I will tell you, Harry, but you mustn’t be unsympathetic about it. After all, it never would have happened if I had not met you.”
+s=dorian;e:dorian=wary;x:henry=
 
-“For days after I met you, something seemed to throb in my veins. As I lounged in the park, or strolled down Piccadilly, I used to look at everyone who passed me and wonder, with a mad curiosity, what sort of lives they led.”
+“You filled me with a wild desire to know everything about life. For days after I met you, something seemed to throb in my veins.”
 e:dorian=thinking
+
+“As I lounged in the park, or strolled down Piccadilly, I used to look at everyone who passed me and wonder, with a mad curiosity, what sort of lives they led.”
+
 
 “Some of them fascinated me. Others filled me with terror. There was an exquisite poison in the air. I had a passion for sensations.… Well, one evening about seven o’clock, I determined to go out in search of some adventure.”
 e:dorian=contemplative
 
-“I felt that this grey monstrous London of ours, with its myriads of people, its sordid sinners, and its splendid sins, as you once phrased it, must have something in store for me. I fancied a thousand things. The mere danger gave me a sense of delight.”
-e:dorian=excited
+“I felt that this grey monstrous London of ours, with its myriads of people, its sordid sinners, and its splendid sins, as you once phrased it, must have something in store for me. I fancied a thousand things.”
+e:dorian=serious
 
-“I remembered what you had said to me on that wonderful evening when we first dined together, about the search for beauty being the real secret of life. I don’t know what I expected, but I went out and wandered eastward, soon losing my way in a labyrinth of grimy streets and black grassless squares.”
+“The mere danger gave me a sense of delight. I remembered what you had said to me on that wonderful evening when we first dined together, about the search for beauty being the real secret of life.”
 e:dorian=thinking
 
-“About half-past eight I passed by an absurd little theatre, with great flaring gas-jets and gaudy playbills. A hideous Jew, in the most amazing waistcoat I ever beheld in my life, was standing at the entrance, smoking a vile cigar.”
+“I don’t know what I expected, but I went out and wandered eastward, soon losing my way in a labyrinth of grimy streets and black grassless squares.”
+
+
+“About half-past eight I passed by an absurd little theatre, with great flaring gas-jets and gaudy playbills.”
+g=theatre-wide-night
+
+“A hideous Jew, in the most amazing waistcoat I ever beheld in my life, was standing at the entrance, smoking a vile cigar.”
 e:dorian=annoyed
 
-“He had greasy ringlets, and an enormous diamond blazed in the centre of a soiled shirt. ‘Have a box, my Lord?’ he said, when he saw me, and he took off his hat with an air of gorgeous servility.”
+“He had greasy ringlets, and an enormous diamond blazed in the centre of a soiled shirt.”
 
+
+“‘Have a box, my Lord?’ he said, when he saw me,”
+n:manager=?;s=manager;m=allowbreak;e:manager=curioussmirk
+
+“and he took off his hat with an air of gorgeous servility.”
+s=;m=
 
 “There was something about him, Harry, that amused me. He was such a monster. You will laugh at me, I know, but I really went in and paid a whole guinea for the stage-box.”
 e:dorian=smirking
 
-“To the present day I can’t make out why I did so; and yet if I hadn’t—my dear Harry, if I hadn’t—I should have missed the greatest romance of my life. I see you are laughing. It is horrid of you!”
-e:dorian=angry
+“To the present day I can’t make out why I did so; and yet if I hadn’t—my dear Harry, if I hadn’t—I should have missed the greatest romance of my life.”
+
+
+“I see you are laughing. It is horrid of you!”
+g=;e:dorian=scowling
 
 “I am not laughing, Dorian; at least I am not laughing at you. But you should not say the greatest romance of your life. You should say the first romance of your life.”
 s=henry;e:henry=smirking
 
 “You will always be loved, and you will always be in love with love. A *grande passion* is the privilege of people who have nothing to do. That is the one use of the idle classes of a country. Don’t be afraid.”
-e:henry=contemplative
+e:henry=happy
 
 “There are exquisite things in store for you. This is merely the beginning.”
 e:henry=happy
@@ -2339,7 +2372,7 @@ e:henry=happy
 s=dorian;e:dorian=angry
 
 “No; I think your nature so deep.”
-s=henry;e:henry=serious
+s=henry;e:henry=thinking
 
 “How do you mean?”
 s=dorian;e:dorian=confused
@@ -2347,29 +2380,38 @@ s=dorian;e:dorian=confused
 “My dear boy, the people who love only once in their lives are really the shallow people. What they call their loyalty, and their fidelity, I call either the lethargy of custom or their lack of imagination.”
 s=henry;e:henry=contemplative
 
-“Faithfulness is to the emotional life what consistency is to the life of the intellect—simply a confession of failure. Faithfulness! I must analyse it some day. The passion for property is in it.”
+“Faithfulness is to the emotional life what consistency is to the life of the intellect—simply a confession of failure.”
 e:henry=thinking
 
-“There are many things that we would throw away if we were not afraid that others might pick them up. But I don’t want to interrupt you. Go on with your story.”
+“Faithfulness! I must analyse it some day. The passion for property is in it. There are many things that we would throw away if we were not afraid that others might pick them up.”
 e:henry=smirking
 
-“Well, I found myself seated in a horrid little private box, with a vulgar drop-scene staring me in the face. I looked out from behind the curtain and surveyed the house.”
-s=dorian;e:dorian=weary
+“But I don’t want to interrupt you. Go on with your story.”
+e:henry=curious
 
-“It was a tawdry affair, all Cupids and cornucopias, like a third-rate wedding-cake. The gallery and pit were fairly full, but the two rows of dingy stalls were quite empty, and there was hardly a person in what I suppose they called the dress-circle.”
+“Well, I found myself seated in a horrid little private box, with a vulgar drop-scene staring me in the face.”
+s=dorian;e:dorian=contemplative
+
+“I looked out from behind the curtain and surveyed the house.”
+g=theatre-curtain
+
+“It was a tawdry affair, all Cupids and cornucopias, like a third-rate wedding-cake.”
+
+
+“The gallery and pit were fairly full, but the two rows of dingy stalls were quite empty, and there was hardly a person in what I suppose they called the dress-circle.”
 
 
 “Women went about with oranges and ginger-beer, and there was a terrible consumption of nuts going on.”
 e:dorian=scowling
 
 “It must have been just like the palmy days of the British drama.”
-s=henry;e:henry=smirking
+g=;s=henry;e:henry=smirking
 
 “Just like, I should fancy, and very depressing. I began to wonder what on earth I should do when I caught sight of the playbill.”
-s=dorian;e:dorian=unhappy
+s=dorian;e:dorian=thinking
 
 “What do you think the play was, Harry?”
-e:dorian=curious
+e:dorian=contemplative
 
 “I should think *The Idiot Boy*, or *Dumb but Innocent*. Our fathers used to like that sort of piece, I believe.”
 s=henry;e:henry=bored
@@ -2378,21 +2420,33 @@ s=henry;e:henry=bored
 e:henry=contemplative
 
 “This play was good enough for us, Harry. It was *Romeo and Juliet*. I must admit that I was rather annoyed at the idea of seeing Shakespeare done in such a wretched hole of a place.”
-s=dorian;e:dorian=annoyed
+s=dorian;e:dorian=serious
 
-“Still, I felt interested, in a sort of way. At any rate, I determined to wait for the first act. There was a dreadful orchestra, presided over by a young Hebrew who sat at a cracked piano, that nearly drove me away, but at last the drop-scene was drawn up and the play began.”
-e:dorian=weary
+“Still, I felt interested, in a sort of way. At any rate, I determined to wait for the first act.”
+e:dorian=thinking
 
-“Romeo was a stout elderly gentleman, with corked eyebrows, a husky tragedy voice, and a figure like a beer-barrel. Mercutio was almost as bad. He was played by the low-comedian, who had introduced gags of his own and was on most friendly terms with the pit.”
-e:dorian=scowling
+“There was a dreadful orchestra, presided over by a young Hebrew who sat at a cracked piano, that nearly drove me away, but at last the drop-scene was drawn up and the play began.”
+g=theatre-romeo-juliet
 
-“They were both as grotesque as the scenery, and that looked as if it had come out of a country-booth. But Juliet! Harry, imagine a girl, hardly seventeen years of age, with a little, flowerlike face, a small Greek head with plaited coils of dark-brown hair, eyes that were violet wells of passion, lips that were like the petals of a rose.”
+“Romeo was a stout elderly gentleman, with corked eyebrows, a husky tragedy voice, and a figure like a beer-barrel.”
+e:dorian=annoyed
+
+“Mercutio was almost as bad. He was played by the low-comedian, who had introduced gags of his own and was on most friendly terms with the pit.”
+
+
+“They were both as grotesque as the scenery, and that looked as if it had come out of a country-booth.”
+
+
+“But Juliet! Harry, imagine a girl, hardly seventeen years of age, with a little, flowerlike face, a small Greek head with plaited coils of dark-brown hair, eyes that were violet wells of passion, lips that were like the petals of a rose.”
 e:dorian=excited
 
 “She was the loveliest thing I had ever seen in my life. You said to me once that pathos left you unmoved, but that beauty, mere beauty, could fill your eyes with tears.”
 e:dorian=happy
 
-“I tell you, Harry, I could hardly see this girl for the mist of tears that came across me. And her voice—I never heard such a voice. It was very low at first, with deep mellow notes that seemed to fall singly upon one’s ear.”
+“I tell you, Harry, I could hardly see this girl for the mist of tears that came across me.”
+
+
+“And her voice—I never heard such a voice. It was very low at first, with deep mellow notes that seemed to fall singly upon one’s ear.”
 e:dorian=sadsmile
 
 “Then it became a little louder, and sounded like a flute or a distant hautboy. In the garden-scene it had all the tremulous ecstasy that one hears just before dawn when nightingales are singing.”
@@ -2401,26 +2455,32 @@ e:dorian=sadsmile
 “There were moments, later on, when it had the wild passion of violins. You know how a voice can stir one. Your voice and the voice of Sibyl Vane are two things that I shall never forget.”
 e:dorian=contemplative
 
-“When I close my eyes, I hear them, and each of them says something different. I don’t know which to follow. Why should I not love her? Harry, I do love her.”
-e:dorian=serious
+“When I close my eyes, I hear them, and each of them says something different. I don’t know which to follow. Why should I not love her? Harry, I do love her. She is everything to me in life.”
+e:dorian=serious;f:b:theatre-romeo-juliet=blur(3px)
 
-“She is everything to me in life. Night after night I go to see her play. One evening she is Rosalind, and the next evening she is Imogen.”
-e:dorian=happy
+“Night after night I go to see her play.”
+e:dorian=happy;b=threatre-wide-night;f:b:theatre-wide-night=blur(3px)
 
-“I have seen her die in the gloom of an Italian tomb, sucking the poison from her lover’s lips. I have watched her wandering through the forest of Arden, disguised as a pretty boy in hose and doublet and dainty cap.”
+“One evening she is Rosalind, and the next evening she is Imogen. I have seen her die in the gloom of an Italian tomb, sucking the poison from her lover’s lips. I have watched her wandering through the forest of Arden, disguised as a pretty boy in hose and doublet and dainty cap.”
 
 
 “She has been mad, and has come into the presence of a guilty king, and given him rue to wear and bitter herbs to taste of. She has been innocent, and the black hands of jealousy have crushed her reedlike throat.”
 
 
-“I have seen her in every age and in every costume. Ordinary women never appeal to one’s imagination. They are limited to their century. No glamour ever transfigures them.”
+“I have seen her in every age and in every costume.”
+
+
+“Ordinary women never appeal to one’s imagination. They are limited to their century. No glamour ever transfigures them. One knows their minds as easily as one knows their bonnets. One can always find them.”
 e:dorian=bored
 
-“One knows their minds as easily as one knows their bonnets. One can always find them. There is no mystery in any of them. They ride in the park in the morning and chatter at tea-parties in the afternoon.”
+“There is no mystery in any of them. They ride in the park in the morning and chatter at tea-parties in the afternoon. They have their stereotyped smile and their fashionable manner. They are quite obvious.”
 
 
-“They have their stereotyped smile and their fashionable manner. They are quite obvious. But an actress! How different an actress is! Harry! why didn’t you tell me that the only thing worth loving is an actress?”
+“But an actress! How different an actress is!”
 e:dorian=excited
+
+“Harry! why didn’t you tell me that the only thing worth loving is an actress?”
+g=;e:dorian=sadsmile;i=
 
 “Because I have loved so many of them, Dorian.”
 s=henry;e:henry=smirking
@@ -2429,7 +2489,7 @@ s=henry;e:henry=smirking
 s=dorian;e:dorian=scowling
 
 “Don’t run down dyed hair and painted faces. There is an extraordinary charm in them, sometimes,” said Lord Henry.
-s=henry;e:henry=contemplative
+s=henry;e:henry=curious
 
 “I wish now I had not told you about Sibyl Vane.”
 s=dorian;e:dorian=unhappy
@@ -2437,11 +2497,17 @@ s=dorian;e:dorian=unhappy
 “You could not have helped telling me, Dorian. All through your life you will tell me everything you do.”
 s=henry;e:henry=smirking
 
-“Yes, Harry, I believe that is true. I cannot help telling you things. You have a curious influence over me. If I ever did a crime, I would come and confess it to you. You would understand me.”
+“Yes, Harry, I believe that is true. I cannot help telling you things. You have a curious influence over me.”
 s=dorian;e:dorian=contemplative
 
-“People like you—the wilful sunbeams of life—don’t commit crimes, Dorian. But I am much obliged for the compliment, all the same. And now tell me—reach me the matches, like a good boy—thanks—what are your actual relations with Sibyl Vane?”
+“If I ever did a crime, I would come and confess it to you. You would understand me.”
+
+
+“People like you—the wilful sunbeams of life—don’t commit crimes, Dorian. But I am much obliged for the compliment, all the same.”
 s=henry;e:henry=curious
+
+“And now tell me—reach me the matches, like a good boy—thanks—what are your actual relations with Sibyl Vane?”
+e:henry=smirkinglookdown
 
 Dorian Gray leaped to his feet, with flushed cheeks and burning eyes.
 s=none;e:dorian=angry
@@ -2450,25 +2516,31 @@ s=none;e:dorian=angry
 s=dorian
 
 “It is only the sacred things that are worth touching, Dorian,” said Lord Henry, with a strange touch of pathos in his voice.
-s=henry;e:henry=serious
+s=henry;e:henry=suspicious
 
-“But why should you be annoyed? I suppose she will belong to you some day. When one is in love, one always begins by deceiving one’s self, and one always ends by deceiving others.”
+“But why should you be annoyed? I suppose she will belong to you some day. When one is in love, one always begins by deceiving one’s self, and one always ends by deceiving others. That is what the world calls a romance.”
 e:henry=contemplative
 
-“That is what the world calls a romance. You know her, at any rate, I suppose?”
+“You know her, at any rate, I suppose?”
 e:henry=curious
 
-“Of course I know her. On the first night I was at the theatre, the horrid old Jew came round to the box after the performance was over and offered to take me behind the scenes and introduce me to her. I was furious with him, and told him that Juliet had been dead for hundreds of years and that her body was lying in a marble tomb in Verona.”
+“Of course I know her. On the first night I was at the theatre, the horrid old Jew came round to the box after the performance was over and offered to take me behind the scenes and introduce me to her.”
 s=dorian;e:dorian=annoyed
 
+“I was furious with him, and told him that Juliet had been dead for hundreds of years and that her body was lying in a marble tomb in Verona.”
+
+
 “I think, from his blank look of amazement, that he was under the impression that I had taken too much champagne, or something.”
-e:dorian=smirking
+e:dorian=thinking
 
 “I am not surprised.”
 s=henry;e:henry=smirking
 
-“Then he asked me if I wrote for any of the newspapers. I told him I never even read them. He seemed terribly disappointed at that, and confided to me that all the dramatic critics were in a conspiracy against him, and that they were every one of them to be bought.”
-s=dorian;e:dorian=neutral
+“Then he asked me if I wrote for any of the newspapers. I told him I never even read them.”
+s=dorian;e:dorian=contemplative
+
+“He seemed terribly disappointed at that, and confided to me that all the dramatic critics were in a conspiracy against him, and that they were every one of them to be bought.”
+e:dorian=annoyed
 
 “I should not wonder if he was quite right there. But, on the other hand, judging from their appearance, most of them cannot be at all expensive.”
 s=henry;e:henry=smirking
@@ -2477,52 +2549,61 @@ s=henry;e:henry=smirking
 s=dorian;e:dorian=happy
 
 “By this time, however, the lights were being put out in the theatre, and I had to go. He wanted me to try some cigars that he strongly recommended. I declined.”
-e:dorian=neutral
+e:dorian=thinking
 
-“The next night, of course, I arrived at the place again. When he saw me, he made me a low bow and assured me that I was a munificent patron of art.”
-e:dorian=smirking
+“The next night, of course, I arrived at the place again.”
 
-“He was a most offensive brute, though he had an extraordinary passion for Shakespeare. He told me once, with an air of pride, that his five bankruptcies were entirely due to ‘The Bard,’ as he insisted on calling him.”
+
+“When he saw me, he made me a low bow and assured me that I was a munificent patron of art. He was a most offensive brute, though he had an extraordinary passion for Shakespeare.”
 e:dorian=annoyed
 
-“He seemed to think it a distinction.”
+“He told me once, with an air of pride, that his five bankruptcies were entirely due to ‘The Bard,’ as he insisted on calling him. He seemed to think it a distinction.”
 e:dorian=contemplative
 
-“It was a distinction, my dear Dorian—a great distinction. Most people become bankrupt through having invested too heavily in the prose of life. To have ruined one’s self over poetry is an honour. But when did you first speak to Miss Sibyl Vane?”
-s=henry;e:henry=contemplative
+“It was a distinction, my dear Dorian—a great distinction. Most people become bankrupt through having invested too heavily in the prose of life. To have ruined one’s self over poetry is an honour.”
+s=henry;e:henry=smirking
+
+“But when did you first speak to Miss Sibyl Vane?”
+e:henry=curious
 
 “The third night. She had been playing Rosalind. I could not help going round. I had thrown her some flowers, and she had looked at me—at least I fancied that she had.”
-s=dorian;e:dorian=nervous
+s=dorian;e:dorian=contemplative
 
 “The old Jew was persistent. He seemed determined to take me behind, so I consented. It was curious my not wanting to know her, wasn’t it?”
 e:dorian=confused
 
 “No; I don’t think so.”
-s=henry;e:henry=serious
+s=henry;e:henry=
 
 “My dear Harry, why?”
-s=dorian;e:dorian=curious
+s=dorian;e:dorian=confused;i=2
 
 “I will tell you some other time. Now I want to know about the girl.”
-s=henry;e:henry=neutral
+s=henry;e:henry=curious
 
 “Sibyl? Oh, she was so shy and so gentle. There is something of a child about her.”
-s=dorian;e:dorian=sadsmile
+s=dorian;e:dorian=sadsmile;i=2
 
-“Her eyes opened wide in exquisite wonder when I told her what I thought of her performance, and she seemed quite unconscious of her power. I think we were both rather nervous. The old Jew stood grinning at the doorway of the dusty greenroom, making elaborate speeches about us both, while we stood looking at each other like children.”
+“Her eyes opened wide in exquisite wonder when I told her what I thought of her performance, and she seemed quite unconscious of her power.”
 e:dorian=happy
 
-“He would insist on calling me ‘My Lord,’ so I had to assure Sibyl that I was not anything of the kind. She said quite simply to me, ‘You look more like a prince. I must call you Prince Charming.’”
+“I think we were both rather nervous. The old Jew stood grinning at the doorway of the dusty greenroom, making elaborate speeches about us both, while we stood looking at each other like children.”
+e:dorian=contemplative
 
+“He would insist on calling me ‘My Lord,’ so I had to assure Sibyl that I was not anything of the kind. She said quite simply to me, ‘You look more like a prince. I must call you Prince Charming.’”
+e:dorian=sadsmile
 
 “Upon my word, Dorian, Miss Sibyl knows how to pay compliments.”
 s=henry;e:henry=smirking
 
-“You don’t understand her, Harry. She regarded me merely as a person in a play. She knows nothing of life. She lives with her mother, a faded tired woman who played Lady Capulet in a sort of magenta dressing-wrapper on the first night, and looks as if she had seen better days.”
+“You don’t understand her, Harry. She regarded me merely as a person in a play. She knows nothing of life.”
 s=dorian;e:dorian=serious
 
+“She lives with her mother, a faded tired woman who played Lady Capulet in a sort of magenta dressing-wrapper on the first night, and looks as if she had seen better days.”
+
+
 “I know that look. It depresses me,” murmured Lord Henry, examining his rings.
-s=henry;e:henry=weary
+s=henry;e:henry=wearylookdown
 
 “The Jew wanted to tell me her history, but I said it did not interest me.”
 s=dorian;e:dorian=annoyed
@@ -2543,13 +2624,13 @@ s=henry;e:henry=smirking
 s=dorian;e:dorian=confused
 
 “You always come dreadfully late.”
-s=henry;e:henry=annoyed
+s=henry;e:henry=curious
 
 “Well, I can’t help going to see Sibyl play,” he cried, “even if it is only for a single act.”
-s=dorian;e:dorian=upset
+s=dorian;e:dorian=thinking
 
 “I get hungry for her presence; and when I think of the wonderful soul that is hidden away in that little ivory body, I am filled with awe.”
-e:dorian=contemplative
+
 
 “You can dine with me tonight, Dorian, can’t you?”
 s=henry;e:henry=neutral
@@ -2558,7 +2639,7 @@ He shook his head.
 s=none
 
 “Tonight she is Imogen,” he answered, “and tomorrow night she will be Juliet.”
-s=dorian;e:dorian=happy
+s=dorian;e:dorian=sadsmile
 
 “When is she Sibyl Vane?”
 s=henry;e:henry=curious
@@ -2572,11 +2653,14 @@ s=henry;e:henry=smirking
 “How horrid you are! She is all the great heroines of the world in one. She is more than an individual.”
 s=dorian;e:dorian=angry
 
-“You laugh, but I tell you she has genius. I love her, and I must make her love me. You, who know all the secrets of life, tell me how to charm Sibyl Vane to love me! I want to make Romeo jealous. I want the dead lovers of the world to hear our laughter and grow sad.”
-e:dorian=excited
+“You laugh, but I tell you she has genius. I love her, and I must make her love me.”
+e:dorian=serious
+
+“You, who know all the secrets of life, tell me how to charm Sibyl Vane to love me! I want to make Romeo jealous. I want the dead lovers of the world to hear our laughter and grow sad.”
+
 
 “I want a breath of our passion to stir their dust into consciousness, to wake their ashes into pain. My God, Harry, how I worship her!”
-
+i=3
 
 He was walking up and down the room as he spoke. Hectic spots of red burned on his cheeks. He was terribly excited.
 s=none
@@ -2588,19 +2672,19 @@ His nature had developed like a flower, had borne blossoms of scarlet flame. Out
 e:henry=contemplative
 
 “And what do you propose to do?” said Lord Henry at last.
-s=henry;e:henry=curious
+s=henry;e:henry=curiouslook
 
 “I want you and Basil to come with me some night and see her act. I have not the slightest fear of the result. You are certain to acknowledge her genius.”
-s=dorian;e:dorian=happy
+s=dorian;e:dorian=thinking
 
-“Then we must get her out of the Jew’s hands. She is bound to him for three years—at least for two years and eight months—from the present time.”
+“Then we must get her out of the Jew’s hands. She is bound to him for three years—at least for two years and eight months—from the present time. I shall have to pay him something, of course.”
 e:dorian=serious
 
-“I shall have to pay him something, of course. When all that is settled, I shall take a West End theatre and bring her out properly. She will make the world as mad as she has made me.”
-e:dorian=excited
+“When all that is settled, I shall take a West End theatre and bring her out properly. She will make the world as mad as she has made me.”
+e:dorian=sadsmile
 
 “That would be impossible, my dear boy.”
-s=henry;e:henry=smirking
+s=henry;e:henry=thinking
 
 “Yes, she will. She has not merely art, consummate art-instinct, in her, but she has personality also; and you have often told me that it is personalities, not principles, that move the age.”
 s=dorian;e:dorian=serious
@@ -2609,7 +2693,7 @@ s=dorian;e:dorian=serious
 s=henry;e:henry=neutral
 
 “Let me see. Today is Tuesday. Let us fix tomorrow. She plays Juliet tomorrow.”
-s=dorian;e:dorian=thinking
+s=dorian;e:dorian=contemplative
 
 “All right. The Bristol at eight o’clock; and I will get Basil.”
 s=henry;e:henry=happy
@@ -2617,14 +2701,20 @@ s=henry;e:henry=happy
 “Not eight, Harry, please. Half-past six. We must be there before the curtain rises. You must see her in the first act, where she meets Romeo.”
 s=dorian;e:dorian=nervous
 
-“Half-past six! What an hour! It will be like having a meat-tea, or reading an English novel. It must be seven. No gentleman dines before seven. Shall you see Basil between this and then? Or shall I write to him?”
-s=henry;e:henry=annoyed
+“Half-past six! What an hour! It will be like having a meat-tea, or reading an English novel. It must be seven. No gentleman dines before seven.”
+s=henry;e:henry=serious
 
-“Dear Basil! I have not laid eyes on him for a week. It is rather horrid of me, as he has sent me my portrait in the most wonderful frame, specially designed by himself, and, though I am a little jealous of the picture for being a whole month younger than I am, I must admit that I delight in it.”
-s=dorian;e:dorian=happy
+“Shall you see Basil between this and then? Or shall I write to him?”
+e:henry=
+
+“Dear Basil! I have not laid eyes on him for a week.”
+s=dorian;e:dorian=upset
+
+“It is rather horrid of me, as he has sent me my portrait in the most wonderful frame, specially designed by himself, and, though I am a little jealous of the picture for being a whole month younger than I am, I must admit that I delight in it.”
+e:dorian=unhappy
 
 “Perhaps you had better write to him. I don’t want to see him alone. He says things that annoy me. He gives me good advice.”
-e:dorian=annoyed
+
 
 Lord Henry smiled.
 s=none;e:henry=smirking
@@ -2633,7 +2723,7 @@ s=none;e:henry=smirking
 s=henry
 
 “Oh, Basil is the best of fellows, but he seems to me to be just a bit of a Philistine. Since I have known you, Harry, I have discovered that.”
-s=dorian;e:dorian=smirking
+s=dorian;e:dorian=
 
 “Basil, my dear boy, puts everything that is charming in him into his work. The consequence is that he has nothing left for life but his prejudices, his principles, and his common sense.”
 s=henry;e:henry=contemplative
@@ -2642,42 +2732,36 @@ s=henry;e:henry=contemplative
 
 
 “A great poet, a really great poet, is the most unpoetical of all creatures. But inferior poets are absolutely fascinating. The worse their rhymes are, the more picturesque they look.”
-
+e:henry=happy
 
 “The mere fact of having published a book of second-rate sonnets makes a man quite irresistible. He lives the poetry that he cannot write. The others write the poetry that they dare not realize.”
 
 
-“I wonder is that really so, Harry?” said Dorian Gray, putting some perfume on his handkerchief out of a large, gold-topped bottle that stood on the table.
-s=dorian;e:dorian=thinking
+“I wonder is that really so, Harry?” said Dorian Gray,
+s=dorian;e:dorian=thinkinglookdown;m=allowbreak
+
+putting some perfume on his handkerchief out of a large, gold-topped bottle that stood on the table.
+m=;s=
 
 “It must be, if you say it. And now I am off. Imogen is waiting for me. Don’t forget about tomorrow. Goodbye.”
-e:dorian=happy
+e:dorian=serious;s=
 
 As he left the room, Lord Henry’s heavy eyelids drooped, and he began to think.
-s=none;e:henry=thinking
+s=none;e:henry=thinking;f:b:henry-library=blur(3px)
 
-Certainly few people had ever interested him so much as Dorian Gray, and yet the lad’s mad adoration of someone else caused him not the slightest pang of annoyance or jealousy.
+Certainly few people had ever interested him so much as Dorian Gray, and yet the lad’s mad adoration of someone else caused him not the slightest pang of annoyance or jealousy. He was pleased by it.
 e:henry=contemplative
 
-He was pleased by it. It made him a more interesting study.
+It made him a more interesting study. He had been always enthralled by the methods of natural science, but the ordinary subject-matter of that science had seemed to him trivial and of no import.
 e:henry=smirking
 
-He had been always enthralled by the methods of natural science, but the ordinary subject-matter of that science had seemed to him trivial and of no import.
-e:henry=thinking
-
-And so he had begun by vivisecting himself, as he had ended by vivisecting others.
-
-
-Human life—that appeared to him the one thing worth investigating. Compared to it there was nothing else of any value.
+And so he had begun by vivisecting himself, as he had ended by vivisecting others. Human life—that appeared to him the one thing worth investigating. Compared to it there was nothing else of any value.
 
 
 It was true that as one watched life in its curious crucible of pain and pleasure, one could not wear over one’s face a mask of glass, nor keep the sulphurous fumes from troubling the brain and making the imagination turbid with monstrous fancies and misshapen dreams.
 
 
-There were poisons so subtle that to know their properties one had to sicken of them.
-
-
-There were maladies so strange that one had to pass through them if one sought to understand their nature.
+There were poisons so subtle that to know their properties one had to sicken of them. There were maladies so strange that one had to pass through them if one sought to understand their nature.
 
 
 And, yet, what a great reward one received! How wonderful the whole world became to one!
@@ -2704,16 +2788,10 @@ Sometimes this was the effect of art, and chiefly of the art of literature, whic
 But now and then a complex personality took the place and assumed the office of art, was indeed, in its way, a real work of art, life having its elaborate masterpieces, just as poetry has, or sculpture, or painting.
 
 
-Yes, the lad was premature. He was gathering his harvest while it was yet spring.
-
-
-The pulse and passion of youth were in him, but he was becoming self-conscious. It was delightful to watch him.
+Yes, the lad was premature. He was gathering his harvest while it was yet spring. The pulse and passion of youth were in him, but he was becoming self-conscious. It was delightful to watch him.
 e:henry=smirking
 
-With his beautiful face, and his beautiful soul, he was a thing to wonder at.
-
-
-It was no matter how it all ended, or was destined to end.
+With his beautiful face, and his beautiful soul, he was a thing to wonder at. It was no matter how it all ended, or was destined to end.
 
 
 He was like one of those gracious figures in a pageant or a play, whose joys seem to be remote from one, but whose sorrows stir one’s sense of beauty, and whose wounds are like red roses.
@@ -2728,10 +2806,7 @@ The senses could refine, and the intellect could degrade. Who could say where th
 How shallow were the arbitrary definitions of ordinary psychologists! And yet how difficult to decide between the claims of the various schools!
 e:henry=scowling
 
-Was the soul a shadow seated in the house of sin?
-
-
-Or was the body really in the soul, as Giordano Bruno thought?
+Was the soul a shadow seated in the house of sin? Or was the body really in the soul, as Giordano Bruno thought?
 
 
 The separation of spirit from matter was a mystery, and the union of spirit with matter was a mystery also.
@@ -2740,11 +2815,8 @@ e:henry=thinking
 He began to wonder whether we could ever make psychology so absolute a science that each little spring of life would be revealed to us.
 
 
-As it was, we always misunderstood ourselves and rarely understood others. Experience was of no ethical value.
+As it was, we always misunderstood ourselves and rarely understood others. Experience was of no ethical value. It was merely the name men gave to their mistakes.
 e:henry=weary
-
-It was merely the name men gave to their mistakes.
-
 
 Moralists had, as a rule, regarded it as a mode of warning, had claimed for it a certain ethical efficacy in the formation of character, had praised it as something that taught us what to follow and showed us what to avoid.
 
@@ -2767,35 +2839,29 @@ There was no doubt that curiosity had much to do with it, curiosity and the desi
 What there was in it of the purely sensuous instinct of boyhood had been transformed by the workings of the imagination, changed into something that seemed to the lad himself to be remote from sense, and was for that very reason all the more dangerous.
 
 
-It was the passions about whose origin we deceived ourselves that tyrannized most strongly over us.
-
-
-Our weakest motives were those of whose nature we were conscious.
+It was the passions about whose origin we deceived ourselves that tyrannized most strongly over us. Our weakest motives were those of whose nature we were conscious.
 
 
 It often happened that when we thought we were experimenting on others we were really experimenting on ourselves.
 e:henry=thinking
 
 While Lord Henry sat dreaming on these things, a knock came to the door, and his valet entered and reminded him it was time to dress for dinner.
-e:henry=neutral
+e:henry=neutral;f:b:henry-library=
 
-He got up and looked out into the street. The sunset had smitten into scarlet gold the upper windows of the houses opposite.
+He got up and looked out into the street.
 
 
-The panes glowed like plates of heated metal. The sky above was like a faded rose.
+The sunset had smitten into scarlet gold the upper windows of the houses opposite. The panes glowed like plates of heated metal. The sky above was like a faded rose.
 
 
 He thought of his friend’s young fiery-coloured life and wondered how it was all going to end.
 e:henry=contemplative
 
 When he arrived home, about half-past twelve o’clock, he saw a telegram lying on the hall table.
+b=dark
 
+He opened it and found it was from Dorian Gray. It was to tell him that he was engaged to be married to Sibyl Vane.
 
-He opened it and found it was from Dorian Gray.
-
-
-It was to tell him that he was engaged to be married to Sibyl Vane.
-e:henry=surprised
 
 ## V
 r=title
