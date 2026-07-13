@@ -6740,7 +6740,7 @@ For these treasures, and everything that he collected in his lovely house, were 
 e:dorian=fearful
 
 Upon the walls of the lonely locked room where he had spent so much of his boyhood, he had hung with his own hands the terrible portrait whose changing features showed him the real degradation of his life, and in front of it had draped the purple-and-gold pall as a curtain.
-e:dorian=unhappy;b=dorian-schoolroom
+e:dorian=unhappy;b=dorian-schoolroom-night
 
 For weeks he would not go there, would forget the hideous painted thing, and get back his light heart, his wonderful joyousness, his passionate absorption in mere existence.
 e:dorian=happy
@@ -7031,7 +7031,7 @@ taking his cap and coat off and throwing them on the bag that he had placed in t
 m=;s=
 
 “And now, my dear fellow, I want to speak to you seriously.”
-e:basil=serious;s=basil
+e:basil=serious;s=basil;x:basil=
 
 “Don’t frown like that. You make it so much more difficult for me.”
 e:basil=wary
@@ -7292,12 +7292,9 @@ e:dorian=smirking
 r=title
 
 He passed out of the room and began the ascent, Basil Hallward following close behind.
-e:basil=nervous;e:dorian=serious
+e:basil=nervous;e:dorian=serious;b=dorian-entrance-night
 
-They walked softly, as men do instinctively at night. The lamp cast fantastic shadows on the wall and staircase.
-
-
-A rising wind made some of the windows rattle.
+They walked softly, as men do instinctively at night. The lamp cast fantastic shadows on the wall and staircase. A rising wind made some of the windows rattle.
 
 
 When they reached the top landing, Dorian set the lamp down on the floor, and taking out the key, turned it in the lock.
@@ -7307,19 +7304,22 @@ When they reached the top landing, Dorian set the lamp down on the floor, and ta
 s=dorian;e:dorian=serious
 
 “Yes.”
-s=basil;e:basil=serious
+s=basil;e:basil=wary
 
 “I am delighted,” he answered, smiling.
 s=dorian;e:dorian=smirking
 
-Then he added, somewhat harshly, “You are the one man in the world who is entitled to know everything about me. You have had more to do with my life than you think”; and, taking up the lamp, he opened the door and went in.
-e:dorian=angry
+Then he added, somewhat harshly,
+s=
 
-A cold current of air passed them, and the light shot up for a moment in a flame of murky orange.
-s=none
+“You are the one man in the world who is entitled to know everything about me. You have had more to do with my life than you think”;
+e:dorian=angry;s=dorian
 
-He shuddered.
-e:dorian=nervous
+and, taking up the lamp, he opened the door and went in.
+b=dorian-schoolroom-night;s=
+
+A cold current of air passed them, and the light shot up for a moment in a flame of murky orange. He shuddered.
+s=none;
 
 “Shut the door behind you,” he whispered, as he placed the lamp on the table.
 s=dorian;e:dorian=wary
@@ -7333,10 +7333,7 @@ A faded Flemish tapestry, a curtained picture, an old Italian *cassone*, and an 
 As Dorian Gray was lighting a half-burned candle that was standing on the mantelshelf, he saw that the whole place was covered with dust and that the carpet was in holes.
 
 
-A mouse ran scuffling behind the wainscoting.
-
-
-There was a damp odour of mildew.
+A mouse ran scuffling behind the wainscoting. There was a damp odour of mildew.
 
 
 “So you think that it is only God who sees the soul, Basil? Draw that curtain back, and you will see mine.”
@@ -7346,24 +7343,21 @@ The voice that spoke was cold and cruel.
 s=none
 
 “You are mad, Dorian, or playing a part,” muttered Hallward, frowning.
-s=basil;e:basil=scowling
+s=basil;e:basil=unhappy
 
-“You won’t? Then I must do it myself,” said the young man, and he tore the curtain from its rod and flung it on the ground.
-s=dorian;e:dorian=angry
+“You won’t? Then I must do it myself,” said the young man,
+s=dorian;e:dorian=angry;m=allowbreak
 
-An exclamation of horror broke from the painter’s lips as he saw in the dim light the hideous face on the canvas grinning at him.
+and he tore the curtain from its rod and flung it on the ground.
+m=;s=;b=picture-schoolroom-aged
+
+An exclamation of horror broke from the painter’s lips as he saw in the dim light the hideous face on the canvas grinning at him. There was something in its expression that filled him with disgust and loathing.
 s=none;e:basil=surprised
-
-There was something in its expression that filled him with disgust and loathing.
-e:basil=fearful
 
 Good heavens! it was Dorian Gray’s own face that he was looking at!
 
 
-The horror, whatever it was, had not yet entirely spoiled that marvellous beauty.
-
-
-There was still some gold in the thinning hair and some scarlet on the sensual mouth.
+The horror, whatever it was, had not yet entirely spoiled that marvellous beauty. There was still some gold in the thinning hair and some scarlet on the sensual mouth.
 
 
 The sodden eyes had kept something of the loveliness of their blue, the noble curves had not yet completely passed away from chiselled nostrils and from plastic throat.
@@ -7372,77 +7366,74 @@ The sodden eyes had kept something of the loveliness of their blue, the noble cu
 Yes, it was Dorian himself. But who had done it?
 e:basil=confused
 
-He seemed to recognize his own brushwork, and the frame was his own design.
+He seemed to recognize his own brushwork, and the frame was his own design. The idea was monstrous, yet he felt afraid. He seized the lighted candle, and held it to the picture.
 
-
-The idea was monstrous, yet he felt afraid. He seized the lighted candle, and held it to the picture.
-e:basil=fearful
 
 In the left-hand corner was his own name, traced in long letters of bright vermilion.
 
 
-It was some foul parody, some infamous ignoble satire. He had never done that. Still, it was his own picture.
-e:basil=upset
-
-He knew it, and he felt as if his blood had changed in a moment from fire to sluggish ice.
+It was some foul parody, some infamous ignoble satire. He had never done that.
 
 
-His own picture! What did it mean? Why had it altered?
-e:basil=confused
+Still, it was his own picture. He knew it, and he felt as if his blood had changed in a moment from fire to sluggish ice. His own picture! What did it mean? Why had it altered?
+
 
 He turned and looked at Dorian Gray with the eyes of a sick man.
 e:basil=fearful
 
-His mouth twitched, and his parched tongue seemed unable to articulate. He passed his hand across his forehead.
-
-
-It was dank with clammy sweat.
+His mouth twitched, and his parched tongue seemed unable to articulate. He passed his hand across his forehead. It was dank with clammy sweat.
 
 
 The young man was leaning against the mantelshelf, watching him with that strange expression that one sees on the faces of those who are absorbed in a play when some great artist is acting.
 e:dorian=contemplative
 
-There was neither real sorrow in it nor real joy.
+There was neither real sorrow in it nor real joy. There was simply the passion of the spectator, with perhaps a flicker of triumph in his eyes.
 
-
-There was simply the passion of the spectator, with perhaps a flicker of triumph in his eyes.
-e:dorian=smirking
 
 He had taken the flower out of his coat, and was smelling it, or pretending to do so.
 
 
 “What does this mean?” cried Hallward, at last.
-s=basil;e:basil=upset
+s=basil;e:basil=fearful;i=2
 
 His own voice sounded shrill and curious in his ears.
 s=none
 
-“Years ago, when I was a boy,” said Dorian Gray, crushing the flower in his hand, “you met me, flattered me, and taught me to be vain of my good looks.”
-s=dorian;e:dorian=angry
+“Years ago, when I was a boy,” said Dorian Gray,
+s=dorian;e:dorian=seriouslookdown;m=allowbreak
+
+crushing the flower in his hand,
+m=;s=
+
+“you met me, flattered me, and taught me to be vain of my good looks.”
+s=dorian;e:dorian=scowling
 
 “One day you introduced me to a friend of yours, who explained to me the wonder of youth, and you finished a portrait of me that revealed to me the wonder of beauty.”
 
 
 “In a mad moment that, even now, I don’t know whether I regret or not, I made a wish, perhaps you would call it a prayer.…”
-e:dorian=contemplative
+e:dorian=serious
 
 “I remember it! Oh, how well I remember it! No! the thing is impossible.”
-s=basil;e:basil=surprised
+s=basil;e:basil=fearful
 
 “The room is damp. Mildew has got into the canvas. The paints I used had some wretched mineral poison in them. I tell you the thing is impossible.”
 e:basil=nervous
 
-“Ah, what is impossible?” murmured the young man, going over to the window and leaning his forehead against the cold, mist-stained glass.
-s=dorian;e:dorian=weary
+“Ah, what is impossible?” murmured the young man,
+s=dorian;e:dorian=suspicious;m=allowbreak
+
+going over to the window and leaning his forehead against the cold, mist-stained glass.
+m=;s=
 
 “You told me you had destroyed it.”
 s=basil;e:basil=upset
 
 “I was wrong. It has destroyed me.”
-s=dorian;e:dorian=sadsmile
+s=dorian;e:dorian=thinking
 
 “I don’t believe it is my picture.”
-s=basil;e:basil=angry
+s=basil;e:basil=wary
 
 “Can’t you see your ideal in it?” said Dorian bitterly.
 s=dorian;e:dorian=angry
@@ -7453,11 +7444,8 @@ s=basil;e:basil=confused
 “As you called it.”
 s=dorian;e:dorian=scowling
 
-“There was nothing evil in it, nothing shameful.”
+“There was nothing evil in it, nothing shameful. You were to me such an ideal as I shall never meet again. This is the face of a satyr.”
 s=basil;e:basil=upset
-
-“You were to me such an ideal as I shall never meet again. This is the face of a satyr.”
-
 
 “It is the face of my soul.”
 s=dorian;e:dorian=serious
@@ -7472,31 +7460,22 @@ Hallward turned again to the portrait and gazed at it.
 s=none
 
 “My God! If it is true,” he exclaimed, “and this is what you have done with your life, why, you must be worse even than those who talk against you fancy you to be!”
-s=basil;e:basil=angry
+s=basil;e:basil=fearfullook
 
 He held the light up again to the canvas and examined it.
 s=none
 
-The surface seemed to be quite undisturbed and as he had left it.
+The surface seemed to be quite undisturbed and as he had left it. It was from within, apparently, that the foulness and horror had come.
 
 
-It was from within, apparently, that the foulness and horror had come.
+Through some strange quickening of inner life the leprosies of sin were slowly eating the thing away. The rotting of a corpse in a watery grave was not so fearful.
 
 
-Through some strange quickening of inner life the leprosies of sin were slowly eating the thing away.
-
-
-The rotting of a corpse in a watery grave was not so fearful.
-
-
-His hand shook, and the candle fell from its socket on the floor and lay there sputtering.
+His hand shook, and the candle fell from its socket on the floor and lay there sputtering. He placed his foot on it and put it out.
 e:basil=fearful
 
-He placed his foot on it and put it out.
-
-
 Then he flung himself into the rickety chair that was standing by the table and buried his face in his hands.
-e:basil=upset
+e:basil=upsetfacehands
 
 “Good God, Dorian, what a lesson! What an awful lesson!”
 s=basil
@@ -7504,16 +7483,10 @@ s=basil
 There was no answer, but he could hear the young man sobbing at the window.
 s=none;e:dorian=unhappy
 
-“Pray, Dorian, pray,” he murmured.
-s=basil;e:basil=sadsmile
+“Pray, Dorian, pray,” he murmured. “What is it that one was taught to say in one’s boyhood? ‘Lead us not into temptation. Forgive us our sins. Wash away our iniquities.’ Let us say that together.”
+s=basil;e:basil=upset
 
-“What is it that one was taught to say in one’s boyhood? ‘Lead us not into temptation. Forgive us our sins. Wash away our iniquities.’ Let us say that together.”
-
-
-“The prayer of your pride has been answered. The prayer of your repentance will be answered also.”
-
-
-“I worshipped you too much. I am punished for it. You worshipped yourself too much. We are both punished.”
+“The prayer of your pride has been answered. The prayer of your repentance will be answered also. I worshipped you too much. I am punished for it. You worshipped yourself too much. We are both punished.”
 e:basil=unhappy
 
 Dorian Gray turned slowly around and looked at him with tear-dimmed eyes.
@@ -7522,34 +7495,25 @@ s=none;e:dorian=unhappy
 “It is too late, Basil,” he faltered.
 s=dorian;e:dorian=weary
 
-“It is never too late, Dorian. Let us kneel down and try if we cannot remember a prayer.”
+“It is never too late, Dorian. Let us kneel down and try if we cannot remember a prayer. Isn’t there a verse somewhere, ‘Though your sins be as scarlet, yet I will make them as white as snow’?”
 s=basil;e:basil=upset
 
-“Isn’t there a verse somewhere, ‘Though your sins be as scarlet, yet I will make them as white as snow’?”
-
-
 “Those words mean nothing to me now.”
-s=dorian;e:dorian=weary
+s=dorian;e:dorian=weary;i=2
 
-“Hush! Don’t say that. You have done enough evil in your life.”
-s=basil;e:basil=angry
-
-“My God! Don’t you see that accursed thing leering at us?”
-e:basil=fearful
+“Hush! Don’t say that. You have done enough evil in your life. My God! Don’t you see that accursed thing leering at us?”
+s=basil;e:basil=fearful
 
 Dorian Gray glanced at the picture, and suddenly an uncontrollable feeling of hatred for Basil Hallward came over him, as though it had been suggested to him by the image on the canvas, whispered into his ear by those grinning lips.
 s=none;e:dorian=angry
 
 The mad passions of a hunted animal stirred within him, and he loathed the man who was seated at the table, more than in his whole life he had ever loathed anything.
-
+f:b:picture-schoolroom-aged=blur(3px)
 
 He glanced wildly around. Something glimmered on the top of the painted chest that faced him.
-e:dorian=wary
+e:dorian=wary;b=dorian-schoolroom-night
 
-His eye fell on it. He knew what it was.
-
-
-It was a knife that he had brought up, some days before, to cut a piece of cord, and had forgotten to take away with him.
+His eye fell on it. He knew what it was. It was a knife that he had brought up, some days before, to cut a piece of cord, and had forgotten to take away with him.
 
 
 He moved slowly towards it, passing Hallward as he did so.
@@ -7561,32 +7525,38 @@ As soon as he got behind him, he seized it and turned round.
 Hallward stirred in his chair as if he was going to rise.
 e:basil=confused
 
-He rushed at him and dug the knife into the great vein that is behind the ear, crushing the man’s head down on the table and stabbing again and again.
+He rushed at him and dug the knife into the great vein that is behind the ear, crushing the man’s head down on the table and stabbing again and again.<e>TODO: f=blood</e>
 e:dorian=angry
 
-There was a stifled groan and the horrible sound of someone choking with blood.
+There was a stifled groan and the horrible sound of someone choking with blood. Three times the outstretched arms shot up convulsively, waving grotesque, stiff-fingered hands in the air.
 
 
-Three times the outstretched arms shot up convulsively, waving grotesque, stiff-fingered hands in the air.
+He stabbed him twice more, but the man did not move.<e>TODO: f=blood</e>
 
 
-He stabbed him twice more, but the man did not move. Something began to trickle on the floor.
+Something began to trickle on the floor.
 
 
-He waited for a moment, still pressing the head down. Then he threw the knife on the table, and listened.
+He waited for a moment, still pressing the head down.
 e:dorian=wary
+
+Then he threw the knife on the table, and listened.
+
 
 He could hear nothing, but the drip, drip on the threadbare carpet.
 
 
-He opened the door and went out on the landing. The house was absolutely quiet. No one was about.
+He opened the door and went out on the landing.
+b=dorian-entrance-night
+
+The house was absolutely quiet. No one was about.
 
 
 For a few seconds he stood bending over the balustrade and peering down into the black seething well of darkness.
 
 
 Then he took out the key and returned to the room, locking himself in as he did so.
-
+b=dorian-schoolroom-night
 
 The thing was still seated in the chair, straining over the table with bowed head, and humped back, and long fantastic arms.
 
@@ -7594,8 +7564,11 @@ The thing was still seated in the chair, straining over the table with bowed hea
 Had it not been for the red jagged tear in the neck and the clotted black pool that was slowly widening on the table, one would have said that the man was simply asleep.
 
 
-How quickly it had all been done! He felt strangely calm, and walking over to the window, opened it and stepped out on the balcony.
-e:dorian=neutral
+How quickly it had all been done! He felt strangely calm, and walking over to the window,
+e:dorian=neutral;m=allowbreak
+
+opened it and stepped out on the balcony.
+m=;b=dorian-balcony-night
 
 The wind had blown the fog away, and the sky was like a monstrous peacock’s tail, starred with myriads of golden eyes.
 
@@ -7606,53 +7579,35 @@ He looked down and saw the policeman going his rounds and flashing the long beam
 The crimson spot of a prowling hansom gleamed at the corner and then vanished.
 
 
-A woman in a fluttering shawl was creeping slowly by the railings, staggering as she went.
-
-
-Now and then she stopped and peered back. Once, she began to sing in a hoarse voice.
+A woman in a fluttering shawl was creeping slowly by the railings, staggering as she went. Now and then she stopped and peered back. Once, she began to sing in a hoarse voice.
 
 
 The policeman strolled over and said something to her. She stumbled away, laughing.
 
 
-A bitter blast swept across the square.
-
-
-The gas-lamps flickered and became blue, and the leafless trees shook their black iron branches to and fro.
+A bitter blast swept across the square. The gas-lamps flickered and became blue, and the leafless trees shook their black iron branches to and fro.
 
 
 He shivered and went back, closing the window behind him.
-e:dorian=wary
+e:dorian=wary;b=dorian-schoolroom-night
 
-Having reached the door, he turned the key and opened it. He did not even glance at the murdered man.
+Having reached the door, he turned the key and opened it. He did not even glance at the murdered man. He felt that the secret of the whole thing was not to realize the situation.
 e:dorian=serious
 
-He felt that the secret of the whole thing was not to realize the situation.
-
-
-The friend who had painted the fatal portrait to which all his misery had been due had gone out of his life.
-
-
-That was enough.
+The friend who had painted the fatal portrait to which all his misery had been due had gone out of his life. That was enough.
 
 
 Then he remembered the lamp. It was a rather curious one of Moorish workmanship, made of dull silver inlaid with arabesques of burnished steel, and studded with coarse turquoises.
 e:dorian=thinking
 
-Perhaps it might be missed by his servant, and questions would be asked.
+Perhaps it might be missed by his servant, and questions would be asked. He hesitated for a moment, then he turned back and took it from the table.
 e:dorian=wary
 
-He hesitated for a moment, then he turned back and took it from the table.
-
-
-He could not help seeing the dead thing. How still it was! How horribly white the long hands looked!
+He could not help seeing the dead thing. How still it was! How horribly white the long hands looked! It was like a dreadful wax image.
 e:dorian=nervous
 
-It was like a dreadful wax image.
-
-
 Having locked the door behind him, he crept quietly downstairs.
-e:dorian=wary
+e:dorian=wary;b=dorian-entrance-night
 
 The woodwork creaked and seemed to cry out as if in pain. He stopped several times and waited.
 e:dorian=fearful
@@ -7661,43 +7616,37 @@ No: everything was still. It was merely the sound of his own footsteps.
 e:dorian=neutral
 
 When he reached the library, he saw the bag and coat in the corner. They must be hidden away somewhere.
-e:dorian=thinking
+e:dorian=thinking;b=dorian-library-night-fire
 
-He unlocked a secret press that was in the wainscoting, a press in which he kept his own curious disguises, and put them into it.
-
-
-He could easily burn them afterwards. Then he pulled out his watch. It was twenty minutes to two.
+He unlocked a secret press that was in the wainscoting, a press in which he kept his own curious disguises, and put them into it. He could easily burn them afterwards.
 
 
-He sat down and began to think. Every year﻿—every month, almost﻿—men were strangled in England for what he had done.
+Then he pulled out his watch. It was twenty minutes to two.
+
+
+He sat down and began to think.
+
+
+Every year﻿—every month, almost﻿—men were strangled in England for what he had done. There had been a madness of murder in the air.
 e:dorian=nervous
-
-There had been a madness of murder in the air.
-
 
 Some red star had come too close to the earth.… And yet, what evidence was there against him?
 e:dorian=thinking
 
-Basil Hallward had left the house at eleven. No one had seen him come in again.
-
-
-Most of the servants were at Selby Royal. His valet had gone to bed.… Paris! Yes.
+Basil Hallward had left the house at eleven. No one had seen him come in again. Most of the servants were at Selby Royal. His valet had gone to bed.…
 e:dorian=excited
 
-It was to Paris that Basil had gone, and by the midnight train, as he had intended.
+Paris! Yes. It was to Paris that Basil had gone, and by the midnight train, as he had intended. With his curious reserved habits, it would be months before any suspicions would be roused.
 
 
-With his curious reserved habits, it would be months before any suspicions would be roused. Months!
-
-
-Everything could be destroyed long before then.
+Months! Everything could be destroyed long before then.
 e:dorian=smirking
 
 A sudden thought struck him.
 e:dorian=surprised
 
 He put on his fur coat and hat and went out into the hall.
-e:dorian=serious
+e:dorian=serious;x:dorian=fur,hat;b=dorian-entrance-night
 
 There he paused, hearing the slow heavy tread of the policeman on the pavement outside and seeing the flash of the bull’s-eye reflected in the window.
 e:dorian=wary
@@ -7706,46 +7655,55 @@ He waited and held his breath.
 e:dorian=nervous
 
 After a few moments he drew back the latch and slipped out, shutting the door very gently behind him.
-e:dorian=serious
+e:dorian=serious;b=dorian-wide-night
 
-Then he began ringing the bell. In about five minutes his valet appeared, half-dressed and looking very drowsy.
+Then he began ringing the bell.
 n:francis=Francis;e:francis=weary
 
-“I am sorry to have had to wake you up, Francis,” he said, stepping in; “but I had forgotten my latchkey. What time is it?”
-s=dorian;e:dorian=neutral
+In about five minutes his valet appeared, half-dressed and looking very drowsy.
+
+
+“I am sorry to have had to wake you up, Francis,” he said,
+s=dorian;e:dorian=serious;m=allowbreak
+
+stepping in;
+m=;s=;b=dorian-entrance-night
+
+“but I had forgotten my latchkey. What time is it?”
+s=dorian;i=2
 
 “Ten minutes past two, sir,” answered the man, looking at the clock and blinking.
-s=francis;e:francis=weary
+s=francis;e:francis=wearylook;x:francis=undressed
 
 “Ten minutes past two? How horribly late! You must wake me at nine tomorrow. I have some work to do.”
-s=dorian;e:dorian=surprised
+s=dorian;e:dorian=unhappy
 
 “All right, sir.”
-s=francis;e:francis=neutral
+s=francis;e:francis=thinking
 
 “Did anyone call this evening?”
-s=dorian;e:dorian=curious
+s=dorian;e:dorian=suspicious
 
 “Mr. Hallward, sir. He stayed here till eleven, and then he went away to catch his train.”
-s=francis;e:francis=neutral
+s=francis;e:francis=contemplative
 
 “Oh! I am sorry I didn’t see him. Did he leave any message?”
-s=dorian;e:dorian=neutral
+s=dorian;e:dorian=thinking
 
 “No, sir, except that he would write to you from Paris, if he did not find you at the club.”
-s=francis;e:francis=neutral
+s=francis;e:francis=weary
 
 “That will do, Francis. Don’t forget to call me at nine tomorrow.”
-s=dorian
+s=dorian;e:dorian=
 
 “No, sir.”
-s=francis
+s=francis;e:francis=
 
 The man shambled down the passage in his slippers.
 s=none;e:francis=weary
 
 Dorian Gray threw his hat and coat upon the table and passed into the library.
-e:dorian=serious
+e:dorian=serious;x:dorian=;b=dorian-library-night-fire
 
 For a quarter of an hour he walked up and down the room, biting his lip and thinking.
 e:dorian=thinking
@@ -7754,7 +7712,7 @@ Then he took down the Blue Book from one of the shelves and began to turn over t
 
 
 “Alan Campbell, 152, Hertford Street, Mayfair.”
-s=dorian;e:dorian=smirking
+
 
 Yes; that was the man he wanted.
 s=none
