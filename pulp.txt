@@ -8852,64 +8852,43 @@ s=none;m=;f:b:london-street-night=blur(3px)
 r=title
 
 A cold rain began to fall, and the blurred streetlamps looked ghastly in the dripping mist.
+b=drive-night-fog-light-rain;x:dorian=fur,hat
+
+The public-houses were just closing, and dim men and women were clustering in broken groups round their doors. From some of the bars came the sound of horrible laughter. In others, drunkards brawled and screamed.
 
 
-The public-houses were just closing, and dim men and women were clustering in broken groups round their doors.
+Lying back in the hansom, with his hat pulled over his forehead, Dorian Gray watched with listless eyes the sordid shame of the great city, and now and then he repeated to himself the words that Lord Henry had said to him on the first day they had met,
 
 
-From some of the bars came the sound of horrible laughter. In others, drunkards brawled and screamed.
+“To cure the soul by means of the senses, and the senses by means of the soul.”
+e:dorian=contemplative;s=dorian
+
+Yes, that was the secret. He had often tried it, and would try it again now. There were opium dens where one could buy oblivion, dens of horror where the memory of old sins could be destroyed by the madness of sins that were new.
+e:dorian=serious;s=
+
+The moon hung low in the sky like a yellow skull. From time to time a huge misshapen cloud stretched a long arm across and hid it.
 
 
-Lying back in the hansom, with his hat pulled over his forehead, Dorian Gray watched with listless eyes the sordid shame of the great city, and now and then he repeated to himself the words that Lord Henry had said to him on the first day they had met, “To cure the soul by means of the senses, and the senses by means of the soul.”
-e:dorian=contemplative
-
-Yes, that was the secret. He had often tried it, and would try it again now.
-e:dorian=serious
-
-There were opium dens where one could buy oblivion, dens of horror where the memory of old sins could be destroyed by the madness of sins that were new.
+The gas-lamps grew fewer, and the streets more narrow and gloomy. Once the man lost his way and had to drive back half a mile.
 
 
-The moon hung low in the sky like a yellow skull.
-
-
-From time to time a huge misshapen cloud stretched a long arm across and hid it.
-
-
-The gas-lamps grew fewer, and the streets more narrow and gloomy.
-
-
-Once the man lost his way and had to drive back half a mile.
-
-
-A steam rose from the horse as it splashed up the puddles.
-
-
-The sidewindows of the hansom were clogged with a grey-flannel mist.
+A steam rose from the horse as it splashed up the puddles. The sidewindows of the hansom were clogged with a grey-flannel mist.
 
 
 “To cure the soul by means of the senses, and the senses by means of the soul!”
-s=dorian;e:dorian=excited
+s=dorian;e:dorian=serious
 
-How the words rang in his ears! His soul, certainly, was sick to death.
+How the words rang in his ears! His soul, certainly, was sick to death. Was it true that the senses could cure it? Innocent blood had been spilled. What could atone for that?
 s=none;e:dorian=upset
 
-Was it true that the senses could cure it? Innocent blood had been spilled. What could atone for that? Ah!
-e:dorian=thinking
-
-for that there was no atonement; but though forgiveness was impossible, forgetfulness was possible still, and he was determined to forget, to stamp the thing out, to crush it as one would crush the adder that had stung one.
+Ah! for that there was no atonement; but though forgiveness was impossible, forgetfulness was possible still, and he was determined to forget, to stamp the thing out, to crush it as one would crush the adder that had stung one.
 e:dorian=angry
 
-Indeed, what right had Basil to have spoken to him as he had done?
-
-
-Who had made him a judge over others? He had said things that were dreadful, horrible, not to be endured.
+Indeed, what right had Basil to have spoken to him as he had done? Who had made him a judge over others? He had said things that were dreadful, horrible, not to be endured.
 e:dorian=scowling
 
-On and on plodded the hansom, going slower, it seemed to him, at each step.
+On and on plodded the hansom, going slower, it seemed to him, at each step. He thrust up the trap and called to the man to drive faster.
 e:dorian=annoyed
-
-He thrust up the trap and called to the man to drive faster.
-e:dorian=angry
 
 The hideous hunger for opium began to gnaw at him. His throat burned and his delicate hands twitched nervously together.
 e:dorian=nervous
@@ -8920,17 +8899,11 @@ e:dorian=angry
 He laughed in answer, and the man was silent.
 e:dorian=excited
 
-The way seemed interminable, and the streets like the black web of some sprawling spider.
+The way seemed interminable, and the streets like the black web of some sprawling spider. The monotony became unbearable, and as the mist thickened, he felt afraid.
 e:dorian=neutral
 
-The monotony became unbearable, and as the mist thickened, he felt afraid.
-e:dorian=fearful
-
-Then they passed by lonely brickfields.
-
-
-The fog was lighter here, and he could see the strange, bottle-shaped kilns with their orange, fanlike tongues of fire.
-
+Then they passed by lonely brickfields. The fog was lighter here, and he could see the strange, bottle-shaped kilns with their orange, fanlike tongues of fire.
+b=brickfields-night-fog-light
 
 A dog barked as they went by, and far away in the darkness some wandering seagull screamed.
 
@@ -8944,17 +8917,17 @@ After some time they left the clay road and rattled again over rough-paven stree
 Most of the windows were dark, but now and then fantastic shadows were silhouetted against some lamplit blind.
 
 
-He watched them curiously. They moved like monstrous marionettes and made gestures like live things. He hated them.
+He watched them curiously. They moved like monstrous marionettes and made gestures like live things.
 e:dorian=scowling
 
-A dull rage was in his heart. As they turned a corner, a woman yelled something at them from an open door, and two men ran after the hansom for about a hundred yards.
+He hated them. A dull rage was in his heart.
 e:dorian=angry
 
-The driver beat at them with his whip.
+As they turned a corner, a woman yelled something at them from an open door, and two men ran after the hansom for about a hundred yards. The driver beat at them with his whip.
 
 
 It is said that passion makes one think in a circle.
-e:dorian=thinking
+e:dorian=thinking;f:b:brickfields-night-fog-light=blur(3px)
 
 Certainly with hideous iteration the bitten lips of Dorian Gray shaped and reshaped those subtle words that dealt with soul and sense, till he had found in them the full expression, as it were, of his mood, and justified, by intellectual approval, passions that without such justification would still have dominated his temper.
 
@@ -8962,70 +8935,61 @@ Certainly with hideous iteration the bitten lips of Dorian Gray shaped and resha
 From cell to cell of his brain crept the one thought; and the wild desire to live, most terrible of all man’s appetites, quickened into force each trembling nerve and fibre.
 ;e:dorian=excited
 
-Ugliness that had once been hateful to him because it made things real, became dear to him now for that very reason.
+Ugliness that had once been hateful to him because it made things real, became dear to him now for that very reason. Ugliness was the one reality.
 e:dorian=smirking
 
-Ugliness was the one reality. The coarse brawl, the loathsome den, the crude violence of disordered life, the very vileness of thief and outcast, were more vivid, in their intense actuality of impression, than all the gracious shapes of art, the dreamy shadows of song.
+The coarse brawl, the loathsome den, the crude violence of disordered life, the very vileness of thief and outcast, were more vivid, in their intense actuality of impression, than all the gracious shapes of art, the dreamy shadows of song.
 e:dorian=contemplative
 
 They were what he needed for forgetfulness. In three days he would be free.
 
 
 Suddenly the man drew up with a jerk at the top of a dark lane.
-e:dorian=neutral
+e:dorian=neutral;f:b:brickfields-night-fog-light=
 
-Over the low roofs and jagged chimney-stacks of the houses rose the black masts of ships.
-
-
-Wreaths of white mist clung like ghostly sails to the yards.
+Over the low roofs and jagged chimney-stacks of the houses rose the black masts of ships. Wreaths of white mist clung like ghostly sails to the yards.
 
 
-“Somewhere about here, sir, ain’t it?”
-s=hansomdriver
-
-he asked huskily through the trap.
-s=none
+“Somewhere about here, sir, ain’t it?” he asked huskily through the trap.
+s=hansomdriver;e:hansomdriver=serious
 
 Dorian started and peered round.
-e:dorian=surprised
+e:dorian=surprised;s=
 
-“This will do,” he answered, and having got out hastily and given the driver the extra fare he had promised him, he walked quickly in the direction of the quay.
-s=dorian;e:dorian=neutral
+“This will do,” he answered,
+s=dorian;e:dorian=serious;m=allowbreak
 
-Here and there a lantern gleamed at the stern of some huge merchantman.
+and having got out hastily and given the driver the extra fare he had promised him, he walked quickly in the direction of the quay.
+m=;s=
+
+Here and there a lantern gleamed at the stern of some huge merchantman. The light shook and splintered in the puddles. A red glare came from an outward-bound steamer that was coaling. The slimy pavement looked like a wet mackintosh.
 s=none
-
-The light shook and splintered in the puddles. A red glare came from an outward-bound steamer that was coaling.
-
-
-The slimy pavement looked like a wet mackintosh.
-
 
 He hurried on towards the left, glancing back now and then to see if he was being followed.
 e:dorian=wary
 
-In about seven or eight minutes he reached a small shabby house that was wedged in between two gaunt factories.
+In about seven or eight minutes he reached a small shabby house that was wedged in between two gaunt factories. In one of the top-windows stood a lamp.
+b=shabby-wide-night-rain
 
-
-In one of the top-windows stood a lamp. He stopped and gave a peculiar knock.
+He stopped and gave a peculiar knock.
 
 
 After a little time he heard steps in the passage and the chain being unhooked.
 
 
-The door opened quietly, and he went in without saying a word to the squat misshapen figure that flattened itself into the shadow as he passed.
+The door opened quietly,
+m=allowbreak
 
+and he went in without saying a word to the squat misshapen figure that flattened itself into the shadow as he passed.
+m=;f:b:shabby-wide-night-rain=blur(3px)
 
 At the end of the hall hung a tattered green curtain that swayed and shook in the gusty wind which had followed him in from the street.
 
 
 He dragged it aside and entered a long low room which looked as if it had once been a third-rate dancing-saloon.
+b=shabby-room
 
-
-Shrill flaring gas-jets, dulled and distorted in the flyblown mirrors that faced them, were ranged round the walls.
-
-
-Greasy reflectors of ribbed tin backed them, making quivering disks of light.
+Shrill flaring gas-jets, dulled and distorted in the flyblown mirrors that faced them, were ranged round the walls. Greasy reflectors of ribbed tin backed them, making quivering disks of light.
 
 
 The floor was covered with ochre-coloured sawdust, trampled here and there into mud, and stained with dark rings of spilled liquor.
@@ -9035,7 +8999,7 @@ Some Malays were crouching by a little charcoal stove, playing with bone counter
 
 
 In one corner, with his head buried in his arms, a sailor sprawled over a table, and by the tawdrily painted bar that ran across one complete side stood two haggard women, mocking an old man who was brushing the sleeves of his coat with an expression of disgust.
-n:woman=Woman
+n:woman=?
 
 “He thinks he’s got red ants on him,” laughed one of them, as Dorian passed by.
 s=woman;e:woman=smirking
@@ -9043,20 +9007,17 @@ s=woman;e:woman=smirking
 The man looked at her in terror and began to whimper.
 s=none
 
-At the end of the room there was a little staircase, leading to a darkened chamber.
-
-
-As Dorian hurried up its three rickety steps, the heavy odour of opium met him.
+At the end of the room there was a little staircase, leading to a darkened chamber. As Dorian hurried up its three rickety steps, the heavy odour of opium met him.
 
 
 He heaved a deep breath, and his nostrils quivered with pleasure.
 e:dorian=happy
 
 When he entered, a young man with smooth yellow hair, who was bending over a lamp lighting a long thin pipe, looked up at him and nodded in a hesitating manner.
-n:adrian=Adrian Singleton;e:adrian=nervous
+n:adrian=Adrian Singleton;e:adrian=nervous;b=shabby-opium
 
 “You here, Adrian?” muttered Dorian.
-s=dorian;e:dorian=surprised
+s=dorian;e:dorian=suspicious
 
 “Where else should I be?” he answered, listlessly.
 s=adrian;e:adrian=weary
@@ -9065,46 +9026,37 @@ s=adrian;e:adrian=weary
 
 
 “I thought you had left England.”
-s=dorian;e:dorian=confused
+s=dorian;e:dorian=wary
 
-“Darlington is not going to do anything. My brother paid the bill at last. George doesn’t speak to me either.… I don’t care,” he added with a sigh.
+“Darlington is not going to do anything. My brother paid the bill at last. George doesn’t speak to me either.…”
 s=adrian;e:adrian=sadsmile
 
+“I don’t care,” he added with a sigh.
+e:adrian=unhappy
+
 “As long as one has this stuff, one doesn’t want friends. I think I have had too many friends.”
-e:adrian=weary
+e:adrian=sadsmile;i=2
 
-Dorian winced and looked round at the grotesque things that lay in such fantastic postures on the ragged mattresses.
+Dorian winced and looked round at the grotesque things that lay in such fantastic postures on the ragged mattresses. The twisted limbs, the gaping mouths, the staring lustreless eyes, fascinated him.
 s=none;e:dorian=wary
-
-The twisted limbs, the gaping mouths, the staring lustreless eyes, fascinated him.
-e:dorian=curious
 
 He knew in what strange heavens they were suffering, and what dull hells were teaching them the secret of some new joy.
 e:dorian=contemplative
 
-They were better off than he was. He was prisoned in thought.
+They were better off than he was. He was prisoned in thought. Memory, like a horrible malady, was eating his soul away. From time to time he seemed to see the eyes of Basil Hallward looking at him.
 e:dorian=unhappy
 
-Memory, like a horrible malady, was eating his soul away.
-
-
-From time to time he seemed to see the eyes of Basil Hallward looking at him.
-e:dorian=fearful
-
-Yet he felt he could not stay. The presence of Adrian Singleton troubled him.
+Yet he felt he could not stay. The presence of Adrian Singleton troubled him. He wanted to be where no one would know who he was. He wanted to escape from himself.
 e:dorian=upset
 
-He wanted to be where no one would know who he was. He wanted to escape from himself.
-
-
 “I am going on to the other place,” he said after a pause.
-s=dorian;e:dorian=neutral
+s=dorian;e:dorian=serious
 
 “On the wharf?”
-s=adrian;e:adrian=neutral
+s=adrian;e:adrian=contemplative
 
 “Yes.”
-s=dorian
+s=dorian;i=2
 
 “That mad-cat is sure to be there. They won’t have her in this place now.”
 s=adrian;e:adrian=wary
@@ -9119,31 +9071,31 @@ s=dorian;e:dorian=smirking
 s=adrian;e:adrian=weary
 
 “I like it better. Come and have something to drink. I must have something.”
-s=dorian;e:dorian=nervous
+s=dorian;e:dorian=serious
 
 “I don’t want anything,” murmured the young man.
-s=adrian;e:adrian=weary
+s=adrian;e:adrian=weary;i=3
 
 “Never mind.”
-s=dorian;e:dorian=neutral
+s=dorian;e:dorian=annoyed
 
 Adrian Singleton rose up wearily and followed Dorian to the bar.
-s=none
+s=none;b=shabby-room
 
 A half-caste, in a ragged turban and a shabby ulster, grinned a hideous greeting as he thrust a bottle of brandy and two tumblers in front of them.
 
 
 The women sidled up and began to chatter. Dorian turned his back on them and said something in a low voice to Adrian Singleton.
-e:dorian=annoyed
+
 
 A crooked smile, like a Malay crease, writhed across the face of one of the women.
-e:woman=smirking
+e:dorian=annoyed
 
 “We are very proud tonight,” she sneered.
-s=woman
+s=woman;e:woman=smirkingsneer
 
 “For God’s sake don’t talk to me,” cried Dorian, stamping his foot on the ground.
-s=dorian;e:dorian=angry
+s=dorian;e:dorian=scowling
 
 “What do you want? Money? Here it is. Don’t ever talk to me again.”
 
@@ -9154,20 +9106,26 @@ s=none;e:woman=angry
 She tossed her head and raked the coins off the counter with greedy fingers. Her companion watched her enviously.
 e:woman=neutral
 
-“It’s no use,” sighed Adrian Singleton. “I don’t care to go back. What does it matter? I am quite happy here.”
-s=adrian;e:adrian=weary
+“It’s no use,” sighed Adrian Singleton.
+s=adrian;e:adrian=unhappy
+
+“I don’t care to go back. What does it matter? I am quite happy here.”
+e:adrian=thinking
 
 “You will write to me if you want anything, won’t you?” said Dorian, after a pause.
 s=dorian;e:dorian=serious
 
 “Perhaps.”
-s=adrian
+s=adrian;i=2
 
 “Good night, then.”
-s=dorian
+s=dorian;e:dorian=
 
-“Good night,” answered the young man, passing up the steps and wiping his parched mouth with a handkerchief.
-s=adrian;e:adrian=weary
+“Good night,” answered the young man,
+s=adrian;e:adrian=weary;m=allowbreak
+
+passing up the steps and wiping his parched mouth with a handkerchief.
+m=;s=
 
 Dorian walked to the door with a look of pain in his face.
 s=none;e:dorian=unhappy
@@ -9176,22 +9134,28 @@ As he drew the curtain aside, a hideous laugh broke from the painted lips of the
 e:woman=smirking
 
 “There goes the devil’s bargain!” she hiccuped, in a hoarse voice.
-s=woman;e:woman=excited
+s=woman;e:woman=smirking
 
 “Curse you!” he answered, “don’t call me that.”
 s=dorian;e:dorian=angry
 
-She snapped her fingers. “Prince Charming is what you like to be called, ain’t it?” she yelled after him.
-s=woman;e:woman=smirking
+She snapped her fingers.
+s=
+
+“Prince Charming is what you like to be called, ain’t it?” she yelled after him.
+s=woman;e:woman=smirking;i=3
 
 The drowsy sailor leaped to his feet as she spoke, and looked wildly round.
 s=none
 
-The sound of the shutting of the hall door fell on his ear. He rushed out as if in pursuit.
+The sound of the shutting of the hall door fell on his ear.
 
+
+He rushed out as if in pursuit.
+f:b:shabby-room=blur(3px)
 
 Dorian Gray hurried along the quay through the drizzling rain.
-e:dorian=nervous
+e:dorian=nervous;b=quay-night-rain
 
 His meeting with Adrian Singleton had strangely moved him, and he wondered if the ruin of that young life was really to be laid at his door, as Basil Hallward had said to him with such infamy of insult.
 e:dorian=thinking
@@ -9199,80 +9163,74 @@ e:dorian=thinking
 He bit his lip, and for a few seconds his eyes grew sad.
 e:dorian=unhappy
 
-Yet, after all, what did it matter to him? One’s days were too brief to take the burden of another’s errors on one’s shoulders.
+Yet, after all, what did it matter to him? One’s days were too brief to take the burden of another’s errors on one’s shoulders. Each man lived his own life and paid his own price for living it.
 e:dorian=scowling
 
-Each man lived his own life and paid his own price for living it.
-
-
-The only pity was one had to pay so often for a single fault.
+The only pity was one had to pay so often for a single fault. One had to pay over and over again, indeed. In her dealings with man, destiny never closed her accounts.
 e:dorian=thinking
-
-One had to pay over and over again, indeed. In her dealings with man, destiny never closed her accounts.
-
 
 There are moments, psychologists tell us, when the passion for sin, or for what the world calls sin, so dominates a nature that every fibre of the body, as every cell of the brain, seems to be instinct with fearful impulses.
 
 
-Men and women at such moments lose the freedom of their will.
+Men and women at such moments lose the freedom of their will. They move to their terrible end as automatons move.
 
 
-They move to their terrible end as automatons move. Choice is taken from them, and conscience is either killed, or, if it lives at all, lives but to give rebellion its fascination and disobedience its charm.
-
-
-For all sins, as theologians weary not of reminding us, are sins of disobedience.
+Choice is taken from them, and conscience is either killed, or, if it lives at all, lives but to give rebellion its fascination and disobedience its charm. For all sins, as theologians weary not of reminding us, are sins of disobedience.
 
 
 When that high spirit, that morning star of evil, fell from heaven, it was as a rebel that he fell.
 
 
-Callous, concentrated on evil, with stained mind, and soul hungry for rebellion, Dorian Gray hastened on, quickening his step as he went, but as he darted aside into a dim archway, that had served him often as a shortcut to the ill-famed place where he was going, he felt himself suddenly seized from behind, and before he had time to defend himself, he was thrust back against the wall, with a brutal hand round his throat.
-e:dorian=fearful
+Callous, concentrated on evil, with stained mind, and soul hungry for rebellion, Dorian Gray hastened on, quickening his step as he went, but as he darted aside into a dim archway, that had served him often as a shortcut to the ill-famed place where he was going,
+e:dorian=fearful;m=allowbreak
+
+he felt himself suddenly seized from behind, and before he had time to defend himself, he was thrust back against the wall, with a brutal hand round his throat.
+f:b:quay-night-rain=blur(3px);m=
 
 He struggled madly for life, and by a terrible effort wrenched the tightening fingers away.
 e:dorian=angry
 
 In a second he heard the click of a revolver, and saw the gleam of a polished barrel, pointing straight at his head, and the dusky form of a short, thickset man facing him.
-e:james=angry
+e:james=angry;f:b:quay-night-rain=
 
 “What do you want?” he gasped.
 s=dorian;e:dorian=fearful
 
-“Keep quiet,” said the man. “If you stir, I shoot you.”
-s=james
+“Keep quiet,” said the man.
+s=james;a:james=old;e:james=serious
+
+“If you stir, I shoot you.”
+
 
 “You are mad. What have I done to you?”
-s=dorian
+s=dorian;i=2
 
-“You wrecked the life of Sibyl Vane,” was the answer, “and Sibyl Vane was my sister.”
-s=james
+“You wrecked the life of Sibyl Vane,” was the answer,
+s=james;e:james=angry
 
-“She killed herself. I know it. Her death is at your door. I swore I would kill you in return.”
-
-
-“For years I have sought you. I had no clue, no trace. The two people who could have described you were dead.”
+“and Sibyl Vane was my sister. She killed herself. I know it. Her death is at your door. I swore I would kill you in return.”
 
 
-“I knew nothing of you but the pet name she used to call you. I heard it tonight by chance. Make your peace with God, for tonight you are going to die.”
+“For years I have sought you. I had no clue, no trace. The two people who could have described you were dead. I knew nothing of you but the pet name she used to call you. I heard it tonight by chance.”
+e:james=scowling
+
+“Make your peace with God, for tonight you are going to die.”
 
 
 Dorian Gray grew sick with fear.
 s=none;e:dorian=fearful
 
 “I never knew her,” he stammered. “I never heard of her. You are mad.”
-s=dorian
+s=dorian;i=3
 
 “You had better confess your sin, for as sure as I am James Vane, you are going to die.”
-s=james;e:james=scowling
+s=james;e:james=serious
 
 There was a horrible moment. Dorian did not know what to say or do.
 s=none;e:dorian=nervous
 
-“Down on your knees!”
+“Down on your knees!” growled the man.
 s=james;e:james=angry
-
-growled the man.
-s=none
 
 “I give you one minute to make your peace﻿—no more. I go on board tonight for India, and I must do my job first. One minute. That’s all.”
 s=james
@@ -9283,20 +9241,17 @@ s=none;e:dorian=fearful
 Suddenly a wild hope flashed across his brain.
 e:dorian=surprised
 
-“Stop,” he cried.
-s=dorian;e:dorian=excited
-
-“How long ago is it since your sister died? Quick, tell me!”
-
+“Stop,” he cried. “How long ago is it since your sister died? Quick, tell me!”
+s=dorian;e:dorian=upset
 
 “Eighteen years,” said the man.
-s=james;e:james=confused
+s=james;e:james=serious
 
 “Why do you ask me? What do years matter?”
 
 
 “Eighteen years,” laughed Dorian Gray, with a touch of triumph in his voice.
-s=dorian;e:dorian=happy
+s=dorian;e:dorian=sadsmile
 
 “Eighteen years! Set me under the lamp and look at my face!”
 
@@ -9331,11 +9286,17 @@ s=dorian;e:dorian=serious
 “Let this be a warning to you not to take vengeance into your own hands.”
 
 
-“Forgive me, sir,” muttered James Vane. “I was deceived. A chance word I heard in that damned den set me on the wrong track.”
-s=james;e:james=sadsmile
+“Forgive me, sir,” muttered James Vane.
+s=james;e:james=unhappy
 
-“You had better go home and put that pistol away, or you may get into trouble,” said Dorian, turning on his heel and going slowly down the street.
-s=dorian;e:dorian=neutral
+“I was deceived. A chance word I heard in that damned den set me on the wrong track.”
+
+
+“You had better go home and put that pistol away, or you may get into trouble,” said Dorian,
+s=dorian;e:dorian=warylook;m=allowbreak
+
+turning on his heel and going slowly down the street.
+m=;s=
 
 James Vane stood on the pavement in horror. He was trembling from head to foot.
 s=none;e:james=fearful
@@ -9349,11 +9310,8 @@ e:james=surprised
 It was one of the women who had been drinking at the bar.
 
 
-“Why didn’t you kill him?”
+“Why didn’t you kill him?” she hissed out, putting haggard face quite close to his.
 s=woman;e:woman=angry
-
-she hissed out, putting haggard face quite close to his.
-s=none
 
 “I knew you were following him when you rushed out from Daly’s. You fool! You should have killed him. He has lots of money, and he’s as bad as bad.”
 s=woman;e:woman=scowling
@@ -9367,11 +9325,8 @@ s=james;e:james=serious
 The woman gave a bitter laugh.
 s=none;e:woman=smirking
 
-“Little more than a boy!” she sneered.
+“Little more than a boy!” she sneered. “Why, man, it’s nigh on eighteen years since Prince Charming made me what I am.”
 s=woman
-
-“Why, man, it’s nigh on eighteen years since Prince Charming made me what I am.”
-
 
 “You lie!” cried James Vane.
 s=james;e:james=angry
@@ -9380,28 +9335,28 @@ She raised her hand up to heaven.
 s=none
 
 “Before God I am telling the truth,” she cried.
-s=woman;e:woman=serious
+s=woman;e:woman=serioushand
 
 “Before God?”
-s=james;e:james=surprised
+s=james;e:james=confused
 
-“Strike me dumb if it ain’t so. He is the worst one that comes here. They say he has sold himself to the devil for a pretty face.”
-s=woman;e:woman=angry
+“Strike me dumb if it ain’t so. He is the worst one that comes here. They say he has sold himself to the devil for a pretty face. It’s nigh on eighteen years since I met him.”
+s=woman;e:woman=scowling
 
-“It’s nigh on eighteen years since I met him. He hasn’t changed much since then. I have, though,” she added, with a sickly leer.
-e:woman=sadsmile
+“He hasn’t changed much since then. I have, though,” she added, with a sickly leer.
+e:woman=smirking
 
 “You swear this?”
-s=james;e:james=fearful
+s=james;e:james=serious
 
 “I swear it,” came in hoarse echo from her flat mouth.
 s=woman;e:woman=serious
 
 “But don’t give me away to him,” she whined; “I am afraid of him. Let me have some money for my night’s lodging.”
-e:woman=fearful
+e:woman=upset
 
 He broke from her with an oath and rushed to the corner of the street, but Dorian Gray had disappeared.
-s=none;e:james=angry
+s=none;e:james=angry;f:b:quay-night-rain=blur(3px)
 
 When he looked back, the woman had vanished also.
 
