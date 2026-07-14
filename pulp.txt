@@ -1,4 +1,4 @@
-The Picture of Dorian Gray<br>Oscar Fingal O’Fflahertie Wills Wilde<e>TODO: preface</e>
+The Picture of Dorian Gray<br>Oscar Fingal O’Fflahertie Wills Wilde<e>This visual novel skips over Wilde's clapback-at-the-haters artist manifesto, because all prefaces are quite useless. (But <a href="https://standardebooks.org/ebooks/oscar-wilde/the-picture-of-dorian-gray/text/single-page#preface">here's the link</a> if you care to read it.)</e>
 b=title;t=author
 
 ## I
@@ -883,7 +883,7 @@ e:henry=contemplative
 Hallward painted away with that marvellous bold touch of his, that had the true refinement and perfect delicacy that in art, at any rate comes only from strength. He was unconscious of the silence.
 e:basil=serious
 
-“Basil, I am tired of standing,” cried Dorian Gray suddenly.
+“Basil, I am tired of standing,” cried Dorian Gray suddenly.<e>Suddenly suddenly suddenly suddenly suddenly. (Now you're going to notice it too.)</e>
 s=dorian;e:dorian=weary
 
 “I must go out and sit in the garden. The air is stifling here.”
@@ -1645,7 +1645,7 @@ s=henry;e:henry=smirking
 “They are pork-packers, I suppose?”
 s=fermor;e:fermor=suspicious
 
-“I hope so, Uncle George, for Dartmoor’s sake. I am told that pork-packing is the most lucrative profession in America, after politics.”
+“I hope so, Uncle George, for Dartmoor’s sake. I am told that pork-packing is the most lucrative profession in America, after politics.”<e>Somewhere in America, a young Upton Sinclair gets <book>The Jungle|an idea</book>.</e>
 s=henry;e:henry=neutral
 
 “Is she pretty?”
@@ -1762,7 +1762,7 @@ n:erskine=Mr. Erskine;e:erskine=neutral
 His own neighbour was Mrs. Vandeleur, one of his aunt’s oldest friends, a perfect saint amongst women, but so dreadfully dowdy that she reminded one of a badly bound hymnbook.
 n:vandeleur=Mrs. Vandeleur;e:vandeleur=neutral
 
-Fortunately for him she had on the other side Lord Faudel, a most intelligent middle-aged mediocrity, as bald as a ministerial statement in the House of Commons, with whom she was conversing in that intensely earnest manner which is the one unpardonable error, as he remarked once himself, that all really good people fall into, and from which none of them ever quite escape.
+Fortunately for him she had on the other side Lord Faudel, a most intelligent middle-aged mediocrity, as bald as a ministerial statement in the House of Commons, with whom she was conversing in that intensely earnest manner which is the one unpardonable error, as he remarked once himself, that all really good people fall into, and from which none of them ever quite escape.<e>"Can you believe those clowns in parliament?"</e>
 n:faudel=Lord Faudel
 
 “We are talking about poor Dartmoor, Lord Henry,” cried the duchess, nodding pleasantly to him across the table.
@@ -1789,7 +1789,7 @@ s=henry;e:henry=neutral
 “Dry-goods! What are American dry-goods?” asked the duchess, raising her large hands in wonder and accentuating the verb.
 s=none;e:harley=confusedhands
 
-“American novels,” answered Lord Henry, helping himself to some quail.<e>I choose to believe this is a slam on Henry James in particular. (Based.)</e>
+“American novels,” answered Lord Henry, helping himself to some quail.<e>I choose to believe this is a slam on Henry James in particular. Based. (Ties in with the <book>Portrait of a Lady|American girl in Europe theme</book> too, eh?)</e>
 s=henry;e:henry=smirkinglookdown
 
 The duchess looked puzzled.
@@ -2128,7 +2128,7 @@ Some large blue china jars and parrot-tulips were ranged on the mantelshelf, and
 Lord Henry had not yet come in. He was always late on principle, his principle being that punctuality is the thief of time.
 e:henry=neutral
 
-So the lad was looking rather sulky, as with listless fingers he turned over the pages of an elaborately illustrated edition of *Manon Lescaut* that he had found in one of the bookcases.
+So the lad was looking rather sulky, as with listless fingers he turned over the pages of an elaborately illustrated edition of *Manon Lescaut* that he had found in one of the bookcases.<e>Spoilers.</e>
 e:dorian=annoyed
 
 The formal monotonous ticking of the Louis Quatorze clock annoyed him. Once or twice he thought of going away.
@@ -2506,7 +2506,7 @@ s=dorian;e:dorian=contemplative
 “People like you—the wilful sunbeams of life—don’t commit crimes, Dorian. But I am much obliged for the compliment, all the same.”
 s=henry;e:henry=curious
 
-“And now tell me—reach me the matches, like a good boy—thanks—what are your actual relations with Sibyl Vane?”
+“And now tell me—reach me the matches, like a good boy—thanks—what are your actual relations with Sibyl Vane?”<e>Gray did not have actual relations with that woman.</e>
 e:henry=smirkinglookdown
 
 Dorian Gray leaped to his feet, with flushed cheeks and burning eyes.
@@ -2539,7 +2539,7 @@ s=henry;e:henry=smirking
 “Then he asked me if I wrote for any of the newspapers. I told him I never even read them.”
 s=dorian;e:dorian=contemplative
 
-“He seemed terribly disappointed at that, and confided to me that all the dramatic critics were in a conspiracy against him, and that they were every one of them to be bought.”
+“He seemed terribly disappointed at that, and confided to me that all the dramatic critics were in a conspiracy against him, and that they were every one of them to be bought.”<e>A "conspiracy of critics" is the poor man's <book>Confederacy of Dunces</book>.</e>
 e:dorian=annoyed
 
 “I should not wonder if he was quite right there. But, on the other hand, judging from their appearance, most of them cannot be at all expensive.”
@@ -2788,8 +2788,11 @@ Sometimes this was the effect of art, and chiefly of the art of literature, whic
 But now and then a complex personality took the place and assumed the office of art, was indeed, in its way, a real work of art, life having its elaborate masterpieces, just as poetry has, or sculpture, or painting.
 
 
-Yes, the lad was premature. He was gathering his harvest while it was yet spring. The pulse and passion of youth were in him, but he was becoming self-conscious. It was delightful to watch him.
+Yes, the lad was premature. He was gathering his harvest while it was yet spring.<e><a href="https://www.stardewvalleywiki.com/Crops#Spring_Crops">https://www.stardewvalleywiki.com/Crops#Spring_Crops</a></e>
 e:henry=smirking
+
+The pulse and passion of youth were in him, but he was becoming self-conscious. It was delightful to watch him.
+
 
 With his beautiful face, and his beautiful soul, he was a thing to wonder at. It was no matter how it all ended, or was destined to end.
 
@@ -3232,7 +3235,10 @@ He was to be a nice sheep-farmer, and one evening, as he was riding home, he was
 Of course, she would fall in love with him, and he with her, and they would get married, and come home, and live in an immense house in London.
 
 
-Yes, there were delightful things in store for him. But he must be very good, and not lose his temper, or spend his money foolishly. She was only a year older than he was, but she knew so much more of life.
+Yes, there were delightful things in store for him.<e>I choose to believe Wilde is making fun of <book>A Study in Scarlet|Conan Doyle in particular<book> here.</e>
+
+
+But he must be very good, and not lose his temper, or spend his money foolishly. She was only a year older than he was, but she knew so much more of life.
 
 
 He must be sure, also, to write to her by every mail, and to say his prayers each night before he went to sleep. God was very good, and would watch over him.
@@ -3415,7 +3421,7 @@ s=james;e:james=scowling
 She looked at him in horror.
 s=none;e:sibyl=fearful
 
-He repeated his words. They cut the air like a dagger.
+He repeated his words. They cut the air like a dagger.<e>Rare prose miss from Wilde.</e>
 
 
 The people round began to gape. A lady standing close to her tittered.
@@ -3766,7 +3772,10 @@ g=theatre-as-you-like-it
 “She wore a moss-coloured velvet jerkin with cinnamon sleeves, slim, brown, cross-gartered hose, a dainty little green cap with a hawk’s feather caught in a jewel, and a hooded cloak lined with dull red.”
 e:dorian=contemplative
 
-“She had never seemed to me more exquisite. She had all the delicate grace of that Tanagra figurine that you have in your studio, Basil. Her hair clustered round her face like dark leaves round a pale rose.”
+“She had never seemed to me more exquisite.”<e>Hmmm…</e>
+
+
+“She had all the delicate grace of that Tanagra figurine that you have in your studio, Basil. Her hair clustered round her face like dark leaves round a pale rose.”
 e:dorian=happy
 
 “As for her acting﻿—well, you shall see her tonight. She is simply a born artist.”
@@ -5005,7 +5014,7 @@ e:dorian=contemplative
 “How extraordinarily dramatic life is!”
 e:dorian=confused
 
-“If I had read all this in a book, Harry, I think I would have wept over it.”<e>TODO</e>
+“If I had read all this in a book, Harry, I think I would have wept over it.”<e>Two years of hard labor wasn't enough.</e>
 e:dorian=thinking
 
 “Somehow, now that it has happened actually, and to me, it seems far too wonderful for tears.”
@@ -5365,7 +5374,7 @@ e:dorian=curious
 If thought could exercise its influence upon a living organism, might not thought exercise an influence upon dead and inorganic things?
 
 
-Nay, without thought or conscious desire, might not things external to ourselves vibrate in unison with our moods and passions, atom calling to atom in secret love or strange affinity?
+Nay, without thought or conscious desire, might not things external to ourselves vibrate in unison with our moods and passions, atom calling to atom in secret love or strange affinity?<e>We doing Theosophy again?</e>
 
 
 But the reason was of no importance. He would never again tempt by a prayer any terrible power. If the picture was to alter, it was to alter. That was all. Why inquire too closely into it?
@@ -5776,7 +5785,7 @@ e:basil=thinking
 “I had drawn you as Paris in dainty armour, and as Adonis with huntsman’s cloak and polished boar-spear.”
 
 
-“Crowned with heavy lotus-blossoms you had sat on the prow of Adrian’s barge, gazing across the green turbid Nile.”<e>TODO</e>
+“Crowned with heavy lotus-blossoms you had sat on the prow of Adrian’s barge, gazing across the green turbid Nile.”<e>The <i>second</i> reference to Hadrian and Antinous — pretty sus. I'm starting to think Wilde and Hadrian might have a shared proclivity. <a href="https://www.youtube.com/watch?v=0IU4qrriHrs&t=1039s">Or two.</a>.</e>
 e:basil=contemplative
 
 “You had leaned over the still pool of some Greek woodland and seen in the water’s silent silver the marvel of your own face.”
@@ -6298,7 +6307,7 @@ Victor might have read it. The man knew more than enough English for that.
 Perhaps he had read it and had begun to suspect something.
 e:dorian=suspicious
 
-And, yet, what did it matter? What had Dorian Gray to do with Sibyl Vane’s death? There was nothing to fear. Dorian Gray had not killed her.
+And, yet, what did it matter? What had Dorian Gray to do with Sibyl Vane’s death? There was nothing to fear. Dorian Gray had not killed her.<e>Only Wilde could pull off a free indirect illeism.</e>
 e:dorian=thinking
 
 His eye fell on the yellow book that Lord Henry had sent him. What was it, he wondered.
@@ -6364,7 +6373,7 @@ s=none;e:henry=neutral;e:dorian=neutral;f:b:club-morning=blur(3px)
 ## XI
 r=title
 
-For years, Dorian Gray could not free himself from the influence of this book.
+For years, Dorian Gray could not free himself from the influence of this book.<e>And with the seamless "For years" transition, we move into <i>the</i> chapter. (Get ready for the ride.)</e>
 e:dorian=thinking;b=abstract
 
 Or perhaps it would be more accurate to say that he never sought to free himself from it.
@@ -6424,7 +6433,7 @@ e:dorian=thinking
 The more he knew, the more he desired to know. He had mad hungers that grew more ravenous as he fed them.
 e:dorian=excited
 
-Yet he was not really reckless, at any rate in his relations to society.
+Yet he was not really reckless, at any rate in his relations to society.<e>Rewrite sentence.</e>
 
 
 Once or twice every month during the winter, and on each Wednesday evening while the season lasted, he would throw open to the world his beautiful house and have the most celebrated musicians of the day to charm his guests with the wonders of their art.
@@ -6664,7 +6673,7 @@ Henry II wore jewelled gloves reaching to the elbow, and had a hawk-glove sewn w
 How exquisite life had once been! How gorgeous in its pomp and decoration! Even to read of the luxury of the dead was wonderful.
 e:dorian=happy
 
-Then he turned his attention to embroideries and to the tapestries that performed the office of frescoes in the chill rooms of the northern nations of Europe.
+Then he turned his attention to embroideries and to the tapestries that performed the office of frescoes in the chill rooms of the northern nations of Europe.<e>AHHHHHHHHHHH (I mean, do go on, Wilde. We begin our exploration of another fascinating topic.)</e>
 e:dorian=curious;b=abstract-tapas
 
 As he investigated the subject﻿—and he always had an extraordinary faculty of becoming absolutely absorbed for the moment in whatever he took up﻿—he was almost saddened by the reflection of the ruin that time brought on beautiful and wonderful things.
@@ -6778,7 +6787,7 @@ e:dorian=fearful
 For, while he fascinated many, there were not a few who distrusted him.
 e:dorian=wary;b=london-wide
 
-He was very nearly blackballed at a West End club of which his birth and social position fully entitled him to become a member, and it was said that on one occasion, when he was brought by a friend into the smoking-room of the Churchill, the Duke of Berwick and another gentleman got up in a marked manner and went out.
+He was very nearly blackballed at a West End club of which his birth and social position fully entitled him to become a member, and it was said that on one occasion, when he was brought by a friend into the smoking-room of the Churchill, the Duke of Berwick and another gentleman got up in a marked manner and went out.<e>Also blueballed.</e>
 e:dorian=annoyed
 
 Curious stories became current about him after he had passed his twenty-fifth year.
@@ -6811,10 +6820,10 @@ And, after all, it is a very poor consolation to be told that the man who has gi
 For the canons of good society are, or should be, the same as the canons of art. Form is absolutely essential to it. It should have the dignity of a ceremony, as well as its unreality, and should combine the insincere character of a romantic play with the wit and beauty that make such plays delightful to us.
 
 
-Is insincerity such a terrible thing? I think not. It is merely a method by which we can multiply our personalities.
+Is insincerity such a terrible thing? I think not. It is merely a method by which we can multiply our personalities.<e>…"I"?</e>
 e:dorian=contemplative
 
-Such, at any rate, was Dorian Gray’s opinion.
+Such, at any rate, was Dorian Gray’s opinion.<e>The seamless authorial touch.</e>
 
 
 He used to wonder at the shallow psychology of those who conceive the ego in man as a thing simple, permanent, reliable, and of one essence.
@@ -6889,7 +6898,7 @@ and had peered through a clear emerald at the red shambles of the circus and the
 and, as Elagabalus, had painted his face with colours, and plied the distaff among the women, and brought the Moon from Carthage and given her in mystic marriage to the Sun.
 
 
-Over and over again Dorian used to read this fantastic chapter, and the two chapters immediately following, in which, as in some curious tapestries or cunningly wrought enamels, were pictured the awful and beautiful forms of those whom vice and blood and weariness had made monstrous or mad:<e>TODO: sentence start</e>
+Over and over again Dorian used to read this fantastic chapter, and the two chapters immediately following, in which, as in some curious tapestries or cunningly wrought enamels, were pictured the awful and beautiful forms of those whom vice and blood and weariness had made monstrous or mad:<e>If you thought the previous sentence was long, guess when this one will end.</e>
 
 
 Filippo, Duke of Milan, who slew his wife and painted her lips with a scarlet poison that her lover might suck death from the dead thing he fondled; Pietro Barbi, the Venetian, known as Paul the Second, who sought in his vanity to assume the title of Formosus, and whose tiara, valued at two hundred thousand florins, was bought at the price of a terrible sin;
@@ -6913,7 +6922,7 @@ Sigismondo Malatesta, the lover of Isotta and the lord of Rimini, whose effigy w
 Charles VI, who had so wildly adored his brother’s wife that a leper had warned him of the insanity that was coming on him, and who, when his brain had sickened and grown strange, could only be soothed by Saracen cards painted with the images of love and death and madness;
 
 
-and, in his trimmed jerkin and jewelled cap and acanthuslike curls, Grifonetto Baglioni, who slew Astorre with his bride, and Simonetto with his page, and whose comeliness was such that, as he lay dying in the yellow piazza of Perugia, those who had hated him could not choose but weep, and Atalanta, who had cursed him, blessed him.<e>TODO: one sentence</e>
+and, in his trimmed jerkin and jewelled cap and acanthuslike curls, Grifonetto Baglioni, who slew Astorre with his bride, and Simonetto with his page, and whose comeliness was such that, as he lay dying in the yellow piazza of Perugia, those who had hated him could not choose but weep, and Atalanta, who had cursed him, blessed him.<e>The period, at last. (David Foster Wilde over here.)</e>
 e:dorian=excited
 
 There was a horrible fascination in them all. He saw them at night, and they troubled his imagination in the day.
@@ -6925,7 +6934,7 @@ e:dorian=thinking
 Dorian Gray had been poisoned by a book. There were moments when he looked on evil simply as a mode through which he could realize his conception of the beautiful.
 e:dorian=smirking;f:b:abstract=blur(3px)
 
-## XII
+## XII<e>TODO</e>
 r=title
 
 It was on the ninth of November, the eve of his own thirty-eighth birthday, as he often remembered afterwards.
@@ -7120,7 +7129,7 @@ e:dorian=scowling
 “You ask me about Henry Ashton and young Perth. Did I teach the one his vices, and the other his debauchery? If Kent’s silly son takes his wife from the streets, what is that to me?”
 
 
-“If Adrian Singleton writes his friend’s name across a bill, am I his keeper?”<e>TODO: boo</e>
+“If Adrian Singleton writes his friend’s name across a bill, am I his keeper?”<e>Cain and Abel and their consequences have been a disaster for western literature.</e>
 e:dorian=annoyed
 
 “I know how people chatter in England.”
@@ -7795,7 +7804,7 @@ e:dorian=neutral
 The binding was of citron-green leather, with a design of gilt trelliswork and dotted pomegranates. It had been given to him by Adrian Singleton.
 
 
-As he turned over the pages, his eye fell on the poem about the hand of Lacenaire, the cold yellow hand “*du supplice encore mal lavée*,” with its downy red hairs and its “*doigts de faune*.”<e>TODO: translations</e>
+As he turned over the pages, his eye fell on the poem about the hand of Lacenaire, the cold yellow hand “*du supplice encore mal lavée*,” with its downy red hairs and its “*doigts de faune*.”
 
 
 He glanced at his own white taper fingers, shuddering slightly in spite of himself, and passed on, till he came to those lovely stanzas upon Venice:
@@ -7804,7 +7813,7 @@ e:dorian=fearful
 Sur une gamme chromatique,<br>Le sein de perles ruisselant,<br>La Vénus de l’Adriatique<br>Sort de l’eau son corps rose et blanc.
 
 
-Les dômes, sur l’azur des ondes<br>Suivant la phrase au pur contour,<br>S’enflent comme des gorges rondes<br>Que soulève un soupir d’amour.
+Les dômes, sur l’azur des ondes<br>Suivant la phrase au pur contour,<br>S’enflent comme des gorges rondes<br>Que soulève un soupir d’amour.<e>Giggity.</e>
 
 
 L’esquif aborde et me dépose,<br>Jetant son amarre au pilier,<br>Devant une façade rose,<br>Sur le marbre d’un escalier.
@@ -10504,10 +10513,10 @@ s=henry;e:henry=smirking
 “Scotland Yard still insists that the man in the grey ulster who left for Paris by the midnight train on the ninth of November was poor Basil, and the French police declare that Basil never arrived in Paris at all.”
 e:henry=neutral
 
-“I suppose in about a fortnight we shall be told that he has been seen in San Francisco. It is an odd thing, but everyone who disappears is said to be seen at San Francisco.”
+“I suppose in about a fortnight we shall be told that he has been seen in San Francisco. It is an odd thing, but everyone who disappears is said to be seen at San Francisco.”<e>People. And <book>The Maltese Falcon|falcons</book>.</e>
 e:henry=curious
 
-“It must be a delightful city, and possess all the attractions of the next world.”<e>TODO: falcons</e>
+“It must be a delightful city, and possess all the attractions of the next world.”
 
 
 “What do you think has happened to Basil?” asked Dorian,
@@ -10819,7 +10828,7 @@ e:henry=neutral
 “Mind you come. Or shall we lunch with our little duchess? She says she never sees you now. Perhaps you are tired of Gladys? I thought you would be.”
 e:henry=smirking
 
-“Her clever tongue gets on one’s nerves.”<e>TODO: audacity</e>
+“Her clever tongue gets on one’s nerves.”<e>The audacity of Wilde to include this line.</e>
 
 
 “Well, in any case, be here at eleven.”
@@ -11050,7 +11059,7 @@ s=gentleman;e:gentleman=suspicious;e:policeman=neutral
 “Mr. Dorian Gray’s, sir,” answered the policeman.
 s=policeman;e:policeman=serious
 
-They looked at each other, as they walked away, and sneered. One of them was Sir Henry Ashton’s uncle.<e>TODO: great reveal for the 1% of readers who remember who Sir Henry Ashton is.</e>
+They looked at each other, as they walked away, and sneered. One of them was Sir Henry Ashton’s uncle.<e>The iconic character of Sir Henry Ashton. We all remember who he is, obviously.</e>
 s=none;e:gentleman=smirking
 
 Inside, in the servants’ part of the house, the half-clad domestics were talking in low whispers to each other.
@@ -11080,5 +11089,5 @@ He was withered, wrinkled, and loathsome of visage.
 It was not till they had examined the rings that they recognized who it was.
 f:b:picture-schoolroom-young-and-death=blur(3px)
 
-<e>The End. TODO: jekyll redacted spoilers</e>
+<e>The End. And what an ending, to just completely rip off &lt;book redacted to avoid spoilers&gt;, only four-years-old at the time. How did Wilde get away with this?</e>
 r=title
