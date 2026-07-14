@@ -883,7 +883,7 @@ e:henry=contemplative
 Hallward painted away with that marvellous bold touch of his, that had the true refinement and perfect delicacy that in art, at any rate comes only from strength. He was unconscious of the silence.
 e:basil=serious
 
-“Basil, I am tired of standing,” cried Dorian Gray suddenly.<e>Suddenly suddenly suddenly suddenly suddenly. (Now you're going to notice it too.)</e>
+“Basil, I am tired of standing,” cried Dorian Gray suddenly.
 s=dorian;e:dorian=weary
 
 “I must go out and sit in the garden. The air is stifling here.”
@@ -6937,7 +6937,7 @@ e:dorian=thinking
 Dorian Gray had been poisoned by a book. There were moments when he looked on evil simply as a mode through which he could realize his conception of the beautiful.
 e:dorian=smirking;f:b:abstract=blur(3px)
 
-## XII<e>TODO</e>
+## XII<e>What an iconic chapter, that last one. What <book>Twenty Thousand Leagues</book> was to fish, this book is to random bullshit. But Wilde actually has the prose to pull it off. (Based.)</e>
 r=title
 
 It was on the ninth of November, the eve of his own thirty-eighth birthday, as he often remembered afterwards.
