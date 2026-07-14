@@ -4144,11 +4144,11 @@ Her body swayed, while she danced, as a plant sways in the water. The curves of 
 Yet she was curiously listless. She showed no sign of joy when her eyes rested on Romeo. The few words she had to speak﻿—
 e:sibyl=bored
 
-Good pilgrim, you do wrong your hand too much,<br>Which mannerly devotion shows in this;<br>For saints have hands that pilgrims’ hands do touch,<br>And palm to palm is holy palmers’ kiss﻿—
-
+<span class='indent'>Good pilgrim, you do wrong your hand too much,</span><span class='indent2'>Which mannerly devotion shows in this;</span><span class='indent'>For saints have hands that pilgrims’ hands do touch,</span><span class='indent2'>And palm to palm is holy palmers’ kiss﻿—</span>
+m=margin
 
 with the brief dialogue that follows, were spoken in a thoroughly artificial manner.
-
+m=
 
 The voice was exquisite, but from the point of view of tone it was absolutely false. It was wrong in colour. It took away all the life from the verse. It made the passion unreal.
 
@@ -4168,16 +4168,19 @@ b=theatre-romeo-juliet-balcony;f=fade
 But the staginess of her acting was unbearable, and grew worse as she went on. Her gestures became absurdly artificial. She overemphasized everything that she had to say. The beautiful passage﻿—
 
 
-Thou knowest the mask of night is on my face,<br>Else would a maiden blush bepaint my cheek<br>For that which thou hast heard me speak tonight﻿—
-
+<span class='indent'>Thou knowest the mask of night is on my face,</span><span class='indent'>Else would a maiden blush bepaint my cheek</span><span class='indent'>For that which thou hast heard me speak tonight﻿—</span>
+m=margin
 
 was declaimed with the painful precision of a schoolgirl who has been taught to recite by some second-rate professor of elocution.
-
+m=
 
 When she leaned over the balcony and came to those wonderful lines﻿—
 
 
-Although I joy in thee,<br>I have no joy of this contract tonight:<br>It is too rash, too unadvised, too sudden;<br>Too like the lightning, which doth cease to be<br>Ere one can say, “It lightens.” Sweet, goodnight!<br>This bud of love by summer’s ripening breath<br>May prove a beauteous flower when next we meet﻿—
+<span class='indent'>Although I joy in thee,</span><span class='indent'>I have no joy of this contract tonight:</span><span class='indent'>It is too rash, too unadvised, too sudden;</span><span class='indent'>Too like the lightning, which doth cease to be</span>
+m=margin
+
+<span class='indent'>Ere one can say, “It lightens.” Sweet, goodnight!</span><span class='indent'>This bud of love by summer’s ripening breath</span><span class='indent'>May prove a beauteous flower when next we meet﻿—</span>
 
 
 she spoke the words as though they conveyed no meaning to her.
@@ -6284,7 +6287,7 @@ He opened *The St. James’s* languidly, and looked through it. A red pencil-mar
 e:dorian=curious
 
 **Inquest on an Actress**.﻿—An inquest was held this morning at the Bell Tavern, Hoxton Road, by Mr. Danby, the District Coroner, on the body of Sibyl Vane, a young actress recently engaged at the Royal Theatre, Holborn.
-e:dorian=surprised
+e:dorian=surprised;m=margin
 
 A verdict of death by misadventure was returned.
 
@@ -6293,7 +6296,7 @@ Considerable sympathy was expressed for the mother of the deceased, who was grea
 
 
 He frowned, and tearing the paper in two, went across the room and flung the pieces away.
-e:dorian=angry
+e:dorian=angry;m=
 
 How ugly it all was! And how horribly real ugliness made things!
 e:dorian=upset
@@ -7810,17 +7813,17 @@ As he turned over the pages, his eye fell on the poem about the hand of Lacenair
 He glanced at his own white taper fingers, shuddering slightly in spite of himself, and passed on, till he came to those lovely stanzas upon Venice:
 e:dorian=fearful
 
-Sur une gamme chromatique,<br>Le sein de perles ruisselant,<br>La Vénus de l’Adriatique<br>Sort de l’eau son corps rose et blanc.
+<span class='indent'>Sur une gamme chromatique,</span><span class='indent2'>Le sein de perles ruisselant,</span><span class='indent'>La Vénus de l’Adriatique</span><span class='indent2'>Sort de l’eau son corps rose et blanc.</span>
+m=margin
+
+<span class='indent'>Les dômes, sur l’azur des ondes</span><span class='indent2'>Suivant la phrase au pur contour,</span><span class='indent'>S’enflent comme des gorges rondes</span><span class='indent2'>Que soulève un soupir d’amour.</span><e>Giggity.</e>
 
 
-Les dômes, sur l’azur des ondes<br>Suivant la phrase au pur contour,<br>S’enflent comme des gorges rondes<br>Que soulève un soupir d’amour.<e>Giggity.</e>
-
-
-L’esquif aborde et me dépose,<br>Jetant son amarre au pilier,<br>Devant une façade rose,<br>Sur le marbre d’un escalier.
+<span class='indent'>L’esquif aborde et me dépose,</span><span class='indent2'>Jetant son amarre au pilier,</span><span class='indent'>Devant une façade rose,</span><span class='indent2'>Sur le marbre d’un escalier.</span>
 
 
 How exquisite they were! As one read them, one seemed to be floating down the green waterways of the pink and pearl city, seated in a black gondola with silver prow and trailing curtains.
-e:dorian=happy
+e:dorian=happy;m=
 
 The mere lines looked to him like those straight lines of turquoise-blue that follow one as one pushes out to the Lido.
 
@@ -7831,11 +7834,11 @@ The sudden flashes of colour reminded him of the gleam of the opal-and-iris-thro
 Leaning back with half-closed eyes, he kept saying over and over to himself:
 e:dorian=contemplative
 
-“Devant une façade rose,<br>Sur le marbre d’un escalier.”
-s=dorian
+<span class='d'><div class='indent'>“Devant une façade rose,</div><div class='indent2'>Sur le marbre d’un escalier.”</div></span>
+s=dorian;m=margin
 
 The whole of Venice was in those two lines. He remembered the autumn that he had passed there, and a wonderful love that had stirred him to mad delightful follies.
-s=none;e:dorian=happy
+s=none;e:dorian=happy;m=
 
 There was romance in every place. But Venice, like Oxford, had kept the background for romance, and, to the true romantic, background was everything, or almost everything.
 
@@ -10648,11 +10651,11 @@ s=dorian;e:dorian=nervous
 “It used to remind me of those curious lines in some play﻿—Hamlet, I think﻿—how do they run?﻿—”
 e:dorian=thinking
 
-“Like the painting of a sorrow,<br>A face without a heart.”
-e:dorian=contemplative
+<span class='d'><div class='indent'>“Like the painting of a sorrow,</div><div class='indent2'>A face without a heart.”</div></span>
+e:dorian=contemplative;m=margin
 
 “Yes: that is what it was like.”
-
+m=
 
 Lord Henry laughed.
 s=none;e:henry=happy
