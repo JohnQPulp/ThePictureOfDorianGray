@@ -9824,7 +9824,7 @@ e:dorian=fearful;b=dark
 r=title
 
 The next day he did not leave the house, and, indeed, spent most of the time in his own room, sick with a wild terror of dying, and yet indifferent to life itself.
-e:dorian=fearful
+e:dorian=fearful;b=dorian-bedroom
 
 The consciousness of being hunted, snared, tracked down, had begun to dominate him. If the tapestry did but tremble in the wind, he shook.
 e:dorian=nervous
@@ -9833,40 +9833,25 @@ The dead leaves that were blown against the leaded panes seemed to him like his 
 e:dorian=unhappy
 
 When he closed his eyes, he saw again the sailor’s face peering through the mist-stained glass, and horror seemed once more to lay its hand upon his heart.
-e:dorian=fearful
+e:dorian=fearful;f:b:dorian-bedroom=blur(3px)
 
-But perhaps it had been only his fancy that had called vengeance out of the night and set the hideous shapes of punishment before him.
+But perhaps it had been only his fancy that had called vengeance out of the night and set the hideous shapes of punishment before him. Actual life was chaos, but there was something terribly logical in the imagination.
 e:dorian=thinking
-
-Actual life was chaos, but there was something terribly logical in the imagination.
-
 
 It was the imagination that set remorse to dog the feet of sin. It was the imagination that made each crime bear its misshapen brood.
 e:dorian=contemplative
 
-In the common world of fact the wicked were not punished, nor the good rewarded.
-
-
-Success was given to the strong, failure thrust upon the weak. That was all.
+In the common world of fact the wicked were not punished, nor the good rewarded. Success was given to the strong, failure thrust upon the weak. That was all.
 e:dorian=weary
 
 Besides, had any stranger been prowling round the house, he would have been seen by the servants or the keepers. Had any footmarks been found on the flowerbeds, the gardeners would have reported it.
 e:dorian=thinking
 
-Yes, it had been merely fancy. Sibyl Vane’s brother had not come back to kill him.
+Yes, it had been merely fancy. Sibyl Vane’s brother had not come back to kill him. He had sailed away in his ship to founder in some winter sea. From him, at any rate, he was safe.
 e:dorian=nervous
 
-He had sailed away in his ship to founder in some winter sea.
-
-
-From him, at any rate, he was safe.
-e:dorian=wary
-
-Why, the man did not know who he was, could not know who he was.
+Why, the man did not know who he was, could not know who he was. The mask of youth had saved him.
 e:dorian=thinking
-
-The mask of youth had saved him.
-e:dorian=serious
 
 And yet if it had been merely an illusion, how terrible it was to think that conscience could raise such fearful phantoms, and give them visible form, and make them move before one!
 e:dorian=fearful
@@ -9881,45 +9866,39 @@ Oh! in what a wild hour of madness he had killed his friend! How ghastly the mer
 e:dorian=fearful
 
 He saw it all again. Each hideous detail came back to him with added horror.
-
+b=dorian-schoolroom-night;f:b:dorian-schoolroom-night=blur(3px)
 
 Out of the black cave of time, terrible and swathed in scarlet, rose the image of his sin.
 
 
 When Lord Henry came in at six o’clock, he found him crying as one whose heart will break.
-e:dorian=upset;e:henry=surprised
+e:dorian=upset;e:henry=surprised;b=dorian-library;f:b:dorian-library=blur(3px)
 
 It was not till the third day that he ventured to go out.
-e:dorian=weary
+e:dorian=weary;b=shooting-wide-winter
 
 There was something in the clear, pine-scented air of that winter morning that seemed to bring him back his joyousness and his ardour for life.
 e:dorian=happy
 
 But it was not merely the physical conditions of environment that had caused the change.
-e:dorian=contemplative
+
 
 His own nature had revolted against the excess of anguish that had sought to maim and mar the perfection of its calm.
+e:dorian=contemplative;f:b:shooting-wide-winter=blur(3px)
+
+With subtle and finely wrought temperaments it is always so. Their strong passions must either bruise or bend. They either slay the man, or themselves die.
 
 
-With subtle and finely wrought temperaments it is always so. Their strong passions must either bruise or bend.
-
-
-They either slay the man, or themselves die. Shallow sorrows and shallow loves live on.
-
-
-The loves and sorrows that are great are destroyed by their own plenitude.
+Shallow sorrows and shallow loves live on. The loves and sorrows that are great are destroyed by their own plenitude.
 
 
 Besides, he had convinced himself that he had been the victim of a terror-stricken imagination, and looked back now on his fears with something of pity and not a little of contempt.
 e:dorian=smirking
 
 After breakfast, he walked with the duchess for an hour in the garden and then drove across the park to join the shooting-party.
-e:dorian=neutral
+e:dorian=neutral;f:b:shooting-wide-winter=
 
-The crisp frost lay like salt upon the grass. The sky was an inverted cup of blue metal.
-
-
-A thin film of ice bordered the flat, reed-grown lake.
+The crisp frost lay like salt upon the grass. The sky was an inverted cup of blue metal. A thin film of ice bordered the flat, reed-grown lake.
 
 
 At the corner of the pinewood he caught sight of Sir Geoffrey Clouston, the duchess’s brother, jerking two spent cartridges out of his gun.
@@ -9929,13 +9908,10 @@ He jumped from the cart, and having told the groom to take the mare home, made h
 e:dorian=happy
 
 “Have you had good sport, Geoffrey?” he asked.
-s=dorian
+s=dorian;x:dorian=shooting;e:dorian=contemplative
 
-“Not very good, Dorian. I think most of the birds have gone to the open.”
-s=geoffrey
-
-“I dare say it will be better after lunch, when we get to new ground.”
-
+“Not very good, Dorian. I think most of the birds have gone to the open. I dare say it will be better after lunch, when we get to new ground.”
+s=geoffrey;x:geoffrey=shooting
 
 Dorian strolled along by his side.
 s=none;e:dorian=happy
@@ -9946,89 +9922,89 @@ e:dorian=excited
 He was dominated by the carelessness of happiness, by the high indifference of joy.
 
 
-Suddenly from a lumpy tussock of old grass some twenty yards in front of them, with black-tipped ears erect and long hinder limbs throwing it forward, started a hare.
+Suddenly from a lumpy tussock of old grass some twenty yards in front of them, with black-tipped ears erect and long hinder limbs throwing it forward, started a hare. It bolted for a thicket of alders.
 e:dorian=surprised
 
-It bolted for a thicket of alders. Sir Geoffrey put his gun to his shoulder, but there was something in the animal’s grace of movement that strangely charmed Dorian Gray, and he cried out at once,
+Sir Geoffrey put his gun to his shoulder, but there was something in the animal’s grace of movement that strangely charmed Dorian Gray, and he cried out at once,
 e:geoffrey=serious
 
 “Don’t shoot it, Geoffrey. Let it live.”
 s=dorian;e:dorian=nervous
 
-“What nonsense, Dorian!” laughed his companion, and as the hare bounded into the thicket, he fired.
-s=geoffrey;e:geoffrey=smirking
+“What nonsense, Dorian!” laughed his companion,
+s=geoffrey;e:geoffrey=smirking;m=allowbreak
+
+and as the hare bounded into the thicket, he fired.
+m=;s=
 
 There were two cries heard, the cry of a hare in pain, which is dreadful, the cry of a man in agony, which is worse.
 s=none;e:dorian=fearful;e:geoffrey=surprised
 
 “Good heavens! I have hit a beater!” exclaimed Sir Geoffrey.
-s=geoffrey;e:geoffrey=fearful
+s=geoffrey;e:geoffrey=surprised
 
 “What an ass the man was to get in front of the guns! Stop shooting there!” he called out at the top of his voice.
 e:geoffrey=angry
 
 “A man is hurt.”
-
+e:geoffrey=serious
 
 The head-keeper came running up with a stick in his hand.
-n:thornton=Thornton;s=none;e:thornton=surprised
+n:thornton=Gamekeeper;s=none;e:thornton=surprised
 
 “Where, sir? Where is he?” he shouted.
-s=thornton;e:thornton=nervous
+s=thornton;e:thornton=nervousshout
 
 At the same time, the firing ceased along the line.
 s=none
 
-“Here,” answered Sir Geoffrey angrily, hurrying towards the thicket.
-s=geoffrey;e:geoffrey=angry
+“Here,” answered Sir Geoffrey angrily,
+s=geoffrey;e:geoffrey=angry;i=2;m=allowbreak
+
+hurrying towards the thicket.
+m=;s=
 
 “Why on earth don’t you keep your men back? Spoiled my shooting for the day.”
-e:geoffrey=annoyed
+e:geoffrey=annoyed;s=geoffrey
 
 Dorian watched them as they plunged into the alder-clump, brushing the lithe swinging branches aside.
 s=none;e:dorian=wary
 
-In a few moments they emerged, dragging a body after them into the sunlight. He turned away in horror.
+In a few moments they emerged, dragging a body after them into the sunlight.
 e:dorian=fearful
 
-It seemed to him that misfortune followed wherever he went.
+He turned away in horror. It seemed to him that misfortune followed wherever he went.
 e:dorian=upset
 
 He heard Sir Geoffrey ask if the man was really dead, and the affirmative answer of the keeper.
 e:geoffrey=serious;e:thornton=serious
 
-The wood seemed to him to have become suddenly alive with faces. There was the trampling of myriad feet and the low buzz of voices.
+The wood seemed to him to have become suddenly alive with faces. There was the trampling of myriad feet and the low buzz of voices. A great copper-breasted pheasant came beating through the boughs overhead.
 e:dorian=nervous
 
-A great copper-breasted pheasant came beating through the boughs overhead.
-
-
-After a few moments—that were to him, in his perturbed state, like endless hours of pain—he felt a hand laid on his shoulder.
+After a few moments—that were to him, in his perturbed state, like endless hours of pain—he felt a hand laid on his shoulder. He started and looked round.
 e:dorian=surprised
 
-He started and looked round.
-
-
 “Dorian,” said Lord Henry, “I had better tell them that the shooting is stopped for today. It would not look well to go on.”
-s=henry;e:henry=serious
+s=henry;e:henry=serious;x:henry=shooting
 
 “I wish it were stopped forever, Harry,” he answered bitterly.
 s=dorian;e:dorian=upset
 
 “The whole thing is hideous and cruel. Is the man… ?”
-e:dorian=fearful
+e:dorian=unhappy
 
 He could not finish the sentence.
 s=none
 
 “I am afraid so,” rejoined Lord Henry.
-s=henry;e:henry=neutral
+s=henry;e:henry=thinking
 
 “He got the whole charge of shot in his chest. He must have died almost instantaneously. Come; let us go home.”
-e:henry=weary
+
 
 They walked side by side in the direction of the avenue for nearly fifty yards without speaking.
-s=none;e:dorian=weary
+s=none;e:dorian=weary;b=shooting-avenue-path
 
 Then Dorian looked at Lord Henry and said, with a heavy sigh,
 
@@ -10036,49 +10012,49 @@ Then Dorian looked at Lord Henry and said, with a heavy sigh,
 “It is a bad omen, Harry, a very bad omen.”
 s=dorian;e:dorian=nervous
 
-“What is?” asked Lord Henry. “Oh! this accident, I suppose.”
-s=henry;e:henry=thinking
+“What is?” asked Lord Henry.
+s=henry;e:henry=curious
 
-“My dear fellow, it can’t be helped. It was the man’s own fault. Why did he get in front of the guns? Besides, it is nothing to us.”
-e:henry=neutral
+“Oh! this accident, I suppose. My dear fellow, it can’t be helped. It was the man’s own fault. Why did he get in front of the guns? Besides, it is nothing to us.”
+e:henry=thinking
 
-“It is rather awkward for Geoffrey, of course. It does not do to pepper beaters. It makes people think that one is a wild shot.”
+“It is rather awkward for Geoffrey, of course. It does not do to pepper beaters. It makes people think that one is a wild shot. And Geoffrey is not; he shoots very straight. But there is no use talking about the matter.”
 e:henry=smirking
-
-“And Geoffrey is not; he shoots very straight. But there is no use talking about the matter.”
-e:henry=neutral
 
 Dorian shook his head.
 s=none;e:dorian=upset
 
 “It is a bad omen, Harry. I feel as if something horrible were going to happen to some of us.”
-s=dorian
+s=dorian;e:dorian=unhappy
 
-“To myself, perhaps,” he added, passing his hand over his eyes, with a gesture of pain.
-e:dorian=fearful
+“To myself, perhaps,” he added,
+e:dorian=unhappypainhand;m=allowbreak
+
+passing his hand over his eyes, with a gesture of pain.
+m=;s=
 
 The elder man laughed.
 s=none;e:henry=happy
 
 “The only horrible thing in the world is ennui, Dorian. That is the one sin for which there is no forgiveness.”
-s=henry;e:henry=smirking
+s=henry;e:henry=smirking;i=2
 
 “But we are not likely to suffer from it unless these fellows keep chattering about this thing at dinner. I must tell them that the subject is to be tabooed.”
-e:henry=annoyed
+e:henry=
 
 “As for omens, there is no such thing as an omen. Destiny does not send us heralds. She is too wise or too cruel for that.”
-e:henry=contemplative
+
 
 “Besides, what on earth could happen to you, Dorian? You have everything in the world that a man can want. There is no one who would not be delighted to change places with you.”
-e:henry=neutral
+e:henry=curious;i=2
 
-“There is no one with whom I would not change places, Harry. Don’t laugh like that. I am telling you the truth.”
-s=dorian;e:dorian=angry
+“There is no one with whom I would not change places, Harry.”
+s=dorian;e:dorian=serious
 
-“The wretched peasant who has just died is better off than I am. I have no terror of death. It is the coming of death that terrifies me.”
-e:dorian=upset
+“Don’t laugh like that. I am telling you the truth. The wretched peasant who has just died is better off than I am.”
 
-“Its monstrous wings seem to wheel in the leaden air around me.”
+
+“I have no terror of death. It is the coming of death that terrifies me. Its monstrous wings seem to wheel in the leaden air around me.”
 e:dorian=nervous
 
 “Good heavens! don’t you see a man moving behind the trees there, watching me, waiting for me?”
@@ -10087,14 +10063,11 @@ e:dorian=fearful
 Lord Henry looked in the direction in which the trembling gloved hand was pointing.
 s=none;e:henry=curious
 
-“Yes,” he said, smiling, “I see the gardener waiting for you.”
+“Yes,” he said, smiling, “I see the gardener waiting for you. I suppose he wants to ask you what flowers you wish to have on the table tonight.”
 s=henry;e:henry=smirking
 
-“I suppose he wants to ask you what flowers you wish to have on the table tonight.”
-
-
 “How absurdly nervous you are, my dear fellow! You must come and see my doctor, when we get back to town.”
-
+e:henry=suspicious
 
 Dorian heaved a sigh of relief as he saw the gardener approaching.
 s=none;e:dorian=weary
@@ -10103,13 +10076,13 @@ The man touched his hat, glanced for a moment at Lord Henry in a hesitating mann
 
 
 “Her Grace told me to wait for an answer,” he murmured.
-n:gardener=Gardener;s=gardener;e:gardener=nervous
+n:gardener=Gardener;s=gardener;e:gardener=contemplative
 
 Dorian put the letter into his pocket.
 s=none;e:dorian=neutral
 
 “Tell her Grace that I am coming in,” he said, coldly.
-s=dorian;e:dorian=scowling
+s=dorian;e:dorian=unhappy
 
 The man turned round and went rapidly in the direction of the house.
 s=none
@@ -10120,11 +10093,8 @@ s=henry;e:henry=happy
 “It is one of the qualities in them that I admire most. A woman will flirt with anybody in the world as long as other people are looking on.”
 e:henry=smirking
 
-“How fond you are of saying dangerous things, Harry! In the present instance, you are quite astray.”
-s=dorian;e:dorian=neutral
-
-“I like the duchess very much, but I don’t love her.”
-
+“How fond you are of saying dangerous things, Harry! In the present instance, you are quite astray. I like the duchess very much, but I don’t love her.”
+s=dorian;e:dorian=thinking
 
 “And the duchess loves you very much, but she likes you less, so you are excellently matched.”
 s=henry;e:henry=smirking
@@ -10132,8 +10102,11 @@ s=henry;e:henry=smirking
 “You are talking scandal, Harry, and there is never any basis for scandal.”
 s=dorian;e:dorian=annoyed
 
-“The basis of every scandal is an immoral certainty,” said Lord Henry, lighting a cigarette.
-s=henry;e:henry=smirking
+“The basis of every scandal is an immoral certainty,” said Lord Henry,
+s=henry;e:henry=smirkinglookdown;m=allowbreak
+
+lighting a cigarette.
+m=;s=;x:henry=cig
 
 “You would sacrifice anybody, Harry, for the sake of an epigram.”
 s=dorian;e:dorian=neutral
@@ -10144,32 +10117,23 @@ s=henry;e:henry=contemplative
 “I wish I could love,” cried Dorian Gray with a deep note of pathos in his voice.
 s=dorian;e:dorian=unhappy
 
-“But I seem to have lost the passion and forgotten the desire. I am too much concentrated on myself.”
+“But I seem to have lost the passion and forgotten the desire. I am too much concentrated on myself. My own personality has become a burden to me.”
 e:dorian=weary
 
-“My own personality has become a burden to me. I want to escape, to go away, to forget. It was silly of me to come down here at all.”
+“I want to escape, to go away, to forget. It was silly of me to come down here at all. I think I shall send a wire to Harvey to have the yacht got ready. On a yacht one is safe.”
 e:dorian=upset
 
-“I think I shall send a wire to Harvey to have the yacht got ready. On a yacht one is safe.”
-e:dorian=thinking
-
-“Safe from what, Dorian? You are in some trouble.”
-s=henry;e:henry=curious
-
-“Why not tell me what it is? You know I would help you.”
-e:henry=serious
+“Safe from what, Dorian? You are in some trouble. Why not tell me what it is? You know I would help you.”
+s=henry;e:henry=suspicious
 
 “I can’t tell you, Harry,” he answered sadly.
 s=dorian;e:dorian=unhappy
 
-“And I dare say it is only a fancy of mine. This unfortunate accident has upset me.”
+“And I dare say it is only a fancy of mine. This unfortunate accident has upset me. I have a horrible presentiment that something of the kind may happen to me.”
 e:dorian=weary
 
-“I have a horrible presentiment that something of the kind may happen to me.”
-e:dorian=fearful
-
 “What nonsense!”
-s=henry;e:henry=annoyed
+s=henry;e:henry=thinking
 
 “I hope it is, but I can’t help feeling it.”
 s=dorian;e:dorian=nervous
@@ -10178,52 +10142,40 @@ s=dorian;e:dorian=nervous
 e:dorian=sadsmile
 
 “I have heard all about it, Mr. Gray,” she answered.
-s=gladys;e:gladys=serious
+s=gladys;e:gladys=serious;x:gladys=gown
 
 “Poor Geoffrey is terribly upset. And it seems that you asked him not to shoot the hare. How curious!”
-e:gladys=curious
+e:gladys=confused
 
-“Yes, it was very curious. I don’t know what made me say it. Some whim, I suppose.”
+“Yes, it was very curious. I don’t know what made me say it. Some whim, I suppose. It looked the loveliest of little live things. But I am sorry they told you about the man. It is a hideous subject.”
 s=dorian;e:dorian=contemplative
-
-“It looked the loveliest of little live things.”
-e:dorian=sadsmile
-
-“But I am sorry they told you about the man. It is a hideous subject.”
-e:dorian=unhappy
 
 “It is an annoying subject,” broke in Lord Henry.
 s=henry;e:henry=annoyed
 
-“It has no psychological value at all. Now if Geoffrey had done the thing on purpose, how interesting he would be!”
+“It has no psychological value at all. Now if Geoffrey had done the thing on purpose, how interesting he would be! I should like to know someone who had committed a real murder.”
 e:henry=smirking
 
-“I should like to know someone who had committed a real murder.”
-e:henry=contemplative;e:dorian=fearful
-
 “How horrid of you, Harry!” cried the duchess.
-s=gladys;e:gladys=annoyed
+s=gladys;e:gladys=smirking
 
 “Isn’t it, Mr. Gray?”
-
+e:gladys=curious
 
 “Harry, Mr. Gray is ill again. He is going to faint.”
-e:gladys=surprised
+e:gladys=surprisedlook
 
 Dorian drew himself up with an effort and smiled.
 s=none;e:dorian=sadsmile
 
-“It is nothing, Duchess,” he murmured; “my nerves are dreadfully out of order. That is all.”
+“It is nothing, Duchess,” he murmured; “my nerves are dreadfully out of order. That is all. I am afraid I walked too far this morning.”
 s=dorian;e:dorian=nervous
 
-“I am afraid I walked too far this morning. I didn’t hear what Harry said. Was it very bad?”
-e:dorian=wary
-
-“You must tell me some other time. I think I must go and lie down. You will excuse me, won’t you?”
-e:dorian=weary
+“I didn’t hear what Harry said. Was it very bad? You must tell me some other time. I think I must go and lie down. You will excuse me, won’t you?”
+e:dorian=weary;i=2
 
 They had reached the great flight of steps that led from the conservatory on to the terrace.
-s=none
+s=none;x:henry=;b=dorian-conservatory
 
 As the glass door closed behind Dorian, Lord Henry turned and looked at the duchess with his slumberous eyes.
 e:henry=curious
@@ -10244,10 +10196,10 @@ s=none;e:henry=smirking
 s=henry
 
 “One may lose one’s way.”
-s=gladys;e:gladys=serious
+s=gladys;e:gladys=thinking
 
 “All ways end at the same point, my dear Gladys.”
-s=henry;e:henry=contemplative
+s=henry;e:henry=
 
 “What is that?”
 s=gladys;e:gladys=curious
@@ -10256,28 +10208,28 @@ s=gladys;e:gladys=curious
 s=henry;e:henry=smirking
 
 “It was my debut in life,” she sighed.
-s=gladys;e:gladys=weary
+s=gladys;e:gladys=unhappy
 
 “It came to you crowned.”
-s=henry;e:henry=neutral
+s=henry;e:henry=neutral;i=2
 
 “I am tired of strawberry leaves.”
-s=gladys;e:gladys=bored
+s=gladys;i=2
 
 “They become you.”
 s=henry;e:henry=smirking
 
 “Only in public.”
-s=gladys;e:gladys=smirking
+s=gladys;e:gladys=curious
 
 “You would miss them,” said Lord Henry.
-s=henry;e:henry=smirking
+s=henry;e:henry=smirking;i=2
 
 “I will not part with a petal.”
-s=gladys;e:gladys=serious
+s=gladys;e:gladys=thinking;i=2
 
 “Monmouth has ears.”
-s=henry;e:henry=wary
+s=henry;e:henry=curiouslook
 
 “Old age is dull of hearing.”
 s=gladys;e:gladys=smirking
@@ -10286,7 +10238,7 @@ s=gladys;e:gladys=smirking
 s=henry;e:henry=curious
 
 “I wish he had been.”
-s=gladys;e:gladys=weary
+s=gladys;e:gladys=contemplative
 
 He glanced about as if in search of something.
 s=none;e:henry=curious
@@ -10301,7 +10253,7 @@ She laughed.
 s=none;e:gladys=happy
 
 “I have still the mask.”
-s=gladys;e:gladys=smirking
+s=gladys;e:gladys=happy
 
 “It makes your eyes lovelier,” was his reply.
 s=henry;e:henry=happy
@@ -10310,13 +10262,10 @@ She laughed again. Her teeth showed like white seeds in a scarlet fruit.
 s=none;e:gladys=happy
 
 Upstairs, in his own room, Dorian Gray was lying on a sofa, with terror in every tingling fibre of his body.
-e:dorian=fearful
+e:dorian=fearful;b=dorian-library
 
-Life had suddenly become too hideous a burden for him to bear.
+Life had suddenly become too hideous a burden for him to bear. The dreadful death of the unlucky beater, shot in the thicket like a wild animal, had seemed to him to prefigure death for himself also.
 e:dorian=upset
-
-The dreadful death of the unlucky beater, shot in the thicket like a wild animal, had seemed to him to prefigure death for himself also.
-e:dorian=nervous
 
 He had nearly swooned at what Lord Henry had said in a chance mood of cynical jesting.
 e:dorian=wary
@@ -10324,11 +10273,8 @@ e:dorian=wary
 At five o’clock he rang his bell for his servant and gave him orders to pack his things for the night-express to town, and to have the brougham at the door by eight-thirty.
 e:dorian=serious
 
-He was determined not to sleep another night at Selby Royal. It was an ill-omened place.
+He was determined not to sleep another night at Selby Royal. It was an ill-omened place. Death walked there in the sunlight. The grass of the forest had been spotted with blood.
 e:dorian=angry
-
-Death walked there in the sunlight. The grass of the forest had been spotted with blood.
-e:dorian=fearful
 
 Then he wrote a note to Lord Henry, telling him that he was going up to town to consult his doctor and asking him to entertain his guests in his absence.
 e:dorian=neutral
@@ -10340,7 +10286,7 @@ He frowned and bit his lip.
 e:dorian=annoyed
 
 “Send him in,” he muttered, after some moments’ hesitation.
-s=dorian;e:dorian=wary
+s=dorian;e:dorian=wary;x:dorian=
 
 As soon as the man entered, Dorian pulled his chequebook out of a drawer and spread it out before him.
 s=none;e:dorian=serious
@@ -10361,10 +10307,10 @@ s=dorian;e:dorian=bored
 s=thornton;e:thornton=wary
 
 “Don’t know who he is?” said Dorian, listlessly.
-s=dorian;e:dorian=bored
+s=dorian;e:dorian=suspicious
 
 “What do you mean? Wasn’t he one of your men?”
-e:dorian=curious
+
 
 “No, sir. Never saw him before. Seems like a sailor, sir.”
 s=thornton;e:thornton=serious
@@ -10373,10 +10319,10 @@ The pen dropped from Dorian Gray’s hand, and he felt as if his heart had sudde
 s=none;e:dorian=surprised
 
 “A sailor?” he cried out. “Did you say a sailor?”
-s=dorian;e:dorian=excited
+s=dorian;e:dorian=fearful
 
 “Yes, sir. He looks as if he had been a sort of sailor; tattooed on both arms, and that kind of thing.”
-s=thornton;e:thornton=neutral
+s=thornton;e:thornton=contemplative
 
 “Was there anything found on him?” said Dorian, leaning forward and looking at the man with startled eyes.
 s=dorian;e:dorian=nervous
@@ -10384,52 +10330,34 @@ s=dorian;e:dorian=nervous
 “Anything that would tell his name?”
 
 
-“Some money, sir—not much, and a sixshooter. There was no name of any kind.”
-s=thornton;e:thornton=serious
-
-“A decent-looking man, sir, but rough-like. A sort of sailor we think.”
-
+“Some money, sir—not much, and a sixshooter. There was no name of any kind. A decent-looking man, sir, but rough-like. A sort of sailor we think.”
+s=thornton;e:thornton=serious;e:thornton=thinking
 
 Dorian started to his feet. A terrible hope fluttered past him. He clutched at it madly.
 s=none;e:dorian=excited
 
-“Where is the body?” he exclaimed.
-s=dorian
+“Where is the body?” he exclaimed. “Quick! I must see it at once.”
+s=dorian;e:dorian=surprised
 
-“Quick! I must see it at once.”
-e:dorian=nervous
-
-“It is in an empty stable in the Home Farm, sir. The folk don’t like to have that sort of thing in their houses.”
+“It is in an empty stable in the Home Farm, sir. The folk don’t like to have that sort of thing in their houses. They say a corpse brings bad luck.”
 s=thornton;e:thornton=wary
 
-“They say a corpse brings bad luck.”
-
-
-“The Home Farm! Go there at once and meet me.”
-s=dorian;e:dorian=excited
-
-“Tell one of the grooms to bring my horse round. No. Never mind. I’ll go to the stables myself. It will save time.”
-
+“The Home Farm! Go there at once and meet me. Tell one of the grooms to bring my horse round. No. Never mind. I’ll go to the stables myself. It will save time.”
+s=dorian;e:dorian=serious
 
 In less than a quarter of an hour, Dorian Gray was galloping down the long avenue as hard as he could go.
-s=none;e:dorian=serious
+s=none;e:dorian=serious;b=shooting-avenue-path
 
 The trees seemed to sweep past him in spectral procession, and wild shadows to fling themselves across his path.
 
 
-Once the mare swerved at a white gatepost and nearly threw him.
+Once the mare swerved at a white gatepost and nearly threw him. He lashed her across the neck with his crop. She cleft the dusky air like an arrow. The stones flew from her hoofs.
 e:dorian=surprised
 
-He lashed her across the neck with his crop. She cleft the dusky air like an arrow.
-e:dorian=angry
+At last he reached the Home Farm.
+e:dorian=serious;b=home-farm-wide
 
-The stones flew from her hoofs.
-
-
-At last he reached the Home Farm. Two men were loitering in the yard.
-e:dorian=serious
-
-He leaped from the saddle and threw the reins to one of them.
+Two men were loitering in the yard. He leaped from the saddle and threw the reins to one of them.
 
 
 In the farthest stable a light was glimmering. Something seemed to tell him that the body was there, and he hurried to the door and put his hand upon the latch.
@@ -10439,34 +10367,31 @@ There he paused for a moment, feeling that he was on the brink of a discovery th
 e:dorian=fearful
 
 Then he thrust the door open and entered.
-e:dorian=serious
+e:dorian=serious;b=home-farm-stable
 
-On a heap of sacking in the far corner was lying the dead body of a man dressed in a coarse shirt and a pair of blue trousers.
+On a heap of sacking in the far corner was lying the dead body of a man dressed in a coarse shirt and a pair of blue trousers. A spotted handkerchief had been placed over the face.
 
 
-A spotted handkerchief had been placed over the face. A coarse candle, stuck in a bottle, sputtered beside it.
+A coarse candle, stuck in a bottle, sputtered beside it.
 
 
 Dorian Gray shuddered. He felt that his could not be the hand to take the handkerchief away, and called out to one of the farm-servants to come to him.
 e:dorian=fearful
 
 “Take that thing off the face. I wish to see it,” he said, clutching at the doorpost for support.
-s=dorian;e:dorian=nervous
+s=dorian;e:dorian=nervous;x:dorian=hat
 
-When the farm-servant had done so, he stepped forward.
+When the farm-servant had done so, he stepped forward. A cry of joy broke from his lips.
 s=none;e:dorian=wary
 
-A cry of joy broke from his lips.
-e:dorian=excited
-
 The man who had been shot in the thicket was James Vane.
-
+;f:b:home-farm-stable=blur(3px)
 
 He stood there for some minutes looking at the dead body.
 e:dorian=contemplative
 
 As he rode home, his eyes were full of tears, for he knew he was safe.
-e:dorian=happy
+e:dorian=happy;b=dark
 
 ## XIX
 r=title
