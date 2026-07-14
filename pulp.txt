@@ -10847,37 +10847,31 @@ e:dorian=weary;f:b:dorian-music-night=blur(3px)
 r=title
 
 It was a lovely night, so warm that he threw his coat over his arm and did not even put his silk scarf round his throat.
-e:dorian=neutral
+e:dorian=neutral;b=london-street-night
 
-As he strolled home, smoking his cigarette, two young men in evening dress passed him.
+As he strolled home, smoking his cigarette, two young men in evening dress passed him. He heard one of them whisper to the other,
 
 
-He heard one of them whisper to the other, “That is Dorian Gray.”
-n:passerby=Young Man;s=passerby;e:dorian=annoyed
+“That is Dorian Gray.”
+n:passerby=?;s=passerby;e:passerby=suspicious
 
-He remembered how pleased he used to be when he was pointed out, or stared at, or talked about.
+He remembered how pleased he used to be when he was pointed out, or stared at, or talked about. He was tired of hearing his own name now.
 s=none;e:dorian=contemplative
 
-He was tired of hearing his own name now. Half the charm of the little village where he had been so often lately was that no one knew who he was.
+Half the charm of the little village where he had been so often lately was that no one knew who he was. He had often told the girl whom he had lured to love him that he was poor, and she had believed him.
 e:dorian=weary
-
-He had often told the girl whom he had lured to love him that he was poor, and she had believed him.
-e:dorian=sadsmile
 
 He had told her once that he was wicked, and she had laughed at him and answered that wicked people were always very old and very ugly.
 
 
-What a laugh she had!﻿—just like a thrush singing. And how pretty she had been in her cotton dresses and her large hats!
-e:dorian=happy
-
-She knew nothing, but she had everything that he had lost.
+What a laugh she had!﻿—just like a thrush singing. And how pretty she had been in her cotton dresses and her large hats! She knew nothing, but she had everything that he had lost.
 e:dorian=unhappy
 
 When he reached home, he found his servant waiting up for him.
-e:dorian=neutral
+e:dorian=neutral;b=dorian-entrance-night
 
 He sent him to bed, and threw himself down on the sofa in the library, and began to think over some of the things that Lord Henry had said to him.
-e:dorian=thinking
+e:dorian=thinking;b=dorian-library-night
 
 Was it really true that one could never change? He felt a wild longing for the unstained purity of his boyhood﻿—his rose-white boyhood, as Lord Henry had once called it.
 e:dorian=contemplative
@@ -10888,14 +10882,11 @@ e:dorian=upset
 But was it all irretrievable? Was there no hope for him?
 e:dorian=fearful
 
-Ah! in what a monstrous moment of pride and passion he had prayed that the portrait should bear the burden of his days, and he keep the unsullied splendour of eternal youth!
+Ah! in what a monstrous moment of pride and passion he had prayed that the portrait should bear the burden of his days, and he keep the unsullied splendour of eternal youth! All his failure had been due to that.
 e:dorian=angry
 
-All his failure had been due to that. Better for him that each sin of his life had brought its sure swift penalty along with it.
+Better for him that each sin of his life had brought its sure swift penalty along with it. There was purification in punishment. Not “Forgive us our sins” but “Smite us for our iniquities” should be the prayer of man to a most just God.
 e:dorian=weary
-
-There was purification in punishment. Not “Forgive us our sins” but “Smite us for our iniquities” should be the prayer of man to a most just God.
-e:dorian=serious
 
 The curiously carved mirror that Lord Henry had given to him, so many years ago now, was standing on the table, and the white-limbed Cupids laughed round it as of old.
 
@@ -10909,29 +10900,17 @@ Once, someone who had terribly loved him had written to him a mad letter, ending
 The phrases came back to his memory, and he repeated them over and over to himself.
 e:dorian=contemplative
 
-Then he loathed his own beauty, and flinging the mirror on the floor, crushed it into silver splinters beneath his heel.
+Then he loathed his own beauty, and flinging the mirror on the floor, crushed it into silver splinters beneath his heel.<e>TODO: f=hit</e>
 e:dorian=angry
 
-It was his beauty that had ruined him, his beauty and the youth that he had prayed for.
+It was his beauty that had ruined him, his beauty and the youth that he had prayed for. But for those two things, his life might have been free from stain.
 e:dorian=unhappy
 
-But for those two things, his life might have been free from stain.
-
-
-His beauty had been to him but a mask, his youth but a mockery. What was youth at best?
+His beauty had been to him but a mask, his youth but a mockery. What was youth at best? A green, an unripe time, a time of shallow moods, and sickly thoughts. Why had he worn its livery? Youth had spoiled him.
 e:dorian=scowling
 
-A green, an unripe time, a time of shallow moods, and sickly thoughts. Why had he worn its livery?
-
-
-Youth had spoiled him.
-
-
-It was better not to think of the past. Nothing could alter that.
+It was better not to think of the past. Nothing could alter that. It was of himself, and of his own future, that he had to think.
 e:dorian=weary
-
-It was of himself, and of his own future, that he had to think.
-e:dorian=serious
 
 James Vane was hidden in a nameless grave in Selby churchyard.
 
@@ -10939,149 +10918,98 @@ James Vane was hidden in a nameless grave in Selby churchyard.
 Alan Campbell had shot himself one night in his laboratory, but had not revealed the secret that he had been forced to know.
 
 
-The excitement, such as it was, over Basil Hallward’s disappearance would soon pass away. It was already waning.
+The excitement, such as it was, over Basil Hallward’s disappearance would soon pass away. It was already waning. He was perfectly safe there. Nor, indeed, was it the death of Basil Hallward that weighed most upon his mind.
 e:dorian=thinking
 
-He was perfectly safe there. Nor, indeed, was it the death of Basil Hallward that weighed most upon his mind.
-
-
-It was the living death of his own soul that troubled him.
+It was the living death of his own soul that troubled him. Basil had painted the portrait that had marred his life. He could not forgive him that. It was the portrait that had done everything.
 e:dorian=unhappy
 
-Basil had painted the portrait that had marred his life. He could not forgive him that.
-e:dorian=angry
-
-It was the portrait that had done everything. Basil had said things to him that were unbearable, and that he had yet borne with patience.
-
-
-The murder had been simply the madness of a moment.
+Basil had said things to him that were unbearable, and that he had yet borne with patience. The murder had been simply the madness of a moment.
 e:dorian=serious
 
-As for Alan Campbell, his suicide had been his own act. He had chosen to do it.
+As for Alan Campbell, his suicide had been his own act. He had chosen to do it. It was nothing to him.
 
 
-It was nothing to him.
-e:dorian=neutral
-
-A new life! That was what he wanted. That was what he was waiting for.
+A new life! That was what he wanted. That was what he was waiting for. Surely he had begun it already. He had spared one innocent thing, at any rate. He would never again tempt innocence. He would be good.
 e:dorian=excited
 
-Surely he had begun it already. He had spared one innocent thing, at any rate.
-e:dorian=happy
-
-He would never again tempt innocence. He would be good.
-e:dorian=serious
-
-As he thought of Hetty Merton, he began to wonder if the portrait in the locked room had changed.
+As he thought of Hetty Merton, he began to wonder if the portrait in the locked room had changed. Surely it was not still so horrible as it had been?
 e:dorian=curious
 
-Surely it was not still so horrible as it had been?
-
-
-Perhaps if his life became pure, he would be able to expel every sign of evil passion from the face.
+Perhaps if his life became pure, he would be able to expel every sign of evil passion from the face. Perhaps the signs of evil had already gone away.
 e:dorian=contemplative
 
-Perhaps the signs of evil had already gone away. He would go and look.
+He would go and look.
 e:dorian=excited
 
 He took the lamp from the table and crept upstairs.
-e:dorian=neutral
+e:dorian=neutral;b=dorian-entrance-night
 
 As he unbarred the door, a smile of joy flitted across his strangely young-looking face and lingered for a moment about his lips.
 e:dorian=happy
 
-Yes, he would be good, and the hideous thing that he had hidden away would no longer be a terror to him.
-
-
-He felt as if the load had been lifted from him already.
+Yes, he would be good, and the hideous thing that he had hidden away would no longer be a terror to him. He felt as if the load had been lifted from him already.
 
 
 He went in quietly, locking the door behind him, as was his custom, and dragged the purple hanging from the portrait.
-e:dorian=serious
+e:dorian=serious;b=dorian-schoolroom-night
 
-A cry of pain and indignation broke from him. He could see no change, save that in the eyes there was a look of cunning and in the mouth the curved wrinkle of the hypocrite.
-e:dorian=surprised
+A cry of pain and indignation broke from him.
+f:b:dorian-schoolroom-night=blur(3px)
+
+He could see no change, save that in the eyes there was a look of cunning and in the mouth the curved wrinkle of the hypocrite.
+e:dorian=surprised;b=picture-schoolroom-cooked
 
 The thing was still loathsome﻿—more loathsome, if possible, than before﻿—and the scarlet dew that spotted the hand seemed brighter, and more like blood newly spilled.
 e:dorian=fearful
 
-Then he trembled. Had it been merely vanity that had made him do his one good deed?
+Then he trembled. Had it been merely vanity that had made him do his one good deed? Or the desire for a new sensation, as Lord Henry had hinted, with his mocking laugh?
 e:dorian=nervous
 
-Or the desire for a new sensation, as Lord Henry had hinted, with his mocking laugh?
-
-
-Or that passion to act a part that sometimes makes us do things finer than we are ourselves?
-
-
-Or, perhaps, all these? And why was the red stain larger than it had been?
+Or that passion to act a part that sometimes makes us do things finer than we are ourselves? Or, perhaps, all these?
 e:dorian=fearful
 
-It seemed to have crept like a horrible disease over the wrinkled fingers.
+And why was the red stain larger than it had been? It seemed to have crept like a horrible disease over the wrinkled fingers.
 
 
 There was blood on the painted feet, as though the thing had dripped﻿—blood even on the hand that had not held the knife.
 e:dorian=upset
 
-Confess? Did it mean that he was to confess? To give himself up and be put to death? He laughed.
+Confess? Did it mean that he was to confess? To give himself up and be put to death?
 e:dorian=wary
 
-He felt that the idea was monstrous. Besides, even if he did confess, who would believe him?
+He laughed. He felt that the idea was monstrous. Besides, even if he did confess, who would believe him? There was no trace of the murdered man anywhere. Everything belonging to him had been destroyed.
 e:dorian=scowling
 
-There was no trace of the murdered man anywhere. Everything belonging to him had been destroyed.
-
-
-He himself had burned what had been below-stairs. The world would simply say that he was mad.
-
-
-They would shut him up if he persisted in his story.… Yet it was his duty to confess, to suffer public shame, and to make public atonement.
+He himself had burned what had been below-stairs. The world would simply say that he was mad. They would shut him up if he persisted in his story.…
 e:dorian=serious
 
-There was a God who called upon men to tell their sins to earth as well as to heaven.
-
-
-Nothing that he could do would cleanse him till he had told his own sin. His sin?
+Yet it was his duty to confess, to suffer public shame, and to make public atonement. There was a God who called upon men to tell their sins to earth as well as to heaven. Nothing that he could do would cleanse him till he had told his own sin.
 e:dorian=thinking
 
-He shrugged his shoulders. The death of Basil Hallward seemed very little to him. He was thinking of Hetty Merton.
+His sin? He shrugged his shoulders. The death of Basil Hallward seemed very little to him. He was thinking of Hetty Merton.
 e:dorian=neutral
 
-For it was an unjust mirror, this mirror of his soul that he was looking at. Vanity? Curiosity? Hypocrisy?
+For it was an unjust mirror, this mirror of his soul that he was looking at. Vanity? Curiosity? Hypocrisy? Had there been nothing more in his renunciation than that? There had been something more. At least he thought so. But who could tell?…
 e:dorian=wary
 
-Had there been nothing more in his renunciation than that? There had been something more. At least he thought so.
-
-
-But who could tell?… No. There had been nothing more. Through vanity he had spared her.
+No. There had been nothing more. Through vanity he had spared her. In hypocrisy he had worn the mask of goodness. For curiosity’s sake he had tried the denial of self. He recognized that now.
 e:dorian=weary
 
-In hypocrisy he had worn the mask of goodness. For curiosity’s sake he had tried the denial of self.
-
-
-He recognized that now.
-e:dorian=sadsmile
-
-But this murder﻿—was it to dog him all his life?
+But this murder﻿—was it to dog him all his life? Was he always to be burdened by his past? Was he really to confess?
 e:dorian=angry
 
-Was he always to be burdened by his past? Was he really to confess? Never.
-
-
-There was only one bit of evidence left against him. The picture itself﻿—that was evidence. He would destroy it.
+Never. There was only one bit of evidence left against him. The picture itself﻿—that was evidence.
 e:dorian=serious
 
-Why had he kept it so long? Once it had given him pleasure to watch it changing and growing old.
+He would destroy it.
 
 
-Of late he had felt no such pleasure. It had kept him awake at night.
-e:dorian=weary
+Why had he kept it so long? Once it had given him pleasure to watch it changing and growing old. Of late he had felt no such pleasure. It had kept him awake at night.
 
-When he had been away, he had been filled with terror lest other eyes should look upon it.
+
+When he had been away, he had been filled with terror lest other eyes should look upon it. It had brought melancholy across his passions. Its mere memory had marred many moments of joy.
 e:dorian=fearful
-
-It had brought melancholy across his passions. Its mere memory had marred many moments of joy.
-e:dorian=unhappy
 
 It had been like conscience to him. Yes, it had been conscience. He would destroy it.
 e:dorian=angry
@@ -11095,71 +11023,62 @@ He had cleaned it many times, till there was no stain left upon it. It was brigh
 As it had killed the painter, so it would kill the painter’s work, and all that that meant.
 e:dorian=serious
 
-It would kill the past, and when that was dead, he would be free.
-
-
-It would kill this monstrous soul-life, and without its hideous warnings, he would be at peace.
+It would kill the past, and when that was dead, he would be free. It would kill this monstrous soul-life, and without its hideous warnings, he would be at peace.
 e:dorian=excited
 
 He seized the thing, and stabbed the picture with it.
-e:dorian=angry
+e:dorian=angry;f:b:dorian-schoolroom-night=blur(3px)
 
-There was a cry heard, and a crash.
-
-
-The cry was so horrible in its agony that the frightened servants woke and crept out of their rooms.
-
+There was a cry heard, and a crash. The cry was so horrible in its agony that the frightened servants woke and crept out of their rooms.
+;f:b:dorian-schoolroom-night=blur(10px)
 
 Two gentlemen, who were passing in the square below, stopped and looked up at the great house.
-n:gentleman=Gentleman;e:gentleman=surprised
+n:gentleman=Gentleman;e:gentleman=surprised;b=dorian-wide-night
 
 They walked on till they met a policeman and brought him back.
 n:policeman=Policeman
 
-The man rang the bell several times, but there was no answer.
-
-
-Except for a light in one of the top windows, the house was all dark.
+The man rang the bell several times, but there was no answer. Except for a light in one of the top windows, the house was all dark.
 
 
 After a time, he went away and stood in an adjoining portico and watched.
 
 
 “Whose house is that, Constable?” asked the elder of the two gentlemen.
-s=gentleman;e:gentleman=curious;e:policeman=neutral
+s=gentleman;e:gentleman=suspicious;e:policeman=neutral
 
 “Mr. Dorian Gray’s, sir,” answered the policeman.
-s=policeman
+s=policeman;e:policeman=serious
 
-They looked at each other, as they walked away, and sneered. One of them was Sir Henry Ashton’s uncle.
+They looked at each other, as they walked away, and sneered. One of them was Sir Henry Ashton’s uncle.<e>TODO: great reveal for the 1% of readers who remember who Sir Henry Ashton is.</e>
 s=none;e:gentleman=smirking
 
 Inside, in the servants’ part of the house, the half-clad domestics were talking in low whispers to each other.
-
+b=dorian-entrance-night
 
 Old Mrs. Leaf was crying and wringing her hands. Francis was as pale as death.
 e:leaf=fearful;e:francis=fearful
 
-After about a quarter of an hour, he got the coachman and one of the footmen and crept upstairs.
+After about a quarter of an hour, he got the coachman and one of the footmen and crept upstairs. They knocked, but there was no reply.
 e:francis=nervous
 
-They knocked, but there was no reply. They called out. Everything was still.
+They called out. Everything was still.
 
 
-Finally, after vainly trying to force the door, they got on the roof and dropped down on to the balcony.
-e:francis=serious
-
-The windows yielded easily﻿—their bolts were old.
-
+Finally, after vainly trying to force the door, they got on the roof and dropped down on to the balcony. The windows yielded easily﻿—their bolts were old.
+e:francis=serious;b=dorian-schoolroom-night;f:b:dorian-schoolroom-night=blur(3px)
 
 When they entered, they found hanging upon the wall a splendid portrait of their master as they had last seen him, in all the wonder of his exquisite youth and beauty.
-e:francis=surprised
+e:francis=surprised;b=picture-schoolroom-young
 
 Lying on the floor was a dead man, in evening dress, with a knife in his heart.
-e:francis=fearful
+e:francis=fearful;b=picture-schoolroom-young-and-death
 
-He was withered, wrinkled, and loathsome of visage. It was not till they had examined the rings that they recognized who it was.
+He was withered, wrinkled, and loathsome of visage.
 
 
-<e>The End. TODO</e>
+It was not till they had examined the rings that they recognized who it was.
+f:b:picture-schoolroom-young-and-death=blur(3px)
+
+<e>The End. TODO: jekyll redacted spoilers</e>
 r=title
