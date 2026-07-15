@@ -7537,14 +7537,14 @@ As soon as he got behind him, he seized it and turned round.
 Hallward stirred in his chair as if he was going to rise.
 e:basil=confused
 
-He rushed at him and dug the knife into the great vein that is behind the ear, crushing the man’s head down on the table and stabbing again and again.<e>TODO: f=blood</e>
-e:dorian=angry
+He rushed at him and dug the knife into the great vein that is behind the ear, crushing the man’s head down on the table and stabbing again and again.
+e:dorian=angry;f=blood
 
 There was a stifled groan and the horrible sound of someone choking with blood. Three times the outstretched arms shot up convulsively, waving grotesque, stiff-fingered hands in the air.
 
 
-He stabbed him twice more, but the man did not move.<e>TODO: f=blood</e>
-
+He stabbed him twice more, but the man did not move.
+f=blood
 
 Something began to trickle on the floor.
 
@@ -8524,8 +8524,8 @@ s=ladynarborough;e:ladynarborough=curious
 “The husbands of very beautiful women belong to the criminal classes,” said Lord Henry, sipping his wine.
 s=henry;e:henry=smirkingwine
 
-Lady Narborough hit him with her fan.<e>TODO: f=hit</e>
-s=none;e:ladynarborough=annoyed
+Lady Narborough hit him with her fan.
+s=none;e:ladynarborough=annoyed;f=hit
 
 “Lord Henry, I am not at all surprised that the world says that you are extremely wicked.”
 s=ladynarborough;e:ladynarborough=scowling
@@ -10912,8 +10912,8 @@ Once, someone who had terribly loved him had written to him a mad letter, ending
 The phrases came back to his memory, and he repeated them over and over to himself.
 e:dorian=contemplative
 
-Then he loathed his own beauty, and flinging the mirror on the floor, crushed it into silver splinters beneath his heel.<e>TODO: f=hit</e>
-e:dorian=angry
+Then he loathed his own beauty, and flinging the mirror on the floor, crushed it into silver splinters beneath his heel.
+e:dorian=angry;f=hit
 
 It was his beauty that had ruined him, his beauty and the youth that he had prayed for. But for those two things, his life might have been free from stain.
 e:dorian=unhappy
