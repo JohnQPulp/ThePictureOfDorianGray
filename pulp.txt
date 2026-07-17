@@ -1751,7 +1751,7 @@ Dorian bowed to him shyly from the end of the table, a flush of pleasure stealin
 e:dorian=happy
 
 Opposite was the Duchess of Harley, a lady of admirable good-nature and good temper, much liked by everyone who knew her, and of those ample architectural proportions that in women who are not duchesses are described by contemporary historians as stoutness.
-n:harley=Duchess of Harley;e:harley=happy
+n:harley=Duchess of Harley;e:harley=happy;x:harley=bonnet
 
 Next to her sat, on her right, Sir Thomas Burdon, a Radical member of Parliament, who followed his leader in public life and in private life followed the best cooks, dining with the Tories and thinking with the Liberals, in accordance with a wise and well-known rule.
 n:burdon=Sir Thomas Burdon;e:burdon=serious
@@ -1760,7 +1760,7 @@ The post on her left was occupied by Mr. Erskine of Treadley, an old gentleman o
 n:erskine=Mr. Erskine;e:erskine=neutral
 
 His own neighbour was Mrs. Vandeleur, one of his aunt’s oldest friends, a perfect saint amongst women, but so dreadfully dowdy that she reminded one of a badly bound hymnbook.
-n:vandeleur=Mrs. Vandeleur;e:vandeleur=neutral
+n:vandeleur=Mrs. Vandeleur;e:vandeleur=neutral;x:vandeleur=hat
 
 Fortunately for him she had on the other side Lord Faudel, a most intelligent middle-aged mediocrity, as bald as a ministerial statement in the House of Commons, with whom she was conversing in that intensely earnest manner which is the one unpardonable error, as he remarked once himself, that all really good people fall into, and from which none of them ever quite escape.<e>"Can you believe those clowns in parliament?"</e>
 n:faudel=Lord Faudel
@@ -2141,7 +2141,7 @@ At last he heard a step outside, and the door opened.
 s=dorian
 
 “I am afraid it is not Harry, Mr. Gray,” answered a shrill voice.
-n:ladyhenry=?;;e:ladyhenry=neutral;m=dialogue
+n:ladyhenry=?;;e:ladyhenry=neutral;m=dialogue;x:ladyhenry=hat
 
 He glanced quickly round and rose to his feet.
 s=none;e:dorian=surprised
@@ -2150,7 +2150,7 @@ s=none;e:dorian=surprised
 s=dorian;e:dorian=nervous
 
 “You thought it was my husband. It is only his wife. You must let me introduce myself. I know you quite well by your photographs. I think my husband has got seventeen of them.”
-s=ladyhenry;e:ladyhenry=suspicious;x:ladyhenry=hat
+s=ladyhenry;e:ladyhenry=suspicious
 
 “Not seventeen, Lady Henry?”
 s=dorian;e:dorian=confused;n:ladyhenry=Lady Henry Wotton
@@ -2345,7 +2345,7 @@ e:dorian=annoyed
 
 
 “‘Have a box, my Lord?’ he said, when he saw me,”
-n:manager=?;s=manager;m=allowbreak;e:manager=curioussmirk
+n:manager=?;s=manager;m=allowbreak;e:manager=curioussmirk;x:manager=hat
 
 “and he took off his hat with an air of gorgeous servility.”
 s=;m=
@@ -8846,7 +8846,7 @@ The man shook his head.
 
 
 “It is too far for me,” he muttered.
-s=hansomdriver;e:hansomdriver=annoyed
+s=hansomdriver;e:hansomdriver=annoyed;x:hansomdriver=hat
 
 “Here is a sovereign for you,” said Dorian. “You shall have another if you drive fast.”
 s=dorian;e:dorian=serious
@@ -9134,7 +9134,7 @@ s=adrian;i=2
 s=dorian;e:dorian=
 
 “Good night,” answered the young man,
-s=adrian;e:adrian=weary;m=allowbreak
+s=adrian;e:adrian=wearyhandkerchief;m=allowbreak
 
 passing up the steps and wiping his parched mouth with a handkerchief.
 m=;s=
@@ -9377,7 +9377,7 @@ When he looked back, the woman had vanished also.
 r=title
 
 A week later Dorian Gray was sitting in the conservatory at Selby Royal, talking to the pretty Duchess of Monmouth, who with her husband, a jaded-looking man of sixty, was amongst his guests.
-n:gladys=Gladys, Duchess of Monmouth;b=dorian-conservatory
+n:gladys=Gladys, Duchess of Monmouth;b=dorian-conservatory;x:gladys=hat
 
 It was teatime, and the mellow light of the huge, lace-covered lamp that stood on the table lit up the delicate china and hammered silver of the service at which the duchess was presiding.
 e:gladys=neutral
@@ -9965,7 +9965,7 @@ The head-keeper came running up with a stick in his hand.
 n:thornton=Gamekeeper;s=none;e:thornton=surprised
 
 “Where, sir? Where is he?” he shouted.
-s=thornton;e:thornton=nervousshout
+s=thornton;e:thornton=nervousshout;x:thornton=hat
 
 At the same time, the firing ceased along the line.
 s=none
@@ -10088,7 +10088,7 @@ The man touched his hat, glanced for a moment at Lord Henry in a hesitating mann
 
 
 “Her Grace told me to wait for an answer,” he murmured.
-n:gardener=Gardener;s=gardener;e:gardener=contemplative
+n:gardener=Gardener;s=gardener;e:gardener=contemplative;x:gardener=hat
 
 Dorian put the letter into his pocket.
 s=none;e:dorian=neutral
@@ -10118,7 +10118,7 @@ s=dorian;e:dorian=annoyed
 s=henry;e:henry=smirkinglookdown;m=allowbreak
 
 lighting a cigarette.
-m=;s=;x:henry=cig
+m=;s=;x:henry=cig,shooting
 
 “You would sacrifice anybody, Harry, for the sake of an epigram.”
 s=dorian;e:dorian=neutral
@@ -10154,7 +10154,7 @@ s=dorian;e:dorian=nervous
 e:dorian=sadsmile
 
 “I have heard all about it, Mr. Gray,” she answered.
-s=gladys;e:gladys=serious;x:gladys=gown
+s=gladys;e:gladys=serious;x:gladys=hat
 
 “Poor Geoffrey is terribly upset. And it seems that you asked him not to shoot the hare. How curious!”
 e:gladys=confused
@@ -10187,7 +10187,7 @@ s=dorian;e:dorian=nervous
 e:dorian=weary;i=2
 
 They had reached the great flight of steps that led from the conservatory on to the terrace.
-s=none;x:henry=;b=dorian-conservatory
+s=none;x:henry=shooting;b=dorian-conservatory
 
 As the glass door closed behind Dorian, Lord Henry turned and looked at the duchess with his slumberous eyes.
 e:henry=curious
@@ -10307,7 +10307,7 @@ s=none;e:dorian=serious
 s=dorian;e:dorian=neutral
 
 “Yes, sir,” answered the gamekeeper.
-s=thornton;e:thornton=serious
+s=thornton;e:thornton=serious;x:thornton=
 
 “Was the poor fellow married? Had he any people dependent on him?” asked Dorian, looking bored.
 s=dorian;e:dorian=bored
@@ -10865,7 +10865,7 @@ As he strolled home, smoking his cigarette, two young men in evening dress passe
 
 
 “That is Dorian Gray.”
-n:passerby=?;s=passerby;e:passerby=suspicious
+n:passerby=?;s=passerby;e:passerby=suspicious;x:passerby=hat
 
 He remembered how pleased he used to be when he was pointed out, or stared at, or talked about. He was tired of hearing his own name now.
 s=none;e:dorian=contemplative
@@ -11057,10 +11057,10 @@ After a time, he went away and stood in an adjoining portico and watched.
 
 
 “Whose house is that, Constable?” asked the elder of the two gentlemen.
-s=gentleman;e:gentleman=suspicious;e:policeman=neutral
+s=gentleman;e:gentleman=suspicious;e:policeman=neutral;x:gentleman=hat
 
 “Mr. Dorian Gray’s, sir,” answered the policeman.
-s=policeman;e:policeman=serious
+s=policeman;e:policeman=serious;x:policeman=hat
 
 They looked at each other, as they walked away, and sneered. One of them was Sir Henry Ashton’s uncle.<e>The iconic character of Sir Henry Ashton. We all remember who he is, obviously.</e>
 s=none;e:gentleman=smirking
