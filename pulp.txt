@@ -10274,7 +10274,7 @@ She laughed again. Her teeth showed like white seeds in a scarlet fruit.
 s=none;e:gladys=happy
 
 Upstairs, in his own room, Dorian Gray was lying on a sofa, with terror in every tingling fibre of his body.
-e:dorian=fearful;b=dorian-library
+e:dorian=fearful;b=dorian-selby-room
 
 Life had suddenly become too hideous a burden for him to bear. The dreadful death of the unlucky beater, shot in the thicket like a wild animal, had seemed to him to prefigure death for himself also.
 e:dorian=upset
@@ -10409,7 +10409,7 @@ e:dorian=happy;b=dark
 r=title
 
 “There is no use your telling me that you are going to be good,” cried Lord Henry,
-s=henry;e:henry=smirkinglookdown;m=allowbreak;b=dorian-library-night-fire
+s=henry;e:henry=smirkinglookdown;m=allowbreak;b=henry-library-night-fire
 
 dipping his white fingers into a red copper bowl filled with rosewater.
 m=;s=
@@ -10553,7 +10553,7 @@ Dorian said nothing, but rose from the table,
 s=none;e:dorian=neutral;m=allowbreak
 
 and passing into the next room, sat down to the piano and let his fingers stray across the white and black ivory of the keys.
-m=;b=dorian-music-night
+m=;b=henry-music-night
 
 After the coffee had been brought in, he stopped, and looking over at Lord Henry, said,
 
@@ -10853,7 +10853,7 @@ As he reached the door, he hesitated for a moment, as if he had something more t
 s=none;e:dorian=contemplative
 
 Then he sighed and went out.
-e:dorian=weary;f:b:dorian-music-night=blur(3px)
+e:dorian=weary;f:b:henry-music-night=blur(3px)
 
 ## XX
 r=title
