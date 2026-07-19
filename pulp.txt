@@ -8963,7 +8963,7 @@ Over the low roofs and jagged chimney-stacks of the houses rose the black masts 
 
 
 “Somewhere about here, sir, ain’t it?” he asked huskily through the trap.
-s=hansomdriver;e:hansomdriver=serious
+s=hansomdriver;e:hansomdriver=serious;x:hansomdriver=hat
 
 Dorian started and peered round.
 e:dorian=surprised;s=
