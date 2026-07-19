@@ -1505,7 +1505,7 @@ Only England could have produced him, and he always said that the country was go
 
 
 When Lord Henry entered the room, he found his uncle sitting in a rough shooting-coat, smoking a cheroot and grumbling over *The Times*.
-e:fermor=annoyed;b=albany
+e:fermor=annoyed;b=albany;x:fermor=cigar
 
 “Well, Harry,” said the old gentleman, “what brings you out so early? I thought you dandies never got up till two, and were not visible till five.”
 s=fermor;e:fermor=smirking
@@ -2345,7 +2345,7 @@ e:dorian=annoyed
 
 
 “‘Have a box, my Lord?’ he said, when he saw me,”
-n:manager=?;s=manager;m=allowbreak;e:manager=curioussmirk;x:manager=hat
+n:manager=?;s=manager;m=allowbreak;e:manager=curioussmirk;x:manager=hat,cigar
 
 “and he took off his hat with an air of gorgeous servility.”
 s=;m=
