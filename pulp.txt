@@ -29,7 +29,7 @@ But he suddenly started up, and closing his eyes, placed his fingers upon the li
 e:basil=weary
 
 “It is your best work, Basil, the best thing you have ever done,” said Lord Henry languidly.
-s=henry;e:henry=bored;x:basil=cig
+s=henry;e:henry=bored;x:henry=cig
 
 “You must certainly send it next year to the Grosvenor. The Academy is too large and too vulgar.”
 
