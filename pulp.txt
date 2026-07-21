@@ -1,5 +1,5 @@
 The Picture of Dorian Gray<br>Oscar Fingal O’Fflahertie Wills Wilde<e>This visual novel skips over Wilde's clapback-at-the-haters artist manifesto, because all prefaces are quite useless. (But <a href="https://standardebooks.org/ebooks/oscar-wilde/the-picture-of-dorian-gray/text/single-page#preface">here's the link</a> if you care to read it.)</e>
-b=title;t=author
+b=title;t=author;z:author=83,,8
 
 ## I
 r=studio-window
