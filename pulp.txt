@@ -170,7 +170,7 @@ s=basil;e:basil=contemplative
 s=henry;e:henry=happy;i=2
 
 and the two young men went out into the garden together and ensconced themselves on a long bamboo seat that stood in the shade of a tall laurel bush.
-b=studio-garden;s=
+b=studio-garden;s=;x:henry=hat
 
 The sunlight slipped over the polished leaves. In the grass, white daisies were tremulous.
 s=none
@@ -293,7 +293,7 @@ e:basil=serious
 e:basil=weary
 
 “Yes; she is a peacock in everything but beauty,” said Lord Henry,
-s=henry;e:henry=smirkinglookdown;m=allowbreak
+s=henry;e:henry=smirkingdownlook;m=allowbreak
 
 pulling the daisy to bits with his long nervous fingers.
 s=;m=
@@ -341,7 +341,7 @@ s=basil;e:basil=contemplative
 e:basil=smirking
 
 “Laughter is not at all a bad beginning for a friendship, and it is far the best ending for one,” said the young lord, plucking another daisy.
-s=henry;e:henry=smirkinglookdown
+s=henry;e:henry=smirkingdownlook
 
 Hallward shook his head.
 s=
