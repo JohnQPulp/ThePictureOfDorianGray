@@ -8636,7 +8636,7 @@ s=ladynarborough;e:ladynarborough=happy
 e:ladynarborough=contemplative
 
 “Never mind, Lady Narborough. I smoke a great deal too much. I am going to limit myself, for the future.”
-s=ladyruxton;e:ladyruxton=thining
+s=ladyruxton;e:ladyruxton=thinking
 
 “Pray don’t, Lady Ruxton,” said Lord Henry.
 s=henry;e:henry=curious
