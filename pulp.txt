@@ -3266,7 +3266,7 @@ Children begin by loving their parents; as they grow older they judge them; some
 
 
 His mother! He had something on his mind to ask of her, something that he had brooded on for many months of silence.
-e:james=scowling
+e:james=scowling;b=dark
 
 A chance phrase that he had heard at the theatre, a whispered sneer that had reached his ears one night as he waited at the stage-door, had set loose a train of horrible thoughts.
 e:james=angry
@@ -3275,7 +3275,7 @@ He remembered it as if it had been the lash of a hunting-crop across his face.
 
 
 His brows knit together into a wedge-like furrow, and with a twitch of pain he bit his underlip.
-f:b:euston-road=
+b=tulip-road
 
 “You are not listening to a word I am saying, Jim,” cried Sibyl, “and I am making the most delightful plans for your future. Do say something.”
 s=sibyl;e:sibyl=upset
@@ -3476,7 +3476,7 @@ Then she laughed and put her hand on his arm. He was merely a boy.
 e:sibyl=happy
 
 At the Marble Arch they hailed an omnibus,
-e:sibyl=neutral;e:james=neutral;m=allowbreak
+e:sibyl=neutral;e:james=neutral;m=allowbreak;f:b:tulip-road=blur(3px)
 
 which left them close to their shabby home in the Euston Road.
 m=;b=euston-road
