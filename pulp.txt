@@ -10883,7 +10883,7 @@ When he reached home, he found his servant waiting up for him.
 e:dorian=neutral;b=dorian-entrance-night
 
 He sent him to bed, and threw himself down on the sofa in the library, and began to think over some of the things that Lord Henry had said to him.
-e:dorian=thinking;b=dorian-library-night
+e:dorian=thinking;b=dorian-library-night-fire
 
 Was it really true that one could never change? He felt a wild longing for the unstained purity of his boyhood﻿—his rose-white boyhood, as Lord Henry had once called it.
 e:dorian=contemplative
