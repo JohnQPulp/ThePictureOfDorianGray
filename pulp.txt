@@ -8975,7 +8975,7 @@ e:dorian=surprised;s=
 s=dorian;e:dorian=serious;m=allowbreak
 
 and having got out hastily and given the driver the extra fare he had promised him, he walked quickly in the direction of the quay.
-m=;s=
+m=;s=;f:b:brickfields-night-fog-light=blur(3px)
 
 Here and there a lantern gleamed at the stern of some huge merchantman. The light shook and splintered in the puddles. A red glare came from an outward-bound steamer that was coaling. The slimy pavement looked like a wet mackintosh.
 s=none
