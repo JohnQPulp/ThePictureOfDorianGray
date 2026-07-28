@@ -1738,7 +1738,10 @@ e:henry=surprised;b=london-street
 He found that he had passed his aunt’s some distance, and, smiling to himself, turned back.
 e:henry=smirking
 
-When he entered the somewhat sombre hall, the butler told him that they had gone in to lunch. He gave one of the footmen his hat and stick and passed into the dining-room.
+When he entered the somewhat sombre hall, the butler told him that they had gone in to lunch.
+f:b:london-street=blur(3px)
+
+He gave one of the footmen his hat and stick and passed into the dining-room.
 e:henry=neutral;b=agatha-dining
 
 “Late as usual, Harry,” cried his aunt, shaking her head at him.
@@ -2459,7 +2462,7 @@ e:dorian=contemplative
 e:dorian=serious;f:b:theatre-romeo-juliet=blur(3px)
 
 “Night after night I go to see her play.”
-e:dorian=happy;b=threatre-wide-night;f:b:theatre-wide-night=blur(3px)
+e:dorian=happy;b=theatre-wide-night;f:b:theatre-wide-night=blur(3px)
 
 “One evening she is Rosalind, and the next evening she is Imogen. I have seen her die in the gloom of an Italian tomb, sucking the poison from her lover’s lips. I have watched her wandering through the forest of Arden, disguised as a pretty boy in hose and doublet and dainty cap.”
 
