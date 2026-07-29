@@ -4655,7 +4655,7 @@ The fascination that she had exercised over him would return. They would be happ
 e:dorian=happy
 
 He got up from his chair and drew a large screen right in front of the portrait, shuddering as he glanced at it.
-e:dorian=fearful;b=dorian-picture-closed;f=fade
+e:dorian=fearful;b=picture-dorian-closed;f=fade
 
 “How horrible!” he murmured to himself,
 s=dorian;e:dorian=wary;m=allowbreak
@@ -4663,11 +4663,8 @@ s=dorian;e:dorian=wary;m=allowbreak
 and he walked across to the window and opened it.
 m=;s=
 
-When he stepped out on to the grass, he drew a deep breath.
-s=none;e:dorian=neutral;b=dorian-garden
-
-The fresh morning air seemed to drive away all his sombre passions.
-e:dorian=contemplative
+When he stepped out on to the grass, he drew a deep breath. The fresh morning air seemed to drive away all his sombre passions.
+s=none;e:dorian=neutral;b=abstract
 
 He thought only of Sibyl. A faint echo of his love came back to him. He repeated her name over and over again.
 e:dorian=happy
@@ -4739,7 +4736,7 @@ He felt perfectly happy.
 e:dorian=happy
 
 Suddenly his eye fell on the screen that he had placed in front of the portrait, and he started.
-e:dorian=surprised;b=dorian-picture-closed
+e:dorian=surprised;b=picture-dorian-closed
 
 “Too cold for Monsieur?” asked his valet, putting an omelette on the table.
 s=victor;e:victor=contemplativelookdown
@@ -4784,7 +4781,7 @@ Then he rose from the table, lit a cigarette, and flung himself down on a luxuri
 e:dorian=neutral
 
 The screen was an old one, of gilt Spanish leather, stamped and wrought with a rather florid Louis-Quatorze pattern.
-b=dorian-picture-closed
+b=picture-dorian-closed
 
 He scanned it curiously, wondering if ever before it had concealed the secret of a man’s life.
 e:dorian=curious
@@ -5303,7 +5300,7 @@ As he closed the door behind him, Dorian Gray touched the bell,
 s=none;e:dorian=annoyed;m=allowbreak
 
 and in a few minutes Victor appeared with the lamps and drew the blinds down.
-b=dorian-pictured-closed;m=
+b=picture-dorian-closed;m=
 
 He waited impatiently for him to go. The man seemed to take an interminable time over everything.
 
@@ -5939,7 +5936,7 @@ He sighed and touched the bell.
 e:dorian=serious
 
 The portrait must be hidden away at all costs. He could not run such a risk of discovery again.
-b=dorian-picture-closed
+b=picture-dorian-closed
 
 It had been mad of him to have allowed the thing to remain, even for an hour, in a room to which any of his friends had access.
 e:dorian=fearful
