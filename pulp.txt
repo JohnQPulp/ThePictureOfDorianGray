@@ -6047,7 +6047,7 @@ He took up from the couch the great purple-and-gold texture that covered it, and
 m=allowbreak
 
 passed behind the screen.
-e:dorian=neutral;m=;b=picture-abstract
+e:dorian=neutral;m=;b=dark
 
 Was the face on the canvas viler than before? It seemed to him that it was unchanged, and yet his loathing of it was intensified.
 e:dorian=fearful
@@ -7577,7 +7577,7 @@ How quickly it had all been done! He felt strangely calm, and walking over to th
 e:dorian=neutral;m=allowbreak
 
 opened it and stepped out on the balcony.
-m=;b=dorian-balcony-night
+m=;f:b:dorian-schoolroom-night=blur(3px)
 
 The wind had blown the fog away, and the sky was like a monstrous peacock’s tail, starred with myriads of golden eyes.
 
@@ -7598,7 +7598,7 @@ A bitter blast swept across the square. The gas-lamps flickered and became blue,
 
 
 He shivered and went back, closing the window behind him.
-e:dorian=wary;b=dorian-schoolroom-night
+e:dorian=wary;b=dorian-schoolroom-night;f:b:dorian-schoolroom-night=
 
 Having reached the door, he turned the key and opened it. He did not even glance at the murdered man. He felt that the secret of the whole thing was not to realize the situation.
 e:dorian=serious
