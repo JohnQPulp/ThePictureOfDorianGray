@@ -2392,14 +2392,11 @@ e:henry=smirking
 “But I don’t want to interrupt you. Go on with your story.”
 e:henry=curious
 
-“Well, I found myself seated in a horrid little private box, with a vulgar drop-scene staring me in the face.”
+“Well, I found myself seated in a horrid little private box, with a vulgar drop-scene staring me in the face. I looked out from behind the curtain and surveyed the house.”
 s=dorian;e:dorian=contemplative
 
-“I looked out from behind the curtain and surveyed the house.”
-g=theatre-curtain
-
 “It was a tawdry affair, all Cupids and cornucopias, like a third-rate wedding-cake.”
-
+g=theatre-curtain
 
 “The gallery and pit were fairly full, but the two rows of dingy stalls were quite empty, and there was hardly a person in what I suppose they called the dress-circle.”
 
