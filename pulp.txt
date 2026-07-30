@@ -9374,7 +9374,7 @@ When he looked back, the woman had vanished also.
 r=title
 
 A week later Dorian Gray was sitting in the conservatory at Selby Royal, talking to the pretty Duchess of Monmouth, who with her husband, a jaded-looking man of sixty, was amongst his guests.
-n:gladys=Gladys, Duchess of Monmouth;b=dorian-conservatory;x:gladys=hat
+n:gladys=Gladys, Duchess of Monmouth;b=dorian-conservatory-night;x:gladys=hat
 
 It was teatime, and the mellow light of the huge, lace-covered lamp that stood on the table lit up the delicate china and hammered silver of the service at which the duchess was presiding.
 e:gladys=neutral
@@ -9794,10 +9794,10 @@ Everybody started up. The duchess stood motionless in horror.
 s=none;e:gladys=fearful;e:henry=surprised
 
 And with fear in his eyes, Lord Henry rushed through the flapping palms to find Dorian Gray lying face downwards on the tiled floor in a deathlike swoon.
-e:henry=fearful;e:dorian=neutral;f:b:dorian-conservatory=blur(3px)
+e:henry=fearful;e:dorian=neutral;f:b:dorian-conservatory-night=blur(3px)
 
 He was carried at once into the blue drawing-room and laid upon one of the sofas.
-b=dorian-drawing
+b=dorian-drawing-night
 
 After a short time, he came to himself and looked round with a dazed expression.
 e:dorian=confused
@@ -9824,7 +9824,7 @@ s=dorian;e:dorian=weary;i=2
 i=
 
 He went to his room and dressed.
-s=none;e:dorian=neutral;f:b:dorian-drawing=blur(3px)
+s=none;e:dorian=neutral;f:b:dorian-drawing-night=blur(3px)
 
 There was a wild recklessness of gaiety in his manner as he sat at table, but now and then a thrill of terror ran through him when he remembered that, pressed against the window of the conservatory, like a white handkerchief, he had seen the face of James Vane watching him.
 e:dorian=fearful;b=dark
