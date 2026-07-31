@@ -2891,46 +2891,46 @@ f:b:london-wide-night=blur(3px)
 r=title
 
 “Mother, Mother, I am so happy!” whispered the girl,
-n:sibyl=?;n:mrsvane=Mrs. Vane;s=sibyl;e:sibyl=happywhisperlookdown;e:mrsvane=weary;m=allowbreak;b=vane-sitting
+n:sibyl=?;n:mrsvane=Mrs. Vane;s=sibyl;e:sibyl=happywhisperlookdown;e:mrsvane=weary;m=allowbreak;b=vane-sitting;z:sibyl=89,52,14;e:sibyl=sadsmile;i=2
 
 burying her face in the lap of the faded, tired-looking woman who, with back turned to the shrill intrusive light, was sitting in the one armchair that their dingy sitting-room contained.
 m=;s=
 
 “I am so happy!” she repeated, “and you must be happy, too!”
-s=sibyl;e:sibyl=happy
+s=sibyl;e:sibyl=happy;e:sibyl=happy;i=2
 
 Mrs. Vane winced and put her thin, bismuth-whitened hands on her daughter’s head.
 s=none;e:mrsvane=nervous;n:sibyl=Sibyl Vane
 
 “Happy!” she echoed, “I am only happy, Sibyl, when I see you act.”
-s=mrsvane;e:mrsvane=upset
+s=mrsvane;e:mrsvane=upset;z:mrsvane=88,52,8;e:mrsvane=wearylookdown;i=
 
 “You must not think of anything but your acting. Mr. Isaacs has been very good to us, and we owe him money.”
-e:mrsvane=serious
+e:mrsvane=serious;e:mrsvane=unhappy;i=2
 
 The girl looked up and pouted.
 s=none;e:sibyl=annoyed
 
 “Money, Mother?” she cried, “what does money matter? Love is more than money.”
-s=sibyl;e:sibyl=annoyed
+s=sibyl;e:sibyl=annoyed;e:sibyl=scowling;i=
 
 “Mr. Isaacs has advanced us fifty pounds to pay off our debts and to get a proper outfit for James.”
-s=mrsvane;e:mrsvane=serious;i=2
+s=mrsvane;e:mrsvane=serious;i=2;e:mrsvane=seriouslookdown;i=
 
 “You must not forget that, Sibyl. Fifty pounds is a very large sum. Mr. Isaacs has been most considerate.”
-i=
+i=;e:mrsvane=serious;i=
 
 “He is not a gentleman, Mother, and I hate the way he talks to me,” said the girl, rising to her feet and going over to the window.
-s=sibyl;e:sibyl=scowling
+s=sibyl;e:sibyl=scowling;e:sibyl=annoyed;i=
 
 “I don’t know how we could manage without him,” answered the elder woman querulously.
-s=mrsvane;e:mrsvane=annoyed
+s=mrsvane;e:mrsvane=annoyed;e:mrsvane=upset;i=
 
 Sibyl Vane tossed her head and laughed.
 s=none;e:sibyl=happy
 
 “We don’t want him any more, Mother. Prince Charming rules life for us now.”
-s=sibyl;e:sibyl=happytoss
+s=sibyl;e:sibyl=happytoss;e:sibyl=excited;i=
 
 Then she paused. A rose shook in her blood and shadowed her cheeks.
 s=none;e:sibyl=contemplative
@@ -2980,14 +2980,11 @@ e:sibyl=smirking
 Suddenly she felt the need to speak. The wordy silence troubled her.
 e:sibyl=excited;f:b:vane-sitting=
 
-“Mother, Mother,” she cried, “why does he love me so much?”
+“Mother, Mother,” she cried, “why does he love me so much? I know why I love him. I love him because he is like what love himself should be. But what does he see in me? I am not worthy of him.”
 s=sibyl;e:sibyl=sadsmile
 
-“I know why I love him. I love him because he is like what love himself should be. But what does he see in me? I am not worthy of him.”
-
-
 “And yet—why, I cannot tell—though I feel so much beneath him, I don’t feel humble. I feel proud, terribly proud. Mother, did you love my father as I love Prince Charming?”
-e:sibyl=happy
+e:sibyl=happy;e:sibyl=sadsmile;i=2
 
 The elder woman grew pale beneath the coarse powder that daubed her cheeks, and her dry lips twitched with a spasm of pain.
 s=none;e:mrsvane=upset
@@ -2996,10 +2993,10 @@ Sibyl rushed to her, flung her arms round her neck, and kissed her.
 
 
 “Forgive me, Mother. I know it pains you to talk about our father. But it only pains you because you loved him so much. Don’t look so sad.”
-s=sibyl;e:sibyl=sadsmile
+s=sibyl;e:sibyl=sadsmile;e:sibyl=sadsmile;i=
 
 “I am as happy today as you were twenty years ago. Ah! let me be happy forever!”
-e:sibyl=excited
+e:sibyl=excited;e:sibyl=happy;i=2
 
 “My child, you are far too young to think of falling in love. Besides, what do you know of this young man? You don’t even know his name.”
 s=mrsvane;e:mrsvane=serious
@@ -3008,7 +3005,7 @@ s=mrsvane;e:mrsvane=serious
 e:mrsvane=annoyed
 
 “However, as I said before, if he is rich…”
-e:mrsvane=contemplative
+e:mrsvane=contemplative;e:mrsvane=seriouslookdown;i=
 
 “Ah! Mother, Mother, let me be happy!”
 s=sibyl;e:sibyl=excited;i=2
@@ -3029,10 +3026,10 @@ Mrs. Vane fixed her eyes on him and intensified her smile. She mentally elevated
 e:mrsvane=happy
 
 “You might keep some of your kisses for me, Sibyl, I think,” said the lad with a good-natured grumble.
-s=james;e:james=wry
+s=james;e:james=wry;z:james=88,53,12;e:james=suspicious;i=;e:james=thinking;i=
 
 “Ah! but you don’t like being kissed, Jim,” she cried. “You are a dreadful old bear.”
-s=sibyl;e:sibyl=happy
+s=sibyl;e:sibyl=happy;e:sibyl=happy;i=
 
 And she ran across the room and hugged him.
 s=none
@@ -3053,40 +3050,34 @@ She felt a little disappointed that he had not joined the group. It would have i
 s=none;e:mrsvane=annoyed
 
 “Why not, Mother? I mean it.”
-s=james;e:james=serious;i=2
+s=james;e:james=serious;i=2;e:james=annoyed;i=2
 
 “You pain me, my son. I trust you will return from Australia in a position of affluence.”
-s=mrsvane;e:mrsvane=thinking
+s=mrsvane;e:mrsvane=thinking;e:mrsvane=unhappy;i=2
 
 “I believe there is no society of any kind in the Colonies—nothing that I would call society—so when you have made your fortune, you must come back and assert yourself in London.”
-
+e:mrsvane=thinking;i=2;e:mrsvane=seriouslookdown;i=
 
 “Society!” muttered the lad.
 s=james;e:james=scowling
 
 “I don’t want to know anything about that. I should like to make some money to take you and Sibyl off the stage. I hate it.”
-e:james=unhappy
+e:james=unhappy;e:james=serious;i=2
 
-“Oh, Jim!” said Sibyl, laughing,
-s=sibyl;e:sibyl=happy
-
-“how unkind of you!”
-
+“Oh, Jim!” said Sibyl, laughing, “how unkind of you!”
+s=sibyl;e:sibyl=happy;e:sibyl=happywhisperlookdown;e:sibyl=happy;i=2
 
 “But are you really going for a walk with me? That will be nice!”
-e:sibyl=excited
+e:sibyl=excited;e:sibyl=excited;i=
 
 “I was afraid you were going to say goodbye to some of your friends—to Tom Hardy, who gave you that hideous pipe, or Ned Langton, who makes fun of you for smoking it.”
-e:sibyl=smirking
+e:sibyl=smirking;e:sibyl=excited;i=2
 
 “It is very sweet of you to let me have your last afternoon. Where shall we go? Let us go to the park.”
 e:sibyl=happy
 
-“I am too shabby,” he answered, frowning.
-s=james;e:james=annoyed
-
-“Only swell people go to the park.”
-
+“I am too shabby,” he answered, frowning. “Only swell people go to the park.”
+s=james;e:james=annoyed;e:james=unhappy;i=
 
 “Nonsense, Jim,” she whispered, stroking the sleeve of his coat.
 s=sibyl;e:sibyl=happywhisperlookdown
@@ -3094,11 +3085,8 @@ s=sibyl;e:sibyl=happywhisperlookdown
 He hesitated for a moment.
 s=none;e:james=thinking
 
-“Very well,” he said at last,
-s=james;e:james=thinking
-
-“but don’t be too long dressing.”
-
+“Very well,” he said at last, “but don’t be too long dressing.”
+s=james;e:james=thinking;e:james=suspicious;i=
 
 She danced out of the door.
 s=none;e:sibyl=excited
@@ -3110,13 +3098,13 @@ He walked up and down the room two or three times. Then he turned to the still f
 e:james=thinking
 
 “Mother, are my things ready?” he asked.
-s=james;e:james=serious
+s=james;e:james=serious;e:james=annoyed;i=2
 
 “Quite ready, James,” she answered, keeping her eyes on her work.
 s=mrsvane;e:mrsvane=seriouslookdown
 
 For some months past she had felt ill at ease when she was alone with this rough stern son of hers.
-s=none;e:mrsvane=nervous
+s=none;e:mrsvane=nervous;f:b:vane-sitting=blur(3px)
 
 Her shallow secret nature was troubled when their eyes met. She used to wonder if he suspected anything.
 
@@ -3128,40 +3116,40 @@ Women defend themselves by attacking, just as they attack by sudden and strange 
 
 
 “I hope you will be contented, James, with your seafaring life,” she said. “You must remember that it is your own choice.”
-s=mrsvane;e:mrsvane=serious
+s=mrsvane;e:mrsvane=serious;f:b:vane-sitting=;e:mrsvane=unhappy;i=2
 
 “You might have entered a solicitor’s office. Solicitors are a very respectable class, and in the country often dine with the best families.”
-
+;e:mrsvane=wearylookdown;i=
 
 “I hate offices, and I hate clerks,” he replied.
 s=james;e:james=annoyed
 
 “But you are quite right. I have chosen my own life. All I say is, watch over Sibyl. Don’t let her come to any harm. Mother, you must watch over her.”
-e:james=serious
+e:james=serious;e:james=serious;i=2
 
 “James, you really talk very strangely. Of course I watch over Sibyl.”
-s=mrsvane;e:mrsvane=wary
+s=mrsvane;e:mrsvane=wary;e:mrsvane=unhappy;i=
 
 “I hear a gentleman comes every night to the theatre and goes behind to talk to her. Is that right? What about that?”
-s=james;e:james=suspicious
+s=james;e:james=suspicious;e:james=annoyed;i=2
 
 “You are speaking about things you don’t understand, James. In the profession we are accustomed to receive a great deal of most gratifying attention.”
-s=mrsvane;e:mrsvane=unhappy
+s=mrsvane;e:mrsvane=unhappy;e:mrsvane=serious;i=
 
 “I myself used to receive many bouquets at one time. That was when acting was really understood.”<e>Whatever happened to baby Vane?</e>
-e:mrsvane=thinking
+e:mrsvane=thinking;e:mrsvane=thinking;i=2
 
 “As for Sibyl, I do not know at present whether her attachment is serious or not. But there is no doubt that the young man in question is a perfect gentleman. He is always most polite to me.”
-e:mrsvane=
+e:mrsvane=;e:mrsvane=wary;i=
 
 “Besides, he has the appearance of being rich, and the flowers he sends are lovely.”
-
+;e:mrsvane=contemplative;i=
 
 “You don’t know his name, though,” said the lad harshly.
 s=james;e:james=scowling
 
 “No,” answered his mother with a placid expression in her face.
-s=mrsvane;e:mrsvane=contemplative
+s=mrsvane;e:mrsvane=contemplative;e:mrsvane=thinking;i=
 
 “He has not yet revealed his real name. I think it is quite romantic of him. He is probably a member of the aristocracy.”
 
@@ -3170,16 +3158,16 @@ James Vane bit his lip.
 s=none;e:james=angry
 
 “Watch over Sibyl, Mother,” he cried, “watch over her.”
-s=james;e:james=serious
+s=james;e:james=serious;e:james=unhappy;i=
 
 “My son, you distress me very much. Sibyl is always under my special care.”
 s=mrsvane;e:mrsvane=unhappy
 
 “Of course, if this gentleman is wealthy, there is no reason why she should not contract an alliance with him. I trust he is one of the aristocracy. He has all the appearance of it, I must say.”
-e:mrsvane=thinking
+e:mrsvane=thinking;e:mrsvane=unhappy;i=2
 
 “It might be a most brilliant marriage for Sibyl. They would make a charming couple. His good looks are really quite remarkable; everybody notices them.”
-
+;e:mrsvane=contemplative;i=
 
 The lad muttered something to himself and drummed on the windowpane with his coarse fingers.
 s=none;e:james=scowling
@@ -3188,16 +3176,16 @@ He had just turned round to say something when the door opened and Sibyl ran in.
 e:sibyl=happy
 
 “How serious you both are!” she cried. “What is the matter?”
-s=sibyl;e:sibyl=curious;x:sibyl=hat
+s=sibyl;e:sibyl=curious;x:sibyl=hat;e:sibyl=happylook;i=
 
 “Nothing,” he answered. “I suppose one must be serious sometimes.”
-s=james;e:james=thinking
+s=james;e:james=thinking;e:james=suspicious;i=
 
 “Goodbye, Mother; I will have my dinner at five o’clock. Everything is packed, except my shirts, so you need not trouble.”
-
+;e:james=serious;i=
 
 “Goodbye, my son,” she answered with a bow of strained stateliness.
-s=mrsvane;e:mrsvane=serious
+s=mrsvane;e:mrsvane=serious;e:mrsvane=seriouslookdown;i=
 
 She was extremely annoyed at the tone he had adopted with her, and there was something in his look that had made her feel afraid.
 s=none;e:mrsvane=annoyed
@@ -3212,10 +3200,10 @@ s=none
 s=mrsvane;e:mrsvane=sadsmilelookup
 
 “Come, Sibyl,” said her brother impatiently.
-s=james;e:james=annoyed;x:james=hat
+s=james;e:james=annoyed;e:james=annoyed;i=2
 
 He hated his mother’s affectations.
-s=
+s=;x:james=hat
 
 They went out into the flickering, windblown sunlight and strolled down the dreary Euston Road.
 s=none;e:james=neutral;e:sibyl=neutral;b=euston-road
@@ -3256,7 +3244,7 @@ He was to be a nice sheep-farmer, and one evening, as he was riding home, he was
 Of course, she would fall in love with him, and he with her, and they would get married, and come home, and live in an immense house in London.
 
 
-Yes, there were delightful things in store for him.<e>I choose to believe Wilde is making fun of <book>A Study in Scarlet|Conan Doyle in particular<book> here.</e>
+Yes, there were delightful things in store for him.<e>Probably a slam on <book>A Study in Scarlet|Conan Doyle</book> in particular. Maybe. Probably not.</e>
 
 
 But he must be very good, and not lose his temper, or spend his money foolishly. She was only a year older than he was, but she knew so much more of life.
@@ -3274,7 +3262,7 @@ e:james=unhappy;f:b:euston-road=
 Yet it was not this alone that made him gloomy and morose. Inexperienced though he was, he had still a strong sense of the danger of Sibyl’s position.
 
 
-This young dandy who was making love to her could mean her no good.<e>Violent love?</e>
+This young dandy who was making love to her could mean her no good.
 
 
 He was a gentleman, and he hated him for that, hated him through some curious race-instinct for which he could not account, and which for that reason was all the more dominant within him.
@@ -3287,10 +3275,10 @@ Children begin by loving their parents; as they grow older they judge them; some
 
 
 His mother! He had something on his mind to ask of her, something that he had brooded on for many months of silence.
-e:james=scowling;b=dark
+e:james=scowling
 
 A chance phrase that he had heard at the theatre, a whispered sneer that had reached his ears one night as he waited at the stage-door, had set loose a train of horrible thoughts.
-e:james=angry
+e:james=angry;b=dark;f:b:dark=blur(3px)
 
 He remembered it as if it had been the lash of a hunting-crop across his face.
 
@@ -3299,10 +3287,10 @@ His brows knit together into a wedge-like furrow, and with a twitch of pain he b
 b=tulip-road
 
 “You are not listening to a word I am saying, Jim,” cried Sibyl, “and I am making the most delightful plans for your future. Do say something.”
-s=sibyl;e:sibyl=upset
+s=sibyl;e:sibyl=upset;e:sibyl=unhappy;i=
 
 “What do you want me to say?”
-s=james;e:james=annoyed
+s=james;e:james=annoyed;e:james=contemplativeshrug;i=
 
 “Oh! that you will be a good boy and not forget us,” she answered, smiling at him.
 s=sibyl;e:sibyl=happy
@@ -3311,67 +3299,64 @@ He shrugged his shoulders.
 s=none;e:james=weary
 
 “You are more likely to forget me than I am to forget you, Sibyl.”
-s=james;e:james=contemplativeshrug
+s=james;e:james=contemplativeshrug;e:james=serious;i=2
 
 She flushed.
 s=none;e:sibyl=confused
 
 “What do you mean, Jim?” she asked.
-s=sibyl
+s=sibyl;e:sibyl=unhappy;i=
 
 “You have a new friend, I hear. Who is he? Why have you not told me about him? He means you no good.”
-s=james;e:james=serious
+s=james;e:james=serious;e:james=annoyed;i=
 
 “Stop, Jim!” she exclaimed. “You must not say anything against him. I love him.”
 s=sibyl;e:sibyl=upset
 
 “Why, you don’t even know his name,” answered the lad.
-s=james;e:james=annoyed
+s=james;e:james=annoyed;e:james=annoyed;i=2
 
 “Who is he? I have a right to know.”
-
+;e:james=serious;i=
 
 “He is called Prince Charming. Don’t you like the name? Oh! you silly boy! you should never forget it.”
-s=sibyl;e:sibyl=thinking
+s=sibyl;e:sibyl=thinking;e:sibyl=sadsmile;i=
 
 “If you only saw him, you would think him the most wonderful person in the world. Some day you will meet him—when you come back from Australia. You will like him so much. Everybody likes him, and I… love him.”
-e:sibyl=happy
+e:sibyl=happy;e:sibyl=thinking;i=
 
 “I wish you could come to the theatre tonight. He is going to be there, and I am to play Juliet. Oh! how I shall play it! Fancy, Jim, to be in love and play Juliet! To have him sitting there!”
-e:sibyl=excited
+e:sibyl=excited;e:sibyl=happy;i=
 
 “To play for his delight! I am afraid I may frighten the company, frighten or enthrall them. To be in love is to surpass one’s self. Poor dreadful Mr. Isaacs will be shouting ‘genius’ to his loafers at the bar.”
-
+;e:sibyl=excited;i=
 
 “He has preached me as a dogma; tonight he will announce me as a revelation. I feel it. And it is all his, his only, Prince Charming, my wonderful lover, my god of graces.”
-e:sibyl=happy
+e:sibyl=happy;e:sibyl=happy;i=
 
 “But I am poor beside him. Poor? What does that matter? When poverty creeps in at the door, love flies in through the window.”
-
+;e:sibyl=thinking;i=
 
 “Our proverbs want rewriting. They were made in winter, and it is summer now; springtime for me, I think, a very dance of blossoms in blue skies.”
-e:sibyl=happy;i=3
+e:sibyl=happy;i=3;e:sibyl=curious;i=
 
 “He is a gentleman,” said the lad sullenly.
-s=james;e:james=weary
+s=james;e:james=weary;e:james=contemplativeshrug;i=
 
-“A prince!” she cried musically.
-s=sibyl;e:sibyl=excited
-
-“What more do you want?”
-
+“A prince!” she cried musically. “What more do you want?”
+s=sibyl;e:sibyl=excited;e:sibyl=happy;i=3
 
 “He wants to enslave you.”
-s=james;e:james=scowling
+s=james;e:james=scowling;e:james=serious;i=
 
 “I shudder at the thought of being free.”
 s=sibyl;e:sibyl=thinking
 
 “I want you to beware of him.”
-s=james;e:james=serious
+s=james;e:james=serious;e:james=serious;i=2
 
 “To see him is to worship him; to know him is to trust him.”
-s=sibyl;e:sibyl=happy;i=3
+s=sibyl;e:sibyl=happy;i=3;e:sibyl=happy;i=2
 
 “Sibyl, you are mad about him.”
 s=james;e:james=annoyed
@@ -3383,10 +3368,10 @@ s=none;e:sibyl=happy
 s=sibyl;e:sibyl=happy
 
 “Surely you should be glad to think that, though you are going away, you leave me happier than I have ever been before.”
-
+;e:sibyl=curious;i=
 
 “Life has been hard for us both, terribly hard and difficult. But it will be different now. You are going to a new world, and I have found one.”
-e:sibyl=happy;i=3
+e:sibyl=happy;i=3;e:sibyl=thinking;i=
 
 “Here are two chairs; let us sit down and see the smart people go by.”
 e:sibyl=happylook
@@ -3398,7 +3383,7 @@ A white dust—tremulous cloud of orris-root it seemed—hung in the panting air
 
 
 She made her brother talk of himself, his hopes, his prospects. He spoke slowly and with effort.
-e:james=weary
+e:james=weary;f:b:tulip-road=blur(3px)
 
 They passed words to each other as players at a game pass counters. Sibyl felt oppressed. She could not communicate her joy.
 e:sibyl=sadsmile
@@ -3407,16 +3392,16 @@ A faint smile curving that sullen mouth was all the echo she could win. After so
 
 
 Suddenly she caught a glimpse of golden hair and laughing lips, and in an open carriage with two ladies Dorian Gray drove past.
-e:sibyl=surprised
+e:sibyl=surprised;f:b:tulip-road=
 
 She started to her feet.
 e:sibyl=excited
 
 “There he is!” she cried.
-s=sibyl
+s=sibyl;e:sibyl=happy;i=
 
 “Who?” said Jim Vane.
-s=james;e:james=surprised
+s=james;e:james=surprised;e:james=seriouslook;i=
 
 “Prince Charming,” she answered, looking after the victoria.
 s=sibyl;e:sibyl=happylook
@@ -3425,7 +3410,7 @@ He jumped up and seized her roughly by the arm.
 s=none;e:james=seriouslook
 
 “Show him to me. Which is he? Point him out. I must see him!” he exclaimed;
-s=james
+s=james;e:james=serious;i=
 
 but at that moment the Duke of Berwick’s four-in-hand came between, and when it had left the space clear, the carriage had swept out of the park.
 s=
@@ -3434,7 +3419,7 @@ s=
 s=sibyl;e:sibyl=unhappy
 
 “I wish you had seen him.”
-
+;e:sibyl=nervous;i=
 
 “I wish I had, for as sure as there is a God in heaven, if he ever does you any wrong, I shall kill him.”
 s=james;e:james=scowling
@@ -3442,14 +3427,14 @@ s=james;e:james=scowling
 She looked at him in horror.
 s=none;e:sibyl=fearful
 
-He repeated his words. They cut the air like a dagger.<e>Rare prose miss from Wilde.</e>
+He repeated his words. They cut the air like a dagger.<e>Prose.</e>
 
 
 The people round began to gape. A lady standing close to her tittered.
 
 
 “Come away, Jim; come away,” she whispered.
-s=sibyl;e:sibyl=nervous
+s=sibyl;e:sibyl=nervous;e:sibyl=upset;i=
 
 He followed her doggedly as she passed through the crowd. He felt glad at what he had said.
 s=none;e:james=scowling
@@ -3461,7 +3446,7 @@ e:sibyl=sadsmile
 s=sibyl;e:sibyl=sadsmile
 
 “You don’t know what you are talking about. You are simply jealous and unkind. Ah! I wish you would fall in love. Love makes people good, and what you said was wicked.”
-e:sibyl=sadsmile
+e:sibyl=sadsmile;e:sibyl=happy;i=2
 
 “I am sixteen,” he answered, “and I know what I am about. Mother is no help to you. She doesn’t understand how to look after you.”
 s=james;e:james=serious
@@ -3473,10 +3458,10 @@ s=james;e:james=serious
 s=sibyl;e:sibyl=happy
 
 “I am not going to quarrel with you. I have seen him, and oh! to see him is perfect happiness. We won’t quarrel. I know you would never harm anyone I love, would you?”
-e:sibyl=happy
+e:sibyl=happy;e:sibyl=happylook;i=;e:sibyl=thinking;i=
 
 “Not as long as you love him, I suppose,” was the sullen answer.
-s=james;e:james=suspicious
+s=james;e:james=suspicious;e:james=contemplativeshrug;i=
 
 “I shall love him forever!” she cried.
 s=sibyl;e:sibyl=excited
@@ -3485,10 +3470,10 @@ s=sibyl;e:sibyl=excited
 s=james;e:james=thinking
 
 “Forever, too!”
-s=sibyl;e:sibyl=excited;i=2
+s=sibyl;e:sibyl=excited;i=2;e:sibyl=happy;i=
 
 “He had better.”
-s=james;e:james=serious
+s=james;e:james=serious;e:james=annoyed;i=
 
 She shrank from him.
 s=none;e:sibyl=fearful
@@ -3500,7 +3485,7 @@ At the Marble Arch they hailed an omnibus,
 e:sibyl=neutral;e:james=neutral;m=allowbreak;f:b:tulip-road=blur(3px)
 
 which left them close to their shabby home in the Euston Road.
-m=;b=euston-road
+m=;b=euston-road;f:b:euston-road=
 
 It was after five o’clock, and Sibyl had to lie down for a couple of hours before acting. Jim insisted that she should do so.
 
@@ -3542,13 +3527,13 @@ Then he turned back and looked at her. Their eyes met. In hers he saw a wild app
 e:james=serious
 
 “Mother, I have something to ask you,” he said.
-s=james;x:james=
+s=james;x:james=;e:james=annoyed;i=
 
 Her eyes wandered vaguely about the room. She made no answer.
 s=none;e:mrsvane=nervous
 
 “Tell me the truth. I have a right to know. Were you married to my father?”
-s=james;i=2
+s=james;i=2;e:james=serious;i=2
 
 She heaved a deep sigh. It was a sigh of relief.
 s=none;e:mrsvane=weary
@@ -3560,7 +3545,7 @@ The vulgar directness of the question called for a direct answer. The situation 
 
 
 “No,” she answered, wondering at the harsh simplicity of life.
-s=mrsvane;e:mrsvane=thinking
+s=mrsvane;e:mrsvane=thinking;e:mrsvane=wearydroopedwiping;i=;e:mrsvane=seriouslookdown;i=
 
 “My father was a scoundrel then!” cried the lad, clenching his fists.
 s=james;e:james=angry
@@ -3569,16 +3554,16 @@ She shook her head.
 s=none;e:mrsvane=sadsmile
 
 “I knew he was not free. We loved each other very much. If he had lived, he would have made provision for us.”
-s=mrsvane;e:mrsvane=unhappy
+s=mrsvane;e:mrsvane=unhappy;e:mrsvane=wearylookdown;i=
 
 “Don’t speak against him, my son. He was your father, and a gentleman. Indeed, he was highly connected.”
-
+;e:mrsvane=serious;i=
 
 An oath broke from his lips.
 s=none;e:james=scowling
 
 “I don’t care for myself,” he exclaimed, “but don’t let Sibyl.… It is a gentleman, isn’t it, who is in love with her, or says he is? Highly connected, too, I suppose.”
-s=james
+s=james;e:james=annoyed;i=
 
 For a moment a hideous sense of humiliation came over the woman. Her head drooped. She wiped her eyes with shaking hands.
 s=none;e:mrsvane=upset
@@ -3593,10 +3578,10 @@ He went towards her, and stooping down, he kissed her.
 
 
 “I am sorry if I have pained you by asking about my father,” he said, “but I could not help it.”
-s=james;e:james=contemplativelookdown
+s=james;e:james=contemplativelookdown;e:james=serious;i=2
 
 “I must go now. Goodbye. Don’t forget that you will have only one child now to look after, and believe me that if this man wrongs my sister, I will find out who he is, track him down, and kill him like a dog. I swear it.”
-e:james=thinking
+e:james=thinking;e:james=annoyed;i=2
 
 The exaggerated folly of the threat, the passionate gesture that accompanied it, the mad melodramatic words, made life seem more vivid to her. She was familiar with the atmosphere.
 s=none;e:mrsvane=surprised
@@ -3611,10 +3596,10 @@ It was with a renewed feeling of disappointment that she waved the tattered lace
 e:mrsvane=unhappy
 
 She consoled herself by telling Sibyl how desolate she felt her life would be, now that she had only one child to look after. She remembered the phrase. It had pleased her.
-e:mrsvane=neutral;b=vane-sibyl
+e:mrsvane=neutral;b=vane-sibyl;f:b:vane-sibyl=
 
 Of the threat she said nothing. It was vividly and dramatically expressed. She felt that they would all laugh at it some day.
-e:mrsvane=smirking
+e:mrsvane=smirking;f:b:vane-sibyl=blur(3px)
 
 ## VI
 r=title
