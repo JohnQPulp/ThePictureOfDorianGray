@@ -1526,91 +1526,88 @@ When Lord Henry entered the room, he found his uncle sitting in a rough shooting
 e:fermor=annoyed;b=albany;x:fermor=cigar
 
 “Well, Harry,” said the old gentleman, “what brings you out so early? I thought you dandies never got up till two, and were not visible till five.”
-s=fermor;e:fermor=smirking
+s=fermor;e:fermor=smirking;z:fermor=87,52,8;e:fermor=suspicious;i=
 
 “Pure family affection, I assure you, Uncle George. I want to get something out of you.”
-s=henry;e:henry=smirking
+s=henry;e:henry=smirking;e:henry=happy;i=2
 
 “Money, I suppose,” said Lord Fermor, making a wry face.
 s=fermor;e:fermor=wry
 
 “Well, sit down and tell me all about it. Young people, nowadays, imagine that money is everything.”
-e:fermor=annoyed
+e:fermor=annoyed;e:fermor=serious;i=2
 
 “Yes,” murmured Lord Henry, settling his buttonhole in his coat;
-s=henry;e:henry=smirking
+s=henry;e:henry=smirking;e:henry=smirkinglookdown;i=
 
 “and when they grow older they know it. But I don’t want money. It is only people who pay their bills who want that, Uncle George, and I never pay mine.”
-
+;e:henry=smirkinglook;i=
 
 “Credit is the capital of a younger son, and one lives charmingly upon it. Besides, I always deal with Dartmoor’s tradesmen, and consequently they never bother me.”
-i=3
+i=3;e:henry=bored;i=2
 
 “What I want is information: not useful information, of course; useless information.”
-e:henry=curious
+e:henry=curious;e:henry=curious;i=2
 
 “Well, I can tell you anything that is in an English Blue Book, Harry, although those fellows nowadays write a lot of nonsense.”
 s=fermor;e:fermor=contemplative
 
 “When I was in the Diplomatic, things were much better. But I hear they let them in now by examination. What can you expect?”
-e:fermor=annoyed
+e:fermor=annoyed;e:fermor=serious;i=
 
 “Examinations, sir, are pure humbug from beginning to end. If a man is a gentleman, he knows quite enough, and if he is not a gentleman, whatever he knows is bad for him.”
-
+;e:fermor=suspicious;i=
 
 “Mr. Dorian Gray does not belong to Blue Books, Uncle George,” said Lord Henry languidly.
-s=henry;e:henry=bored
+s=henry;e:henry=bored;e:henry=shrugging;i=
 
 “Mr. Dorian Gray? Who is he?” asked Lord Fermor, knitting his bushy white eyebrows.
-s=none;e:fermor=suspicious
+s=fermor;e:fermor=suspicious;e:fermor=;i=
 
-“That is what I have come to learn, Uncle George. Or rather, I know who he is. He is the last Lord Kelso’s grandson.”
-s=henry;e:henry=thinking
+“That is what I have come to learn, Uncle George. Or rather, I know who he is. He is the last Lord Kelso’s grandson. His mother was a Devereux, Lady Margaret Devereux.”
+s=henry;e:henry=thinking;e:henry=;i=
 
-“His mother was a Devereux, Lady Margaret Devereux. I want you to tell me about his mother. What was she like? Whom did she marry?”
+“I want you to tell me about his mother. What was she like? Whom did she marry? You have known nearly everybody in your time, so you might have known her.”
+;e:henry=smirking;i=
 
-
-“You have known nearly everybody in your time, so you might have known her. I am very much interested in Mr. Gray at present. I have only just met him.”
-
+“I am very much interested in Mr. Gray at present. I have only just met him.”
+;e:henry=smirkinglookdown;i=
 
 “Kelso’s grandson!” echoed the old gentleman. “Kelso’s grandson!… Of course.… I knew his mother intimately. I believe I was at her christening.”
-s=fermor;e:fermor=serious
+s=fermor;e:fermor=serious;e:fermor=suspicious;i=
 
 “She was an extraordinarily beautiful girl, Margaret Devereux, and made all the men frantic by running away with a penniless young fellow﻿—a mere nobody, sir, a subaltern in a foot regiment, or something of that kind.”
-e:fermor=thinking
+e:fermor=thinking;e:fermor=curious;i=
 
 “Certainly. I remember the whole thing as if it happened yesterday. The poor chap was killed in a duel at Spa a few months after the marriage. There was an ugly story about it.”
-
+;e:fermor=;i=
 
 “They said Kelso got some rascally adventurer, some Belgian brute, to insult his son-in-law in public﻿—paid him, sir, to do it, paid him﻿—and that the fellow spitted his man as if he had been a pigeon.”
 e:fermor=serious
 
-“The thing was hushed up, but, egad, Kelso ate his chop alone at the club for some time afterwards. He brought his daughter back with him, I was told, and she never spoke to him again.”
-
-
-“Oh, yes; it was a bad business. The girl died, too, died within a year. So she left a son, did she? I had forgotten that.”
+“The thing was hushed up, but, egad, Kelso ate his chop alone at the club for some time afterwards. He brought his daughter back with him, I was told, and she never spoke to him again. Oh, yes; it was a bad business.”
 e:fermor=contemplative
 
-“What sort of boy is he? If he is like his mother, he must be a good-looking chap.”
-e:fermor=curious
+“The girl died, too, died within a year. So she left a son, did she? I had forgotten that. What sort of boy is he? If he is like his mother, he must be a good-looking chap.”
+e:fermor=curious;e:fermor=suspicious;i=
 
 “He is very good-looking,” assented Lord Henry.
 s=henry;e:henry=smirking
 
 “I hope he will fall into proper hands,” continued the old man.
-s=fermor;e:fermor=serious
+s=fermor;e:fermor=serious;e:fermor=;i=
 
 “He should have a pot of money waiting for him if Kelso did the right thing by him. His mother had money, too. All the Selby property came to her, through her grandfather.”
-
+;e:fermor=serious;i=2
 
 “Her grandfather hated Kelso, thought him a mean dog. He was, too. Came to Madrid once when I was there. Egad, I was ashamed of him.”
-
+;e:fermor=thinking;i=2
 
 “The Queen used to ask me about the English noble who was always quarrelling with the cabmen about their fares. They made quite a story of it. I didn’t dare show my face at Court for a month.”
-e:fermor=annoyed
+e:fermor=annoyed;e:fermor=thinking;i=
 
 “I hope he treated his grandson better than he did the jarvies.”
-e:fermor=neutral
+e:fermor=neutral;e:fermor=curious;i=
 
 “I don’t know,” answered Lord Henry.
 s=henry;e:henry=
@@ -1628,70 +1625,70 @@ s=fermor;e:fermor=contemplative
 e:fermor=serious
 
 “Carlington went on his knees to her. Told me so himself. She laughed at him, and there wasn’t a girl in London at the time who wasn’t after him.”
-e:fermor=smirking
+e:fermor=smirking;e:fermor=;i=
 
 “And by the way, Harry, talking about silly marriages, what is this humbug your father tells me about Dartmoor wanting to marry an American? Ain’t English girls good enough for him?”
-e:fermor=scowling
+e:fermor=scowling;e:fermor=angry;i=
 
 “It is rather fashionable to marry Americans just now, Uncle George.”
-s=henry;e:henry=bored
+s=henry;e:henry=bored;e:henry=bored;i=2
 
 “I’ll back English women against the world, Harry,” said Lord Fermor, striking the table with his fist.
-s=fermor;e:fermor=angry
+s=fermor;e:fermor=angry;e:fermor=annoyed;i=2
 
 “The betting is on the Americans.”
 s=henry;e:henry=smirking
 
 “They don’t last, I am told,” muttered his uncle.
-s=fermor;e:fermor=annoyed
+s=fermor;e:fermor=annoyed;e:fermor=serious;i=2
 
 “A long engagement exhausts them, but they are capital at a steeplechase. They take things flying. I don’t think Dartmoor has a chance.”
-s=henry;e:henry=smirking
+s=henry;e:henry=smirking;e:henry=happy;i=2
 
 “Who are her people?” grumbled the old gentleman.
-s=none;e:fermor=scowling
+s=fermor;e:fermor=scowling;e:fermor=serious;i=
 
 “Has she got any?”
-
+;e:fermor=;i=
 
 Lord Henry shook his head.
-
+s=
 
 “American girls are as clever at concealing their parents, as English women are at concealing their past,” he said, rising to go.
-s=henry;e:henry=smirking
+s=henry;e:henry=smirking;e:henry=smirkinglook;i=;e:henry=smirking;i=3
 
 “They are pork-packers, I suppose?”
-s=fermor;e:fermor=suspicious
+s=fermor;e:fermor=suspicious;e:fermor=angry;i=;e:fermor=suspicious;i=
 
-“I hope so, Uncle George, for Dartmoor’s sake. I am told that pork-packing is the most lucrative profession in America, after politics.”<e>Somewhere in America, a young Upton Sinclair gets <book>The Jungle|an idea</book>.</e>
-s=henry;e:henry=neutral
+“I hope so, Uncle George, for Dartmoor’s sake. I am told that pork-packing is the most lucrative profession in America, after politics.”<e>Sounds like some <book>The Jungle|Sinclair</book> gobbledygook.</e>
+s=henry;e:henry=neutral;e:henry=smirking;i=
 
 “Is she pretty?”
-s=fermor;e:fermor=serious
+s=fermor;e:fermor=serious;e:fermor=curious;i=
 
 “She behaves as if she was beautiful. Most American women do. It is the secret of their charm.”
-s=henry;e:henry=smirking
+s=henry;e:henry=smirking;e:henry=smirkinglook;i=
 
 “Why can’t these American women stay in their own country? They are always telling us that it is the paradise for women.”
-s=fermor;e:fermor=annoyed
+s=fermor;e:fermor=annoyed;e:fermor=serious;i=
 
 “It is. That is the reason why, like Eve, they are so excessively anxious to get out of it,” said Lord Henry.
-e:henry=smirking;s=henry
+e:henry=smirking;s=henry;e:henry=;i=
 
 “Goodbye, Uncle George. I shall be late for lunch, if I stop any longer. Thanks for giving me the information I wanted. I always like to know everything about my new friends, and nothing about my old ones.”
-
+;e:henry=smirkinglookdown;i=
 
 “Where are you lunching, Harry?”
-s=fermor;e:fermor=curious
+s=fermor;e:fermor=curious;e:fermor=smirking;i=
 
 “At Aunt Agatha’s. I have asked myself and Mr. Gray. He is her latest protégé.”
 s=henry;e:henry=neutral
 
 “Humph! tell your Aunt Agatha, Harry, not to bother me any more with her charity appeals. I am sick of them. Why, the good woman thinks that I have nothing to do but to write cheques for her silly fads.”
-s=fermor;e:fermor=scowling
+s=fermor;e:fermor=scowling;e:fermor=angry;i=
 
 “All right, Uncle George, I’ll tell her, but it won’t have any effect. Philanthropic people lose all sense of humanity. It is their distinguishing characteristic.”
-s=henry;e:henry=smirking
+s=henry;e:henry=smirking;e:henry=smirking;i=2
 
 The old gentleman growled approvingly and rang the bell for his servant.
 s=
@@ -1699,8 +1696,11 @@ s=
 Lord Henry passed up the low arcade into Burlington Street and turned his steps in the direction of Berkeley Square.
 s=none;e:fermor=happy;b=london-wide
 
-So that was the story of Dorian Gray’s parentage. Crudely as it had been told to him, it had yet stirred him by its suggestion of a strange, almost modern romance.
+So that was the story of Dorian Gray’s parentage.
 e:henry=contemplative
+
+Crudely as it had been told to him, it had yet stirred him by its suggestion of a strange, almost modern romance.
+f:b:london-wide=blur(3px)
 
 A beautiful woman risking everything for a mad passion. A few wild weeks of happiness cut short by a hideous, treacherous crime. Months of voiceless agony, and then a child born in pain.
 f:b:london-wide=blur(3px)
@@ -1763,7 +1763,7 @@ He gave one of the footmen his hat and stick and passed into the dining-room.
 e:henry=neutral;b=agatha-dining
 
 “Late as usual, Harry,” cried his aunt, shaking her head at him.
-n:agatha=Lady Agatha;s=agatha;e:agatha=scowlinglook
+n:agatha=Lady Agatha;s=agatha;e:agatha=scowlinglook;z:agatha=88,53,12
 
 He invented a facile excuse, and having taken the vacant seat next to her, looked round to see who was there.
 s=none;e:henry=smirking
@@ -1783,11 +1783,11 @@ n:erskine=Mr. Erskine;e:erskine=neutral
 His own neighbour was Mrs. Vandeleur, one of his aunt’s oldest friends, a perfect saint amongst women, but so dreadfully dowdy that she reminded one of a badly bound hymnbook.
 n:vandeleur=Mrs. Vandeleur;e:vandeleur=neutral;x:vandeleur=hat
 
-Fortunately for him she had on the other side Lord Faudel, a most intelligent middle-aged mediocrity, as bald as a ministerial statement in the House of Commons, with whom she was conversing in that intensely earnest manner which is the one unpardonable error, as he remarked once himself, that all really good people fall into, and from which none of them ever quite escape.<e>"Can you believe those clowns in parliament?"</e>
+Fortunately for him she had on the other side Lord Faudel, a most intelligent middle-aged mediocrity, as bald as a ministerial statement in the House of Commons, with whom she was conversing in that intensely earnest manner which is the one unpardonable error, as he remarked once himself, that all really good people fall into, and from which none of them ever quite escape.
 n:faudel=Lord Faudel
 
 “We are talking about poor Dartmoor, Lord Henry,” cried the duchess, nodding pleasantly to him across the table.
-s=harley;e:harley=happy
+s=harley;e:harley=happy;z:harley=87,53,12;e:harley=contemplative;i=
 
 “Do you think he will really marry this fascinating young person?”
 e:harley=curious
@@ -1799,55 +1799,55 @@ s=henry;e:henry=smirking
 s=agatha;e:agatha=upset
 
 “Really, someone should interfere.”
-e:agatha=unhappy
+e:agatha=unhappy;e:agatha=unhappy;i=
 
 “I am told, on excellent authority, that her father keeps an American dry-goods store,” said Sir Thomas Burdon, looking supercilious.
-s=burdon;e:burdon=smirking
+s=burdon;e:burdon=smirking;z:burdon=89,53,9
 
 “My uncle has already suggested pork-packing, Sir Thomas.”
-s=henry;e:henry=neutral
+s=henry;e:henry=neutral;e:henry=smirkinglook;i=
 
 “Dry-goods! What are American dry-goods?” asked the duchess, raising her large hands in wonder and accentuating the verb.
-s=none;e:harley=confusedhands
+s=none;e:harley=confusedhands;s=harley;m=;e:harley=confused;i=
 
-“American novels,” answered Lord Henry, helping himself to some quail.<e>I choose to believe this is a slam on Henry James in particular. Based. (Ties in with the <book>Portrait of a Lady|American girl in Europe theme</book> too, eh?)</e>
+“American novels,” answered Lord Henry, helping himself to some quail.<e>Probably a slam on Henry James in particular. Definitely probably, taking the previous scene's <book>Portrait of a Lady</book>-ish conversation into account. (Based if true.)</e>
 s=henry;e:henry=smirkinglookdown
 
 The duchess looked puzzled.
 s=none;e:harley=confused
 
 “Don’t mind him, my dear,” whispered Lady Agatha.
-s=agatha;e:agatha=contemplative
+s=agatha;e:agatha=contemplative;e:agatha=annoyed;i=
 
 “He never means anything that he says.”
-
+;e:agatha=contemplative;i=2
 
 “When America was discovered,” said the Radical member﻿—
-s=burdon;e:burdon=serious;m=allowbreak;m=nospace
+s=burdon;e:burdon=serious;m=allowbreak;m=nospace;e:burdon=thinking;i=
 
 and he began to give some wearisome facts.
-m=;s=
+m=;s=;f:b:agatha-dining=blur(3px)
 
 Like all people who try to exhaust a subject, he exhausted his listeners.
 s=none;e:henry=bored
 
 The duchess sighed and exercised her privilege of interruption.
-e:harley=weary
+e:harley=weary;f:b:agatha-dining=
 
 “I wish to goodness it never had been discovered at all!” she exclaimed.
 s=harley;e:harley=upset
 
 “Really, our girls have no chance nowadays. It is most unfair.”
-e:harley=weary
+e:harley=weary;e:harley=nervous;i=
 
 “Perhaps, after all, America never has been discovered,” said Mr. Erskine; “I myself would say that it had merely been detected.”
-s=erskine;e:erskine=smirking
+s=erskine;e:erskine=smirking;z:erskine=87,53,9;e:erskine=smirkinglook;i=
 
 “Oh! but I have seen specimens of the inhabitants,” answered the duchess vaguely.
-s=harley;e:harley=contemplative
+s=harley;e:harley=contemplative;e:harley=confused;i=
 
 “I must confess that most of them are extremely pretty. And they dress well, too. They get all their dresses in Paris. I wish I could afford to do the same.”
-e:harley=contemplative
+e:harley=contemplative;e:harley=unhappy;i=
 
 “They say that when good Americans die they go to Paris,” chuckled Sir Thomas, who had a large wardrobe of Humour’s cast-off clothes.
 s=burdon;e:burdon=happy
@@ -1856,109 +1856,109 @@ s=burdon;e:burdon=happy
 s=harley;e:harley=confused
 
 “They go to America,” murmured Lord Henry.
-s=henry;e:henry=smirking
+s=henry;e:henry=smirking;e:henry=smirkinglookdown;i=
 
 Sir Thomas frowned.
 s=none;e:burdon=annoyed
 
 “I am afraid that your nephew is prejudiced against that great country,” he said to Lady Agatha.
-s=burdon;e:burdon=thinking
+s=burdon;e:burdon=thinking;e:burdon=;i=2
 
 “I have travelled all over it in cars provided by the directors, who, in such matters, are extremely civil. I assure you that it is an education to visit it.”
-
+;e:burdon=serious;i=
 
 “But must we really see Chicago in order to be educated?” asked Mr. Erskine plaintively.
 s=erskine;e:erskine=unhappy
 
 “I don’t feel up to the journey.”
-e:erskine=thinking
+e:erskine=thinking;e:erskine=contemplative;i=
 
 Sir Thomas waved his hand.
 s=none
 
 “Mr. Erskine of Treadley has the world on his shelves. We practical men like to see things, not to read about them.”
-s=burdon;e:burdon=
+s=burdon;e:burdon=;e:burdon=thinking;i=
 
 “The Americans are an extremely interesting people. They are absolutely reasonable. I think that is their distinguishing characteristic. Yes, Mr. Erskine, an absolutely reasonable people. I assure you there is no nonsense about the Americans.”
-
+;e:burdon=suspicious;i=
 
 “How dreadful!” cried Lord Henry.
-s=henry;e:henry=unhappy
+s=henry;e:henry=unhappy;e:henry=unhappy;i=2;e:henry=shrugging;i=
 
 “I can stand brute force, but brute reason is quite unbearable. There is something unfair about its use. It is hitting below the intellect.”
-e:henry=smirking
+e:henry=smirking;e:henry=smirkinglook;i=
 
 “I do not understand you,” said Sir Thomas, growing rather red.
-s=burdon;e:burdon=scowling
+s=burdon;e:burdon=scowling;e:burdon=;i=
 
 “I do, Lord Henry,” murmured Mr. Erskine, with a smile.
 s=erskine;e:erskine=happymurmur
 
 “Paradoxes are all very well in their way.…” rejoined the baronet.
-s=burdon;e:burdon=annoyed
+s=burdon;e:burdon=annoyed;e:burdon=serious;i=
 
 “Was that a paradox?” asked Mr. Erskine.
-s=erskine;e:erskine=curious
+s=erskine;e:erskine=curious;e:erskine=happybow;i=
 
 “I did not think so. Perhaps it was. Well, the way of paradoxes is the way of truth. To test reality we must see it on the tight rope. When the verities become acrobats, we can judge them.”
-e:erskine=smirking
+e:erskine=smirking;e:erskine=curious;i=
 
 “Dear me!” said Lady Agatha, “how you men argue! I am sure I never can make out what you are talking about.”
-s=agatha;e:agatha=confused
+s=agatha;e:agatha=confused;e:agatha=upset;i=;e:agatha=unhappy;i=
 
 “Oh! Harry, I am quite vexed with you. Why do you try to persuade our nice Mr. Dorian Gray to give up the East End? I assure you he would be quite invaluable. They would love his playing.”
-e:agatha=annoyed
+e:agatha=annoyed;e:agatha=serious;i=
 
 “I want him to play to me,” cried Lord Henry, smiling,
-s=henry;e:henry=happy;e:dorian=happy;m=allowbreak
+s=henry;e:henry=happy;e:dorian=happy;m=allowbreak;e:henry=curious;i=3
 
 and he looked down the table and caught a bright answering glance.
 m=;s=
 
 “But they are so unhappy in Whitechapel,” continued Lady Agatha.
-s=agatha;e:agatha=unhappy
+s=agatha;e:agatha=unhappy;e:agatha=contemplative;i=
 
 “I can sympathize with everything except suffering,” said Lord Henry, shrugging his shoulders.
 s=henry;e:henry=shrugging
 
 “I cannot sympathize with that. It is too ugly, too horrible, too distressing.”
-e:henry=annoyed
+e:henry=annoyed;e:henry=thinking;i=
 
 “There is something terribly morbid in the modern sympathy with pain. One should sympathize with the colour, the beauty, the joy of life. The less said about life’s sores, the better.”
-e:henry=contemplative
+e:henry=contemplative;e:henry=curious;i=
 
 “Still, the East End is a very important problem,” remarked Sir Thomas with a grave shake of the head.
-s=burdon;e:burdon=serious
+s=burdon;e:burdon=serious;e:burdon=scowling;i=
 
 “Quite so,” answered the young lord.
-s=henry;e:henry=curious
+s=henry;e:henry=curious;e:henry=;i=
 
 “It is the problem of slavery, and we try to solve it by amusing the slaves.”
-e:henry=smirking
+e:henry=smirking;e:henry=smirkinglook;i=
 
 The politician looked at him keenly.
 s=none;e:burdon=wary
 
 “What change do you propose, then?” he asked.
-s=burdon;e:burdon=suspicious
+s=burdon;e:burdon=suspicious;e:burdon=thinking;i=
 
 Lord Henry laughed.
 s=none;e:henry=happy
 
 “I don’t desire to change anything in England except the weather,” he answered. “I am quite content with philosophic contemplation.”
-s=henry;e:henry=happy
+s=henry;e:henry=happy;e:henry=happy;i=2
 
 “But, as the nineteenth century has gone bankrupt through an over-expenditure of sympathy, I would suggest that we should appeal to science to put us straight.”
 e:henry=thinking
 
 “The advantage of the emotions is that they lead us astray, and the advantage of science is that it is not emotional.”
-
+;e:henry=;i=2
 
 “But we have such grave responsibilities,” ventured Mrs. Vandeleur timidly.
-s=vandeleur;e:vandeleur=nervous
+s=vandeleur;e:vandeleur=nervous;z:vandeleur=84,52,11
 
 “Terribly grave,” echoed Lady Agatha.
-s=agatha;e:agatha=serious
+s=agatha;e:agatha=serious;e:agatha=contemplative;i=2
 
 Lord Henry looked over at Mr. Erskine.
 s=none
@@ -1966,47 +1966,41 @@ s=none
 “Humanity takes itself too seriously. It is the world’s original sin. If the caveman had known how to laugh, history would have been different.”
 s=henry;e:henry=curiouslook
 
-“You are really very comforting,” warbled the duchess.
-s=harley;e:harley=contemplative
-
-“I have always felt rather guilty when I came to see your dear aunt, for I take no interest at all in the East End. For the future I shall be able to look her in the face without a blush.”
-
+“You are really very comforting,” warbled the duchess. “I have always felt rather guilty when I came to see your dear aunt, for I take no interest at all in the East End. For the future I shall be able to look her in the face without a blush.”
+s=harley;e:harley=contemplative;e:harley=curious;i=
 
 “A blush is very becoming, Duchess,” remarked Lord Henry.
-s=henry;e:henry=smirking
+s=henry;e:henry=smirking;e:henry=;i=
 
 “Only when one is young,” she answered. “When an old woman like myself blushes, it is a very bad sign. Ah! Lord Henry, I wish you would tell me how to become young again.”
-s=harley;e:harley=unhappy
+s=harley;e:harley=unhappy;e:harley=weary;i=
 
 He thought for a moment.
 s=none;e:henry=thinking
 
 “Can you remember any great error that you committed in your early days, Duchess?” he asked, looking at her across the table.
-s=henry;e:henry=curiouslook
+s=henry;e:henry=curiouslook;e:henry=smirkinglook;i=
 
 “A great many, I fear,” she cried.
 s=harley;e:harley=confused
 
-“Then commit them over again,” he said gravely.
-s=henry;e:henry=serious
-
-“To get back one’s youth, one has merely to repeat one’s follies.”
-
+“Then commit them over again,” he said gravely. “To get back one’s youth, one has merely to repeat one’s follies.”
+s=henry;e:henry=serious;e:henry=suspicious;i=
 
 “A delightful theory!” she exclaimed. “I must put it into practice.”
 s=harley;e:harley=happy
 
 “A dangerous theory!” came from Sir Thomas’s tight lips.
-s=burdon;e:burdon=scowling
+s=burdon;e:burdon=scowling;e:burdon=;i=
 
 Lady Agatha shook her head, but could not help being amused. Mr. Erskine listened.
 s=none;e:agatha=happy;e:erskine=neutral
 
 “Yes,” he continued, “that is one of the great secrets of life.”
-s=henry;e:henry=contemplative
+s=henry;e:henry=contemplative;e:henry=shrugging;i=
 
 “Nowadays most people die of a sort of creeping common sense, and discover when it is too late that the only things one never regrets are one’s mistakes.”
-e:henry=smirking;i=3
+e:henry=smirking;i=3;e:henry=smirkinglookdown;i=
 
 A laugh ran round the table.
 s=none
@@ -2039,22 +2033,22 @@ She wrung her hands in mock despair.
 s=harley;e:harley=upset
 
 “I must go. I have to call for my husband at the club, to take him to some absurd meeting at Willis’s Rooms, where he is going to be in the chair.”
-e:harley=thinking
+e:harley=thinking;e:harley=unhappy;i=
 
 “If I am late he is sure to be furious, and I couldn’t have a scene in this bonnet. It is far too fragile. A harsh word would ruin it. No, I must go, dear Agatha.”
 e:harley=nervous
 
 “Goodbye, Lord Henry, you are quite delightful and dreadfully demoralizing. I am sure I don’t know what to say about your views. You must come and dine with us some night. Tuesday? Are you disengaged Tuesday?”
-e:harley=curious
+e:harley=curious;e:harley=curious;i=
 
 “For you I would throw over anybody, Duchess,” said Lord Henry with a bow.
-s=henry;e:henry=smirkinglookdown
+s=henry;e:henry=smirkinglookdown;e:henry=smirking;i=3
 
 “Ah! that is very nice, and very wrong of you,” she cried; “so mind you come”;
-s=none;e:harley=serious
+s=harley;e:harley=serious;e:harley=confused;i=
 
 and she swept out of the room, followed by Lady Agatha and the other ladies.
-
+s=
 
 When Lord Henry had sat down again, Mr. Erskine moved round, and taking a chair close to him, placed his hand upon his arm.
 e:erskine=neutral
@@ -2063,37 +2057,37 @@ e:erskine=neutral
 s=erskine;e:erskine=curious
 
 “I am too fond of reading books to care to write them, Mr. Erskine. I should like to write a novel certainly, a novel that would be as lovely as a Persian carpet and as unreal.”
-e:henry=contemplative
+e:henry=contemplative;s=henry;e:henry=happy;i=2
 
 “But there is no literary public in England for anything except newspapers, primers, and encyclopaedias. Of all people in the world the English have the least sense of the beauty of literature.”
-e:henry=bored
+e:henry=bored;e:henry=bored;i=2
 
 “I fear you are right,” answered Mr. Erskine.
-s=erskine;e:erskine=unhappy
+s=erskine;e:erskine=unhappy;e:erskine=contemplative;i=;e:erskine=unhappy;i=
 
 “I myself used to have literary ambitions, but I gave them up long ago.”
-e:erskine=thinking
-
-“And now, my dear young friend, if you will allow me to call you so, may I ask if you really meant all that you said to us at lunch?”
-e:erskine=curious
-
-“I quite forget what I said,” smiled Lord Henry.
-s=henry;e:henry=smirking
-
-“Was it all very bad?”
-
-
-“Very bad indeed. In fact I consider you extremely dangerous, and if anything happens to our good duchess, we shall all look on you as being primarily responsible.”
-s=erskine;e:erskine=curious
-
-“But I should like to talk to you about life. The generation into which I was born was tedious.”
 e:erskine=contemplative
 
-“Some day, when you are tired of London, come down to Treadley and expound to me your philosophy of pleasure over some admirable Burgundy I am fortunate enough to possess.”<e>Gee, I wonder if Lord Henry is a stand-in for the author.</e>
-e:erskine=happy
+“And now, my dear young friend, if you will allow me to call you so, may I ask if you really meant all that you said to us at lunch?”
+e:erskine=curious;e:erskine=curious;i=
+
+“I quite forget what I said,” smiled Lord Henry.
+s=henry;e:henry=smirking;e:henry=smirkinglookdown;i=
+
+“Was it all very bad?”
+;e:henry=smirkinglook;i=
+
+“Very bad indeed. In fact I consider you extremely dangerous, and if anything happens to our good duchess, we shall all look on you as being primarily responsible.”
+s=erskine;e:erskine=curious;e:erskine=happybow;i=
+
+“But I should like to talk to you about life. The generation into which I was born was tedious.”
+e:erskine=contemplative;e:erskine=smirkinglook;i=
+
+“Some day, when you are tired of London, come down to Treadley and expound to me your philosophy of pleasure over some admirable Burgundy I am fortunate enough to possess.”<e>Getting some subtle hints that Lord Henry might be Wilde's stand-in.</e>
+e:erskine=happy;e:erskine=curious;i=2
 
 “I shall be charmed. A visit to Treadley would be a great privilege. It has a perfect host, and a perfect library.”
-s=henry;e:henry=smirking
+s=henry;e:henry=smirking;e:henry=happy;i=2
 
 “You will complete it,” answered the old gentleman with a courteous bow.
 s=erskine;e:erskine=happybow
@@ -2102,34 +2096,37 @@ s=erskine;e:erskine=happybow
 e:erskine=smirkinglook
 
 “All of you, Mr. Erskine?”
-s=henry;e:henry=curious
+s=henry;e:henry=curious;e:henry=curious;i=2
 
 “Forty of us, in forty armchairs. We are practising for an English Academy of Letters.”
-s=erskine;e:erskine=smirking
+s=erskine;e:erskine=smirking;e:erskine=happymurmur;i=
 
 Lord Henry laughed and rose.
 s=
 
 “I am going to the park,” he cried.
-s=henry;e:henry=happy
+s=henry;e:henry=happy;e:henry=smirkinglook;i=
 
 As he was passing out of the door, Dorian Gray touched him on the arm.
 s=none;e:dorian=nervous
 
 “Let me come with you,” he murmured.
-s=dorian
+s=dorian;e:dorian=nervous;i=2
 
 “But I thought you had promised Basil Hallward to go and see him,” answered Lord Henry.
-s=henry;e:henry=curiouslook
+s=henry;e:henry=curiouslook;e:henry=smirking;i=;e:henry=smirkinglookdown;i=
 
-“I would sooner come with you; yes, I feel I must come with you. Do let me. And you will promise to talk to me all the time? No one talks so wonderfully as you do.”
-s=dorian;e:dorian=serious
+“I would sooner come with you; yes, I feel I must come with you. Do let me. And you will promise to talk to me all the time?”
+s=dorian;e:dorian=serious;e:dorian=unhappy;i=2
+
+“No one talks so wonderfully as you do.”
+;e:dorian=seriouslookdown;i=
 
 “Ah! I have talked quite enough for today,” said Lord Henry, smiling.
-s=henry;e:henry=smirking
+s=henry;e:henry=smirking;e:henry=happy;i=2
 
 “All I want now is to look at life. You may come and look at it with me, if you care to.”
-e:henry=happy
+e:henry=happy;e:henry=curious;i=3
 
 ## IV
 r=title
