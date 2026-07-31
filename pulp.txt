@@ -3611,13 +3611,13 @@ said Lord Henry that evening as Hallward was shown into a little private room at
 m=;s=
 
 “No, Harry,” answered the artist,
-s=basil;e:basil=contemplativelook;m=allowbreak
+s=basil;e:basil=contemplativelook;m=allowbreak;e:basil=contemplative;i=2
 
 giving his hat and coat to the bowing waiter.
 m=;s=
 
 “What is it? Nothing about politics, I hope! They don’t interest me. There is hardly a single person in the House of Commons worth painting, though many of them would be the better for a little whitewashing.”
-s=basil;e:basil=happy
+s=basil;e:basil=happy;e:basil=smirking;i=2
 
 “Dorian Gray is engaged to be married,” said Lord Henry, watching him as he spoke.
 s=henry;e:henry=smirking
@@ -3626,34 +3626,34 @@ Hallward started and then frowned.
 s=none;e:basil=surprised
 
 “Dorian engaged to be married!” he cried. “Impossible!”
-s=basil;e:basil=upset
+s=basil;e:basil=upset;e:basil=confused;i=2
 
 “It is perfectly true.”
 s=henry;e:henry=neutral
 
 “To whom?”
-s=basil;e:basil=confused
+s=basil;e:basil=confused;e:basil=seriousdownlook;i=
 
 “To some little actress or other.”
 s=henry;e:henry=bored
 
 “I can’t believe it. Dorian is far too sensible.”
-s=basil;e:basil=serious
+s=basil;e:basil=serious;e:basil=weary;i=
 
 “Dorian is far too wise not to do foolish things now and then, my dear Basil.”
 s=henry;e:henry=smirking
 
 “Marriage is hardly a thing that one can do now and then, Harry.”
-s=basil;e:basil=annoyed
+s=basil;e:basil=annoyed;e:basil=wary;i=
 
 “Except in America,” rejoined Lord Henry languidly.
-s=henry;e:henry=smirking
+s=henry;e:henry=smirking;e:henry=shrugging;i=
 
 “But I didn’t say he was married. I said he was engaged to be married. There is a great difference.”
 s=henry;e:henry=neutral
 
 “I have a distinct remembrance of being married, but I have no recollection at all of being engaged. I am inclined to think that I never was engaged.”
-e:henry=thinking
+e:henry=thinking;e:henry=unhappy;i=
 
 “But think of Dorian’s birth, and position, and wealth. It would be absurd for him to marry so much beneath him.”
 s=basil;e:basil=serious
@@ -3665,7 +3665,7 @@ s=henry;e:henry=smirking
 s=basil;e:basil=wary
 
 “Oh, she is better than good﻿—she is beautiful,” murmured Lord Henry,
-s=henry;e:henry=happy;m=allowbreak
+s=henry;e:henry=happy;m=allowbreak;e:henry=smirking;i=3
 
 sipping a glass of vermouth and orange-bitters.
 m=;s=
@@ -3677,70 +3677,70 @@ s=henry;e:henry=neutral
 e:henry=smirking
 
 “We are to see her tonight, if that boy doesn’t forget his appointment.”
-e:henry=neutral
+e:henry=neutral;e:henry=smirkinglook;i=
 
 “Are you serious?”
 s=basil;e:basil=serious
 
 “Quite serious, Basil. I should be miserable if I thought I should ever be more serious than I am at the present moment.”
-s=henry;e:henry=smirking
+s=henry;e:henry=smirking;e:henry=;i=
 
 “But do you approve of it, Harry?” asked the painter,
-s=basil;e:basil=nervouslookbiting;m=allowbreak
+s=basil;e:basil=nervouslookbiting;m=allowbreak;e:basil=seriousdownlook;i=
 
 walking up and down the room and biting his lip.
 m=;s=
 
 “You can’t approve of it, possibly. It is some silly infatuation.”
-e:basil=annoyed;s=basil
+e:basil=annoyed;s=basil;e:basil=nervous;i=2
 
 “I never approve, or disapprove, of anything now. It is an absurd attitude to take towards life.”
-s=henry;e:henry=bored
+s=henry;e:henry=bored;e:henry=shrugging;i=
 
 “We are not sent into the world to air our moral prejudices. I never take any notice of what common people say, and I never interfere with what charming people do.”
-e:henry=smirking
+e:henry=smirking;e:henry=smirkinglookdown;i=;e:henry=smirking;i=
 
 “If a personality fascinates me, whatever mode of expression that personality selects is absolutely delightful to me.”
-e:henry=happy
+e:henry=happy;e:henry=happy;i=2
 
 “Dorian Gray falls in love with a beautiful girl who acts Juliet, and proposes to marry her. Why not? If he wedded Messalina, he would be none the less interesting.”
-e:henry=contemplative
+e:henry=contemplative;e:henry=curious;i=2
 
 “You know I am not a champion of marriage. The real drawback to marriage is that it makes one unselfish. And unselfish people are colourless. They lack individuality.”
-e:henry=thinking
+e:henry=thinking;e:henry=;i=2
 
 “Still, there are certain temperaments that marriage makes more complex. They retain their egotism, and add to it many other egos. They are forced to have more than one life.”
-e:henry=serious
+e:henry=serious;e:henry=bored;i=2
 
 “They become more highly organized, and to be highly organized is, I should fancy, the object of man’s existence. Besides, every experience is of value, and whatever one may say against marriage, it is certainly an experience.”
-e:henry=smirking
+e:henry=smirking;e:henry=smirking;i=3
 
 “I hope that Dorian Gray will make this girl his wife, passionately adore her for six months, and then suddenly become fascinated by someone else. He would be a wonderful study.”
 
 
 “You don’t mean a single word of all that, Harry; you know you don’t. If Dorian Gray’s life were spoiled, no one would be sorrier than yourself. You are much better than you pretend to be.”
-s=basil;e:basil=serious
+s=basil;e:basil=serious;e:basil=wary;i=
 
 Lord Henry laughed.
 s=none;e:henry=happy
 
 “The reason we all like to think so well of others is that we are all afraid for ourselves.”
-s=henry;e:henry=smirking
+s=henry;e:henry=smirking;e:henry=smirkinglookdown;i=
 
 “The basis of optimism is sheer terror. We think that we are generous because we credit our neighbour with the possession of those virtues that are likely to be a benefit to us.”
-e:henry=contemplative
+e:henry=contemplative;e:henry=happy;i=2
 
 “We praise the banker that we may overdraw our account, and find good qualities in the highwayman in the hope that he may spare our pockets.”
 e:henry=smirking
 
 “I mean everything that I have said. I have the greatest contempt for optimism. As for a spoiled life, no life is spoiled but one whose growth is arrested. If you want to mar a nature, you have merely to reform it.”
-e:henry=serious
+e:henry=serious;e:henry=shrugging;i=
 
 “As for marriage, of course that would be silly, but there are other and more interesting bonds between men and women. I will certainly encourage them. They have the charm of being fashionable.”
-e:henry=smirking
+e:henry=smirking;e:henry=smirking;i=3
 
 “But here is Dorian himself. He will tell you more than I can.”
-e:henry=curiouslook
+e:henry=curiouslook;e:henry=curious;i=2
 
 “My dear Harry, my dear Basil, you must both congratulate me!” said the lad,
 s=dorian;e:dorian=excitedcapethrowing;m=allowbreak
@@ -3749,25 +3749,25 @@ throwing off his evening cape with its satin-lined wings and shaking each of his
 m=;s=
 
 “I have never been so happy. Of course, it is sudden﻿—all really delightful things are. And yet it seems to me to be the one thing I have been looking for all my life.”
-e:dorian=happy;s=dorian
+e:dorian=happy;s=dorian;e:dorian=happy;i=2
 
 He was flushed with excitement and pleasure, and looked extraordinarily handsome.
 s=none
 
 “I hope you will always be very happy, Dorian,” said Hallward, “but I don’t quite forgive you for not having let me know of your engagement. You let Harry know.”
-s=basil;e:basil=sadsmile
+s=basil;e:basil=sadsmile;e:basil=unhappy;i=2
 
 “And I don’t forgive you for being late for dinner,” broke in Lord Henry, putting his hand on the lad’s shoulder and smiling as he spoke.
 s=henry;e:henry=happy
 
 “Come, let us sit down and try what the new chef here is like, and then you will tell us how it all came about.”
-e:henry=smirking
+e:henry=smirking;e:henry=smirkinglook;i=
 
 “There is really not much to tell,” cried Dorian as they took their seats at the small round table.
-s=dorian;e:dorian=happy
+s=dorian;e:dorian=happy;e:dorian=smirking;i=2
 
 “What happened was simply this. After I left you yesterday evening, Harry, I dressed, had some dinner at that little Italian restaurant in Rupert Street you introduced me to, and went down at eight o’clock to the theatre.”
-e:dorian=thinking
+e:dorian=thinking;e:dorian=curiouslook;i=
 
 “Sibyl was playing Rosalind.”
 g=theatre-as-you-like-it
@@ -3778,7 +3778,7 @@ g=theatre-as-you-like-it
 “She wore a moss-coloured velvet jerkin with cinnamon sleeves, slim, brown, cross-gartered hose, a dainty little green cap with a hawk’s feather caught in a jewel, and a hooded cloak lined with dull red.”
 e:dorian=contemplative
 
-“She had never seemed to me more exquisite.”<e>Hmmm…</e>
+“She had never seemed to me more exquisite.”<e>"boy's clothes awooooooooga" —Oscar Wilde</e>
 
 
 “She had all the delicate grace of that Tanagra figurine that you have in your studio, Basil. Her hair clustered round her face like dark leaves round a pale rose.”
@@ -3808,59 +3808,62 @@ e:dorian=contemplative
 “Then she flung herself on her knees and kissed my hands.”
 
 
-“I feel that I should not tell you all this, but I can’t help it. Of course, our engagement is a dead secret. She has not even told her own mother.”
-g=;e:dorian=sadsmile
+“I feel that I should not tell you all this, but I can’t help it.”
+g=;e:dorian=sadsmile;e:dorian=happy;i=2
+
+“Of course, our engagement is a dead secret. She has not even told her own mother.”
+;e:dorian=boredlook;i=
 
 “I don’t know what my guardians will say. Lord Radley is sure to be furious. I don’t care. I shall be of age in less than a year, and then I can do what I like.”
-
+e:dorian=unhappy;i=2
 
 “I have been right, Basil, haven’t I, to take my love out of poetry and to find my wife in Shakespeare’s plays?”
-e:dorian=happy
+e:dorian=happy;e:dorian=happylook;i=
 
 “Lips that Shakespeare taught to speak have whispered their secret in my ear. I have had the arms of Rosalind around me, and kissed Juliet on the mouth.”
-e:dorian=contemplative
+e:dorian=contemplative;e:dorian=smirkingquietevil;i=2
 
 “Yes, Dorian, I suppose you were right,” said Hallward slowly.
-s=basil;e:basil=weary
+s=basil;e:basil=weary;e:basil=unhappy;i=2
 
 “Have you seen her today?” asked Lord Henry.
-s=henry;e:henry=curious
+s=henry;e:henry=curious;e:henry=curious;i=3
 
 Dorian Gray shook his head.
 s=none;e:dorian=neutral
 
 “I left her in the forest of Arden; I shall find her in an orchard in Verona.”
-s=dorian;e:dorian=happy
+s=dorian;e:dorian=happy;e:dorian=happy;i=2
 
 Lord Henry sipped his champagne in a meditative manner.
 s=none;e:henry=thinking
 
 “At what particular point did you mention the word marriage, Dorian? And what did she say in answer? Perhaps you forgot all about it.”
-s=henry;e:henry=curiouswithchampagne
+s=henry;e:henry=curiouswithchampagne;e:henry=smirkinglookdown;i=
 
 “My dear Harry, I did not treat it as a business transaction, and I did not make any formal proposal.”
-s=dorian;e:dorian=contemplative
+s=dorian;e:dorian=contemplative;e:dorian=curiouslook;i=
 
 “I told her that I loved her, and she said she was not worthy to be my wife. Not worthy! Why, the whole world is nothing to me compared with her.”
-e:dorian=sadsmile
+e:dorian=sadsmile;e:dorian=sadsmile;i=2
 
 “Women are wonderfully practical,” murmured Lord Henry,
-s=henry;e:henry=smirking
+s=henry;e:henry=smirking;e:henry=;i=
 
 “much more practical than we are. In situations of that kind we often forget to say anything about marriage, and they always remind us.”
-
+;e:henry=smirking;i=
 
 Hallward laid his hand upon his arm.
 s=none;e:basil=serious
 
 “Don’t, Harry. You have annoyed Dorian. He is not like other men. He would never bring misery upon anyone. His nature is too fine for that.”
-s=basil;e:basil=weary
+s=basil;e:basil=weary;e:basil=wary;i=
 
 Lord Henry looked across the table.
 s=none;e:henry=neutral
 
 “Dorian is never annoyed with me,” he answered. “I asked the question for the best reason possible, for the only reason, indeed, that excuses one for asking any question﻿—simple curiosity.”
-s=henry;e:henry=smirking
+s=henry;e:henry=smirking;e:henry=curious;i=3
 
 “I have a theory that it is always the women who propose to us, and not we who propose to the women. Except, of course, in middle-class life. But then the middle classes are not modern.”
 
@@ -3869,25 +3872,25 @@ Dorian Gray laughed, and tossed his head.
 s=none;e:dorian=happy
 
 “You are quite incorrigible, Harry; but I don’t mind. It is impossible to be angry with you.”
-s=dorian
+s=dorian;e:dorian=happylook;i=
 
 “When you see Sibyl Vane, you will feel that the man who could wrong her would be a beast, a beast without a heart.”
-e:dorian=thinking
+e:dorian=thinking;e:dorian=smirkingquietevil;i=2
 
 “I cannot understand how anyone can wish to shame the thing he loves. I love Sibyl Vane. I want to place her on a pedestal of gold and to see the world worship the woman who is mine.”
 e:dorian=happy
 
 “What is marriage? An irrevocable vow. You mock at it for that. Ah! don’t mock. It is an irrevocable vow that I want to take. Her trust makes me faithful, her belief makes me good.”
-e:dorian=sadsmile
+e:dorian=sadsmile;e:dorian=happy;i=2
 
 “When I am with her, I regret all that you have taught me. I become different from what you have known me to be.”
-e:dorian=serious
+e:dorian=serious;e:dorian=unhappy;i=2
 
 “I am changed, and the mere touch of Sibyl Vane’s hand makes me forget you and all your wrong, fascinating, poisonous, delightful theories.”
-e:dorian=serious
+e:dorian=serious;e:dorian=thinkinglookdown;i=
 
 “And those are… ?” asked Lord Henry, helping himself to some salad.
-s=henry;e:henry=curiouslookdown
+s=henry;e:henry=curiouslookdown;e:henry=smirkinglookdown;i=
 
 “Oh, your theories about life, your theories about love, your theories about pleasure. All your theories, in fact, Harry.”
 s=dorian;e:dorian=contemplative
@@ -3896,13 +3899,13 @@ s=dorian;e:dorian=contemplative
 s=henry;e:henry=smirking
 
 “But I am afraid I cannot claim my theory as my own. It belongs to Nature, not to me. Pleasure is Nature’s test, her sign of approval.”
-
+;e:henry=;i=
 
 “When we are happy, we are always good, but when we are good, we are not always happy.”
 e:henry=smirkinglookdown
 
 “Ah! but what do you mean by good?” cried Basil Hallward.
-s=basil;e:basil=serious
+s=basil;e:basil=serious;e:basil=wary;i=
 
 “Yes,” echoed Dorian,
 s=dorian;e:dorian=confused;m=allowbreak
@@ -3920,37 +3923,37 @@ touching the thin stem of his glass with his pale, fine-pointed fingers.
 m=;s=
 
 “Discord is to be forced to be in harmony with others. One’s own life﻿—that is the important thing.”
-s=henry;e:henry=curious
+s=henry;e:henry=curious;e:henry=serious;i=3;e:henry=;i=
 
 “As for the lives of one’s neighbours, if one wishes to be a prig or a Puritan, one can flaunt one’s moral views about them, but they are not one’s concern. Besides, individualism has really the higher aim.”
 e:henry=smirking
 
 “Modern morality consists in accepting the standard of one’s age. I consider that for any man of culture to accept the standard of his age is a form of the grossest immorality.”
-e:henry=smirking
+e:henry=smirking;e:henry=smirking;i=3
 
 “But, surely, if one lives merely for one’s self, Harry, one pays a terrible price for doing so?” suggested the painter.
-s=basil;e:basil=serious
+s=basil;e:basil=serious;e:basil=seriousdownlook;i=
 
 “Yes, we are overcharged for everything nowadays. I should fancy that the real tragedy of the poor is that they can afford nothing but self-denial.”
-s=henry;e:henry=smirking
+s=henry;e:henry=smirking;e:henry=smirkinglookdown;i=;e:henry=happy;i=2
 
 “Beautiful sins, like beautiful things, are the privilege of the rich.”
-e:henry=happy
+e:henry=happy;e:henry=smirkinglook;i=
 
 “One has to pay in other ways but money.”
-s=basil;e:basil=serious
+s=basil;e:basil=serious;e:basil=unhappy;i=2
 
 “What sort of ways, Basil?”
 s=henry;e:henry=curious
 
 “Oh! I should fancy in remorse, in suffering, in… well, in the consciousness of degradation.”
-s=basil;e:basil=unhappy
+s=basil;e:basil=unhappy;e:basil=weary;i=;e:basil=contemplative;i=;e:basil=wary;i=
 
 Lord Henry shrugged his shoulders.
 s=none;e:henry=bored
 
 “My dear fellow, medieval art is charming, but medieval emotions are out of date.”
-s=henry;e:henry=smirkingshrug
+s=henry;e:henry=smirkingshrug;e:henry=happy;i=2
 
 “One can use them in fiction, of course. But then the only things that one can use in fiction are the things that one has ceased to use in fact.”
 e:henry=smirking
@@ -3959,79 +3962,76 @@ e:henry=smirking
 e:henry=smirking
 
 “I know what pleasure is,” cried Dorian Gray.
-s=dorian;e:dorian=happy
+s=dorian;e:dorian=happy;e:dorian=happylook;i=
 
 “It is to adore someone.”
-
+e:dorian=happy;i=2
 
 “That is certainly better than being adored,” he answered, toying with some fruits.
 s=henry;e:henry=smirkinglookdown
 
 “Being adored is a nuisance. Women treat us just as humanity treats its gods. They worship us, and are always bothering us to do something for them.”
-e:henry=contemplativelookdown
+e:henry=contemplativelookdown;e:henry=shrugging;i=
 
 “I should have said that whatever they ask for they had first given to us,” murmured the lad gravely.
-s=dorian;e:dorian=serious
+s=dorian;e:dorian=serious;e:dorian=seriouslookdown;i=
 
 “They create love in our natures. They have a right to demand it back.”
-
+;e:dorian=annoyed;i=
 
 “That is quite true, Dorian,” cried Hallward.
-s=basil;e:basil=nervous
+s=basil;e:basil=nervous;e:basil=wary;i=
 
 “Nothing is ever quite true,” said Lord Henry.
-s=henry;e:henry=smirking
+s=henry;e:henry=smirking;e:henry=smirking;i=3
 
 “This is,” interrupted Dorian.
 s=dorian;e:dorian=serious
 
 “You must admit, Harry, that women give to men the very gold of their lives.”
-
+;e:dorian=seriouslookdown;i=
 
 “Possibly,” he sighed, “but they invariably want it back in such very small change. That is the worry.”
 s=henry;e:henry=bored
 
 “Women, as some witty Frenchman once put it, inspire us with the desire to do masterpieces and always prevent us from carrying them out.”
-e:henry=smirking
+e:henry=smirking;e:henry=happy;i=2
 
 “Harry, you are dreadful! I don’t know why I like you so much.”
 s=dorian;e:dorian=upset
 
-“You will always like me, Dorian,” he replied. “Will you have some coffee, you fellows?”
-s=henry;e:henry=smirking
+“You will always like me, Dorian,” he replied.
+s=henry;e:henry=smirking;e:henry=;i=
 
-“Waiter, bring coffee, and fine champagne, and some cigarettes. No, don’t mind the cigarettes﻿—I have some.”
-e:henry=serious
+“Will you have some coffee, you fellows? Waiter, bring coffee, and fine champagne, and some cigarettes. No, don’t mind the cigarettes﻿—I have some.”
+e:henry=serious;e:henry=curious;i=2
 
 “Basil, I can’t allow you to smoke cigars. You must have a cigarette. A cigarette is the perfect type of a perfect pleasure. It is exquisite, and it leaves one unsatisfied. What more can one want?”
-e:henry=happy
+e:henry=smirkinglook
 
 “Yes, Dorian, you will always be fond of me. I represent to you all the sins you have never had the courage to commit.”
-e:henry=smirking
+e:henry=smirking;e:henry=curious;i=;e:henry=smirking;i=3
 
 “What nonsense you talk, Harry!” cried the lad,
-s=dorian;e:dorian=happy;m=allowbreak
+s=dorian;e:dorian=happy;m=allowbreak;e:dorian=bored;i=;e:dorian=curiouslook;i=
 
 taking a light from a fire-breathing silver dragon that the waiter had placed on the table.
 m=;s=
 
-“Let us go down to the theatre.”
-x:dorian=cig;s=dorian
-
-“When Sibyl comes on the stage you will have a new ideal of life. She will represent something to you that you have never known.”
-
+“Let us go down to the theatre. When Sibyl comes on the stage you will have a new ideal of life. She will represent something to you that you have never known.”
+x:dorian=cig;s=dorian;e:dorian=happy;i=2
 
 “I have known everything,” said Lord Henry, with a tired look in his eyes,
-s=henry;e:henry=weary;x:henry=cig
+s=henry;e:henry=weary;x:henry=cig;e:henry=bored;i=
 
 “but I am always ready for a new emotion. I am afraid, however, that, for me at any rate, there is no such thing.”
-e:henry=thinking
+;e:henry=thinking;i=
 
 “Still, your wonderful girl may thrill me. I love acting. It is so much more real than life.”
-e:henry=smirking
+e:henry=smirking;e:henry=contemplative;i=2
 
 “Let us go. Dorian, you will come with me. I am so sorry, Basil, but there is only room for two in the brougham. You must follow us in a hansom.”
-e:henry=neutral
+e:henry=neutral;e:henry=smirkinglook;i=
 
 They got up and put on their coats, sipping their coffee standing.
 s=none
@@ -4052,7 +4052,7 @@ His eyes darkened, and the crowded flaring streets became blurred to his eyes.
 f:b:london-wide-night=blur(3px)
 
 When the cab drew up at the theatre, it seemed to him that he had grown years older.
-b=theatre-wide-night;f:b:theatre-wide-night=blur(3px)
+b=theatre-wide-night
 
 ## VII
 r=title
