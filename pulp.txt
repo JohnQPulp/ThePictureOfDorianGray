@@ -8312,7 +8312,7 @@ Dorian was one of her especial favourites, and she always told him that she was 
 
 
 “I know, my dear, I should have fallen madly in love with you,” she used to say, “and thrown my bonnet right over the mills for your sake.”
-s=ladynarborough;e:ladynarborough=happy;m=nospeaker;f:b:narborough-drawing=blur(3px)
+e:ladynarborough=happy;m=dialogue;f:b:narborough-drawing=blur(3px)
 
 “It is most fortunate that you were not thought of at the time. As it was, our bonnets were so unbecoming, and the mills were so occupied in trying to raise the wind, that I never had even a flirtation with anybody.”
 e:ladynarborough=smirking
@@ -8327,10 +8327,10 @@ The fact was, as she explained to Dorian, behind a very shabby fan, one of her m
 
 
 “I think it is most unkind of her, my dear,” she whispered.
-s=ladynarborough;e:ladynarborough=annoyed
+s=ladynarborough;e:ladynarborough=annoyed;z:ladynarborough=87,,10;e:ladynarborough=serious;i=
 
 “Of course I go and stay with them every summer after I come from Homburg, but then an old woman like me must have fresh air sometimes, and besides, I really wake them up.”
-
+;e:ladynarborough=annoyed;i=2
 
 “You don’t know what an existence they lead down there. It is pure unadulterated country life. They get up early, because they have so much to do, and go to bed early, because they have so little to think about.”
 e:ladynarborough=smirking
@@ -8363,10 +8363,10 @@ He was rather sorry he had come, till Lady Narborough, looking at the great ormo
 
 
 “How horrid of Henry Wotton to be so late! I sent round to him this morning on chance and he promised faithfully not to disappoint me.”
-s=ladynarborough;e:ladynarborough=scowling
+s=ladynarborough;e:ladynarborough=scowling;e:ladynarborough=confused;i=
 
 It was some consolation that Harry was to be there, and when the door opened and he heard his slow musical voice lending charm to some insincere apology, he ceased to feel bored.
-s=none;e:dorian=happy
+s=none;e:dorian=happy;f:b:narborough-drawing=blur(3px)
 
 But at dinner he could not eat anything. Plate after plate went away untasted.
 e:dorian=nervous;b=narborough-dining
@@ -8384,13 +8384,13 @@ as the *chaud-froid* was being handed round,
 m=;s=
 
 “what is the matter with you tonight? You are quite out of sorts.”
-s=henry;i=2
+s=henry;i=2;e:henry=smirking;i=3
 
 “I believe he is in love,” cried Lady Narborough,
-s=ladynarborough;e:ladynarborough=curious
+s=ladynarborough;e:ladynarborough=curious;e:ladynarborough=happy;i=
 
 “and that he is afraid to tell me for fear I should be jealous. He is quite right. I certainly should.”
-e:ladynarborough=smirking
+e:ladynarborough=smirking;e:ladynarborough=smirking;i=2
 
 “Dear Lady Narborough,” murmured Dorian, smiling,
 s=dorian;e:dorian=happy
@@ -8399,49 +8399,49 @@ s=dorian;e:dorian=happy
 e:dorian=smirking
 
 “How you men can fall in love with that woman!” exclaimed the old lady.
-s=ladynarborough;e:ladynarborough=unhappy
+s=ladynarborough;e:ladynarborough=unhappy;e:ladynarborough=scowling;i=
 
 “I really cannot understand it.”
-e:ladynarborough=thinking
+e:ladynarborough=thinking;e:ladynarborough=unhappy;i=
 
 “It is simply because she remembers you when you were a little girl, Lady Narborough,” said Lord Henry.
-s=henry;e:henry=contemplative
+s=henry;e:henry=contemplative;e:henry=smirking;i=2
 
 “She is the one link between us and your short frocks.”
-e:henry=smirking
+e:henry=smirking;e:henry=smirking;i=
 
 “She does not remember my short frocks at all, Lord Henry. But I remember her very well at Vienna thirty years ago, and how décolleté she was then.”
-s=ladynarborough;e:ladynarborough=thinking;i=2
+s=ladynarborough;e:ladynarborough=thinking;i=2;e:ladynarborough=thinkinglook;i=
 
 “She is still décolleté,” he answered,
-s=henry;m=allowbreak;e:henry=curiouslookdown
+s=henry;m=allowbreak;e:henry=curiouslookdown;e:henry=smirkinglookdown;i=
 
 taking an olive in his long fingers;
 m=;s=
 
 “and when she is in a very smart gown she looks like an *edition de luxe* of a bad French novel. She is really wonderful, and full of surprises.”
-s=henry;e:henry=smirking
+s=henry;e:henry=smirking;e:henry=smirking;i=2
 
 “Her capacity for family affection is extraordinary. When her third husband died, her hair turned quite gold from grief.”
-e:henry=happy
+e:henry=happy;e:henry=smirking;i=3
 
 “How can you, Harry!” cried Dorian.
-s=dorian;e:dorian=wary
+s=dorian;e:dorian=wary;e:dorian=weary;i=
 
 “It is a most romantic explanation,” laughed the hostess.
 s=ladynarborough;e:ladynarborough=happy
 
 “But her third husband, Lord Henry! You don’t mean to say Ferrol is the fourth?”
-e:ladynarborough=curious
+e:ladynarborough=curious;e:ladynarborough=curiouslook;i=
 
 “Certainly, Lady Narborough.”
-s=henry;e:henry=neutral
+s=henry;e:henry=neutral;e:henry=happy;i=
 
 “I don’t believe a word of it.”
-s=ladynarborough;e:ladynarborough=smirking
+s=ladynarborough;e:ladynarborough=smirking;e:ladynarborough=curious;i=
 
 “Well, ask Mr. Gray. He is one of her most intimate friends.”
-s=henry;e:henry=curiouslook
+s=henry;e:henry=curiouslook;e:henry=smirkinglook;i=
 
 “Is it true, Mr. Gray?”
 s=ladynarborough;e:ladynarborough=smirking;i=2
@@ -8450,16 +8450,16 @@ s=ladynarborough;e:ladynarborough=smirking;i=2
 s=dorian;e:dorian=
 
 “I asked her whether, like Marguerite de Navarre, she had their hearts embalmed and hung at her girdle. She told me she didn’t, because none of them had had any hearts at all.”
-
+;e:dorian=curious;i=
 
 “Four husbands! Upon my word that is *trop de zele*.”
 s=ladynarborough;e:ladynarborough=confused
 
 “*Trop d’audace*, I tell her,” said Dorian.
-s=dorian;e:dorian=smirking
+s=dorian;e:dorian=smirking;e:dorian=happy;i=
 
 “Oh! she is audacious enough for anything, my dear. And what is Ferrol like? I don’t know him.”
-s=ladynarborough;e:ladynarborough=curious
+s=ladynarborough;e:ladynarborough=curious;e:ladynarborough=excited;i=
 
 “The husbands of very beautiful women belong to the criminal classes,” said Lord Henry, sipping his wine.
 s=henry;e:henry=smirkingwine
@@ -8471,76 +8471,76 @@ s=none;e:ladynarborough=annoyed;f=hit
 s=ladynarborough;e:ladynarborough=scowling
 
 “But what world says that?” asked Lord Henry, elevating his eyebrows.
-s=henry;e:henry=curiousbrows
+s=henry;e:henry=curiousbrows;e:henry=smirking;i=3
 
 “It can only be the next world. This world and I are on excellent terms.”
-e:henry=smirking
+e:henry=smirking;e:henry=smirking;i=2
 
 “Everybody I know says you are very wicked,” cried the old lady, shaking her head.
-s=ladynarborough;e:ladynarborough=thinking
+s=ladynarborough;e:ladynarborough=thinking;e:ladynarborough=thinkinglook;i=
 
 Lord Henry looked serious for some moments.
 s=none;e:henry=serious
 
 “It is perfectly monstrous,” he said, at last,
-s=henry;e:henry=thinking
+s=henry;e:henry=thinking;e:henry=bored;i=2
 
 “the way people go about nowadays saying things against one behind one’s back that are absolutely and entirely true.”
-
+;e:henry=serious;i=2;e:henry=smirking;i=3
 
 “Isn’t he incorrigible?” cried Dorian, leaning forward in his chair.
-s=dorian;e:dorian=smirking
+s=dorian;e:dorian=smirking;e:dorian=happy;i=
 
 “I hope so,” said his hostess, laughing.
-s=ladynarborough;e:ladynarborough=happy
+s=ladynarborough;e:ladynarborough=happy;e:ladynarborough=excited;i=
 
 “But really, if you all worship Madame de Ferrol in this ridiculous way, I shall have to marry again so as to be in the fashion.”
-e:ladynarborough=smirking
+e:ladynarborough=smirking;e:ladynarborough=curious;i=
 
 “You will never marry again, Lady Narborough,” broke in Lord Henry.
-s=henry;e:henry=
+s=henry;e:henry=;e:henry=;i=
 
 “You were far too happy. When a woman marries again, it is because she detested her first husband. When a man marries again, it is because he adored his first wife. Women try their luck; men risk theirs.”
-e:henry=smirking
+e:henry=smirking;e:henry=suspicious;i=2
 
 “Narborough wasn’t perfect,” cried the old lady.
-s=ladynarborough;e:ladynarborough=serious
+s=ladynarborough;e:ladynarborough=serious;e:ladynarborough=annoyed;i=2
 
 “If he had been, you would not have loved him, my dear lady,” was the rejoinder.
-s=henry;e:henry=smirking;i=2
+s=henry;e:henry=smirking;i=2;e:henry=smirking;i=2
 
 “Women love us for our defects. If we have enough of them, they will forgive us everything, even our intellects.”
-i=3
+i=3;e:henry=wry;i=
 
 “You will never ask me to dinner again after saying this, I am afraid, Lady Narborough, but it is quite true.”
-e:henry=happy
+e:henry=happy;e:henry=curiouslook;i=
 
 “Of course it is true, Lord Henry. If we women did not love you for your defects, where would you all be? Not one of you would ever be married. You would be a set of unfortunate bachelors.”
-s=ladynarborough;e:ladynarborough=smirking
+s=ladynarborough;e:ladynarborough=smirking;e:ladynarborough=excited;i=
 
 “Not, however, that that would alter you much. Nowadays all the married men live like bachelors, and all the bachelors like married men.”
-
+;e:ladynarborough=thinkinglook;i=
 
 “*Fin de siècle*,” murmured Lord Henry.
-s=henry;e:henry=contemplative
+s=henry;e:henry=contemplative;e:henry=smirkinglookdown;i=
 
 “*Fin du globe*,” answered his hostess.
-s=ladynarborough;e:ladynarborough=curious
+s=ladynarborough;e:ladynarborough=curious;e:ladynarborough=smirking;i=2
 
 “I wish it were *fin du globe*,” said Dorian with a sigh.
-s=dorian;e:dorian=weary
+s=dorian;e:dorian=weary;e:dorian=thinking;i=
 
 “Life is a great disappointment.”
-e:dorian=thinking
+e:dorian=weary
 
 “Ah, my dear,” cried Lady Narborough, putting on her gloves,
-s=ladynarborough;e:ladynarborough=thinkinglookdown
+s=ladynarborough;e:ladynarborough=thinkinglookdown;e:ladynarborough=scowling;i=
 
 “don’t tell me that you have exhausted life. When a man says that one knows that life has exhausted him.”
-e:ladynarborough=thinkinglook
+e:ladynarborough=thinkinglook;e:ladynarborough=annoyed;i=2
 
 “Lord Henry is very wicked, and I sometimes wish that I had been; but you are made to be good﻿—you look so good. I must find you a nice wife. Lord Henry, don’t you think that Mr. Gray should get married?”
-e:ladynarborough=curiouslook
+e:ladynarborough=curiouslook;e:ladynarborough=thinkinglook;i=
 
 “I am always telling him so, Lady Narborough,” said Lord Henry with a bow.
 s=henry;e:henry=smirkinglookdown
@@ -8552,55 +8552,61 @@ s=ladynarborough;e:ladynarborough=excited
 s=dorian;e:dorian=smirking
 
 “Of course, with their ages, slightly edited. But nothing must be done in a hurry. I want it to be what *The Morning Post* calls a suitable alliance, and I want you both to be happy.”
-s=ladynarborough;e:ladynarborough=happy
+s=ladynarborough;e:ladynarborough=happy;e:ladynarborough=smirking;i=2;e:ladynarborough=smirking;i=
 
 “What nonsense people talk about happy marriages!” exclaimed Lord Henry.
-s=henry;e:henry=thinking
+s=henry;e:henry=thinking;e:henry=serious;i=2;e:henry=smirking;i=2
 
 “A man can be happy with any woman, as long as he does not love her.”
-e:henry=smirking
+e:henry=smirking;e:henry=suspicious;i=2
 
-“Ah! what a cynic you are!” cried the old lady, pushing back her chair and nodding to Lady Ruxton.
-s=ladynarborough;e:ladynarborough=happy
+“Ah! what a cynic you are!” cried the old lady,
+s=ladynarborough;e:ladynarborough=happy;e:ladynarborough=smirking;i=2;m=allowbreak
+
+pushing back her chair and nodding to Lady Ruxton.
+m=;s=
 
 “You must come and dine with me soon again. You are really an admirable tonic, much better than what Sir Andrew prescribes for me. You must tell me what people you would like to meet, though. I want it to be a delightful gathering.”
-e:ladynarborough=curious
+e:ladynarborough=curious;s=ladynarborough
 
 “I like men who have a future and women who have a past,” he answered. “Or do you think that would make it a petticoat party?”
-s=henry;e:henry=smirking
+s=henry;e:henry=smirking;e:henry=smirking;i=
 
 “I fear so,” she said, laughing, as she stood up.
-s=ladynarborough;e:ladynarborough=happy
+s=ladynarborough;e:ladynarborough=happy;e:ladynarborough=smirking;i=2
 
 “A thousand pardons, my dear Lady Ruxton,” she added, “I didn’t see you hadn’t finished your cigarette.”
 e:ladynarborough=contemplative
 
 “Never mind, Lady Narborough. I smoke a great deal too much. I am going to limit myself, for the future.”
-s=ladyruxton;e:ladyruxton=thinking
+s=ladyruxton;e:ladyruxton=thinking;z:ladyruxton=86,52,9
 
 “Pray don’t, Lady Ruxton,” said Lord Henry.
 s=henry;e:henry=curious
 
 “Moderation is a fatal thing. Enough is as bad as a meal. More than enough is as good as a feast.”
-e:henry=smirking
+e:henry=smirking;e:henry=curiouslook;i=;e:henry=smirking;i=2
 
 Lady Ruxton glanced at him curiously.
 s=none;e:ladyruxton=curious
 
-“You must come and explain that to me some afternoon, Lord Henry. It sounds a fascinating theory,” she murmured, as she swept out of the room.
-s=ladyruxton;e:ladyruxton=suspicious
+“You must come and explain that to me some afternoon, Lord Henry. It sounds a fascinating theory,” she murmured,
+s=ladyruxton;e:ladyruxton=suspicious;m=break,1
+
+as she swept out of the room.
+s=
 
 “Now, mind you don’t stay too long over your politics and scandal,” cried Lady Narborough from the door.
-s=ladynarborough;e:ladynarborough=scowling
+s=ladynarborough;e:ladynarborough=scowling;e:ladynarborough=annoyed;i=2
 
 “If you do, we are sure to squabble upstairs.”
-
+;e:ladynarborough=curious;i=
 
 The men laughed, and Mr. Chapman got up solemnly from the foot of the table and came up to the top. Dorian Gray changed his seat and went and sat by Lord Henry.
 s=none;e:henry=happy;e:dorian=happy
 
 Mr. Chapman began to talk in a loud voice about the situation in the House of Commons. He guffawed at his adversaries.
-e:chapman=excited
+e:chapman=excited;f:b:narborough-dining=blur(3px)
 
 The word *doctrinaire*﻿—word full of terror to the British mind﻿—reappeared from time to time between his explosions. An alliterative prefix served as an ornament of oratory.
 
@@ -8609,22 +8615,22 @@ He hoisted the Union Jack on the pinnacles of thought. The inherited stupidity o
 
 
 A smile curved Lord Henry’s lips, and he turned round and looked at Dorian.
-e:henry=smirking
+e:henry=smirking;f:b:narborough-dining=
 
 “Are you better, my dear fellow?” he asked. “You seemed rather out of sorts at dinner.”
-s=henry;e:henry=curious
+s=henry;e:henry=curious;e:henry=curiousbrows;i=
 
 “I am quite well, Harry. I am tired. That is all.”
-s=dorian;e:dorian=serious
+s=dorian;e:dorian=serious;e:dorian=contemplative;i=
 
 “You were charming last night. The little duchess is quite devoted to you. She tells me she is going down to Selby.”
-s=henry;e:henry=smirking
+s=henry;e:henry=smirking;e:henry=smirking;i=3
 
 “She has promised to come on the twentieth.”
 s=dorian;e:dorian=neutral
 
 “Is Monmouth to be there, too?”
-s=henry;e:henry=curious
+s=henry;e:henry=curious;e:henry=suspicious;i=2;e:henry=thinking;i=
 
 “Oh, yes, Harry.”
 s=dorian;i=2
@@ -8638,17 +8644,20 @@ e:henry=smirking
 “How long has she been married?” asked Dorian.
 s=dorian;e:dorian=curious
 
-“An eternity, she tells me. I believe, according to the peerage, it is ten years, but ten years with Monmouth must have been like eternity, with time thrown in. Who else is coming?”
+“An eternity, she tells me. I believe, according to the peerage, it is ten years, but ten years with Monmouth must have been like eternity, with time thrown in.”
 s=henry;e:henry=smirking;i=2
+
+“Who else is coming?”
+;e:henry=suspicious;i=2
 
 “Oh, the Willoughbys, Lord Rugby and his wife, our hostess, Geoffrey Clouston, the usual set. I have asked Lord Grotrian.”
 s=dorian;e:dorian=neutral
 
 “I like him,” said Lord Henry.
-s=henry;e:henry=happy
+s=henry;e:henry=happy;e:henry=happy;i=2
 
 “A great many people don’t, but I find him charming. He atones for being occasionally somewhat overdressed by being always absolutely overeducated. He is a very modern type.”
-e:henry=smirking
+e:henry=smirking;e:henry=smirking;i=3
 
 “I don’t know if he will be able to come, Harry. He may have to go to Monte Carlo with his father.”
 s=dorian;e:dorian=contemplative
@@ -8657,22 +8666,22 @@ s=dorian;e:dorian=contemplative
 s=henry;e:henry=annoyed
 
 “By the way, Dorian, you ran off very early last night. You left before eleven. What did you do afterwards? Did you go straight home?”
-e:henry=suspicious
+e:henry=suspicious;e:henry=thinking;i=
 
 Dorian glanced at him hurriedly and frowned.
 s=none;e:dorian=wary
 
 “No, Harry,” he said at last,
-s=dorian
+s=dorian;e:dorian=nervous;i=
 
 “I did not get home till nearly three.”
-e:dorian=serious
+e:dorian=serious;e:dorian=serious;i=
 
 “Did you go to the club?”
 s=henry;e:henry=curious
 
 “Yes,” he answered.
-s=dorian;e:dorian=nervous
+s=dorian;e:dorian=nervous;e:dorian=serious;i=;e:dorian=contemplative;i=;e:dorian=wary;i=
 
 Then he bit his lip.
 s=none
@@ -8684,28 +8693,28 @@ s=dorian;e:dorian=warybiting
 e:dorian=scowling
 
 “I came in at half-past two, if you wish to know the exact time. I had left my latchkey at home, and my servant had to let me in. If you want any corroborative evidence on the subject, you can ask him.”
-e:dorian=annoyed
+e:dorian=annoyed;e:dorian=serious;i=
 
 Lord Henry shrugged his shoulders.
 s=none;e:henry=neutral
 
 “My dear fellow, as if I cared! Let us go up to the drawing-room.”
-s=henry;e:henry=wearyshrug
+s=henry;e:henry=wearyshrug;e:henry=bored;i=
 
 “No sherry, thank you, Mr. Chapman.”
 e:henry=contemplative
 
 “Something has happened to you, Dorian. Tell me what it is. You are not yourself tonight.”
-e:henry=serious
+e:henry=serious;e:henry=serious;i=
 
 “Don’t mind me, Harry. I am irritable, and out of temper. I shall come round and see you tomorrow, or next day. Make my excuses to Lady Narborough. I shan’t go upstairs. I shall go home. I must go home.”
-s=dorian;e:dorian=annoyed
+s=dorian;e:dorian=annoyed;e:dorian=weary;i=
 
 “All right, Dorian. I dare say I shall see you tomorrow at teatime. The duchess is coming.”
 s=henry;e:henry=neutral
 
 “I will try to be there, Harry,” he said,
-s=dorian;i=2;m=allowbreak
+s=dorian;i=2;m=allowbreak;e:dorian=nervous;i=
 
 leaving the room.
 m=;s=;f:b:narborough-dining=blur(3px)
@@ -8729,13 +8738,13 @@ A huge fire was blazing. He piled another log on it.
 
 
 The smell of the singeing clothes and burning leather was horrible. It took him three-quarters of an hour to consume everything.
-e:dorian=scowling
+e:dorian=scowling;f:b:dorian-library-night-fire=blur(3px)
 
 At the end he felt faint and sick, and having lit some Algerian pastilles in a pierced copper brazier, he bathed his hands and forehead with a cool musk-scented vinegar.
 e:dorian=weary
 
 Suddenly he started. His eyes grew strangely bright, and he gnawed nervously at his underlip.
-e:dorian=nervous
+e:dorian=nervous;f:b:dorian-library-night-fire=
 
 Between two of the windows stood a large Florentine cabinet, made out of ebony and inlaid with ivory and blue lapis.
 
@@ -8767,14 +8776,11 @@ e:dorian=smirking
 Then shivering, though the atmosphere of the room was terribly hot, he drew himself up and glanced at the clock. It was twenty minutes to twelve.
 e:dorian=wary
 
-He put the box back, shutting the cabinet doors as he did so,
-e:dorian=serious;m=allowbreak
-
-and went into his bedroom.
+He put the box back, shutting the cabinet doors as he did so, and went into his bedroom.
 m=;f:b:dorian-library-night-fire=blur(3px)
 
 As midnight was striking bronze blows upon the dusky air, Dorian Gray, dressed commonly, and with a muffler wrapped round his throat, crept quietly out of his house.
-x:dorian=common,hat;b=dorian-wide-night
+x:dorian=common,hat;b=dorian-wide-night;f:b:dorian-wide-night=blur(3px)
 
 In Bond Street he found a hansom with a good horse.
 b=london-street-night
@@ -8786,16 +8792,16 @@ The man shook his head.
 
 
 “It is too far for me,” he muttered.
-s=hansomdriver;e:hansomdriver=annoyed;x:hansomdriver=hat
+s=hansomdriver;e:hansomdriver=annoyed;x:hansomdriver=hat;z:hansomdriver=84,55,10
 
 “Here is a sovereign for you,” said Dorian. “You shall have another if you drive fast.”
-s=dorian;e:dorian=serious
+s=dorian;e:dorian=serious;e:dorian=;i=
 
 “All right, sir,” answered the man,
-s=hansomdriver;e:hansomdriver=contemplative;m=allowbreak
+s=hansomdriver;e:hansomdriver=contemplative;m=allowbreak;e:hansomdriver=serious;i=
 
 “you will be there in an hour,”
-
+;e:hansomdriver=contemplative;i=
 
 and after his fare had got in he turned his horse round and drove rapidly towards the river.
 s=none;m=;f:b:london-street-night=blur(3px)
