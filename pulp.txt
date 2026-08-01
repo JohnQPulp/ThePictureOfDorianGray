@@ -4682,25 +4682,19 @@ Finally his bell sounded, and Victor came in softly with a cup of tea, and a pil
 n:victor=?;e:victor=neutral
 
 “Monsieur has well slept this morning,” he said, smiling.
-s=victor;e:victor=happy
+s=victor;e:victor=happy;z:victor=85,52,8
 
 “What o’clock is it, Victor?” asked Dorian Gray drowsily.
 s=dorian;e:dorian=weary;n:victor=Victor;x:dorian=night
 
 “One hour and a quarter, Monsieur.”
-s=victor;e:victor=neutral
+s=victor;e:victor=neutral;e:victor=curiouslook;i=
 
-How late it was!
+How late it was! He sat up, and having sipped some tea, turned over his letters.
 s=none
 
-He sat up, and having sipped some tea, turned over his letters.
-
-
-One of them was from Lord Henry, and had been brought by hand that morning.
+One of them was from Lord Henry, and had been brought by hand that morning. He hesitated for a moment, and then put it aside. The others he opened listlessly.
 e:dorian=neutral
-
-He hesitated for a moment, and then put it aside. The others he opened listlessly.
-e:dorian=weary
 
 They contained the usual collection of cards, invitations to dinner, tickets for private views, programmes of charity concerts, and the like that are showered on fashionable young men every morning during the season.
 
@@ -4748,7 +4742,7 @@ s=none;e:dorian=neutral
 s=dorian;e:dorian=wary
 
 Was it all true? Had the portrait really changed? Or had it been simply his own imagination that had made him see a look of evil where there had been a look of joy?
-s=none;e:dorian=nervous
+s=none;e:dorian=nervous;f:b:picture-dorian-closed=blur(3px)
 
 Surely a painted canvas could not alter? The thing was absurd. It would serve as a tale to tell Basil some day. It would make him smile.
 e:dorian=contemplative
@@ -4756,20 +4750,20 @@ e:dorian=contemplative
 And, yet, how vivid was his recollection of the whole thing! First in the dim twilight, and then in the bright dawn, he had seen the touch of cruelty round the warped lips.
 e:dorian=nervous
 
-He almost dreaded his valet leaving the room. He knew that when he was alone he would have to examine the portrait.
+He almost dreaded his valet leaving the room. He knew that when he was alone he would have to examine the portrait. He was afraid of certainty.
 e:dorian=fearful
 
-He was afraid of certainty. When the coffee and cigarettes had been brought and the man turned to go, he felt a wild desire to tell him to remain.
-
+When the coffee and cigarettes had been brought and the man turned to go, he felt a wild desire to tell him to remain.
+b=dorian-library
 
 As the door was closing behind him, he called him back. The man stood waiting for his orders.
-e:victor=neutral;b=dorian-library
+e:victor=neutral;b=dorian-library;f:b:picture-dorian-closed=
 
 Dorian looked at him for a moment.
 s=none;e:dorian=serious
 
 “I am not at home to anyone, Victor,” he said with a sigh.
-s=dorian;e:dorian=weary
+s=dorian;e:dorian=weary;e:dorian=bored;i=
 
 The man bowed and retired.
 s=none
@@ -4778,13 +4772,13 @@ Then he rose from the table, lit a cigarette, and flung himself down on a luxuri
 e:dorian=neutral
 
 The screen was an old one, of gilt Spanish leather, stamped and wrought with a rather florid Louis-Quatorze pattern.
-b=picture-dorian-closed
+
 
 He scanned it curiously, wondering if ever before it had concealed the secret of a man’s life.
 e:dorian=curious
 
 Should he move it aside, after all? Why not let it stay there? What was the use of knowing? If the thing was true, it was terrible. If it was not true, why trouble about it?
-e:dorian=nervous
+e:dorian=nervous;f:b:dorian-library=blur(3px)
 
 But what if, by some fate or deadlier chance, eyes other than his spied behind and saw the horrible change? What should he do if Basil Hallward came and asked to look at his own picture? Basil would be sure to do that.
 e:dorian=fearful
@@ -4793,7 +4787,7 @@ No; the thing had to be examined, and at once. Anything would be better than thi
 e:dorian=serious
 
 He got up and locked both doors.
-b=dorian-library
+b=dorian-library;f:b:dorian-library=
 
 At least he would be alone when he looked upon the mask of his shame.
 
@@ -4832,7 +4826,7 @@ There were opiates for remorse, drugs that could lull the moral sense to sleep. 
 
 
 Three o’clock struck, and four, and the half-hour rang its double chime, but Dorian Gray did not stir.
-e:dorian=neutral
+e:dorian=neutral;f:b:picture-dorian=blur(3px)
 
 He was trying to gather up the scarlet threads of life and to weave them into a pattern; to find his way through the sanguine labyrinth of passion through which he was wandering.
 e:dorian=thinking
@@ -4841,7 +4835,7 @@ He did not know what to do, or what to think.
 e:dorian=confused
 
 Finally, he went over to the table and wrote a passionate letter to the girl he had loved, imploring her forgiveness and accusing himself of madness.
-e:dorian=upset;b=dorian-library
+e:dorian=upset;b=dorian-library;f:b:picture-dorian=
 
 He covered page after page with wild words of sorrow and wilder words of pain.
 
@@ -4868,52 +4862,49 @@ He jumped up, drew the screen hastily across the picture, and unlocked the door.
 
 
 “I am so sorry for it all, Dorian,” said Lord Henry as he entered.
-s=henry;e:henry=unhappy
+s=henry;e:henry=unhappy;e:henry=thinking;i=
 
 “But you must not think too much about it.”
-e:henry=thinking
+e:henry=thinking;e:henry=unhappy;i=;e:henry=serious;i=
 
 “Do you mean about Sibyl Vane?” asked the lad.
-s=dorian;e:dorian=curious
+s=dorian;e:dorian=curious;e:dorian=curiouslook;i=
 
 “Yes, of course,” answered Lord Henry,
-s=henry;e:henry=contemplativelookdown;m=allowbreak
+s=henry;e:henry=contemplativelookdown;m=allowbreak;e:henry=wary;e:henry=serious;i=3
 
 sinking into a chair and slowly pulling off his yellow gloves.
 m=;s=
 
-“It is dreadful, from one point of view, but it was not your fault.”
-s=henry;e:henry=contemplative
-
-“Tell me, did you go behind and see her, after the play was over?”
-e:henry=wary
+“It is dreadful, from one point of view, but it was not your fault. Tell me, did you go behind and see her, after the play was over?”
+s=henry;e:henry=contemplative;e:henry=unhappy;i=
 
 “Yes.”
-s=dorian;e:dorian=neutral
+s=dorian;e:dorian=neutral;e:dorian=boredlook;i=
 
 “I felt sure you had. Did you make a scene with her?”
-s=henry;e:henry=curious
+s=henry;e:henry=curious;e:henry=thinking;i=2
 
 “I was brutal, Harry﻿—perfectly brutal. But it is all right now. I am not sorry for anything that has happened. It has taught me to know myself better.”
-s=dorian;e:dorian=serious
+s=dorian;e:dorian=serious;e:dorian=seriouslookdown;i=
 
 “Ah, Dorian, I am so glad you take it in that way! I was afraid I would find you plunged in remorse and tearing that nice curly hair of yours.”
-s=henry;e:henry=smirking
+s=henry;e:henry=smirking;e:henry=happy;i=
 
 “I have got through all that,” said Dorian, shaking his head and smiling.
-s=dorian;e:dorian=sadsmile
+s=dorian;e:dorian=sadsmile;e:dorian=curiouslook;i=
 
 “I am perfectly happy now. I know what conscience is, to begin with. It is not what you told me it was. It is the divinest thing in us.”
-e:dorian=happy
+e:dorian=happylook
 
 “Don’t sneer at it, Harry, any more﻿—at least not before me. I want to be good. I can’t bear the idea of my soul being hideous.”
-e:dorian=serious
+e:dorian=serious;e:dorian=unhappy;i=2
 
 “A very charming artistic basis for ethics, Dorian! I congratulate you on it. But how are you going to begin?”
-s=henry;e:henry=smirking
+s=henry;e:henry=smirking;e:henry=happy;i=2
 
 “By marrying Sibyl Vane.”
-s=dorian;e:dorian=serious
+s=dorian;e:dorian=serious;e:dorian=thinking;i=2
 
 “Marrying Sibyl Vane!” cried Lord Henry, standing up and looking at him in perplexed amazement.
 s=henry;e:henry=surprised
@@ -4925,19 +4916,19 @@ e:henry=unhappy
 s=dorian;e:dorian=annoyed
 
 “Two days ago I asked Sibyl to marry me. I am not going to break my word to her. She is to be my wife.”
-e:dorian=serious
+e:dorian=serious;e:dorian=serious;i=2
 
 “Your wife! Dorian!… Didn’t you get my letter? I wrote to you this morning, and sent the note down by my own man.”
-s=henry;e:henry=unhappy;i=2
+s=henry;e:henry=unhappy;i=2;e:henry=wary;i=
 
 “Your letter? Oh, yes, I remember. I have not read it yet, Harry. I was afraid there might be something in it that I wouldn’t like. You cut life to pieces with your epigrams.”
-s=dorian;e:dorian=neutral
+s=dorian;e:dorian=neutral;e:dorian=confused;i=
 
 “You know nothing then?”
-s=henry;e:henry=serious
+s=henry;e:henry=serious;e:henry=unhappy;i=
 
 “What do you mean?”
-s=dorian;e:dorian=nervous
+s=dorian;e:dorian=nervous;e:dorian=nervous;i=2
 
 Lord Henry walked across the room, and sitting down by Dorian Gray, took both his hands in his own and held them tightly.
 s=none
@@ -4955,13 +4946,13 @@ s=dorian;e:dorian=fearful
 s=henry;e:henry=serious
 
 “It is in all the morning papers. I wrote down to you to ask you not to see anyone till I came. There will have to be an inquest, of course, and you must not be mixed up in it.”
-
+;e:henry=thinking;i=
 
 “Things like that make a man fashionable in Paris. But in London people are so prejudiced. Here, one should never make one’s debut with a scandal. One should reserve that to give an interest to one’s old age.”
-e:henry=thinking
+e:henry=thinking;e:henry=unhappy;i=
 
 “I suppose they don’t know your name at the theatre? If they don’t, it is all right. Did anyone see you going round to her room? That is an important point.”
-e:henry=serious
+e:henry=serious;e:henry=serious;i=2
 
 Dorian did not answer for a few moments. He was dazed with horror.
 s=none;e:dorian=fearful
@@ -4973,91 +4964,82 @@ Finally he stammered, in a stifled voice,
 s=dorian;e:dorian=upset
 
 “I have no doubt it was not an accident, Dorian, though it must be put in that way to the public.”
-s=henry;e:henry=serious
+s=henry;e:henry=serious;e:henry=thinking;i=
 
 “It seems that as she was leaving the theatre with her mother, about half-past twelve or so, she said she had forgotten something upstairs.”
-
+;e:henry=serious;i=
 
 “They waited some time for her, but she did not come down again. They ultimately found her lying dead on the floor of her dressing-room.”
-e:henry=thinking
+;e:henry=curiouslookdown;i=
 
 “She had swallowed something by mistake, some dreadful thing they use at theatres. I don’t know what it was, but it had either prussic acid or white lead in it. I should fancy it was prussic acid, as she seems to have died instantaneously.”
-
+;e:henry=serious;i=2
 
 “Harry, Harry, it is terrible!” cried the lad.
-s=dorian;e:dorian=upset
+s=dorian;e:dorian=upset;e:dorian=upset;i=
 
 “Yes; it is very tragic, of course, but you must not get yourself mixed up in it.”
-s=henry;e:henry=neutral
+s=henry;e:henry=serious
 
 “I see by *The Standard* that she was seventeen. I should have thought she was almost younger than that. She looked such a child, and seemed to know so little about acting.”
-e:henry=contemplative
+e:henry=contemplative;e:henry=curious;i=
 
-“Dorian, you mustn’t let this thing get on your nerves. You must come and dine with me, and afterwards we will look in at the opera.”
-e:henry=serious
-
-“It is a Patti night, and everybody will be there. You can come to my sister’s box. She has got some smart women with her.”
-e:henry=smirking
+“Dorian, you mustn’t let this thing get on your nerves. You must come and dine with me, and afterwards we will look in at the opera. It is a Patti night, and everybody will be there. You can come to my sister’s box. She has got some smart women with her.”
+e:henry=serious;e:henry=unhappy;i=
 
 “So I have murdered Sibyl Vane,” said Dorian Gray, half to himself,
-s=dorian;e:dorian=unhappy
+s=dorian;e:dorian=unhappy;e:dorian=bored;i=2
 
 “murdered her as surely as if I had cut her little throat with a knife.”
-e:dorian=contemplative
+e:dorian=contemplative;e:dorian=bored;i=
 
 “Yet the roses are not less lovely for all that. The birds sing just as happily in my garden. And tonight I am to dine with you, and then go on to the opera, and sup somewhere, I suppose, afterwards.”
-e:dorian=contemplative
+e:dorian=contemplative;e:dorian=annoyed;i=
 
 “How extraordinarily dramatic life is!”
-e:dorian=confused
+e:dorian=confused;e:dorian=nervous;i=2;
 
 “If I had read all this in a book, Harry, I think I would have wept over it.”<e>Two years of hard labor wasn't enough.</e>
-e:dorian=thinking
+e:dorian=thinking;e:dorian=seriouslookdown;i=
 
 “Somehow, now that it has happened actually, and to me, it seems far too wonderful for tears.”
-
+;e:dorian=boredlook;i=;e:dorian=confused;i=
 
 “Here is the first passionate love-letter I have ever written in my life. Strange, that my first passionate love-letter should have been addressed to a dead girl.”
-e:dorian=serious
+e:dorian=serious;e:dorian=thinkinglookdown;i=;e:dorian=unhappy;i=2
 
-“Can they feel, I wonder, those white silent people we call the dead? Sibyl! Can she feel, or know, or listen?”
-
-
-“Oh, Harry, how I loved her once! It seems years ago to me now. She was everything to me.”
-e:dorian=upset
+“Can they feel, I wonder, those white silent people we call the dead? Sibyl! Can she feel, or know, or listen? Oh, Harry, how I loved her once! It seems years ago to me now. She was everything to me.”
+;e:dorian=upset
 
 “Then came that dreadful night﻿—was it really only last night?﻿—when she played so badly, and my heart almost broke. She explained it all to me. It was terribly pathetic. But I was not moved a bit. I thought her shallow.”
-e:dorian=unhappy
+e:dorian=unhappy;e:dorian=unhappy;i=2
 
 “Suddenly something happened that made me afraid. I can’t tell you what it was, but it was terrible. I said I would go back to her. I felt I had done wrong. And now she is dead.”
+;e:dorian=weary;i=
 
-
-“My God! My God! Harry, what shall I do? You don’t know the danger I am in, and there is nothing to keep me straight.”
-e:dorian=upset
-
-“She would have done that for me. She had no right to kill herself. It was selfish of her.”
-e:dorian=scowling
+“My God! My God! Harry, what shall I do? You don’t know the danger I am in, and there is nothing to keep me straight. She would have done that for me. She had no right to kill herself. It was selfish of her.”
+e:dorian=upset;e:dorian=fearful;i=2
 
 “My dear Dorian,” answered Lord Henry,
-s=henry;e:henry=curiouslook;m=allowbreak
+s=henry;e:henry=curiouslook;m=allowbreak;e:henry=curiouslookdown;i=
 
 taking a cigarette from his case and producing a gold-latten matchbox,
 m=;s=
 
 “the only way a woman can ever reform a man is by boring him so completely that he loses all possible interest in life. If you had married this girl, you would have been wretched.”
-s=henry;e:henry=smirking
+s=henry;e:henry=smirking;e:henry=serious;i=3;e:henry=shrugging;i=
 
 “Of course, you would have treated her kindly. One can always be kind to people about whom one cares nothing. But she would have soon found out that you were absolutely indifferent to her.”
-e:henry=contemplative
+e:henry=contemplative;e:henry=thinking;i=
 
 “And when a woman finds that out about her husband, she either becomes dreadfully dowdy, or wears very smart bonnets that some other woman’s husband has to pay for.”
-
+;e:henry=unhappy;i=
 
 “I say nothing about the social mistake, which would have been abject﻿—which, of course, I would not have allowed﻿—but I assure you that in any case the whole thing would have been an absolute failure.”
-e:henry=serious
+e:henry=serious;e:henry=serious;i=2
 
 “I suppose it would,” muttered the lad,
-s=dorian;e:dorian=unhappy;m=allowbreak
+s=dorian;e:dorian=unhappy;m=allowbreak;e:dorian=bored;i=
 
 walking up and down the room and looking horribly pale.
 m=;s=
@@ -5066,22 +5048,22 @@ m=;s=
 s=dorian;e:dorian=unhappy;i=2
 
 “I remember your saying once that there is a fatality about good resolutions﻿—that they are always made too late. Mine certainly were.”
-e:dorian=weary;x:henry=cig
+e:dorian=weary;x:henry=cig;e:dorian=nervous;i=2
 
 “Good resolutions are useless attempts to interfere with scientific laws. Their origin is pure vanity. Their result is absolutely *nil*.”
-s=henry;e:henry=contemplative
+s=henry;e:henry=contemplative;e:henry=weary;i=
 
 “They give us, now and then, some of those luxurious sterile emotions that have a certain charm for the weak. That is all that can be said for them. They are simply cheques that men draw on a bank where they have no account.”
-
+;e:henry=contemplative;i=2
 
 “Harry,” cried Dorian Gray,
-s=dorian;e:dorian=confused;m=allowbreak
+s=dorian;e:dorian=confused;m=allowbreak;e:dorian=seriouslookdown;i=
 
 coming over and sitting down beside him,
 m=;s=
 
 “why is it that I cannot feel this tragedy as much as I want to? I don’t think I am heartless. Do you?”
-s=dorian;i=2
+s=dorian;i=2;e:dorian=embarrassed;i=
 
 “You have done too many foolish things during the last fortnight to be entitled to give yourself that name, Dorian,” answered Lord Henry with his sweet melancholy smile.
 s=henry;e:henry=sadsmile
@@ -5090,94 +5072,91 @@ The lad frowned.
 s=none;e:dorian=serious
 
 “I don’t like that explanation, Harry,” he rejoined, “but I am glad you don’t think I am heartless. I am nothing of the kind. I know I am not.”
-s=dorian
+s=dorian;e:dorian=seriouslookdown;i=
 
 “And yet I must admit that this thing that has happened does not affect me as it should. It seems to me to be simply like a wonderful ending to a wonderful play.”
-e:dorian=contemplative
+e:dorian=contemplative;e:dorian=nervous;i=2;e:dorian=unhappy;i=2
 
 “It has all the terrible beauty of a Greek tragedy, a tragedy in which I took a great part, but by which I have not been wounded.”
-
+e:dorian=nervous;i=2
 
 “It is an interesting question,” said Lord Henry,
-s=henry;e:henry=curious;m=allowbreak
+s=henry;e:henry=curious;m=allowbreak;e:henry=;i=
 
 who found an exquisite pleasure in playing on the lad’s unconscious egotism,
 m=;s=
 
 “an extremely interesting question. I fancy that the true explanation is this:”
-s=henry;e:henry=smirking
+s=henry;e:henry=smirking;e:henry=curious;i=
 
 “It often happens that the real tragedies of life occur in such an inartistic manner that they hurt us by their crude violence, their absolute incoherence, their absurd want of meaning, their entire lack of style.”
-e:henry=thinking
+e:henry=thinking;e:henry=contemplative;i=2
 
 “They affect us just as vulgarity affects us. They give us an impression of sheer brute force, and we revolt against that.”
-
+;e:henry=thinking;i=2
 
 “Sometimes, however, a tragedy that possesses artistic elements of beauty crosses our lives. If these elements of beauty are real, the whole thing simply appeals to our sense of dramatic effect.”
-
+;e:henry=bored;i=2
 
 “Suddenly we find that we are no longer the actors, but the spectators of the play. Or rather we are both. We watch ourselves, and the mere wonder of the spectacle enthralls us.”
-e:henry=contemplative
+e:henry=contemplative;e:henry=contemplative;i=
 
 “In the present case, what is it that has really happened? Someone has killed herself for love of you. I wish that I had ever had such an experience. It would have made me in love with love for the rest of my life.”
-e:henry=curious
+e:henry=curious;e:henry=curiouslook;i=
 
 “The people who have adored me﻿—there have not been very many, but there have been some﻿—have always insisted on living on, long after I had ceased to care for them, or they to care for me.”
-e:henry=thinking
+e:henry=thinking;e:henry=smirking;i=3
 
 “They have become stout and tedious, and when I meet them, they go in at once for reminiscences.”
-
+;e:henry=annoyed;i=2
 
 “That awful memory of woman! What a fearful thing it is! And what an utter intellectual stagnation it reveals!”
-e:henry=annoyed
+e:henry=annoyed;e:henry=weary;i=
 
 “One should absorb the colour of life, but one should never remember its details. Details are always vulgar.”
-
+;e:henry=bored;i=2
 
 “I must sow poppies in my garden,” sighed Dorian.
 s=dorian;e:dorian=weary
 
 “There is no necessity,” rejoined his companion.
-s=henry;e:henry=neutral
+s=henry;e:henry=neutral;e:henry=curious;i=
 
 “Life has always poppies in her hands.”
-e:henry=happy
+e:henry=happy;e:henry=smirking;i=3
 
 “Of course, now and then things linger. I once wore nothing but violets all through one season, as a form of artistic mourning for a romance that would not die.”
-e:henry=contemplative
+e:henry=contemplative;e:henry=annoyed;i=2
 
 “Ultimately, however, it did die. I forget what killed it. I think it was her proposing to sacrifice the whole world for me. That is always a dreadful moment. It fills one with the terror of eternity.”
-
+;e:henry=contemplative;i=2
 
 “Well﻿—would you believe it?﻿—a week ago, at Lady Hampshire’s, I found myself seated at dinner next the lady in question, and she insisted on going over the whole thing again, and digging up the past, and raking up the future.”
-e:henry=annoyed
+e:henry=annoyed;e:henry=smirkinglook;i=;e:henry=smirkinglook;i=2
 
-“I had buried my romance in a bed of asphodel. She dragged it out again and assured me that I had spoiled her life.”
-
-
-“I am bound to state that she ate an enormous dinner, so I did not feel any anxiety.”
-e:henry=smirking
+“I had buried my romance in a bed of asphodel. She dragged it out again and assured me that I had spoiled her life. I am bound to state that she ate an enormous dinner, so I did not feel any anxiety.”
+i=
 
 “But what a lack of taste she showed! The one charm of the past is that it is the past. But women never know when the curtain has fallen. They always want a sixth act, and as soon as the interest of the play is entirely over, they propose to continue it.”
-e:henry=weary
+e:henry=weary;e:henry=serious;i=2
 
 “If they were allowed their own way, every comedy would have a tragic ending, and every tragedy would culminate in a farce. They are charmingly artificial, but they have no sense of art. You are more fortunate than I am.”
 e:henry=thinking
 
 “I assure you, Dorian, that not one of the women I have known would have done for me what Sibyl Vane did for you.”
-
+;e:henry=bored;i=2
 
 “Ordinary women always console themselves. Some of them do it by going in for sentimental colours. Never trust a woman who wears mauve, whatever her age may be, or a woman over thirty-five who is fond of pink ribbons. It always means that they have a history.”
-e:henry=smirking
+e:henry=smirking;e:henry=smirkinglook;i=2
 
 “Others find a great consolation in suddenly discovering the good qualities of their husbands. They flaunt their conjugal felicity in one’s face, as if it were the most fascinating of sins.”
-
+;e:henry=smirkinglook;i=2;e:henry=smirkingshrug;i=
 
 “Religion consoles some. Its mysteries have all the charm of a flirtation, a woman once told me, and I can quite understand it. Besides, nothing makes one so vain as being told that one is a sinner. Conscience makes egotists of us all.”
-e:henry=thinking
+e:henry=thinking;e:henry=weary;i=
 
 “Yes; there is really no end to the consolations that women find in modern life. Indeed, I have not mentioned the most important one.”
-
+;e:henry=contemplative;i=2
 
 “What is that, Harry?” said the lad listlessly.
 s=dorian;e:dorian=bored
@@ -5186,31 +5165,28 @@ s=dorian;e:dorian=bored
 s=henry;e:henry=smirking
 
 “But really, Dorian, how different Sibyl Vane must have been from all the women one meets! There is something to me quite beautiful about her death.”
-e:henry=contemplative
+e:henry=contemplative;e:henry=curious;i=
 
 “I am glad I am living in a century when such wonders happen. They make one believe in the reality of the things we all play with, such as romance, passion, and love.”
-
+;e:henry=smirkinglook;i=
 
 “I was terribly cruel to her. You forget that.”
-s=dorian;e:dorian=unhappy
+s=dorian;e:dorian=unhappy;e:dorian=unhappy;i=3
 
-“I am afraid that women appreciate cruelty, downright cruelty, more than anything else. They have wonderfully primitive instincts.”
-s=henry;e:henry=smirking
-
-“We have emancipated them, but they remain slaves looking for their masters, all the same. They love being dominated.”
-
+“I am afraid that women appreciate cruelty, downright cruelty, more than anything else. They have wonderfully primitive instincts. We have emancipated them, but they remain slaves looking for their masters, all the same. They love being dominated.”
+s=henry;e:henry=smirking;e:henry=smirkingshrug;i=
 
 “I am sure you were splendid. I have never seen you really and absolutely angry, but I can fancy how delightful you looked.”
-e:henry=curious
+e:henry=curious;e:henry=curiouslook;i=
 
 “And, after all, you said something to me the day before yesterday that seemed to me at the time to be merely fanciful, but that I see now was absolutely true, and it holds the key to everything.”
-e:henry=thinking
+e:henry=thinking;e:henry=smirking;i=2;e:henry=smirking;i=3
 
 “What was that, Harry?”
-s=dorian;e:dorian=curious
+s=dorian;e:dorian=curious;e:dorian=embarrassed;i=
 
 “You said to me that Sibyl Vane represented to you all the heroines of romance﻿—that she was Desdemona one night, and Ophelia the other; that if she died as Juliet, she came to life as Imogen.”
-s=henry;e:henry=contemplative
+s=henry;e:henry=contemplative;e:henry=contemplative;i=2
 
 “She will never come to life again now,” muttered the lad, burying his face in his hands.
 s=dorian;e:dorian=unhappyhands
@@ -5219,73 +5195,67 @@ s=dorian;e:dorian=unhappyhands
 s=henry;e:henry=neutral
 
 “But you must think of that lonely death in the tawdry dressing-room simply as a strange lurid fragment from some Jacobean tragedy, as a wonderful scene from Webster, or Ford, or Cyril Tourneur.”
-e:henry=contemplative
+e:henry=contemplative;e:henry=curious;i=
 
 “The girl never really lived, and so she has never really died.”
-
+;e:henry=thinking;i=2
 
 “To you at least she was always a dream, a phantom that flitted through Shakespeare’s plays and left them lovelier for its presence, a reed through which Shakespeare’s music sounded richer and more full of joy.”
-e:henry=thinking
+e:henry=thinking;e:henry=contemplative;i=2
 
 “The moment she touched actual life, she marred it, and it marred her, and so she passed away.”
+;e:henry=bored;i=2;e:henry=annoyed;i=2
 
-
-“Mourn for Ophelia, if you like. Put ashes on your head because Cordelia was strangled. Cry out against Heaven because the daughter of Brabantio died.”
-e:henry=serious
-
-“But don’t waste your tears over Sibyl Vane. She was less real than they are.”
-
+“Mourn for Ophelia, if you like. Put ashes on your head because Cordelia was strangled. Cry out against Heaven because the daughter of Brabantio died. But don’t waste your tears over Sibyl Vane. She was less real than they are.”
+e:henry=serious;e:henry=contemplative;i=;e:henry=serious;i=
 
 There was a silence.
-s=
+s=;f:b:dorian-library=blur(3px) brightness(85%)
 
 The evening darkened in the room. Noiselessly, and with silver feet, the shadows crept in from the garden. The colours faded wearily out of things.
-s=none;f:b:dorian-library=brightness(85%)
+s=none
 
 After some time Dorian Gray looked up.
-e:dorian=sadsmile
+e:dorian=sadsmile;f:b:dorian-library=brightness(85%)
 
 “You have explained me to myself, Harry,” he murmured with something of a sigh of relief.
-s=dorian
+s=dorian;e:dorian=unhappy;i=2
 
 “I felt all that you have said, but somehow I was afraid of it, and I could not express it to myself. How well you know me!”
-
+e:dorian=sadsmile
 
 “But we will not talk again of what has happened. It has been a marvellous experience. That is all. I wonder if life has still in store for me anything as marvellous.”
-e:dorian=contemplative
+e:dorian=contemplative;e:dorian=seriouslookdown;i=
 
 “Life has everything in store for you, Dorian. There is nothing that you, with your extraordinary good looks, will not be able to do.”
-s=henry;e:henry=smirking;x:henry=
+s=henry;e:henry=smirking;x:henry=;e:henry=happy;i=2
 
 “But suppose, Harry, I became haggard, and old, and wrinkled? What then?”
-s=dorian;e:dorian=wary
+s=dorian;e:dorian=wary;e:dorian=wary;i=2
 
 “Ah, then,” said Lord Henry, rising to go,
-s=henry;e:henry=happy
+s=henry;e:henry=happy;e:henry=smirking;i=3
 
 “then, my dear Dorian, you would have to fight for your victories. As it is, they are brought to you.”
-e:henry=smirking
+e:henry=smirking;e:henry=smirking;i=
 
 “No, you must keep your good looks. We live in an age that reads too much to be wise, and that thinks too much to be beautiful. We cannot spare you.”
-e:henry=contemplative
+e:henry=contemplative;e:henry=;i=
 
 “And now you had better dress and drive down to the club. We are rather late, as it is.”
-e:henry=neutral
+e:henry=neutral;e:henry=smirkinglook;i=
 
 “I think I shall join you at the opera, Harry. I feel too tired to eat anything. What is the number of your sister’s box?”
-s=dorian;e:dorian=contemplative
+s=dorian;e:dorian=contemplative;e:dorian=unhappy;i=2
 
 “Twenty-seven, I believe. It is on the grand tier. You will see her name on the door. But I am sorry you won’t come and dine.”
 s=henry;e:henry=neutral
 
 “I don’t feel up to it,” said Dorian listlessly.
-s=dorian;e:dorian=thinking
+s=dorian;e:dorian=thinking;e:dorian=thinkinglookdown;i=
 
-“But I am awfully obliged to you for all that you have said to me.”
-e:dorian=thinking
-
-“You are certainly my best friend. No one has ever understood me as you have.”
-e:dorian=happy
+“But I am awfully obliged to you for all that you have said to me. You are certainly my best friend. No one has ever understood me as you have.”
+e:dorian=thinking;e:dorian=unhappy;i=2
 
 “We are only at the beginning of our friendship, Dorian,” answered Lord Henry, shaking him by the hand.
 s=henry;e:henry=happy
@@ -5297,13 +5267,13 @@ As he closed the door behind him, Dorian Gray touched the bell,
 s=none;e:dorian=annoyed;m=allowbreak
 
 and in a few minutes Victor appeared with the lamps and drew the blinds down.
-b=picture-dorian-closed;m=
+b=dark;f:b:dark=blur(3px);m=
 
 He waited impatiently for him to go. The man seemed to take an interminable time over everything.
 
 
 As soon as he had left, he rushed to the screen and drew it back.
-e:dorian=surprised;b=picture-dorian;f=fade
+e:dorian=surprised;b=picture-dorian
 
 No; there was no further change in the picture. It had received the news of Sibyl Vane’s death before he had known of it himself. It was conscious of the events of life as they occurred.
 
@@ -5371,7 +5341,7 @@ e:dorian=curious
 If thought could exercise its influence upon a living organism, might not thought exercise an influence upon dead and inorganic things?
 
 
-Nay, without thought or conscious desire, might not things external to ourselves vibrate in unison with our moods and passions, atom calling to atom in secret love or strange affinity?<e>We doing Theosophy again?</e>
+Nay, without thought or conscious desire, might not things external to ourselves vibrate in unison with our moods and passions, atom calling to atom in secret love or strange affinity?<e>We doing Theosophy again.</e>
 
 
 But the reason was of no importance. He would never again tempt by a prayer any terrible power. If the picture was to alter, it was to alter. That was all. Why inquire too closely into it?
