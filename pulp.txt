@@ -6319,8 +6319,8 @@ s=none;e:henry=neutral;e:dorian=neutral;f:b:club-morning-night=blur(3px)
 ## XI
 r=title
 
-For years, Dorian Gray could not free himself from the influence of this book.<e>And with the seamless "For years" transition, we move into <i>the</i> chapter. (Get ready for the ride.)</e>
-e:dorian=thinking;b=abstract
+For years, Dorian Gray could not free himself from the influence of this book.<e>The seamless "For years" transition. (It's time for <i>the</i> chapter.)</e>
+e:dorian=thinking;b=abstract;f:b:abstract=blur(3px)
 
 Or perhaps it would be more accurate to say that he never sought to free himself from it.
 e:dorian=smirking
@@ -6344,7 +6344,7 @@ For the wonderful beauty that had so fascinated Basil Hallward, and many others 
 e:dorian=neutral
 
 Even those who had heard the most evil things against him﻿—and from time to time strange rumours about his mode of life crept through London and became the chatter of the clubs﻿—could not believe anything to his dishonour when they saw him.
-b=london-wide
+b=london-wide-night;f:b:london-wide-night=blur(3px)
 
 He had always the look of one who had kept himself unspotted from the world. Men who talked grossly became silent when Dorian Gray entered the room.
 
@@ -6356,10 +6356,10 @@ They wondered how one so charming and graceful as he was could have escaped the 
 
 
 Often, on returning home from one of those mysterious and prolonged absences that gave rise to such strange conjecture among those who were his friends, or thought that they were so,
-m=allowbreak
+m=allowbreak;f:b:london-wide-night=blur(3px)
 
 he himself would creep upstairs to the locked room, open the door with the key that never left him now, and stand, with a mirror, in front of the portrait that Basil Hallward had painted of him, looking now at the evil and aging face on the canvas, and now at the fair young face that laughed back at him from the polished glass.
-e:dorian=smirking;m=;b=picture-schoolroom-aging
+e:dorian=smirking;m=;b=picture-schoolroom-aging;f:b:picture-schoolroom-aging=blur(3px) brightness(85%)
 
 The very sharpness of the contrast used to quicken his sense of pleasure. He grew more and more enamoured of his own beauty, more and more interested in the corruption of his own soul.
 e:dorian=happy
@@ -6371,7 +6371,7 @@ He would place his white hands beside the coarse bloated hands of the picture, a
 e:dorian=smirking
 
 There were moments, indeed, at night, when, lying sleepless in his own delicately scented chamber, or in the sordid room of the little ill-famed tavern near the docks which, under an assumed name and in disguise, it was his habit to frequent, he would think of the ruin he had brought upon his soul with a pity that was all the more poignant because it was purely selfish.
-e:dorian=sadsmile;f:b:picture-schoolroom-aging=blur(3px)
+e:dorian=sadsmile
 
 But moments such as these were rare. That curiosity about life which Lord Henry had first stirred in him, as they sat together in the garden of their friend, seemed to increase with gratification.
 e:dorian=thinking
@@ -6437,7 +6437,7 @@ Of the asceticism that deadens the senses, as of the vulgar profligacy that dull
 e:dorian=contemplative
 
 There are few of us who have not sometimes wakened before dawn, either after one of those dreamless nights that make us almost enamoured of death, or one of those nights of horror and misshapen joy, when through the chambers of the brain sweep phantoms more terrible than reality itself,
-e:dorian=weary;m=allowbreak;b=dark
+e:dorian=weary;m=allowbreak;b=dark;f:b:dark=blur(3px)
 
 and instinct with that vivid life that lurks in all grotesques, and that lends to Gothic art its enduring vitality, this art being, one might fancy, especially the art of those whose minds have been troubled with the malady of reverie.
 m=
@@ -6509,7 +6509,7 @@ He knew that the senses, no less than the soul, have their spiritual mysteries t
 e:dorian=contemplative
 
 And so he would now study perfumes and the secrets of their manufacture, distilling heavily scented oils and burning odorous gums from the East.
-e:dorian=curious;b=abstract-smells
+e:dorian=curious;b=abstract-smells;f:b:abstract-smells=blur(3px)
 
 He saw that there was no mood of the mind that had not its counterpart in the sensuous life, and set himself to discover their true relations,
 m=allowbreak
@@ -6521,7 +6521,7 @@ and seeking often to elaborate a real psychology of perfumes, and to estimate th
 
 
 At another time he devoted himself entirely to music, and in a long latticed room, with a vermilion-and-gold ceiling and walls of olive-green lacquer, he used to give curious concerts in which mad gipsies tore wild music from little zithers, or grave, yellow-shawled Tunisians plucked at the strained strings of monstrous lutes,
-e:dorian=excited;m=allowbreak;b=abstract-musics
+e:dorian=excited;m=allowbreak;b=abstract-musics;f:b:abstract-musics=blur(3px)
 
 while grinning Negroes beat monotonously upon copper drums and, crouching upon scarlet mats, slim turbaned Indians blew through long pipes of reed or brass and charmed﻿—or feigned to charm﻿—great hooded snakes and horrible horned adders.
 m=
@@ -6554,7 +6554,7 @@ Yet, after some time, he wearied of them, and would sit in his box at the opera,
 e:dorian=contemplative
 
 On one occasion he took up the study of jewels, and appeared at a costume ball as Anne de Joyeuse, Admiral of France, in a dress covered with five hundred and sixty pearls.
-e:dorian=happy;b=abstract-jewels
+e:dorian=happy;b=abstract-jewels;f:b:abstract-jewels=blur(3px)
 
 This taste enthralled him for years, and, indeed, may be said never to have left him. He would often spend a whole day settling and resettling in their cases the various stones that he had collected,
 e:dorian=excited;m=allowbreak
@@ -6619,8 +6619,8 @@ Henry II wore jewelled gloves reaching to the elbow, and had a hawk-glove sewn w
 How exquisite life had once been! How gorgeous in its pomp and decoration! Even to read of the luxury of the dead was wonderful.
 e:dorian=happy
 
-Then he turned his attention to embroideries and to the tapestries that performed the office of frescoes in the chill rooms of the northern nations of Europe.<e>AHHHHHHHHHHH (I mean, do go on, Wilde. We begin our exploration of another fascinating topic.)</e>
-e:dorian=curious;b=abstract-tapas
+Then he turned his attention to embroideries and to the tapestries that performed the office of frescoes in the chill rooms of the northern nations of Europe.<e>aaahhHHHHHHHHHHHHHHHhhhghhhh</e>
+e:dorian=curious;b=abstract-tapas;f:b:abstract-tapas=blur(3px)
 
 As he investigated the subject﻿—and he always had an extraordinary faculty of becoming absolutely absorbed for the moment in whatever he took up﻿—he was almost saddened by the reflection of the ruin that time brought on beautiful and wonderful things.
 e:dorian=sadsmile
@@ -6695,7 +6695,7 @@ For these treasures, and everything that he collected in his lovely house, were 
 e:dorian=fearful
 
 Upon the walls of the lonely locked room where he had spent so much of his boyhood, he had hung with his own hands the terrible portrait whose changing features showed him the real degradation of his life, and in front of it had draped the purple-and-gold pall as a curtain.
-e:dorian=unhappy;b=dorian-schoolroom-night
+e:dorian=unhappy;b=dorian-schoolroom-night;f:b:dorian-schoolroom-night=blur(3px)
 
 For weeks he would not go there, would forget the hideous painted thing, and get back his light heart, his wonderful joyousness, his passionate absorption in mere existence.
 e:dorian=happy
@@ -6731,9 +6731,9 @@ What if it should be stolen? The mere thought made him cold with horror. Surely 
 e:dorian=fearful
 
 For, while he fascinated many, there were not a few who distrusted him.
-e:dorian=wary;b=london-wide
+e:dorian=wary;b=london-wide-night
 
-He was very nearly blackballed at a West End club of which his birth and social position fully entitled him to become a member, and it was said that on one occasion, when he was brought by a friend into the smoking-room of the Churchill, the Duke of Berwick and another gentleman got up in a marked manner and went out.<e>Also blueballed.</e>
+He was very nearly blackballed at a West End club of which his birth and social position fully entitled him to become a member, and it was said that on one occasion, when he was brought by a friend into the smoking-room of the Churchill, the Duke of Berwick and another gentleman got up in a marked manner and went out.
 e:dorian=annoyed
 
 Curious stories became current about him after he had passed his twenty-fifth year.
@@ -6766,10 +6766,10 @@ And, after all, it is a very poor consolation to be told that the man who has gi
 For the canons of good society are, or should be, the same as the canons of art. Form is absolutely essential to it. It should have the dignity of a ceremony, as well as its unreality, and should combine the insincere character of a romantic play with the wit and beauty that make such plays delightful to us.
 
 
-Is insincerity such a terrible thing? I think not. It is merely a method by which we can multiply our personalities.<e>…"I"?</e>
+Is insincerity such a terrible thing? I think not. It is merely a method by which we can multiply our personalities.
 e:dorian=contemplative
 
-Such, at any rate, was Dorian Gray’s opinion.<e>The seamless authorial touch.</e>
+Such, at any rate, was Dorian Gray’s opinion.<e>Wilde seamlessly extricating himself from his "I think not".</e>
 
 
 He used to wonder at the shallow psychology of those who conceive the ego in man as a thing simple, permanent, reliable, and of one essence.
@@ -6818,7 +6818,7 @@ She laughed at him in her loose Bacchante dress. There were vine leaves in her h
 
 
 Yet one had ancestors in literature as well as in one’s own race, nearer perhaps in type and temperament, many of them, and certainly with an influence of which one was more absolutely conscious.
-e:dorian=thinking;b=abstract
+e:dorian=thinking
 
 There were times when it appeared to Dorian Gray that the whole of history was merely the record of his own life, not as he had lived it in act and circumstance, but as his imagination had created it for him, as it had been in his brain and in his passions.
 e:dorian=contemplative
@@ -6827,7 +6827,7 @@ He felt that he had known them all, those strange terrible figures that had pass
 e:dorian=smirking
 
 The hero of the wonderful novel that had so influenced his life had himself known this curious fancy.
-e:dorian=happy
+e:dorian=happy;b=abstract
 
 In the seventh chapter he tells how, crowned with laurel, lest lightning might strike him, he had sat, as Tiberius, in a garden at Capri, reading the shameful books of Elephantis, while dwarfs and peacocks strutted round him and the flute-player mocked the swinger of the censer;
 
@@ -6841,10 +6841,10 @@ and, as Domitian, had wandered through a corridor lined with marble mirrors, loo
 and had peered through a clear emerald at the red shambles of the circus and then, in a litter of pearl and purple drawn by silver-shod mules, been carried through the Street of Pomegranates to a House of Gold and heard men cry on Nero Caesar as he passed by;
 
 
-and, as Elagabalus, had painted his face with colours, and plied the distaff among the women, and brought the Moon from Carthage and given her in mystic marriage to the Sun.
+and, as Elagabalus, had painted his face with colours, and plied the distaff among the women, and brought the Moon from Carthage and given her in mystic marriage to the Sun.<e>Period, end of sentence. But if you thought that one was long, get ready for this:</e>
 
 
-Over and over again Dorian used to read this fantastic chapter, and the two chapters immediately following, in which, as in some curious tapestries or cunningly wrought enamels, were pictured the awful and beautiful forms of those whom vice and blood and weariness had made monstrous or mad:<e>If you thought the previous sentence was long, guess when this one will end.</e>
+Over and over again Dorian used to read this fantastic chapter, and the two chapters immediately following, in which, as in some curious tapestries or cunningly wrought enamels, were pictured the awful and beautiful forms of those whom vice and blood and weariness had made monstrous or mad:
 
 
 Filippo, Duke of Milan, who slew his wife and painted her lips with a scarlet poison that her lover might suck death from the dead thing he fondled; Pietro Barbi, the Venetian, known as Paul the Second, who sought in his vanity to assume the title of Formosus, and whose tiara, valued at two hundred thousand florins, was bought at the price of a terrible sin;
@@ -6868,7 +6868,7 @@ Sigismondo Malatesta, the lover of Isotta and the lord of Rimini, whose effigy w
 Charles VI, who had so wildly adored his brother’s wife that a leper had warned him of the insanity that was coming on him, and who, when his brain had sickened and grown strange, could only be soothed by Saracen cards painted with the images of love and death and madness;
 
 
-and, in his trimmed jerkin and jewelled cap and acanthuslike curls, Grifonetto Baglioni, who slew Astorre with his bride, and Simonetto with his page, and whose comeliness was such that, as he lay dying in the yellow piazza of Perugia, those who had hated him could not choose but weep, and Atalanta, who had cursed him, blessed him.<e>The period, at last. (David Foster Wilde over here.)</e>
+and, in his trimmed jerkin and jewelled cap and acanthuslike curls, Grifonetto Baglioni, who slew Astorre with his bride, and Simonetto with his page, and whose comeliness was such that, as he lay dying in the yellow piazza of Perugia, those who had hated him could not choose but weep, and Atalanta, who had cursed him, blessed him.<e>David Foster Wilde over here.</e>
 e:dorian=excited
 
 There was a horrible fascination in them all. He saw them at night, and they troubled his imagination in the day.
@@ -6880,11 +6880,11 @@ e:dorian=thinking
 Dorian Gray had been poisoned by a book. There were moments when he looked on evil simply as a mode through which he could realize his conception of the beautiful.
 e:dorian=smirking;f:b:abstract=blur(3px)
 
-## XII<e>What an iconic chapter, that last one. What <book>Twenty Thousand Leagues</book> was to fish, this book is to random bullshit. But Wilde actually has the prose to pull it off. (Based.)</e>
-r=title
+## XII<e>Only Wilde could pull off a chapter made up entirely of random bullshit. The absolute prose of this man.</e>
+r=title;t=author
 
 It was on the ninth of November, the eve of his own thirty-eighth birthday, as he often remembered afterwards.
-e:dorian=neutral;a:basil=old;a:henry=old;x:dorian=fur,hat;x:basil=hat,ulster;b=london-corner-night-fog
+e:dorian=neutral;a:basil=old;a:henry=old;x:dorian=fur,hat;x:basil=hat,ulster;b=london-corner-night-fog;t=
 
 He was walking home about eleven o’clock from Lord Henry’s, where he had been dining, and was wrapped in heavy furs, as the night was cold and foggy.
 
