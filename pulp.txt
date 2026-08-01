@@ -7256,19 +7256,19 @@ When they reached the top landing, Dorian set the lamp down on the floor, and ta
 
 
 “You insist on knowing, Basil?” he asked in a low voice.
-s=dorian;e:dorian=serious
+s=dorian;e:dorian=serious;e:dorian=serious;i=3
 
 “Yes.”
-s=basil;e:basil=wary
+s=basil;e:basil=wary;e:basil=weary;i=
 
 “I am delighted,” he answered, smiling.
-s=dorian;e:dorian=smirking
+s=dorian;e:dorian=smirking;e:dorian=smirkingquietevil;i=2
 
 Then he added, somewhat harshly,
 s=
 
 “You are the one man in the world who is entitled to know everything about me. You have had more to do with my life than you think”;
-e:dorian=angry;s=dorian
+e:dorian=angry;s=dorian;e:dorian=suspicious;i=
 
 and, taking up the lamp, he opened the door and went in.
 b=dorian-schoolroom-night;s=
@@ -7277,7 +7277,7 @@ A cold current of air passed them, and the light shot up for a moment in a flame
 s=none;
 
 “Shut the door behind you,” he whispered, as he placed the lamp on the table.
-s=dorian;e:dorian=wary
+s=dorian;e:dorian=wary;e:dorian=serious;i=3
 
 Hallward glanced round him with a puzzled expression. The room looked as if it had not been lived in for years.
 s=none;e:basil=confused
@@ -7298,19 +7298,19 @@ The voice that spoke was cold and cruel.
 s=none
 
 “You are mad, Dorian, or playing a part,” muttered Hallward, frowning.
-s=basil;e:basil=unhappy
+s=basil;e:basil=unhappy;e:basil=upset;i=
 
 “You won’t? Then I must do it myself,” said the young man,
-s=dorian;e:dorian=angry;m=allowbreak
+s=dorian;e:dorian=angry;m=allowbreak;e:dorian=scowling;i=
 
 and he tore the curtain from its rod and flung it on the ground.
-m=;s=;b=picture-schoolroom-aging
+m=;s=;f:b:dorian-schoolroom-night=blur(3px)
 
 An exclamation of horror broke from the painter’s lips as he saw in the dim light the hideous face on the canvas grinning at him. There was something in its expression that filled him with disgust and loathing.
 s=none;e:basil=surprised
 
 Good heavens! it was Dorian Gray’s own face that he was looking at!
-
+b=picture-schoolroom-aging;f:b:dorian-schoolroom-night=;f:b:picture-schoolroom-aging=brightness(85%)
 
 The horror, whatever it was, had not yet entirely spoiled that marvellous beauty. There was still some gold in the thinning hair and some scarlet on the sensual mouth.
 
@@ -7349,34 +7349,31 @@ He had taken the flower out of his coat, and was smelling it, or pretending to d
 
 
 “What does this mean?” cried Hallward, at last.
-s=basil;e:basil=fearful;i=2
+s=basil;e:basil=fearful;i=2;e:basil=fearful;i=
 
 His own voice sounded shrill and curious in his ears.
 s=none
 
 “Years ago, when I was a boy,” said Dorian Gray,
-s=dorian;e:dorian=seriouslookdown;m=allowbreak
+s=dorian;e:dorian=seriouslookdown;m=allowbreak;e:dorian=serious;i=3
 
 crushing the flower in his hand,
 m=;s=
 
 “you met me, flattered me, and taught me to be vain of my good looks.”
-s=dorian;e:dorian=scowling
+s=dorian;e:dorian=scowling;e:dorian=seriouslookdown;i=
 
 “One day you introduced me to a friend of yours, who explained to me the wonder of youth, and you finished a portrait of me that revealed to me the wonder of beauty.”
-
+;e:dorian=suspicious;i=
 
 “In a mad moment that, even now, I don’t know whether I regret or not, I made a wish, perhaps you would call it a prayer.…”
-e:dorian=serious
+e:dorian=serious;e:dorian=contemplative;i=2
 
-“I remember it! Oh, how well I remember it! No! the thing is impossible.”
-s=basil;e:basil=fearful
-
-“The room is damp. Mildew has got into the canvas. The paints I used had some wretched mineral poison in them. I tell you the thing is impossible.”
-e:basil=nervous
+“I remember it! Oh, how well I remember it! No! the thing is impossible. The room is damp. Mildew has got into the canvas. The paints I used had some wretched mineral poison in them. I tell you the thing is impossible.”
+s=basil;e:basil=fearful;i=2
 
 “Ah, what is impossible?” murmured the young man,
-s=dorian;e:dorian=suspicious;m=allowbreak
+s=dorian;e:dorian=suspicious;m=allowbreak;e:dorian=annoyed;i=
 
 going over to the window and leaning his forehead against the cold, mist-stained glass.
 m=;s=
@@ -7385,19 +7382,19 @@ m=;s=
 s=basil;e:basil=upset
 
 “I was wrong. It has destroyed me.”
-s=dorian;e:dorian=thinking
+s=dorian;e:dorian=thinking;e:dorian=unhappy;i=
 
 “I don’t believe it is my picture.”
-s=basil;e:basil=wary
+s=basil;e:basil=wary;e:basil=fearfullook;i=
 
 “Can’t you see your ideal in it?” said Dorian bitterly.
 s=dorian;e:dorian=angry
 
 “My ideal, as you call it…”
-s=basil;e:basil=confused
+s=basil;e:basil=confused;e:basil=nervous;i=
 
 “As you called it.”
-s=dorian;e:dorian=scowling
+s=dorian;e:dorian=scowling;e:dorian=serious;i=3
 
 “There was nothing evil in it, nothing shameful. You were to me such an ideal as I shall never meet again. This is the face of a satyr.”
 s=basil;e:basil=upset
@@ -7427,7 +7424,7 @@ Through some strange quickening of inner life the leprosies of sin were slowly e
 
 
 His hand shook, and the candle fell from its socket on the floor and lay there sputtering. He placed his foot on it and put it out.
-e:basil=fearful
+e:basil=fearful;f:b:picture-schoolroom-aging=brightness(75%)
 
 Then he flung himself into the rickety chair that was standing by the table and buried his face in his hands.
 e:basil=upsetfacehands
@@ -7439,10 +7436,10 @@ There was no answer, but he could hear the young man sobbing at the window.
 s=none;e:dorian=unhappy
 
 “Pray, Dorian, pray,” he murmured. “What is it that one was taught to say in one’s boyhood? ‘Lead us not into temptation. Forgive us our sins. Wash away our iniquities.’ Let us say that together.”
-s=basil;e:basil=upset
+s=basil;e:basil=upset;e:basil=upset;i=2
 
 “The prayer of your pride has been answered. The prayer of your repentance will be answered also. I worshipped you too much. I am punished for it. You worshipped yourself too much. We are both punished.”
-e:basil=unhappy
+e:basil=unhappy;e:basil=upset;i=
 
 Dorian Gray turned slowly around and looked at him with tear-dimmed eyes.
 s=none;e:dorian=unhappy
@@ -7451,19 +7448,19 @@ s=none;e:dorian=unhappy
 s=dorian;e:dorian=weary
 
 “It is never too late, Dorian. Let us kneel down and try if we cannot remember a prayer. Isn’t there a verse somewhere, ‘Though your sins be as scarlet, yet I will make them as white as snow’?”
-s=basil;e:basil=upset
+s=basil;e:basil=upset;e:basil=fearfullook;i=;e:basil=upset;i=2
 
 “Those words mean nothing to me now.”
-s=dorian;e:dorian=weary;i=2
+s=dorian;e:dorian=weary;i=2;e:dorian=upset;i=
 
 “Hush! Don’t say that. You have done enough evil in your life. My God! Don’t you see that accursed thing leering at us?”
-s=basil;e:basil=fearful
+s=basil;e:basil=fearful;e:basil=fearfullook;i=
 
 Dorian Gray glanced at the picture, and suddenly an uncontrollable feeling of hatred for Basil Hallward came over him, as though it had been suggested to him by the image on the canvas, whispered into his ear by those grinning lips.
 s=none;e:dorian=angry
 
 The mad passions of a hunted animal stirred within him, and he loathed the man who was seated at the table, more than in his whole life he had ever loathed anything.
-f:b:picture-schoolroom-aging=blur(3px)
+f:b:picture-schoolroom-aging=blur(3px) brightness(75%)
 
 He glanced wildly around. Something glimmered on the top of the painted chest that faced him.
 e:dorian=wary;b=dorian-schoolroom-night
@@ -7486,11 +7483,17 @@ e:dorian=angry;f=blood
 There was a stifled groan and the horrible sound of someone choking with blood. Three times the outstretched arms shot up convulsively, waving grotesque, stiff-fingered hands in the air.
 
 
-He stabbed him twice more, but the man did not move.
+He stabbed him
+f=blood;m=allowbreak
+
+twice more,
 f=blood
 
-Something began to trickle on the floor.
+but the man did not move.
+m=;f:b:dorian-schoolroom-night=blur(3px)
 
+Something began to trickle on the floor.
+f:b:dorian-schoolroom-night=blur(3px)
 
 He waited for a moment, still pressing the head down.
 e:dorian=wary
@@ -7511,7 +7514,7 @@ For a few seconds he stood bending over the balustrade and peering down into the
 
 
 Then he took out the key and returned to the room, locking himself in as he did so.
-b=dorian-schoolroom-night
+b=dorian-schoolroom-night;f:b:dorian-schoolroom-night=
 
 The thing was still seated in the chair, straining over the table with bowed head, and humped back, and long fantastic arms.
 
@@ -7519,11 +7522,11 @@ The thing was still seated in the chair, straining over the table with bowed hea
 Had it not been for the red jagged tear in the neck and the clotted black pool that was slowly widening on the table, one would have said that the man was simply asleep.
 
 
-How quickly it had all been done! He felt strangely calm, and walking over to the window,
-e:dorian=neutral;m=allowbreak
+How quickly it had all been done! He felt strangely calm,
+m=allowbreak
 
-opened it and stepped out on the balcony.
-m=;f:b:dorian-schoolroom-night=blur(3px)
+and walking over to the window, opened it and stepped out on the balcony.
+e:dorian=neutral;m=;;f:b:dorian-schoolroom-night=blur(3px)
 
 The wind had blown the fog away, and the sky was like a monstrous peacock’s tail, starred with myriads of golden eyes.
 
@@ -7544,7 +7547,7 @@ A bitter blast swept across the square. The gas-lamps flickered and became blue,
 
 
 He shivered and went back, closing the window behind him.
-e:dorian=wary;b=dorian-schoolroom-night;f:b:dorian-schoolroom-night=
+e:dorian=wary;b=dorian-schoolroom-night;;f:b:dorian-schoolroom-night=
 
 Having reached the door, he turned the key and opened it. He did not even glance at the murdered man. He felt that the secret of the whole thing was not to realize the situation.
 e:dorian=serious
@@ -7580,7 +7583,7 @@ Then he pulled out his watch. It was twenty minutes to two.
 
 
 He sat down and began to think.
-
+f:b:dorian-library-night-fire=blur(3px)
 
 Every year﻿—every month, almost﻿—men were strangled in England for what he had done. There had been a madness of murder in the air.
 e:dorian=nervous
@@ -7619,46 +7622,46 @@ In about five minutes his valet appeared, half-dressed and looking very drowsy.
 
 
 “I am sorry to have had to wake you up, Francis,” he said,
-s=dorian;e:dorian=serious;m=allowbreak
+s=dorian;e:dorian=serious;m=allowbreak;e:dorian=suspicious;i=;e:dorian=wary;i=
 
 stepping in;
 m=;s=;b=dorian-entrance-night
 
 “but I had forgotten my latchkey. What time is it?”
-s=dorian;i=2
+s=dorian;i=2;e:dorian=suspicious;i=
 
 “Ten minutes past two, sir,” answered the man, looking at the clock and blinking.
-s=francis;e:francis=wearylook;x:francis=undressed
+s=francis;e:francis=wearylook;x:francis=undressed;z:francis=84,52,7
 
 “Ten minutes past two? How horribly late! You must wake me at nine tomorrow. I have some work to do.”
 s=dorian;e:dorian=unhappy
 
 “All right, sir.”
-s=francis;e:francis=thinking
+s=francis;e:francis=thinking;e:francis=;i=
 
 “Did anyone call this evening?”
-s=dorian;e:dorian=suspicious
+s=dorian;e:dorian=suspicious;e:dorian=serious;i=2
 
 “Mr. Hallward, sir. He stayed here till eleven, and then he went away to catch his train.”
-s=francis;e:francis=contemplative
+s=francis;e:francis=contemplative;e:francis=thinking;i=
 
 “Oh! I am sorry I didn’t see him. Did he leave any message?”
-s=dorian;e:dorian=thinking
+s=dorian;e:dorian=thinking;e:dorian=suspicious;i=
 
 “No, sir, except that he would write to you from Paris, if he did not find you at the club.”
-s=francis;e:francis=weary
+s=francis;e:francis=weary;e:francis=;i=
 
 “That will do, Francis. Don’t forget to call me at nine tomorrow.”
-s=dorian;e:dorian=
+s=dorian;e:dorian=;e:dorian=thinking;i=
 
 “No, sir.”
-s=francis;e:francis=
+s=francis;e:francis=;e:francis=contemplative;i=
 
 The man shambled down the passage in his slippers.
 s=none;e:francis=weary
 
 Dorian Gray threw his hat and coat upon the table and passed into the library.
-e:dorian=serious;x:dorian=;b=dorian-library-night-fire
+e:dorian=serious;x:dorian=;b=dorian-library-night-fire;f:b:dorian-library-night-fire=
 
 For a quarter of an hour he walked up and down the room, biting his lip and thinking.
 e:dorian=thinking
