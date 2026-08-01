@@ -7325,7 +7325,7 @@ s=basil;e:basil=unhappy
 s=dorian;e:dorian=angry;m=allowbreak
 
 and he tore the curtain from its rod and flung it on the ground.
-m=;s=;b=picture-schoolroom-aged
+m=;s=;b=picture-schoolroom-aging
 
 An exclamation of horror broke from the painter’s lips as he saw in the dim light the hideous face on the canvas grinning at him. There was something in its expression that filled him with disgust and loathing.
 s=none;e:basil=surprised
@@ -7484,7 +7484,7 @@ Dorian Gray glanced at the picture, and suddenly an uncontrollable feeling of ha
 s=none;e:dorian=angry
 
 The mad passions of a hunted animal stirred within him, and he loathed the man who was seated at the table, more than in his whole life he had ever loathed anything.
-f:b:picture-schoolroom-aged=blur(3px)
+f:b:picture-schoolroom-aging=blur(3px)
 
 He glanced wildly around. Something glimmered on the top of the painted chest that faced him.
 e:dorian=wary;b=dorian-schoolroom-night
@@ -8249,7 +8249,7 @@ Dorian half opened the door.
 s=none;e:dorian=nervous
 
 As he did so, he saw the face of his portrait leering in the sunlight.
-e:dorian=fearful;b=picture-schoolroom-aged
+e:dorian=fearful;b=picture-schoolroom-aging
 
 On the floor in front of it the torn curtain was lying.
 
@@ -11048,13 +11048,10 @@ When they entered, they found hanging upon the wall a splendid portrait of their
 e:francis=surprised;b=picture-schoolroom-young
 
 Lying on the floor was a dead man, in evening dress, with a knife in his heart.
-e:francis=fearful;b=picture-schoolroom-young-and-death
+e:francis=fearful;f:b:picture-schoolroom-young=blur(3px)
 
-He was withered, wrinkled, and loathsome of visage.
+He was withered, wrinkled, and loathsome of visage. It was not till they had examined the rings that they recognized who it was.
 
-
-It was not till they had examined the rings that they recognized who it was.
-f:b:picture-schoolroom-young-and-death=blur(3px)
 
 <e>The End. And what an ending, to just completely rip off &lt;book redacted to avoid spoilers&gt;, only four-years-old at the time. How did Wilde get away with this?</e>
 r=title
