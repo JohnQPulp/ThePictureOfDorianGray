@@ -5359,14 +5359,11 @@ e:dorian=excited
 Like the gods of the Greeks, he would be strong, and fleet, and joyous. What did it matter what happened to the coloured image on the canvas? He would be safe. That was everything.
 
 
-He drew the screen back into its former place in front of the picture, smiling as he did so,
-e:dorian=happy;f=fade;b=picture-dorian-closed;m=allowbreak
-
-and passed into his bedroom, where his valet was already waiting for him.
-m=;f:b:picture-dorian-closed=blur(3px)
+He drew the screen back into its former place in front of the picture, smiling as he did so, and passed into his bedroom, where his valet was already waiting for him.
+e:dorian=happy;b=dark;f:b:dark=
 
 An hour later he was at the opera, and Lord Henry was leaning over his chair.
-s=none;b=dark
+s=none;b=dark;f:b:dark=blur(3px)
 
 ## IX
 r=title
@@ -5374,47 +5371,44 @@ r=title
 As he was sitting at breakfast next morning, Basil Hallward was shown into the room.
 s=none;e:dorian=neutral;e:basil=neutral;b=dorian-library
 
-“I am so glad I have found you, Dorian,” he said gravely. “I called last night, and they told me you were at the opera. Of course, I knew that was impossible.”
-s=basil;e:basil=serious
+“I am so glad I have found you, Dorian,” he said gravely.
+s=basil;e:basil=serious;e:basil=wary;i=
 
-“But I wish you had left word where you had really gone to. I passed a dreadful evening, half afraid that one tragedy might be followed by another.”
-e:basil=unhappy
+“I called last night, and they told me you were at the opera. Of course, I knew that was impossible. But I wish you had left word where you had really gone to.”
+;e:basil=nervous;i=2
 
-“I think you might have telegraphed for me when you heard of it first. I read of it quite by chance in a late edition of *The Globe* that I picked up at the club.”
+“I passed a dreadful evening, half afraid that one tragedy might be followed by another. I think you might have telegraphed for me when you heard of it first.”
+;e:basil=unhappy;i=
 
-
-“I came here at once and was miserable at not finding you. I can’t tell you how heartbroken I am about the whole thing. I know what you must suffer.”
-e:basil=weary
+“I read of it quite by chance in a late edition of *The Globe* that I picked up at the club. I came here at once and was miserable at not finding you. I can’t tell you how heartbroken I am about the whole thing. I know what you must suffer.”
+e:basil=weary;e:basil=unhappy;i=2
 
 “But where were you? Did you go down and see the girl’s mother? For a moment I thought of following you there. They gave the address in the paper. Somewhere in the Euston Road, isn’t it?”
-e:basil=wary
+e:basil=wary;e:basil=weary;i=
 
 “But I was afraid of intruding upon a sorrow that I could not lighten. Poor woman! What a state she must be in! And her only child, too! What did she say about it all?”
-e:basil=unhappy
+e:basil=unhappy;e:basil=serious;i=3
 
 “My dear Basil, how do I know?” murmured Dorian Gray,
-s=dorian;e:dorian=bored;m=allowbreak
+s=dorian;e:dorian=bored;m=allowbreak;e:dorian=bored;i=2
 
 sipping some pale-yellow wine from a delicate, gold-beaded bubble of Venetian glass and looking dreadfully bored.
 m=;s=
 
 “I was at the opera. You should have come on there. I met Lady Gwendolen, Harry’s sister, for the first time. We were in her box. She is perfectly charming; and Patti sang divinely.”
-s=dorian;e:dorian=thinking
+s=dorian;e:dorian=thinking;e:dorian=thinking;i=2
 
 “Don’t talk about horrid subjects. If one doesn’t talk about a thing, it has never happened. It is simply expression, as Harry says, that gives reality to things.”
-e:dorian=annoyed
+e:dorian=annoyed;e:dorian=boredlook;i=
 
-“I may mention that she was not the woman’s only child. There is a son, a charming fellow, I believe. But he is not on the stage. He is a sailor, or something.”
-e:dorian=neutral
-
-“And now, tell me about yourself and what you are painting.”
-e:dorian=
+“I may mention that she was not the woman’s only child. There is a son, a charming fellow, I believe. But he is not on the stage. He is a sailor, or something. And now, tell me about yourself and what you are painting.”
+e:dorian=neutral;e:dorian=contemplativehandhair;i=
 
 “You went to the opera?” said Hallward, speaking very slowly and with a strained touch of pain in his voice.
-s=basil;e:basil=confused
+s=basil;e:basil=confused;e:basil=confused;i=2
 
 “You went to the opera while Sibyl Vane was lying dead in some sordid lodging? You can talk to me of other women being charming, and of Patti singing divinely, before the girl you loved has even the quiet of a grave to sleep in?”
-
+;e:basil=nervous;i=2
 
 “Why, man, there are horrors in store for that little white body of hers!”
 e:basil=upset
@@ -5426,16 +5420,16 @@ s=dorian;e:dorian=angry
 e:dorian=annoyed
 
 “You call yesterday the past?”
-s=basil;e:basil=unhappy
+s=basil;e:basil=unhappy;e:basil=unhappy;i=2
 
 “What has the actual lapse of time got to do with it? It is only shallow people who require years to get rid of an emotion.”
-s=dorian;e:dorian=annoyed;i=2
+s=dorian;e:dorian=annoyed;i=2;e:dorian=annoyedbiting;i=
 
 “A man who is master of himself can end a sorrow as easily as he can invent a pleasure. I don’t want to be at the mercy of my emotions. I want to use them, to enjoy them, and to dominate them.”
 e:dorian=contemplative
 
 “Dorian, this is horrible! Something has changed you completely.”
-s=basil;e:basil=upset
+s=basil;e:basil=upset;e:basil=wary;i=
 
 “You look exactly the same wonderful boy who, day after day, used to come down to my studio to sit for his picture. But you were simple, natural, and affectionate then. You were the most unspoiled creature in the whole world.”
 e:basil=unhappy
@@ -5453,31 +5447,31 @@ s=dorian;e:dorian=serious
 
 
 “Well, I am punished for that, Dorian﻿—or shall be some day.”
-s=basil;e:basil=weary
+s=basil;e:basil=weary;e:basil=serious;i=3
 
 “I don’t know what you mean, Basil,” he exclaimed, turning round.
-s=dorian;e:dorian=suspicious
+s=dorian;e:dorian=suspicious;e:dorian=annoyed;i=
 
 “I don’t know what you want. What do you want?”
-
+;e:dorian=serious;i=3
 
 “I want the Dorian Gray I used to paint,” said the artist sadly.
-s=basil;e:basil=unhappy
+s=basil;e:basil=unhappy;e:basil=unhappy;i=2
 
 “Basil,” said the lad,
-s=dorian;e:dorian=serious;m=allowbreak
+s=dorian;e:dorian=serious;m=allowbreak;e:dorian=suspicious;i=
 
 going over to him and putting his hand on his shoulder,
 m=;s=
 
 “you have come too late. Yesterday, when I heard that Sibyl Vane had killed herself﻿—”
-e:dorian=thinking;s=dorian
+e:dorian=thinking;s=dorian;e:dorian=unhappy;i=
 
 “Killed herself! Good heavens! is there no doubt about that?” cried Hallward, looking up at him with an expression of horror.
 s=basil;e:basil=fearful
 
 “My dear Basil! Surely you don’t think it was a vulgar accident? Of course she killed herself.”
-s=dorian;e:dorian=scowling
+s=dorian;e:dorian=scowling;e:dorian=annoyed;i=
 
 The elder man buried his face in his hands.
 s=none;e:basil=upset
@@ -5489,61 +5483,61 @@ and a shudder ran through him.
 m=;s=
 
 “No,” said Dorian Gray, “there is nothing fearful about it. It is one of the great romantic tragedies of the age.”
-s=dorian;e:dorian=serious
+s=dorian;e:dorian=serious;e:dorian=seriouslookdown;i=
 
 “As a rule, people who act lead the most commonplace lives. They are good husbands, or faithful wives, or something tedious. You know what I mean﻿—middle-class virtue and all that kind of thing.”
-
+;e:dorian=contemplative;i=
 
 “How different Sibyl was! She lived her finest tragedy. She was always a heroine.”
-e:dorian=thinking
+e:dorian=thinking;e:dorian=unhappy;i=2
 
 “The last night she played﻿—the night you saw her﻿—she acted badly because she had known the reality of love. When she knew its unreality, she died, as Juliet might have died. She passed again into the sphere of art.”
-
+;e:dorian=nervous;i=
 
 “There is something of the martyr about her. Her death has all the pathetic uselessness of martyrdom, all its wasted beauty. But, as I was saying, you must not think I have not suffered.”
-e:dorian=serious
+e:dorian=serious;e:dorian=contemplative;i=2
 
 “If you had come in yesterday at a particular moment﻿—about half-past five, perhaps, or a quarter to six﻿—you would have found me in tears. Even Harry, who was here, who brought me the news, in fact, had no idea what I was going through.”
-
+;e:dorian=contemplativehandhair;i=
 
 “I suffered immensely. Then it passed away. I cannot repeat an emotion. No one can, except sentimentalists.”
-e:dorian=contemplative
+e:dorian=contemplative;e:dorian=seriouslookdown;i=
 
 “And you are awfully unjust, Basil. You come down here to console me. That is charming of you. You find me consoled, and you are furious. How like a sympathetic person!”
-e:dorian=annoyed
+;e:dorian=angry;i=2
 
 “You remind me of a story Harry told me about a certain philanthropist who spent twenty years of his life in trying to get some grievance redressed, or some unjust law altered﻿—I forget exactly what it was.”
-e:dorian=thinking
+e:dorian=thinking;e:dorian=annoyed
 
 “Finally he succeeded, and nothing could exceed his disappointment. He had absolutely nothing to do, almost died of ennui, and became a confirmed misanthrope.”
-e:dorian=bored
+e:dorian=bored;e:dorian=contemplative;i=
 
 “And besides, my dear old Basil, if you really want to console me, teach me rather to forget what has happened, or to see it from a proper artistic point of view.”
-e:dorian=serious
+e:dorian=serious;e:dorian=unhappy;i=
 
 “Was it not Gautier who used to write about *la consolation des arts*? I remember picking up a little vellum-covered book in your studio one day and chancing on that delightful phrase.”
-e:dorian=contemplative
+e:dorian=contemplative;e:dorian=contemplativelook;i=
 
 “Well, I am not like that young man you told me of when we were down at Marlow together, the young man who used to say that yellow satin could console one for all the miseries of life.”
-e:dorian=thinking
+e:dorian=thinking;e:dorian=serious;i=2
 
 “I love beautiful things that one can touch and handle. Old brocades, green bronzes, lacquer-work, carved ivories, exquisite surroundings, luxury, pomp﻿—there is much to be got from all these.”
-
+;e:dorian=serious;i=3
 
 “But the artistic temperament that they create, or at any rate reveal, is still more to me. To become the spectator of one’s own life, as Harry says, is to escape the suffering of life.”
 e:dorian=serious
 
 “I know you are surprised at my talking to you like this. You have not realized how I have developed. I was a schoolboy when you knew me. I am a man now.”
-
+;e:dorian=suspicious;i=
 
 “I have new passions, new thoughts, new ideas. I am different, but you must not like me less. I am changed, but you must always be my friend.”
-e:dorian=thinking
+e:dorian=thinking;e:dorian=unhappy;i=2
 
 “Of course, I am very fond of Harry. But I know that you are better than he is. You are not stronger﻿—you are too much afraid of life﻿—but you are better.”
 e:dorian=contemplative
 
 “And how happy we used to be together! Don’t leave me, Basil, and don’t quarrel with me. I am what I am. There is nothing more to be said.”
-e:dorian=upset
+e:dorian=upset;e:dorian=wary;i=2
 
 The painter felt strangely moved. The lad was infinitely dear to him, and his personality had been the great turning point in his art.
 s=none;e:basil=sadsmile
@@ -5555,34 +5549,31 @@ There was so much in him that was good, so much in him that was noble.
 
 
 “Well, Dorian,” he said at length, with a sad smile,
-s=basil;e:basil=sadsmile
+s=basil;e:basil=sadsmile;i=2
 
-“I won’t speak to you again about this horrible thing, after today.”
-
-
-“I only trust your name won’t be mentioned in connection with it. The inquest is to take place this afternoon. Have they summoned you?”
-e:basil=unhappy
+“I won’t speak to you again about this horrible thing, after today. I only trust your name won’t be mentioned in connection with it. The inquest is to take place this afternoon. Have they summoned you?”
+e:basil=unhappy;e:basil=serious;i=3
 
 Dorian shook his head, and a look of annoyance passed over his face at the mention of the word “inquest.” There was something so crude and vulgar about everything of the kind.
 s=none;e:dorian=annoyed
 
 “They don’t know my name,” he answered.
-s=dorian;e:dorian=neutral
+s=dorian;e:dorian=neutral;e:dorian=annoyed;i=
 
 “But surely she did?”
-s=basil;e:basil=confused
+s=basil;e:basil=confused;e:basil=confused;i=2
 
 “Only my Christian name, and that I am quite sure she never mentioned to anyone.”
-s=dorian;e:dorian=smirking
+s=dorian;e:dorian=smirking;e:dorian=contemplative;i=
 
 “She told me once that they were all rather curious to learn who I was, and that she invariably told them my name was Prince Charming. It was pretty of her.”
-e:dorian=thinking
+e:dorian=thinking;e:dorian=contemplative;i=2
 
 “You must do me a drawing of Sibyl, Basil. I should like to have something more of her than the memory of a few kisses and some broken pathetic words.”
-
+;e:dorian=nervous;i=
 
 “I will try and do something, Dorian, if it would please you. But you must come and sit to me yourself again. I can’t get on without you.”
-s=basil;e:basil=confused
+s=basil;e:basil=confused;e:basil=unhappy;i=2
 
 “I can never sit to you again, Basil. It is impossible!” he exclaimed, starting back.
 s=dorian;e:dorian=fearful
@@ -5594,19 +5585,19 @@ s=none;e:basil=surprised
 s=basil;e:basil=confused;i=2
 
 “Let me look at it. It is the best thing I have ever done. Do take the screen away, Dorian. It is simply disgraceful of your servant hiding my work like that. I felt the room looked different as I came in.”
-e:basil=annoyed
+e:basil=annoyed;e:basil=nervous;i=2;e:basil=suspicious;i=
 
 “My servant has nothing to do with it, Basil. You don’t imagine I let him arrange my room for me? He settles my flowers for me sometimes﻿—that is all.”
-e:dorian=annoyed;s=dorian
+e:dorian=annoyed;s=dorian;e:dorian=annoyed;i=2
 
 “No; I did it myself. The light was too strong on the portrait.”
 e:dorian=contemplative
 
 “Too strong! Surely not, my dear fellow? It is an admirable place for it. Let me see it.”
-s=basil;e:basil=confused
+s=basil;e:basil=confused;e:basil=confused;i=2
 
 And Hallward walked towards the corner of the room.
-s=none;e:basil=neutral
+s=none;e:basil=neutral;b=picture-dorian-closed
 
 A cry of terror broke from Dorian Gray’s lips, and he rushed between the painter and the screen.
 e:dorian=fearful
@@ -5615,10 +5606,10 @@ e:dorian=fearful
 s=dorian
 
 “you must not look at it. I don’t wish you to.”
-
+;e:dorian=nervous;i=2
 
 “Not look at my own work! You are not serious. Why shouldn’t I look at it?” exclaimed Hallward, laughing.
-s=basil;e:basil=sadsmile
+s=basil;e:basil=sadsmile;e:basil=contemplativesmirk;i=
 
 “If you try to look at it, Basil, on my word of honour I will never speak to you again as long as I live.”
 s=dorian;e:dorian=angry
@@ -5638,14 +5629,17 @@ s=basil;e:basil=fearful
 “Don’t speak!”
 s=dorian;e:dorian=angry
 
-“But what is the matter? Of course I won’t look at it if you don’t want me to,” he said, rather coldly, turning on his heel and going over towards the window.
-s=basil;e:basil=thinking
+“But what is the matter? Of course I won’t look at it if you don’t want me to,” he said, rather coldly,
+s=basil;e:basil=thinking;m=allowbreak;e:basil=seriousdownlook;i=
+
+turning on his heel and going over towards the window.
+m=;b=dorian-library;s=
 
 “But, really, it seems rather absurd that I shouldn’t see my own work, especially as I am going to exhibit it in Paris in the autumn.”
-e:basil=serious
+e:basil=serious;s=basil;e:basil=wary;i=
 
 “I shall probably have to give it another coat of varnish before that, so I must see it some day, and why not today?”
-e:basil=curious
+e:basil=curious;e:basil=wary;i=;e:basil=contemplative;i=2
 
 “To exhibit it! You want to exhibit it?” exclaimed Dorian Gray, a strange sense of terror creeping over him.
 s=dorian;e:dorian=fearful
@@ -5657,10 +5651,10 @@ That was impossible. Something﻿—he did not know what﻿—had to be done at 
 e:dorian=thinking
 
 “Yes; I don’t suppose you will object to that. Georges Petit is going to collect all my best pictures for a special exhibition in the Rue de Seze, which will open the first week in October.”
-s=basil;e:basil=neutral
+s=basil;e:basil=neutral;e:basil=unhappy;i=2
 
 “The portrait will only be away a month. I should think you could easily spare it for that time. In fact, you are sure to be out of town. And if you keep it always behind a screen, you can’t care much about it.”
-e:basil=wary
+e:basil=wary;e:basil=contemplativelook;i=
 
 Dorian Gray passed his hand over his forehead. There were beads of perspiration there.
 s=none;e:dorian=fearful
@@ -5669,13 +5663,13 @@ He felt that he was on the brink of a horrible danger.
 
 
 “You told me a month ago that you would never exhibit it,” he cried. “Why have you changed your mind?”
-s=dorian;e:dorian=upset
+s=dorian;e:dorian=upset;e:dorian=embarrassed;i=
 
 “You people who go in for being consistent have just as many moods as others have. The only difference is that your moods are rather meaningless.”
-e:dorian=scowling
+e:dorian=scowling;e:dorian=serious;i=2
 
 “You can’t have forgotten that you assured me most solemnly that nothing in the world would induce you to send it to any exhibition. You told Harry exactly the same thing.”
-
+;e:dorian=unhappy;i=
 
 He stopped suddenly, and a gleam of light came into his eyes.
 s=none;e:dorian=surprised
@@ -5690,37 +5684,34 @@ Yes, perhaps Basil, too, had his secret. He would ask him and try.
 e:dorian=smirking
 
 “Basil,” he said, coming over quite close and looking him straight in the face,
-s=dorian;e:dorian=serious;f:b:dorian-library=
+s=dorian;e:dorian=serious;f:b:dorian-library=;e:dorian=;i=3
 
 “we have each of us a secret. Let me know yours, and I shall tell you mine. What was your reason for refusing to exhibit my picture?”
-
+;e:dorian=serious
 
 The painter shuddered in spite of himself.
 s=none;e:basil=nervous
 
 “Dorian, if I told you, you might like me less than you do, and you would certainly laugh at me. I could not bear your doing either of those two things.”
-s=basil;e:basil=unhappy
+s=basil;e:basil=unhappy;e:basil=confused;i=2
 
-“If you wish me never to look at your picture again, I am content. I have always you to look at. If you wish the best work I have ever done to be hidden from the world, I am satisfied.”
-e:basil=sadsmile
-
-“Your friendship is dearer to me than any fame or reputation.”
-
+“If you wish me never to look at your picture again, I am content. I have always you to look at. If you wish the best work I have ever done to be hidden from the world, I am satisfied. Your friendship is dearer to me than any fame or reputation.”
+e:basil=sadsmile;e:basil=sadsmile;i=2
 
 “No, Basil, you must tell me,” insisted Dorian Gray.
-s=dorian;e:dorian=serious
+s=dorian;e:dorian=serious;e:dorian=unhappy;i=
 
 “I think I have a right to know.”
-
+;e:dorian=suspicious;i=
 
 His feeling of terror had passed away, and curiosity had taken its place. He was determined to find out Basil Hallward’s mystery.
 s=none;e:dorian=curious
 
 “Let us sit down, Dorian,” said the painter, looking troubled.
-s=basil;e:basil=nervous
+s=basil;e:basil=nervous;e:basil=nervous;i=2
 
 “Let us sit down. And just answer me one question. Have you noticed in the picture something curious?﻿—something that probably at first did not strike you, but that revealed itself to you suddenly?”
-
+;e:basil=seriousdownlook;i=
 
 “Basil!” cried the lad,
 s=dorian;e:dorian=fearful;m=allowbreak
@@ -5729,70 +5720,64 @@ clutching the arms of his chair with trembling hands and gazing at him with wild
 m=;s=
 
 “I see you did. Don’t speak. Wait till you hear what I have to say.”
-s=basil;e:basil=serious
+s=basil;e:basil=serious;e:basil=wary;i=
 
 “Dorian, from the moment I met you, your personality had the most extraordinary influence over me.”
-e:basil=contemplative
+e:basil=contemplative;e:basil=unhappy;i=2
 
 “I was dominated, soul, brain, and power, by you. You became to me the visible incarnation of that unseen ideal whose memory haunts us artists like an exquisite dream.”
+e:basil=contemplativeheadback
 
-
-“I worshipped you. I grew jealous of everyone to whom you spoke. I wanted to have you all to myself. I was only happy when I was with you.”
+“I worshipped you. I grew jealous of everyone to whom you spoke. I wanted to have you all to myself. I was only happy when I was with you. When you were away from me, you were still present in my art.…”
 e:basil=sadsmile
 
-“When you were away from me, you were still present in my art.… Of course, I never let you know anything about this. It would have been impossible. You would not have understood it. I hardly understood it myself.”
-e:basil=serious
+“Of course, I never let you know anything about this. It would have been impossible. You would not have understood it. I hardly understood it myself.”
+e:basil=serious;e:basil=unhappy;i=
 
 “I only knew that I had seen perfection face to face, and that the world had become wonderful to my eyes﻿—too wonderful, perhaps, for in such mad worships there is peril, the peril of losing them, no less than the peril of keeping them.…”
 
 
 “Weeks and weeks went on, and I grew more and more absorbed in you. Then came a new development.”
-e:basil=thinking
+e:basil=thinking;e:basil=contemplative;i=2
 
 “I had drawn you as Paris in dainty armour, and as Adonis with huntsman’s cloak and polished boar-spear.”
+i=
 
+“Crowned with heavy lotus-blossoms you had sat on the prow of Adrian’s barge, gazing across the green turbid Nile.”<e>The <i>second</i> reference to Antinous. Pretty sus. Starting to think Wilde and Hadrian might've had a shared proclivity. (<a href="https://www.youtube.com/watch?v=0IU4qrriHrs&t=1039s">Or two</a>.)</e>
+e:basil=contemplative;e:basil=contemplativeheadback;i=
 
-“Crowned with heavy lotus-blossoms you had sat on the prow of Adrian’s barge, gazing across the green turbid Nile.”<e>The <i>second</i> reference to Hadrian and Antinous — pretty sus. I'm starting to think Wilde and Hadrian might have a shared proclivity. <a href="https://www.youtube.com/watch?v=0IU4qrriHrs&t=1039s">Or two.</a>.</e>
-e:basil=contemplative
-
-“You had leaned over the still pool of some Greek woodland and seen in the water’s silent silver the marvel of your own face.”
-
-
-“And it had all been what art should be﻿—unconscious, ideal, and remote.”
-e:basil=serious
+“You had leaned over the still pool of some Greek woodland and seen in the water’s silent silver the marvel of your own face. And it had all been what art should be﻿—unconscious, ideal, and remote.”
+e:basil=serious;e:basil=unhappy;i=2
 
 “One day, a fatal day I sometimes think, I determined to paint a wonderful portrait of you as you actually are, not in the costume of dead ages, but in your own dress and in your own time.”
-e:basil=serious
+e:basil=serious;e:basil=seriousdownlook;i=
 
 “Whether it was the realism of the method, or the mere wonder of your own personality, thus directly presented to me without mist or veil, I cannot tell.”
-e:basil=thinking
+e:basil=thinking;e:basil=unhappy;i=
 
 “But I know that as I worked at it, every flake and film of colour seemed to me to reveal my secret. I grew afraid that others would know of my idolatry.”
-e:basil=nervous
+e:basil=nervous;e:basil=nervous;i=2
 
 “I felt, Dorian, that I had told too much, that I had put too much of myself into it. Then it was that I resolved never to allow the picture to be exhibited.”
+;e:basil=wary;i=
 
-
-“You were a little annoyed; but then you did not realize all that it meant to me. Harry, to whom I talked about it, laughed at me. But I did not mind that.”
-e:basil=sadsmile
-
-“When the picture was finished, and I sat alone with it, I felt that I was right.…”
-e:basil=contemplative
+“You were a little annoyed; but then you did not realize all that it meant to me. Harry, to whom I talked about it, laughed at me. But I did not mind that. When the picture was finished, and I sat alone with it, I felt that I was right.…”
+e:basil=sadsmile;e:basil=unhappy;i=2
 
 “Well, after a few days the thing left my studio, and as soon as I had got rid of the intolerable fascination of its presence, it seemed to me that I had been foolish in imagining that I had seen anything in it, more than that you were extremely good-looking and that I could paint.”
-
+;e:basil=contemplative;i=2
 
 “Even now I cannot help feeling that it is a mistake to think that the passion one feels in creation is ever really shown in the work one creates.”
-e:basil=thinking
+i=
 
 “Art is always more abstract than we fancy. Form and colour tell us of form and colour﻿—that is all. It often seems to me that art conceals the artist far more completely than it ever reveals him.”
+;e:basil=thinking;i=
 
+“And so when I got this offer from Paris, I determined to make your portrait the principal thing in my exhibition. It never occurred to me that you would refuse.”
+e:basil=sadsmile;e:basil=wary;i=
 
-“And so when I got this offer from Paris, I determined to make your portrait the principal thing in my exhibition. It never occurred to me that you would refuse. I see now that you were right.”
-e:basil=sadsmile
-
-“The picture cannot be shown. You must not be angry with me, Dorian, for what I have told you. As I said to Harry, once, you are made to be worshipped.”
-e:basil=sadsmile
+“I see now that you were right. The picture cannot be shown. You must not be angry with me, Dorian, for what I have told you. As I said to Harry, once, you are made to be worshipped.”
+e:basil=sadsmile;e:basil=sadsmile;i=2
 
 Dorian Gray drew a long breath. The colour came back to his cheeks, and a smile played about his lips.
 s=none;e:dorian=happy
@@ -5810,82 +5795,82 @@ Would there ever be someone who would fill him with a strange idolatry? Was that
 e:dorian=curious
 
 “It is extraordinary to me, Dorian,” said Hallward, “that you should have seen this in the portrait. Did you really see it?”
-s=basil;e:basil=wary
+s=basil;e:basil=wary;e:basil=weary;i=;e:basil=unhappy;i=2
 
 “I saw something in it,” he answered, “something that seemed to me very curious.”
 s=dorian;e:dorian=contemplative
 
 “Well, you don’t mind my looking at the thing now?”
-s=basil;e:basil=sadsmile
+s=basil;e:basil=sadsmile;e:basil=wary;i=
 
 Dorian shook his head.
 s=none;e:dorian=serious
 
 “You must not ask me that, Basil. I could not possibly let you stand in front of that picture.”
-s=dorian
+s=dorian;e:dorian=serious;i=3
 
 “You will some day, surely?”
-s=basil;e:basil=unhappy
+s=basil;e:basil=unhappy;e:basil=nervous;i=2
 
 “Never.”
-s=dorian;e:dorian=serious;i=2
+s=dorian;e:dorian=serious;i=2;e:dorian=contemplative;i=
 
 “Well, perhaps you are right. And now goodbye, Dorian. You have been the one person in my life who has really influenced my art. Whatever I have done that is good, I owe to you.”
-s=basil;e:basil=sadsmile
+s=basil;e:basil=sadsmile;e:basil=unhappy;i=2
 
 “Ah! you don’t know what it cost me to tell you all that I have told you.”
-e:basil=weary
+e:basil=weary;e:basil=seriousdownlook;i=;e:basil=serious;i=3
 
 “My dear Basil,” said Dorian, “what have you told me? Simply that you felt that you admired me too much. That is not even a compliment.”
 s=dorian;e:dorian=annoyed
 
 “It was not intended as a compliment. It was a confession. Now that I have made it, something seems to have gone out of me. Perhaps one should never put one’s worship into words.”
-e:basil=contemplative;s=basil
+e:basil=contemplative;s=basil;e:basil=seriousdownlook;i=2
 
 “It was a very disappointing confession.”
-s=dorian;e:dorian=bored
+s=dorian;e:dorian=bored;e:dorian=contemplative;i=
 
 “Why, what did you expect, Dorian? You didn’t see anything else in the picture, did you? There was nothing else to see?”
-s=basil;e:basil=nervous
+s=basil;e:basil=nervous;e:basil=wary;i=
 
 “No; there was nothing else to see. Why do you ask?”
-s=dorian;e:dorian=suspicious
+s=dorian;e:dorian=suspicious;e:dorian=unhappy;i=2
 
 “But you mustn’t talk about worship. It is foolish. You and I are friends, Basil, and we must always remain so.”
 e:dorian=serious
 
 “You have got Harry,” said the painter sadly.
-s=basil;e:basil=unhappy
+s=basil;e:basil=unhappy;e:basil=unhappy;i=2
 
 “Oh, Harry!” cried the lad, with a ripple of laughter.
-s=dorian;e:dorian=happy
+s=dorian;e:dorian=happy;e:dorian=smirking;i=2
 
 “Harry spends his days in saying what is incredible and his evenings in doing what is improbable. Just the sort of life I would like to lead.”
-e:dorian=smirking
+e:dorian=smirking;i=
 
 “But still I don’t think I would go to Harry if I were in trouble. I would sooner go to you, Basil.”
-
+;e:dorian=smirkingquietevil;i=2
 
 “You will sit to me again?”
-s=basil;e:basil=curious
+s=basil;e:basil=curious;e:basil=seriousdownlook;i=
 
 “Impossible!”
-s=dorian;e:dorian=angry
+s=dorian;e:dorian=angry;e:dorian=serious;i=3
 
 “You spoil my life as an artist by refusing, Dorian. No man comes across two ideal things. Few come across one.”
-s=basil;e:basil=unhappy
+s=basil;e:basil=unhappy;e:basil=weary;i=
 
 “I can’t explain it to you, Basil, but I must never sit to you again. There is something fatal about a portrait. It has a life of its own.”
 s=dorian;e:dorian=serious
 
 “I will come and have tea with you. That will be just as pleasant.”
-e:dorian=thinking
+e:dorian=thinking;e:dorian=contemplative;i=
 
 “Pleasanter for you, I am afraid,” murmured Hallward regretfully.
-s=basil;e:basil=sadsmile
+s=basil;e:basil=sadsmile;e:basil=unhappy;i=2
 
 “And now goodbye. I am sorry you won’t let me look at the picture once again. But that can’t be helped. I quite understand what you feel about it.”
-e:basil=thinking
+e:basil=thinking;e:basil=contemplativeheadback;i=
 
 As he left the room, Dorian Gray smiled to himself.
 s=none;e:dorian=smirking
