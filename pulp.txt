@@ -5921,16 +5921,16 @@ He asked her for the key of the schoolroom.
 
 
 “The old schoolroom, Mr. Dorian?” she exclaimed.
-s=leaf;e:leaf=surprised
+s=leaf;e:leaf=surprised;z:leaf=79,52,10;e:leaf=confused;i=
 
 “Why, it is full of dust. I must get it arranged and put straight before you go into it. It is not fit for you to see, sir. It is not, indeed.”
-e:leaf=confused
+e:leaf=confused;e:leaf=wary;i=
 
 “I don’t want it put straight, Leaf. I only want the key.”
-s=dorian;e:dorian=annoyed
+s=dorian;e:dorian=annoyed;e:dorian=seriouslookdown;i=
 
 “Well, sir, you’ll be covered with cobwebs if you go into it. Why, it hasn’t been opened for nearly five years﻿—not since his lordship died.”
-s=leaf;e:leaf=wary
+s=leaf;e:leaf=wary;e:leaf=confused;i=2
 
 He winced at the mention of his grandfather. He had hateful memories of him.
 s=none;e:dorian=upset
@@ -5948,10 +5948,10 @@ m=;s=
 e:leaf=confused;i=2;s=leaf
 
 “No, no,” he cried petulantly.
-s=dorian;e:dorian=annoyed
+s=dorian;e:dorian=annoyed;e:dorian=annoyedbiting;i=;e:dorian=unhappy;i=
 
 “Thank you, Leaf. That will do.”
-
+;e:dorian=annoyed;i=
 
 She lingered for a few moments, and was garrulous over some detail of the household.
 s=none;e:leaf=happy
@@ -5969,7 +5969,7 @@ Yes, that would serve to wrap the dreadful thing in. It had perhaps served often
 e:dorian=thinking
 
 Now it was to hide something that had a corruption of its own, worse than the corruption of death itself﻿—something that would breed horrors and yet would never die.
-e:dorian=fearful
+e:dorian=fearful;b=picture-dorian-closed
 
 What the worm was to the corpse, his sins would be to the painted image on the canvas. They would mar its beauty and eat away its grace. They would defile it and make it shameful.
 e:dorian=upset
@@ -6035,10 +6035,10 @@ Sitting down at the writing-table he scribbled a note to Lord Henry, asking him 
 e:dorian=neutral
 
 “Wait for an answer,” he said, handing it to him,
-s=dorian
+s=dorian;e:dorian=annoyed;i=
 
 “and show the men in here.”
-
+;e:dorian=seriouslookdown;i=
 
 In two or three minutes there was another knock, and Mr. Hubbard himself, the celebrated frame-maker of South Audley Street, came in with a somewhat rough-looking young assistant.
 s=none;n:hubbard=Mr. Hubbard;e:hubbard=happy
@@ -6053,46 +6053,40 @@ There was something about Dorian that charmed everybody. It was a pleasure even 
 
 
 “What can I do for you, Mr. Gray?” he said, rubbing his fat freckled hands.
-s=hubbard;e:hubbard=happy
+s=hubbard;e:hubbard=happy;z:hubbard=82,55,8
 
-“I thought I would do myself the honour of coming round in person. I have just got a beauty of a frame, sir. Picked it up at a sale. Old Florentine. Came from Fonthill, I believe.”
-
-
-“Admirably suited for a religious subject, Mr. Gray.”
-e:hubbard=curious
+“I thought I would do myself the honour of coming round in person. I have just got a beauty of a frame, sir. Picked it up at a sale. Old Florentine. Came from Fonthill, I believe. Admirably suited for a religious subject, Mr. Gray.”
+;e:hubbard=happylook;i=2
 
 “I am so sorry you have given yourself the trouble of coming round, Mr. Hubbard.”
-s=dorian;e:dorian=serious
+s=dorian;e:dorian=serious;e:dorian=unhappy;i=2
 
 “I shall certainly drop in and look at the frame﻿—though I don’t go in much at present for religious art﻿—but today I only want a picture carried to the top of the house for me.”
-
+;e:dorian=annoyed;i=
 
 “It is rather heavy, so I thought I would ask you to lend me a couple of your men.”
-e:dorian=
+e:dorian=;e:dorian=curiouslook;i=
 
 “No trouble at all, Mr. Gray. I am delighted to be of any service to you. Which is the work of art, sir?”
 s=hubbard;e:hubbard=curious;i=2
 
 “This,” replied Dorian, moving the screen back.
-s=dorian;e:dorian=wary
+s=dorian;e:dorian=wary;e:dorian=wary;i=
 
 “Can you move it, covering and all, just as it is? I don’t want it to get scratched going upstairs.”
-
+;e:dorian=seriouslookdown;i=
 
 “There will be no difficulty, sir,” said the genial frame-maker,
-s=hubbard;e:hubbard=happylook;m=allowbreak
+s=hubbard;e:hubbard=happylook;m=allowbreak;e:hubbard=happy;i=
 
 beginning, with the aid of his assistant, to unhook the picture from the long brass chains by which it was suspended.
 m=;s=
 
 “And, now, where shall we carry it to, Mr. Gray?”
-s=hubbard;i=2
+s=hubbard;i=2;e:hubbard=happylook;i=2
 
-“I will show you the way, Mr. Hubbard, if you will kindly follow me.”
-s=dorian;e:dorian=neutral
-
-“Or perhaps you had better go in front. I am afraid it is right at the top of the house. We will go up by the front staircase, as it is wider.”
-
+“I will show you the way, Mr. Hubbard, if you will kindly follow me. Or perhaps you had better go in front. I am afraid it is right at the top of the house. We will go up by the front staircase, as it is wider.”
+s=dorian;e:dorian=neutral;e:dorian=boredlook;i=;e:dorian=nervous;i=
 
 He held the door open for them,
 s=none;m=allowbreak
@@ -6104,16 +6098,16 @@ The elaborate character of the frame had made the picture extremely bulky, and n
 e:hubbard=nervous
 
 “Something of a load to carry, sir,” gasped the little man when they reached the top landing.
-s=hubbard;e:hubbard=contemplative
+s=hubbard;e:hubbard=contemplative;e:hubbard=nervous;i=
 
 And he wiped his shiny forehead.
 s=none
 
 “I am afraid it is rather heavy,”
-s=dorian;e:dorian=wary;m=allowbreak
+s=dorian;e:dorian=wary;m=allowbreak;e:dorian=bored;i=2
 
 murmured Dorian as he unlocked the door that opened into the room that was to keep for him the curious secret of his life and hide his soul from the eyes of men.
-m=;s=
+m=;s=;f:b:dorian-entrance=blur(3px)
 
 He had not entered the place for more than four years﻿—not, indeed, since he had used it first as a playroom when he was a child, and then as a study when he grew somewhat older.
 s=none;e:dorian=contemplative;b=dorian-schoolroom
@@ -6167,40 +6161,40 @@ e:dorian=wary
 s=dorian;e:dorian=weary;f:b:dorian-schoolroom=
 
 “I am sorry I kept you so long. I was thinking of something else.”
-e:dorian=serious
+e:dorian=serious;e:dorian=seriouslookdown;i=
 
 “Always glad to have a rest, Mr. Gray,” answered the frame-maker, who was still gasping for breath.
-s=hubbard;e:hubbard=weary
+s=hubbard;e:hubbard=weary;e:hubbard=nervous;i=
 
 “Where shall we put it, sir?”
-e:hubbard=nervous
+e:hubbard=nervous;e:hubbard=contemplative;i=
 
 “Oh, anywhere. Here: this will do. I don’t want to have it hung up. Just lean it against the wall. Thanks.”
-s=dorian;e:dorian=contemplative
+s=dorian;e:dorian=contemplative;e:dorian=contemplativehandhair;i=
 
 “Might one look at the work of art, sir?”
-s=hubbard;e:hubbard=curious
+s=hubbard;e:hubbard=curious;e:hubbard=curious;i=2
 
 Dorian started.
 s=none;e:dorian=surprised
 
 “It would not interest you, Mr. Hubbard,” he said, keeping his eye on the man.
-s=dorian;e:dorian=suspicious
+s=dorian;e:dorian=suspicious;e:dorian=contemplative;i=
 
 He felt ready to leap upon him and fling him to the ground if he dared to lift the gorgeous hanging that concealed the secret of his life.
 s=none;e:dorian=angry
 
 “I shan’t trouble you any more now. I am much obliged for your kindness in coming round.”
-s=dorian;e:dorian=neutral
+s=dorian;e:dorian=neutral;e:dorian=wary;i=
 
 “Not at all, not at all, Mr. Gray. Ever ready to do anything for you, sir.”
-s=hubbard;e:hubbard=happy
+s=hubbard;e:hubbard=happy;e:hubbard=happy;i=2
 
 And Mr. Hubbard tramped downstairs, followed by the assistant, who glanced back at Dorian with a look of shy wonder in his rough uncomely face. He had never seen anyone so marvellous.
-s=none;e:dorian=neutral
+s=none;e:dorian=neutral;f:b:dorian-schoolroom=blur(3px)
 
 When the sound of their footsteps had died away, Dorian locked the door and put the key in his pocket.
-b=dorian-entrance
+b=dorian-entrance;f:b:dorian-entrance=
 
 He felt safe now. No one would ever look upon the horrible thing. No eye but his would ever see his shame.
 e:dorian=smirking
@@ -6211,11 +6205,11 @@ e:dorian=neutral;b=dorian-library
 On a little table of dark perfumed wood thickly incrusted with nacre, a present from Lady Radley, his guardian’s wife, a pretty professional invalid, who had spent the preceding winter in Cairo, was lying a note from Lord Henry, and beside it was a book bound in yellow paper, the cover slightly torn and the edges soiled.
 
 
-A copy of the third edition of *The St. James’s Gazette* had been placed on the tea-tray.
+A copy of the third edition of *The St. James’s Gazette* had been placed on the tea-tray. It was evident that Victor had returned.
 
 
-It was evident that Victor had returned. He wondered if he had met the men in the hall as they were leaving the house and had wormed out of them what they had been doing.
-e:dorian=suspicious
+He wondered if he had met the men in the hall as they were leaving the house and had wormed out of them what they had been doing.
+e:dorian=suspicious;f:b:dorian-library=blur(3px)
 
 He would be sure to miss the picture﻿—had no doubt missed it already, while he had been laying the tea-things. The screen had not been set back, and a blank space was visible on the wall.
 e:dorian=wary
@@ -6227,7 +6221,7 @@ He had heard of rich men who had been blackmailed all their lives by some servan
 e:dorian=fearful
 
 He sighed, and having poured himself out some tea, opened Lord Henry’s note.
-e:dorian=weary
+e:dorian=weary;f:b:dorian-library=
 
 It was simply to say that he sent him round the evening paper, and a book that might interest him, and that he would be at the club at eight-fifteen.
 
@@ -6302,25 +6296,25 @@ Then, after his valet had reminded him several times of the lateness of the hour
 f:b:dorian-library=brightness(85%);m=allowbreak
 
 and going into the next room, placed the book on the little Florentine table that always stood at his bedside and began to dress for dinner.
-b=dorian-bedroom;m=
+b=dorian-bedroom;m=;f:b:dorian-bedroom=brightness(85%)
 
 It was almost nine o’clock before he reached the club, where he found Lord Henry sitting alone, in the morning-room, looking very much bored.
-e:henry=bored;b=club-morning
+e:henry=bored;b=club-morning-night
 
 “I am so sorry, Harry,” he cried, “but really it is entirely your fault. That book you sent me so fascinated me that I forgot how the time was going.”
-s=dorian;e:dorian=serious
+s=dorian;e:dorian=serious;e:dorian=unhappy;i=2
 
 “Yes, I thought you would like it,” replied his host, rising from his chair.
-s=henry;e:henry=curious
+s=henry;e:henry=curious;e:henry=curious;i=3
 
 “I didn’t say I liked it, Harry. I said it fascinated me. There is a great difference.”
-s=dorian;e:dorian=thinking
+s=dorian;e:dorian=thinking;e:dorian=bored;i=2
 
 “Ah, you have discovered that?” murmured Lord Henry.
-s=henry;e:henry=contemplative
+s=henry;e:henry=contemplative;e:henry=smirkinglookdown;i=
 
 And they passed into the dining-room.
-s=none;e:henry=neutral;e:dorian=neutral;f:b:club-morning=blur(3px)
+s=none;e:henry=neutral;e:dorian=neutral;f:b:club-morning-night=blur(3px)
 
 ## XI
 r=title
