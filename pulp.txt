@@ -7715,7 +7715,7 @@ But this was not one of them. It was a thing to be driven out of the mind, to be
 e:dorian=serious
 
 When the half-hour struck, he passed his hand across his forehead, and then got up hastily and dressed himself with even more than his usual care, giving a good deal of attention to the choice of his necktie and scarf-pin and changing his rings more than once.
-e:dorian=neutral
+e:dorian=neutral;f:b:dorian-bedroom=
 
 He spent a long time also over breakfast, tasting the various dishes, talking to his valet about some new liveries that he was thinking of getting made for the servants at Selby, and going through his correspondence.
 b=dorian-library
@@ -7727,10 +7727,10 @@ One he read several times over and then tore up with a slight look of annoyance 
 e:dorian=annoyed
 
 “That awful thing, a woman’s memory!” as Lord Henry had once said.
-s=none;e:dorian=annoyedsmirk
+s=none;e:dorian=annoyedsmirk;m=dialogue
 
 After he had drunk his cup of black coffee, he wiped his lips slowly with a napkin, motioned to his servant to wait, and going over to the table, sat down and wrote two letters.
-e:dorian=serious
+e:dorian=serious;m=
 
 One he put in his pocket, the other he handed to the valet.
 
@@ -7778,10 +7778,10 @@ The sudden flashes of colour reminded him of the gleam of the opal-and-iris-thro
 
 
 Leaning back with half-closed eyes, he kept saying over and over to himself:
-e:dorian=contemplative
+e:dorian=contemplative;f:b:dorian-library=blur(3px)
 
 <span class='d'><div class='indent'>“Devant une façade rose,</div><div class='indent2'>Sur le marbre d’un escalier.”</div></span>
-s=dorian;m=margin
+;m=margin;m=dialogue
 
 The whole of Venice was in those two lines. He remembered the autumn that he had passed there, and a wonderful love that had stirred him to mad delightful follies.
 s=none;e:dorian=happy;m=
@@ -7807,11 +7807,8 @@ he read of the Obelisk in the Place de la Concorde that weeps tears of granite i
 he began to brood over those verses which, drawing music from kiss-stained marble, tell of that curious statue that Gautier compares to a contralto voice, the “*monstre charmant*” that couches in the porphyry-room of the Louvre.
 
 
-But after a time the book fell from his hand. He grew nervous, and a horrible fit of terror came over him.
-e:dorian=nervous;f:b:dorian-library=
-
-What if Alan Campbell should be out of England? Days would elapse before he could come back.
-
+But after a time the book fell from his hand. He grew nervous, and a horrible fit of terror came over him. What if Alan Campbell should be out of England? Days would elapse before he could come back.
+e:dorian=nervous
 
 Perhaps he might refuse to come. What could he do then? Every moment was of vital importance.
 e:dorian=upset
@@ -7877,16 +7874,16 @@ He stared at it. Its very horror made him stone.
 e:dorian=weary
 
 At last the door opened and his servant entered. He turned glazed eyes upon him.
-
+f:b:dorian-library=
 
 “Mr. Campbell, sir,” said the man.
-s=francis;i=2
+s=francis;i=2;e:francis=;i=
 
 A sigh of relief broke from his parched lips, and the colour came back to his cheeks.
 s=none;e:dorian=happy
 
 “Ask him to come in at once, Francis.”
-s=dorian;e:dorian=
+s=dorian;e:dorian=;e:dorian=bored;i=
 
 He felt that he was himself again. His mood of cowardice had passed away.
 s=none;e:dorian=neutral
@@ -7898,10 +7895,10 @@ In a few moments, Alan Campbell walked in, looking very stern and rather pale, h
 n:alan=Alan Campbell;e:alan=serious
 
 “Alan! This is kind of you. I thank you for coming.”
-s=dorian;e:dorian=happy
+s=dorian;e:dorian=happy;e:dorian=curiouslook;i=
 
 “I had intended never to enter your house again, Gray. But you said it was a matter of life and death.”
-s=alan;e:alan=scowling
+s=alan;e:alan=scowling;z:alan=90,53,8;e:alan=serious;i=;e:alan=weary;i=
 
 His voice was hard and cold. He spoke with slow deliberation. There was a look of contempt in the steady searching gaze that he turned on Dorian.
 s=none
@@ -7910,7 +7907,7 @@ He kept his hands in the pockets of his Astrakhan coat, and seemed not to have n
 
 
 “Yes: it is a matter of life and death, Alan, and to more than one person. Sit down.”
-s=dorian;e:dorian=serious
+s=dorian;e:dorian=serious;e:dorian=seriouslookdown;i=
 
 Campbell took a chair by the table, and Dorian sat opposite to him.
 s=none
@@ -7922,85 +7919,85 @@ After a strained moment of silence, he leaned across and said, very quietly, but
 e:dorian=serious
 
 “Alan, in a locked room at the top of this house, a room to which nobody but myself has access, a dead man is seated at a table. He has been dead ten hours now.”
-s=dorian
+s=dorian;e:dorian=unhappy;i=2
 
 “Don’t stir, and don’t look at me like that. Who the man is, why he died, how he died, are matters that do not concern you. What you have to do is this—”
-
+;e:dorian=annoyed;i=
 
 “Stop, Gray. I don’t want to know anything further. Whether what you have told me is true or not true doesn’t concern me.”
-s=alan;e:alan=angry
+s=alan;e:alan=angry;e:alan=scowling;i=;e:alan=serious;i=2;e:alan=weary;i=2;e:alan=fearful;i=
 
 “I entirely decline to be mixed up in your life. Keep your horrible secrets to yourself. They don’t interest me any more.”
-
+;e:alan=serious;i=;e:alan=scowling;i=2
 
 “Alan, they will have to interest you. This one will have to interest you. I am awfully sorry for you, Alan. But I can’t help myself. You are the one man who is able to save me. I am forced to bring you into the matter. I have no option.”
-s=dorian;e:dorian=serious
+s=dorian;e:dorian=serious;e:dorian=serious;i=
 
 “Alan, you are scientific. You know about chemistry and things of that kind. You have made experiments. What you have got to do is to destroy the thing that is upstairs—to destroy it so that not a vestige of it will be left.”
-
+;e:dorian=nervous;i=
 
 “Nobody saw this person come into the house. Indeed, at the present moment he is supposed to be in Paris. He will not be missed for months.”
-e:dorian=thinking
+e:dorian=thinking;e:dorian=contemplative;i=2
 
 “When he is missed, there must be no trace of him found here. You, Alan, you must change him, and everything that belongs to him, into a handful of ashes that I may scatter in the air.”
-
+;e:dorian=serious;i=3
 
 “You are mad, Dorian.”
-s=alan;e:alan=fearful
+s=alan;e:alan=fearful;e:alan=nervous;i=
 
 “Ah! I was waiting for you to call me Dorian.”
-s=dorian;e:dorian=smirking
+s=dorian;e:dorian=smirking;e:dorian=bored;i=
 
 “You are mad, I tell you—mad to imagine that I would raise a finger to help you, mad to make this monstrous confession.”
-s=alan;e:alan=serious
+s=alan;e:alan=serious;e:alan=angry;i=;e:alan=scowling;i=
 
 “I will have nothing to do with this matter, whatever it is. Do you think I am going to peril my reputation for you? What is it to me what devil’s work you are up to?”
-
+;e:alan=angry;i=3
 
 “It was suicide, Alan.”
-s=dorian;e:dorian=serious
+s=dorian;e:dorian=serious;e:dorian=contemplative;i=
 
 “I am glad of that. But who drove him to it? You, I should fancy.”
-s=alan;e:alan=scowling
+s=alan;e:alan=scowling;e:alan=weary;i=
 
 “Do you still refuse to do this for me?”
-s=dorian;e:dorian=wary
+s=dorian;e:dorian=wary;e:dorian=contemplativelook;i=
 
 “Of course I refuse. I will have absolutely nothing to do with it. I don’t care what shame comes on you. You deserve it all. I should not be sorry to see you disgraced, publicly disgraced.”
-s=alan;e:alan=angry
+s=alan;e:alan=angry;e:alan=angry;i=
 
 “How dare you ask me, of all men in the world, to mix myself up in this horror? I should have thought you knew more about people’s characters. Your friend Lord Henry Wotton can’t have taught you much about psychology, whatever else he has taught you.”
-
+;e:alan=serious;i=
 
 “Nothing will induce me to stir a step to help you. You have come to the wrong man. Go to some of your friends. Don’t come to me.”
-i=3
+i=3;e:alan=serious;i=2
 
-“Alan, it was murder. I killed him. You don’t know what he had made me suffer.”
-s=dorian;e:dorian=unhappy
+“Alan, it was murder. I killed him.”
+s=dorian;e:dorian=unhappy;e:dorian=seriouslookdown;i=
 
-“Whatever my life is, he had more to do with the making or the marring of it than poor Harry has had. He may not have intended it, the result was the same.”
-
+“You don’t know what he had made me suffer. Whatever my life is, he had more to do with the making or the marring of it than poor Harry has had. He may not have intended it, the result was the same.”
+;e:dorian=annoyed;i=
 
 “Murder! Good God, Dorian, is that what you have come to?”
-s=alan;e:alan=fearful;i=2
+s=alan;e:alan=fearful;i=2;e:alan=fearful;i=
 
-“I shall not inform upon you. It is not my business. Besides, without my stirring in the matter, you are certain to be arrested. Nobody ever commits a crime without doing something stupid.”
-e:alan=nervous
+“I shall not inform upon you. It is not my business. Besides, without my stirring in the matter, you are certain to be arrested. Nobody ever commits a crime without doing something stupid. But I will have nothing to do with it.”
+e:alan=nervous;e:alan=serious;i=2
 
-“But I will have nothing to do with it.”
-e:alan=serious
+“You must have something to do with it. Wait, wait a moment; listen to me. Only listen, Alan.”
+s=dorian;e:dorian=serious;e:dorian=nervous;i=2
 
-“You must have something to do with it. Wait, wait a moment; listen to me. Only listen, Alan. All I ask of you is to perform a certain scientific experiment. You go to hospitals and dead-houses, and the horrors that you do there don’t affect you.”
-s=dorian;e:dorian=serious
+“All I ask of you is to perform a certain scientific experiment. You go to hospitals and dead-houses, and the horrors that you do there don’t affect you.”
+;e:dorian=annoyed;i=
 
 “If in some hideous dissecting-room or fetid laboratory you found this man lying on a leaden table with red gutters scooped out in it for the blood to flow through, you would simply look upon him as an admirable subject.”
-e:dorian=thinking
+e:dorian=thinking;e:dorian=seriouslookdown;i=
 
 “You would not turn a hair. You would not believe that you were doing anything wrong.”
-
+;e:dorian=contemplative;i=
 
 “On the contrary, you would probably feel that you were benefiting the human race, or increasing the sum of knowledge in the world, or gratifying intellectual curiosity, or something of that kind.”
-e:dorian=contemplative
+e:dorian=contemplative;e:dorian=contemplativehandhair;i=
 
 “What I want you to do is merely what you have often done before. Indeed, to destroy a body must be far less horrible than what you are accustomed to work at.”
 e:dorian=serious
@@ -8009,13 +8006,13 @@ e:dorian=serious
 
 
 “I have no desire to help you. You forget that. I am simply indifferent to the whole thing. It has nothing to do with me.”
-s=alan;e:alan=scowling
+s=alan;e:alan=scowling;e:alan=serious;i=
 
-“Alan, I entreat you. Think of the position I am in. Just before you came I almost fainted with terror. You may know terror yourself some day. No! don’t think of that.”
-s=dorian;e:dorian=unhappy
+“Alan, I entreat you. Think of the position I am in. Just before you came I almost fainted with terror. You may know terror yourself some day.”
+s=dorian;e:dorian=unhappy;e:dorian=fearful;i=
 
-“Look at the matter purely from the scientific point of view. You don’t inquire where the dead things on which you experiment come from. Don’t inquire now. I have told you too much as it is.”
-e:dorian=serious
+“No! don’t think of that. Look at the matter purely from the scientific point of view. You don’t inquire where the dead things on which you experiment come from. Don’t inquire now. I have told you too much as it is.”
+e:dorian=serious;e:dorian=unhappy;i=
 
 “But I beg of you to do this. We were friends once, Alan.”
 e:dorian=unhappy;i=3
@@ -8027,22 +8024,22 @@ s=alan;e:alan=angry
 s=dorian;e:dorian=weary
 
 “Alan! Alan! If you don’t come to my assistance, I am ruined. Why, they will hang me, Alan! Don’t you understand? They will hang me for what I have done.”
-e:dorian=fearful
+e:dorian=fearful;e:dorian=nervous;i=2
 
 “There is no good in prolonging this scene. I absolutely refuse to do anything in the matter. It is insane of you to ask me.”
-s=alan;e:alan=scowling
+s=alan;e:alan=scowling;e:alan=angry;i=2
 
 “You refuse?”
 s=dorian;e:dorian=serious
 
 “Yes.”
-s=alan;i=2
+s=alan;i=2;e:alan=scowling;i=2;e:alan=angry;i=3
 
 “I entreat you, Alan.”
-s=dorian;e:dorian=unhappy
+s=dorian;e:dorian=unhappy;e:dorian=embarrassed;i=
 
 “It is useless.”
-s=alan;e:alan=serious
+s=alan;e:alan=serious;e:alan=serious;i=2
 
 The same look of pity came into Dorian Gray’s eyes.
 s=none;e:dorian=weary
@@ -8066,22 +8063,22 @@ After two or three minutes of terrible silence, Dorian turned round and came and
 e:dorian=serious
 
 “I am so sorry for you, Alan,” he murmured, “but you leave me no alternative. I have a letter written already. Here it is. You see the address.”
-s=dorian;e:dorian=sadsmile
+s=dorian;e:dorian=sadsmile;;e:dorian=unhappy;i=3
 
 “If you don’t help me, I must send it. If you don’t help me, I will send it. You know what the result will be.”
-e:dorian=thinking
+e:dorian=thinking;e:dorian=unhappy;i=3;e:dorian=seriouslookdown;i=
 
 “But you are going to help me. It is impossible for you to refuse now. I tried to spare you. You will do me the justice to admit that.”
-e:dorian=sadsmile;i=2
+e:dorian=sadsmile;i=2;e:dorian=annoyed;i=
 
 “You were stern, harsh, offensive. You treated me as no man has ever dared to treat me—no living man, at any rate. I bore it all. Now it is for me to dictate terms.”
-e:dorian=smirking
+e:dorian=smirking;e:dorian=unhappy;i=
 
 Campbell buried his face in his hands, and a shudder passed through him.
 s=none;e:alan=upset
 
 “Yes, it is my turn to dictate terms, Alan. You know what they are. The thing is quite simple. Come, don’t work yourself into this fever. The thing has to be done. Face it, and do it.”
-s=dorian;e:dorian=smirking;i=2
+s=dorian;e:dorian=smirking;i=2;e:dorian=contemplative;i=
 
 A groan broke from Campbell’s lips and he shivered all over. The ticking of the clock on the mantelpiece seemed to him to be dividing time into separate atoms of agony, each of which was too terrible to be borne.
 s=none;e:alan=fearful
@@ -8096,25 +8093,25 @@ The hand upon his shoulder weighed like a hand of lead. It was intolerable. It s
 s=dorian;e:dorian=serious
 
 “I cannot do it,” he said, mechanically, as though words could alter things.
-s=alan;e:alan=weary
+s=alan;e:alan=weary;e:alan=weary;i=2
 
 “You must. You have no choice. Don’t delay.”
-s=dorian;e:dorian=annoyed
+s=dorian;e:dorian=annoyed;e:dorian=serious;i=2
 
 He hesitated a moment.
 s=none;e:alan=nervous
 
 “Is there a fire in the room upstairs?”
-s=alan;e:alan=weary;i=2
+s=alan;e:alan=weary;i=2;e:alan=unhappy;i=
 
 “Yes, there is a gas-fire with asbestos.”
-s=dorian;e:dorian=serious
+s=dorian;e:dorian=serious;e:dorian=wary;i=
 
 “I shall have to go home and get some things from the laboratory.”
-s=alan;e:alan=unhappy
+s=alan;e:alan=unhappy;e:alan=weary;i=
 
 “No, Alan, you must not leave the house. Write out on a sheet of notepaper what you want and my servant will take a cab and bring the things back to you.”
-s=dorian;i=2
+s=dorian;i=2;e:dorian=suspicious;i=2
 
 Campbell scrawled a few lines, blotted them, and addressed an envelope to his assistant.
 s=none;e:alan=weary
@@ -8138,22 +8135,19 @@ There was something in the purity and refinement of that sad face that seemed to
 e:alan=angry
 
 “You are infamous, absolutely infamous!” he muttered.
-s=alan
+s=alan;e:alan=serious;i=
 
 “Hush, Alan. You have saved my life,” said Dorian.
-s=dorian;e:dorian=unhappy
+s=dorian;e:dorian=unhappy;e:dorian=unhappy;i=3
 
-“Your life? Good heavens! what a life that is! You have gone from corruption to corruption, and now you have culminated in crime.”
-s=alan;i=2
-
-“In doing what I am going to do—what you force me to do—it is not of your life that I am thinking.”
-e:alan=scowling
+“Your life? Good heavens! what a life that is! You have gone from corruption to corruption, and now you have culminated in crime. In doing what I am going to do—what you force me to do—it is not of your life that I am thinking.”
+s=alan;i=2;e:alan=wary;i=
 
 “Ah, Alan,” murmured Dorian with a sigh,
 s=dorian;e:dorian=weary
 
 “I wish you had a thousandth part of the pity for me that I have for you.”
-
+;e:dorian=upset;i=;e:dorian=nervous;i=2
 
 He turned away as he spoke and stood looking out at the garden. Campbell made no answer.
 s=none;e:alan=neutral
@@ -8162,25 +8156,25 @@ After about ten minutes a knock came to the door, and the servant entered, carry
 
 
 “Shall I leave the things here, sir?” he asked Campbell.
-s=francis;e:francis=contemplativelookdown
+s=francis;e:francis=contemplativelookdown;e:francis=;i=
 
 “Yes,” said Dorian.
-s=dorian;e:dorian=neutral
+s=dorian;e:dorian=neutral;e:dorian=contemplative;i=
 
 “And I am afraid, Francis, that I have another errand for you. What is the name of the man at Richmond who supplies Selby with orchids?”
-
+;e:dorian=curiouslook;i=
 
 “Harden, sir.”
 s=francis;e:francis=;i=2
 
-“Yes—Harden. You must go down to Richmond at once, see Harden personally, and tell him to send twice as many orchids as I ordered, and to have as few white ones as possible.”
-s=dorian;e:dorian=bored
+“Yes—Harden. You must go down to Richmond at once, see Harden personally, and tell him to send twice as many orchids as I ordered, and to have as few white ones as possible. In fact, I don’t want any white ones.”
+s=dorian;e:dorian=bored;e:dorian=contemplative;i=
 
-“In fact, I don’t want any white ones. It is a lovely day, Francis, and Richmond is a very pretty place—otherwise I wouldn’t bother you about it.”
-e:dorian=smirking
+“It is a lovely day, Francis, and Richmond is a very pretty place—otherwise I wouldn’t bother you about it.”
+e:dorian=smirking;e:dorian=curiouslook;i=
 
 “No trouble, sir. At what time shall I be back?”
-s=francis
+s=francis;e:francis=;i=2
 
 Dorian looked at Campbell.
 s=none;e:dorian=neutral
@@ -8195,13 +8189,13 @@ Campbell frowned and bit his lip.
 e:alan=wary
 
 “It will take about five hours,” he answered.
-s=alan
+s=alan;e:alan=weary;i=2
 
 “It will be time enough, then, if you are back at half-past seven, Francis. Or stay: just leave my things out for dressing. You can have the evening to yourself. I am not dining at home, so I shall not want you.”
 s=dorian;e:dorian=neutral
 
 “Thank you, sir,” said the man,
-s=francis;m=allowbreak
+s=francis;m=allowbreak;e:francis=contemplativelookdown;i=
 
 leaving the room.
 m=;s=
@@ -8225,16 +8219,13 @@ e:dorian=fearful
 s=dorian;e:dorian=weary
 
 “It is nothing to me. I don’t require you,” said Campbell coldly.
-s=alan;e:alan=scowling
+s=alan;e:alan=scowling;e:alan=serious;i=
 
 Dorian half opened the door.
-s=none;e:dorian=nervous
+s=none;e:dorian=nervous;f:b:dorian-entrance=blur(3px)
 
-As he did so, he saw the face of his portrait leering in the sunlight.
-e:dorian=fearful;b=picture-schoolroom-aging
-
-On the floor in front of it the torn curtain was lying.
-
+As he did so, he saw the face of his portrait leering in the sunlight. On the floor in front of it the torn curtain was lying.
+e:dorian=fearful;b=picture-schoolroom-aging;f:b:picture-schoolroom-aging=blur(3px)
 
 He remembered that the night before he had forgotten, for the first time in his life, to hide the fatal canvas, and was about to rush forward, when he drew back with a shudder.
 
@@ -8249,25 +8240,25 @@ He heaved a deep breath, opened the door a little wider, and with half-closed ey
 e:dorian=serious
 
 Then, stooping down and taking up the gold-and-purple hanging, he flung it right over the picture.
-b=dark
+b=dark;f:b:dark=blur(3px)
 
 There he stopped, feeling afraid to turn round, and his eyes fixed themselves on the intricacies of the pattern before him.
-e:dorian=nervous;b=dorian-schoolroom
+e:dorian=nervous
 
 He heard Campbell bringing in the heavy chest, and the irons, and the other things that he had required for his dreadful work.
-
+;b=dorian-schoolroom
 
 He began to wonder if he and Basil Hallward had ever met, and, if so, what they had thought of each other.
 e:dorian=thinking
 
 “Leave me now,” said a stern voice behind him.
-s=alan;e:alan=serious
+s=alan;e:alan=serious;e:alan=serious;i=2
 
 He turned and hurried out, just conscious that the dead man had been thrust back into the chair and that Campbell was gazing into a glistening yellow face.
-s=none;e:dorian=fearful;b=dorian-entrance
+s=none;e:dorian=fearful;b=dorian-entrance;f:b:dorian-entrance=
 
 As he was going downstairs, he heard the key being turned in the lock.
-e:dorian=neutral
+e:dorian=neutral;f:b:dorian-entrance=blur(3px)
 
 It was long after seven when Campbell came back into the library.
 e:alan=weary;b=dorian-library-night-fire
@@ -8276,16 +8267,19 @@ He was pale, but absolutely calm.
 
 
 “I have done what you asked me to do,” he muttered. “And now, goodbye. Let us never see each other again.”
-s=alan
+s=alan;e:alan=weary;i=2
 
 “You have saved me from ruin, Alan. I cannot forget that,” said Dorian simply.
-s=dorian;e:dorian=
+s=dorian;e:dorian=;e:dorian=bored;i=
 
 As soon as Campbell had left, he went upstairs.
 s=none;e:dorian=wary;b=dorian-schoolroom-night
 
-There was a horrible smell of nitric acid in the room. But the thing that had been sitting at the table was gone.
-e:dorian=surprised
+There was a horrible smell of nitric acid in the room.
+
+
+But the thing that had been sitting at the table was gone.
+e:dorian=surprised;f:b:dorian-schoolroom-night=blur(3px)
 
 ## XV
 r=title
