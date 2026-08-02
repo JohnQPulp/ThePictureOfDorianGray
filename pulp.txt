@@ -10817,13 +10817,13 @@ As he strolled home, smoking his cigarette, two young men in evening dress passe
 
 
 “That is Dorian Gray.”
-n:passerby=?;s=passerby;e:passerby=suspicious;x:passerby=hat
+n:passerby=?;s=passerby;e:passerby=suspicious;x:passerby=hat;z:passerby=86,,8
 
 He remembered how pleased he used to be when he was pointed out, or stared at, or talked about. He was tired of hearing his own name now.
 s=none;e:dorian=contemplative
 
 Half the charm of the little village where he had been so often lately was that no one knew who he was. He had often told the girl whom he had lured to love him that he was poor, and she had believed him.
-e:dorian=weary
+e:dorian=weary;f:b:london-street-night=blur(3px)
 
 He had told her once that he was wicked, and she had laughed at him and answered that wicked people were always very old and very ugly.
 
@@ -10832,10 +10832,10 @@ What a laugh she had!﻿—just like a thrush singing. And how pretty she had be
 e:dorian=unhappy
 
 When he reached home, he found his servant waiting up for him.
-e:dorian=neutral;b=dorian-entrance-night
+e:dorian=neutral;b=dorian-entrance-night;f:b:dorian-entrance-night=blur(3px)
 
 He sent him to bed, and threw himself down on the sofa in the library, and began to think over some of the things that Lord Henry had said to him.
-e:dorian=thinking;b=dorian-library-night-fire
+e:dorian=thinking;b=dorian-library-night-fire;f:b:dorian-library-night-fire=blur(3px)
 
 Was it really true that one could never change? He felt a wild longing for the unstained purity of his boyhood﻿—his rose-white boyhood, as Lord Henry had once called it.
 e:dorian=contemplative
@@ -10853,7 +10853,7 @@ Better for him that each sin of his life had brought its sure swift penalty alon
 e:dorian=weary
 
 The curiously carved mirror that Lord Henry had given to him, so many years ago now, was standing on the table, and the white-limbed Cupids laughed round it as of old.
-
+f:b:dorian-library-night-fire=
 
 He took it up, as he had done on that night of horror when he had first noted the change in the fatal picture, and with wild, tear-dimmed eyes looked into its polished shield.
 e:dorian=upset
@@ -10865,7 +10865,7 @@ The phrases came back to his memory, and he repeated them over and over to himse
 e:dorian=contemplative
 
 Then he loathed his own beauty, and flinging the mirror on the floor, crushed it into silver splinters beneath his heel.
-e:dorian=angry;f=hit
+e:dorian=angry;f:b:dorian-library-night-fire=blur(3px)
 
 It was his beauty that had ruined him, his beauty and the youth that he had prayed for. But for those two things, his life might have been free from stain.
 e:dorian=unhappy
@@ -10904,10 +10904,10 @@ Perhaps if his life became pure, he would be able to expel every sign of evil pa
 e:dorian=contemplative
 
 He would go and look.
-e:dorian=excited
+e:dorian=excited;f:b:dorian-library-night-fire=
 
 He took the lamp from the table and crept upstairs.
-e:dorian=neutral;b=dorian-entrance-night
+e:dorian=neutral;b=dorian-entrance-night;f:b:dorian-entrance-night=
 
 As he unbarred the door, a smile of joy flitted across his strangely young-looking face and lingered for a moment about his lips.
 e:dorian=happy
@@ -10922,7 +10922,7 @@ A cry of pain and indignation broke from him.
 f:b:dorian-schoolroom-night=blur(3px)
 
 He could see no change, save that in the eyes there was a look of cunning and in the mouth the curved wrinkle of the hypocrite.
-e:dorian=surprised;b=picture-schoolroom-cooked
+e:dorian=surprised;b=picture-schoolroom-cooked;f:b:picture-schoolroom-cooked=blur(3px)
 
 The thing was still loathsome﻿—more loathsome, if possible, than before﻿—and the scarlet dew that spotted the hand seemed brighter, and more like blood newly spilled.
 e:dorian=fearful
@@ -10979,7 +10979,7 @@ It had been like conscience to him. Yes, it had been conscience. He would destro
 e:dorian=angry
 
 He looked round and saw the knife that had stabbed Basil Hallward.
-e:dorian=neutral
+e:dorian=neutral;b=dorian-schoolroom-night
 
 He had cleaned it many times, till there was no stain left upon it. It was bright, and glistened.
 
@@ -10991,10 +10991,13 @@ It would kill the past, and when that was dead, he would be free. It would kill 
 e:dorian=excited
 
 He seized the thing, and stabbed the picture with it.
-e:dorian=angry;f:b:dorian-schoolroom-night=blur(3px)
+e:dorian=angry;f:b:dorian-schoolroom-night=blur(5px)
 
-There was a cry heard, and a crash. The cry was so horrible in its agony that the frightened servants woke and crept out of their rooms.
-;f:b:dorian-schoolroom-night=blur(10px)
+There was a cry heard, and a crash.
+;f:b:dorian-schoolroom-night=blur(8px)
+
+The cry was so horrible in its agony that the frightened servants woke and crept out of their rooms.
+f:b:dorian-schoolroom-night=blur(12px)
 
 Two gentlemen, who were passing in the square below, stopped and looked up at the great house.
 n:gentleman=Gentleman;e:gentleman=surprised;b=dorian-wide-night
@@ -11009,16 +11012,16 @@ After a time, he went away and stood in an adjoining portico and watched.
 
 
 “Whose house is that, Constable?” asked the elder of the two gentlemen.
-s=gentleman;e:gentleman=suspicious;e:policeman=neutral;x:gentleman=hat
+s=gentleman;e:gentleman=suspicious;e:policeman=neutral;x:gentleman=hat;z:gentleman=86,52,9
 
 “Mr. Dorian Gray’s, sir,” answered the policeman.
-s=policeman;e:policeman=serious;x:policeman=hat
+s=policeman;e:policeman=serious;x:policeman=hat;z:policeman=88,56,11
 
-They looked at each other, as they walked away, and sneered. One of them was Sir Henry Ashton’s uncle.<e>The iconic character of Sir Henry Ashton. We all remember who he is, obviously.</e>
+They looked at each other, as they walked away, and sneered. One of them was Sir Henry Ashton’s uncle.<e>The memorable character of Sir Henry Ashton. (Ctrl+F it.)</e>
 s=none;e:gentleman=smirking
 
 Inside, in the servants’ part of the house, the half-clad domestics were talking in low whispers to each other.
-b=dorian-entrance-night
+b=dorian-entrance-night;f:b:dorian-entrance-night=blur(3px)
 
 Old Mrs. Leaf was crying and wringing her hands. Francis was as pale as death.
 e:leaf=fearful;e:francis=fearful
@@ -11033,13 +11036,10 @@ Finally, after vainly trying to force the door, they got on the roof and dropped
 e:francis=serious;b=dorian-schoolroom-night;f:b:dorian-schoolroom-night=blur(3px)
 
 When they entered, they found hanging upon the wall a splendid portrait of their master as they had last seen him, in all the wonder of his exquisite youth and beauty.
-e:francis=surprised;b=picture-schoolroom-young
+e:francis=surprised;b=picture-schoolroom-young;f:b:picture-schoolroom-young=brightness(85%)
 
-Lying on the floor was a dead man, in evening dress, with a knife in his heart.
-e:francis=fearful;f:b:picture-schoolroom-young=blur(3px)
+Lying on the floor was a dead man, in evening dress, with a knife in his heart. He was withered, wrinkled, and loathsome of visage. It was not till they had examined the rings that they recognized who it was.
+e:francis=fearful;f:b:picture-schoolroom-young=blur(3px) brightness(85%)
 
-He was withered, wrinkled, and loathsome of visage. It was not till they had examined the rings that they recognized who it was.
-
-
-<e>The End. And what an ending, to just completely rip off &lt;book redacted to avoid spoilers&gt;, only four-years-old at the time. How did Wilde get away with this?</e>
+<e>The End. And what an iconic ending at that, wrapping up a masterpiece of excellent prose and <s>interminable</s> delightful quipping. But sadly for Wilde, no amount of wit could save him from the courts, and he would go on to be sued to oblivion by Robert Louis Stevenson for the crime of hyper-blatant plagiarism.</e>
 r=title
